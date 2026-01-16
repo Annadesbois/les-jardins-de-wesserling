@@ -42,8 +42,16 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
     []
   );
 
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+    setOpenSection(null);
+  };
+
+
   return (
-    <DropdownMenu.Root modal={false}>
+    <DropdownMenu.Root open={menuOpen} onOpenChange={setMenuOpen} modal={false}>
       <DropdownMenu.Trigger asChild>
         <button
           type="button"
@@ -92,12 +100,14 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               <Link
                 href={`${base}/vegetable-garden/wesserling-park`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {vegetableGarden.wesserlingPark}
               </Link>
               <Link
                 href={`${base}/vegetable-garden/description`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {vegetableGarden.description}
               </Link>
@@ -129,24 +139,28 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               <Link
                 href={`${base}/restaurant/restaurant-style`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {restaurant.restaurantStyle}
               </Link>
               <Link
                 href={`${base}/restaurant/values`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {restaurant.values}
               </Link>
               <Link
                 href={`${base}/restaurant/menu`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {restaurant.menu}
               </Link>
               <Link
                 href={`${base}/restaurant/booking-access`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {restaurant.bookingAccess}
               </Link>
@@ -176,44 +190,51 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
           {openSection === "festiveEntertainment" && (
             <div className="pl-4 pb-2 max-h-[50vh] overflow-y-auto overscroll-contain">
               <Link
-                href={`${base}/festiveEntertainment/pacques`}
+                href={`${base}/festive-entertainment/pacques`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {festiveEntertainment.pacques}
               </Link>
               <Link
-                href={`${base}/festiveEntertainment/troc-jardin`}
+                href={`${base}/festive-entertainment/troc-jardin`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {festiveEntertainment.trocJardin}
               </Link>
               <Link
-                href={`${base}/festiveEntertainment/musique`}
+                href={`${base}/festive-entertainment/musique`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {festiveEntertainment.musique}
               </Link>
               <Link
-                href={`${base}/festiveEntertainment/cocktails`}
+                href={`${base}/festive-entertainment/cocktails`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {festiveEntertainment.cocktails}
               </Link>
               <Link
-                href={`${base}/festiveEntertainment/nocturnes`}
+                href={`${base}/festive-entertainment/nocturnes`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {festiveEntertainment.nocturnes}
               </Link>
               <Link
-                href={`${base}/festiveEntertainment/automne`}
+                href={`${base}/festive-entertainment/automne`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {festiveEntertainment.automne}
               </Link>
               <Link
-                href={`${base}/festiveEntertainment/noel`}
+                href={`${base}/festive-entertainment/noel-au-jardin`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {festiveEntertainment.noel}
               </Link>
@@ -245,24 +266,28 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               <Link
                 href={`${base}/association/objectives`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {association.objectives}
               </Link>
               <Link
                 href={`${base}/association/members`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {association.members}
               </Link>
               <Link
                 href={`${base}/association/history`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {association.history}
               </Link>
               <Link
                 href={`${base}/association/support-us`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {association.supportUs}
               </Link>
@@ -294,24 +319,28 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               <Link
                 href={`${base}/mission/social-integration`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {mission.socialIntegration}
               </Link>
               <Link
                 href={`${base}/mission/employees`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {mission.employees}
               </Link>
               <Link
                 href={`${base}/mission/activities`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {mission.activities}
               </Link>
               <Link
                 href={`${base}/mission/applying`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {mission.applying}
               </Link>
@@ -343,24 +372,28 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               <Link
                 href={`${base}/partners/fse`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {partners.fse}
               </Link>
               <Link
                 href={`${base}/partners/ecomusee-textile`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {partners.ecomuseeTextile}
               </Link>
               <Link
                 href={`${base}/partners/other-partners`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {partners.otherPartners}
               </Link>
               <Link
                 href={`${base}/partners/sponsors`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
               >
                 {partners.sponsors}
               </Link>

@@ -134,7 +134,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/FestiveEntertainment/pacques`}
+                    href={`${base}/festive-entertainment/pacques`}
                     className="block menu-link"
                   >
                     {festiveEntertainment.pacques}
@@ -144,7 +144,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/FestiveEntertainment/troc-jardin`}
+                    href={`${base}/festive-entertainment/troc-jardin`}
                     className="block menu-link"
                   >
                     {festiveEntertainment.trocJardin}
@@ -154,7 +154,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/FestiveEntertainment/musique`}
+                    href={`${base}/festive-entertainment/musique`}
                     className="block menu-link"
                   >
                     {festiveEntertainment.musique}
@@ -164,7 +164,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/FestiveEntertainment/cocktails`}
+                    href={`${base}/festive-entertainment/cocktails`}
                     className="block menu-link"
                   >
                     {festiveEntertainment.cocktails}
@@ -174,7 +174,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/FestiveEntertainment/nocturnes`}
+                    href={`${base}/festive-entertainment/nocturnes`}
                     className="block menu-link"
                   >
                     {festiveEntertainment.nocturnes}
@@ -184,7 +184,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/FestiveEntertainment/automne`}
+                    href={`${base}/festive-entertainment/automne`}
                     className="block menu-link"
                   >
                     {festiveEntertainment.automne}
@@ -194,7 +194,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/FestiveEntertainment/noel`}
+                    href={`${base}/festive-entertainment/noel-au-jardin`}
                     className="block menu-link"
                   >
                     {festiveEntertainment.noel}
@@ -363,16 +363,6 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
                     className="block menu-link"
                   >
                     {partners.sponsors}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/partners/fse`}
-                    className="block menu-link"
-                  >
-                    {partners.fse}
                   </Link>
                 </NavigationMenu.Link>
               </li>
