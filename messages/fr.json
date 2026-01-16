@@ -9,11 +9,48 @@
       "label": "Accueil"
     },
     "vegetableGarden": {
-      "label": "Jarin potager",
+      "label": "Jardin potager",
       "wesserlingPark": "Au cœur du Parc de Wesserling",
       "description": "Description"
     },
-    
+    "restaurant": {
+      "label": "Restaurant",
+      "restaurantStyle": "Style",
+      "values": "Valeurs",
+      "menu": "Menu",
+      "bookingAccess": "Accès et Réservation"
+    },
+    "festiveEntertainment": {
+      "label": "Animations festives",
+      "pacques": "Pâques en Folie",
+      "trocJardin": "Troc'Jardin",
+      "musique": "Fête de la musique",
+      "cocktails": "Soirées cocktails",
+      "nocturnes": "Féeries nocturnes",
+      "automne": "Fête d'Automne",
+      "noel": "Noël au Jardin"
+    },
+    "association": {
+      "label": "Structure associative",
+      "objectives": "Objectifs",
+      "members": "Membres, activités",
+      "history": "Historique",
+      "supportUs": "Nous soutenir"
+    },
+    "mission": {
+      "label": "Mission sociale",
+      "socialIntegration": "Chantier d'insertion",
+      "employees": "Salariés",
+      "activities": "Activités",
+      "applying": "Candidater"
+    },
+    "partners": {
+      "label": "Partenaires",
+      "fse": "Fonds Social Européen",
+      "ecomuseeTextile": "Écomusée textile",
+      "otherPartners": "Autres partenaires",
+      "sponsors": "Mécènes, donateurs"
+    },
     "contact": {
       "label": "Contact"
     }

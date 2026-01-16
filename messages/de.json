@@ -8,27 +8,48 @@
     "home": {
       "label": "Startseite"
     },
-    "gite": {
-      "label": "Unser Gîte",
-      "livingRoom": "Wohnzimmer",
-      "cerisierRoom": "Zimmer „Cerisier“",
-      "grangeRoom": "Zimmer „Grange“",
-      "auroresRoom": "Zimmer „Aurores“",
-      "jardinDesSenteursRoom": "Zimmer „Jardin des Senteurs“",
-      "wellness": "Wellnessbereich",
-      "price": "Tarifs"
+    "vegetableGarden": {
+      "label": "Küchengarten",
+      "wesserlingPark": "Im Herzen des Parks von Wesserling",
+      "description": "Beschreibung"
     },
-    "around": {
-      "label": "Umgebung",
-      "village": "Das Dorf in 3D",
-      "hiking": "Wanderwege",
-      "wesserling": "Park von Wesserling",
-      "mill": "Ölmühle",
-      "lake": "See Kruth-Wildenstein",
-      "everythingElse": "Und alles Weitere"
+    "restaurant": {
+      "label": "Restaurant",
+      "restaurantStyle": "Stil",
+      "values": "Werte",
+      "menu": "Speisekarte",
+      "bookingAccess": "Anfahrt & Reservierung"
     },
-    "reviews": {
-      "label": "Bewertungen"
+    "festiveEntertainment": {
+      "label": "Festliche Veranstaltungen",
+      "pacques": "Osterfest",
+      "trocJardin": "Pflanzen- & Gartentausch",
+      "musique": "Musikfest",
+      "cocktails": "Cocktailabende",
+      "nocturnes": "Nächtliche Märchen",
+      "automne": "Herbstfest",
+      "noel": "Weihnachten im Garten"
+    },
+    "association": {
+      "label": "Gemeinnützige Struktur",
+      "objectives": "Ziele",
+      "members": "Mitglieder & Aktivitäten",
+      "history": "Geschichte",
+      "supportUs": "Uns unterstützen"
+    },
+    "mission": {
+      "label": "Soziale Mission",
+      "socialIntegration": "Integrationsprojekt",
+      "employees": "Mitarbeitende",
+      "activities": "Aktivitäten",
+      "applying": "Bewerben"
+    },
+    "partners": {
+      "label": "Partner",
+      "fse": "Europäischer Sozialfonds",
+      "ecomuseeTextile": "Textil-Ökomuseum",
+      "otherPartners": "Weitere Partner",
+      "sponsors": "Förderer & Spender"
     },
     "contact": {
       "label": "Kontakt"
