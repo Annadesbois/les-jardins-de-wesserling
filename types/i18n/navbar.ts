@@ -13,17 +13,45 @@ export type NavbarVegetableGardenMessages = {
 export type NavbarRestaurantMessages = {
   label: string;
   restaurantStyle: string;
+  values: string;
   menu: string;
+  bookingAccess: string;
 };
 
 export type NavbarFestiveEntertainmentMessages = {
   label: string;
-  village: string;
-  hiking: string;
-  wesserling: string;
-  mill: string;
-  lake: string;
-  everythingElse: string;
+  pacques: string;
+  trocJardin: string;
+  musique: string;
+  cocktails: string;
+  nocturnes: string;
+  automne: string;
+  noel: string;
+};
+
+export type NavbarAssociationMessages = {
+  label: string;
+  objectives: string;
+  members: string;
+  history: string;
+  partners: string;
+  supportUs: string;
+};
+
+export type NavbarMissionMessages = {
+  label: string;
+  socialIntegration: string;
+  employees: string;
+  activities: string;
+  applying: string;
+};
+
+export type NavbarPartnersMessages = {
+  label: string;
+  fse: string;
+  ecomuseeTextile: string;
+  otherPartners: string;
+  sponsors: string;
 };
 
 export type NavbarSimpleSectionMessages = {
@@ -34,8 +62,10 @@ export type NavbarMessages = {
   home: NavbarHomeMessages;
   vegetableGarden: NavbarVegetableGardenMessages;
   restaurant: NavbarRestaurantMessages;
-  price: NavbarSimpleSectionMessages;
-  reviews: NavbarSimpleSectionMessages;
+  festiveEntertainment: NavbarFestiveEntertainmentMessages;
+  association: NavbarAssociationMessages;
+  mission: NavbarMissionMessages;
+  partners: NavbarPartnersMessages;
   contact: NavbarSimpleSectionMessages;
 };
 

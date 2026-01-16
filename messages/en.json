@@ -8,30 +8,51 @@
     "home": {
       "label": "Home"
     },
-    "gite": {
-      "label": "Our gîte",
-      "livingRoom": "Living room",
-      "cerisierRoom": "“Cerisier” room",
-      "grangeRoom": "“Grange” room",
-      "auroresRoom": "“Aurores” room",
-      "jardinDesSenteursRoom": "“Jardin des Senteurs” room",
-      "wellness": "Wellness area",
-      "price": "Price"
+    "vegetableGarden": {
+      "label": "Kitchen Garden",
+      "wesserlingPark": "In the Heart of Wesserling Park",
+      "description": "Description"
     },
-    "around": {
-      "label": "Around",
-      "village": "The village in 3D",
-      "hiking": "Hiking trails",
-      "wesserling": "Wesserling Park",
-      "mill": "Oil mill",
-      "lake": "Lake Kruth-Wildenstein",
-      "everythingElse": "And everything else"
+    "restaurant": {
+      "label": "Restaurant",
+      "restaurantStyle": "Style",
+      "values": "Values",
+      "menu": "Menu",
+      "booking-access": "Access & Booking"
     },
-    "reviews": {
-      "label": "Reviews"
+    "festiveEntertainment": {
+      "label": "Festive Events",
+      "pacques": "Easter Celebrations",
+      "trocJardin": "Garden Swap",
+      "musique": "Music Festival",
+      "cocktails": "Cocktail Evenings",
+      "nocturnes": "Night-time Enchantments",
+      "automne": "Autumn Festival",
+      "noel": "Christmas in the Garden"
+    },
+    "association": {
+      "label": "Non-profit Organisation",
+      "objectives": "Objectives",
+      "members": "Members & Activities",
+      "history": "History",
+      "supportUs": "Support Us"
+    },
+    "mission": {
+      "label": "Social Mission",
+      "socialIntegration": "Social Integration Programme",
+      "employees": "Employees",
+      "activities": "Activities",
+      "applying": "Apply"
+    },
+    "partners": {
+      "label": "Partners",
+      "fse": "European Social Fund",
+      "ecomuseeTextile": "Textile Ecomuseum",
+      "otherPartners": "Other Partners",
+      "sponsors": "Sponsors & Donors"
     },
     "contact": {
-      "label": "Contact"
+      "label": "Contact & Access"
     }
   },
 
