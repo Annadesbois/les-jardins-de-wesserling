@@ -19,7 +19,7 @@ const Navbar = ({ locale, messages }: NavbarProps) => {
         className="flex items-center justify-center lg:justify-start lg:ml-4 "
       >
         <h1 className="font-bold text-2xl whitespace-nowrap text-secondary">
-          Gîte Au fil de l'eau
+          Les Jardins de Wesserling
         </h1>
       </Link>
       <div className="hidden lg:flex lg:items-center lg:justify-end w-full lg:mr-4">

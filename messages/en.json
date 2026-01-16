@@ -18,7 +18,7 @@
       "restaurantStyle": "Style",
       "values": "Values",
       "menu": "Menu",
-      "booking-access": "Access & Booking"
+      "bookingAccess": "Access & Booking"
     },
     "festiveEntertainment": {
       "label": "Festive Events",

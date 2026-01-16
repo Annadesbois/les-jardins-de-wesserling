@@ -9,7 +9,7 @@
       "label": "Accueil"
     },
     "vegetableGarden": {
-      "label": "Jarin potager",
+      "label": "Jardin potager",
       "wesserlingPark": "Au cœur du Parc de Wesserling",
       "description": "Description"
     },
@@ -18,7 +18,7 @@
       "restaurantStyle": "Style",
       "values": "Valeurs",
       "menu": "Menu",
-      "booking-access": "Accès et Réservation"
+      "bookingAccess": "Accès et Réservation"
     },
     "festiveEntertainment": {
       "label": "Animations festives",

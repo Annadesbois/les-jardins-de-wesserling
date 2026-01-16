@@ -18,7 +18,7 @@
       "restaurantStyle": "Stil",
       "values": "Werte",
       "menu": "Speisekarte",
-      "booking-access": "Anfahrt & Reservierung"
+      "bookingAccess": "Anfahrt & Reservierung"
     },
     "festiveEntertainment": {
       "label": "Festliche Veranstaltungen",

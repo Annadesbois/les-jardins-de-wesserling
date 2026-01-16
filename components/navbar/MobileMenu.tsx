@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import { DropdownMenu } from "radix-ui";
+import * as DropdownMenu from "@radix-ui/react-dropdown-menu";
 import { FaChevronRight } from "react-icons/fa";
 import { LuMenu } from "react-icons/lu";
 
@@ -108,14 +108,6 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
                   className="menu-link block"
                 >
                   {restaurant.bookingAccess}
-                </Link>
-              </DropdownMenu.Item>
-              <DropdownMenu.Item asChild>
-                <Link
-                  href={`${base}/restaurant/restaurant-style`}
-                  className="menu-link block"
-                >
-                  {restaurant.restaurantStyle}
                 </Link>
               </DropdownMenu.Item>
             </DropdownMenu.SubContent>
