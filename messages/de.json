@@ -1,0 +1,76 @@
+{
+  "rootLayout": {
+    "title": "Gîte Au fil de l'eau",
+    "description": "Ein gemütliches Ferienhaus in Storckensohn, im Herzen der Hohen Vogesen im Elsass."
+  },
+
+  "navbar": {
+    "home": {
+      "label": "Startseite"
+    },
+    "gite": {
+      "label": "Unser Gîte",
+      "livingRoom": "Wohnzimmer",
+      "cerisierRoom": "Zimmer „Cerisier“",
+      "grangeRoom": "Zimmer „Grange“",
+      "auroresRoom": "Zimmer „Aurores“",
+      "jardinDesSenteursRoom": "Zimmer „Jardin des Senteurs“",
+      "wellness": "Wellnessbereich",
+      "price": "Tarifs"
+    },
+    "around": {
+      "label": "Umgebung",
+      "village": "Das Dorf in 3D",
+      "hiking": "Wanderwege",
+      "wesserling": "Park von Wesserling",
+      "mill": "Ölmühle",
+      "lake": "See Kruth-Wildenstein",
+      "everythingElse": "Und alles Weitere"
+    },
+    "reviews": {
+      "label": "Bewertungen"
+    },
+    "contact": {
+      "label": "Kontakt"
+    }
+  },
+
+  "footer": {
+    "giteDeFranceAria": "Link zur Website von Gîtes de France Elsass",
+    "giteDeFranceAlt": "Gîtes de France — 4-Ähren-Logo",
+    "tourismeHandicapAria": "Link zur Karte der zertifizierten „Tourismus & Behinderung“-Einrichtungen",
+    "tourismeHandicapAlt": "Tourismus-&-Behinderung-Label"
+  },
+
+  "home": {
+    "meta": {
+      "title": "Gîte Au fil de l'eau – Ferienhaus in Storckensohn",
+      "description": "Gîte Au fil de l'eau in Storckensohn, ein renovierter ehemaliger Bauernhof für bis zu 10 Personen, mit Wellnessbereich und Terrasse im Herzen der Hohen Vogesen im Elsass."
+    },
+    "hero": {
+      "title": "Willkommen im Gîte",
+      "intro1": "Das Gîte Au fil de l'eau bietet eine ruhige Umgebung zum Entspannen im Herzen der Hohen Vogesen im Elsass, im kleinen Dorf Storckensohn.",
+      "intro2": "Das Ferienhaus befindet sich in einem renovierten ehemaligen Bauernhof und bietet Platz für bis zu 10 Personen."
+    }
+  },
+
+  "contact": {
+    "meta": {
+      "title": "Kontakt und Anfahrt — Gîte Au fil de l'eau in Storckensohn",
+      "description": "Adresse, Telefonnummer, E-Mail und Anfahrtsinformationen zur Gîte Au fil de l'eau in Storckensohn, in den Hohen Vogesen des Elsass. Direktbuchung oder über Gîtes de France."
+    },
+    "title": "Kontakt und Anfahrt",
+    "map": "Lage der Gîte Au fil de l'eau",
+    "info": "Information & Buchung",
+    "reservation": "Buchung auch über Gîtes de France möglich"
+  },
+
+  "contactForm": {
+    "title": "Kontaktformular",
+    "name": "Name",
+    "message": "Nachricht",
+    "send": "Senden",
+    "sending": "Wird gesendet…",
+    "success": "Vielen Dank, Ihre Nachricht wurde erfolgreich gesendet."
+  }
+}

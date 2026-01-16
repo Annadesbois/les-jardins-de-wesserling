@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+/* Design tokens / theme */
+:root {
+  --surface-1: #f8dabd9f;
+  --surface-2: #b58787;
+  --surface-3: #a76b6b;
+  --text-primary: #2e1212;
+  --text-secondary: #7e4a4a;
+  --accent: #badf4a;
+}
+
+@theme inline {
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-primary: var(--text-primary);
+  --color-secondary: var(--text-secondary);
+  --color-accent: var(--accent);
+}
+
+/* Base / global element styles */
+body {
+  font-family: var(--font-playpen), "Segoe UI", system-ui, -apple-system,
+    BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  color: var(--text-primary);
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+
+  background-image: linear-gradient(
+      rgba(167, 107, 107, 0.87),
+      rgba(149, 80, 80, 0.87)
+    ),
+    image-set(url("/textures/fabric2.webp") type("image/webp"));
+
+  background-repeat: no-repeat, repeat;
+  background-size: 100%, 512px 512px;
+  background-blend-mode: multiply, normal;
+}
+
+.fabric-surface-light::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  filter: blur(0.8px);
+  border-radius: inherit;
+  background-color: var(--surface-1);
+  background-image: url("/textures/fabric2.webp");
+  background-repeat: repeat;
+  background-size: 512px 512px;
+  background-blend-mode: multiply;
+}
+
+h1 {
+  font-family: var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
+    "Segoe Script", "Comic Sans MS", cursive;
+}
+
+main h1 {
+  margin-bottom: 2.5rem;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.title-block {
+  @apply relative rounded-3xl p-4;
+}
+
+.page-layout {
+  @apply flex flex-col items-center my-6;
+}
+
+.description-page-layout {
+  @apply relative p-6 pb-12 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm
+}
+
+/* Component / utility-like classes using @apply */
+.menu-link {
+  @apply block px-4 py-2 rounded-md;
+}
+
+.menu-link:hover {
+  @apply bg-surface-2 border-none outline-none;
+}
+
+.menu-sub-content {
+  @apply rounded-lg z-50 shadow-xl;
+}
+
+.navigation-menu-trigger {
+  @apply flex items-center gap-1 px-4 py-2 rounded-md cursor-pointer transition-colors;
+}
+
+.navigation-menu-trigger:hover {
+  @apply bg-surface-2;
+}
+
+.content-area ul {
+  @apply pt-3;
+}
+
+.content-area li {
+  @apply list-disc ml-7 pt-3;
+}
+
+.form-input {
+  @apply w-full rounded-lg border border-surface-3/40 bg-white/80 px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-accent font-sans;
+}
+
+.form-label {
+  @apply mb-1 block font-semibold;
+}
