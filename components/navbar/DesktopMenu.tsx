@@ -21,6 +21,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
   return (
     <NavigationMenu.Root className="relative">
       <NavigationMenu.List className="flex items-center md:ml-2 lg:gap-2 font-bold">
+        {/* HOME */}
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
             <Link href={base} className="menu-link">
@@ -28,6 +29,8 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
             </Link>
           </NavigationMenu.Link>
         </NavigationMenu.Item>
+
+        {/* VEGETABLE GARDEN */}
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
             {vegetableGarden.label}
@@ -61,6 +64,8 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
+
+        {/* RESTAURANT */}
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
             {restaurant.label}
@@ -114,6 +119,8 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
+
+        {/* FESTIVE ENTERTAINMENT */}
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
             {festiveEntertainment.label}
@@ -197,6 +204,8 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
+
+        {/* ASSOCIATION */}
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
             {association.label}
@@ -250,6 +259,8 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
+
+        {/* MISSION */}
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
             {mission.label}
@@ -303,6 +314,8 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
+
+        {/* PARTNERS */}
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
             {partners.label}
@@ -366,6 +379,8 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
+
+        {/* CONTACT */}
         <NavigationMenu.Item>
           <NavigationMenu.Link asChild>
             <Link href={`${base}/contact`} className="menu-link">
