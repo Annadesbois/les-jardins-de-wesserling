@@ -68,11 +68,11 @@ const Footer = ({ messages }: FooterProps) => {
       </a>
       <a
         href="https://www.europe-en-france.gouv.fr/en/leader-accompagne-territoires-ruraux"
-        aria-label={footerMessages.giteDeFranceAria}
+        aria-label={footerMessages.leaderAria}
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={leader} alt={footerMessages.giteDeFranceAlt} width={100} />
+        <Image src={leader} alt={footerMessages.leaderAlt} width={100} />
       </a>
       <a
         href="https://www.saint-amarin.com/"

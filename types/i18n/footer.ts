@@ -1,4 +1,5 @@
 import type { Locale } from "@/lib/i18n.config";
+import leader from '@/public/logos/feader-leader.jpg';
 
 export type FooterMessages = {
   fondsSocialEuropeenAria: string;
@@ -11,8 +12,8 @@ export type FooterMessages = {
   alsaceAlt: string;
   thurDollerAria: string;
   thurDollerAlt: string;
-  giteDeFranceAria: string;
-  giteDeFranceAlt: string;
+  leaderAria: string;
+  leaderAlt: string;
   stAmarinAria: string;
   stAmarinAlt: string;
 };
