@@ -8,7 +8,7 @@ import type { FooterMessages, FooterProps } from "@/types/i18n";
 const Footer = ({ messages }: FooterProps) => {
   const footerMessages = messages as FooterMessages;
   return (
-    <footer className="relative flex gap-8 md:gap-12 lg:gap-16 justify-center fabric-surface-light mt-8 py-5">
+    <footer className="relative flex gap-8 md:gap-12 lg:gap-16 justify-center bg-surface-2 mt-8 py-5">
       <a
         href="https://www.gitesdefrancealsace.net/fr/location/location-gite-storckensohn-au-fil-de-leau-h68g021752?capacity=1"
         aria-label={footerMessages.giteDeFranceAria}

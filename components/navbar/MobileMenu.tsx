@@ -66,7 +66,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
         <DropdownMenu.Content
           sideOffset={8}
           align="start"
-          className="z-50 rounded-lg fabric-surface-light font-bold text-primary p-0.5 shadow-md w-[calc(100vw-1.5rem)] max-w-[16rem]"
+          className="z-50 rounded-lg bg-surface-2 font-bold text-primary p-0.5 shadow-md w-[calc(100vw-1.5rem)] max-w-[16rem]"
         >
           {/* HOME */}
           <DropdownMenu.Item asChild>
