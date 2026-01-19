@@ -39,7 +39,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
+          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
@@ -74,7 +74,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
+          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
@@ -129,7 +129,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
+          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
@@ -214,7 +214,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
+          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
@@ -269,7 +269,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
+          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>
@@ -324,7 +324,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               aria-hidden
             />
           </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="fabric-surface-light menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
+          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
             <ul className="space-y-1">
               <li>
                 <NavigationMenu.Link asChild>

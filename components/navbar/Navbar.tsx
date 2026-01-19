@@ -10,7 +10,7 @@ const Navbar = ({ locale, messages }: NavbarProps) => {
   const base = `/${locale}`;
 
   return (
-    <nav className="grid grid-cols-[1fr_2fr_1fr] lg:flex lg:justify-center h-16 w-full relative fabric-surface-light">
+    <nav className="grid grid-cols-[1fr_2fr_1fr] lg:flex lg:justify-center h-16 w-full relative bg-surface-2">
       <div className="lg:hidden flex items-center ml-4">
         <MobileMenu locale={locale} messages={messages} />
       </div>
@@ -18,7 +18,7 @@ const Navbar = ({ locale, messages }: NavbarProps) => {
         href={base}
         className="flex items-center justify-center lg:justify-start lg:ml-4 "
       >
-        <h1 className="font-bold text-2xl whitespace-nowrap text-secondary">
+        <h1 className="font-bold text-2xl whitespace-nowrap text-primary">
           Les Jardins de Wesserling
         </h1>
       </Link>
