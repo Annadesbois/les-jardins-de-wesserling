@@ -75,13 +75,11 @@
 
   "home": {
     "meta": {
-      "title": "Gîte Au fil de l'eau — Location de vacances à Storckensohn",
-      "description": "Gîte Au fil de l'eau à Storckensohn, ancienne ferme réhabilitée pouvant accueillir jusqu’à 10 personnes, avec espace bien-être et terrasse en plein coeur des Hautes Vosges d’Alsace."
+      "title": "Les Jardins de Wesserling",
+      "description": "Découvrez les Jardins de Wesserling : jardin potager, restaurant et animations festives. Une association engagée pour le patrimoine et l’insertion par le jardinage."
     },
     "hero": {
-      "title": "Bienvenue au gîte",
-      "intro1": "Le Gîte Au fil de l'eau offre un cadre agréable pour se ressourcer au cœur des Hautes Vosges d’Alsace, dans le petit village de Storckensohn.",
-      "intro2": "Installé dans une ancienne ferme réhabilitée en une confortable maison de campagne, le gîte peut accueillir jusqu’à 10 personnes."
+      "title": "Bienvenue aux "
     }
   },
 

@@ -1,7 +1,7 @@
 {
   "rootLayout": {
-    "title": "Gîte Au fil de l'eau",
-    "description": "Ein gemütliches Ferienhaus in Storckensohn, im Herzen der Hohen Vogesen im Elsass."
+    "title": "Les Jardins de Wesserling",
+    "description": "Ein Verein, der sich der Bewahrung und Aufwertung des natürlichen und kulturellen Erbes der Gärten von Wesserling widmet und soziale sowie berufliche Integration durch Gartenarbeit fördert."
   },
 
   "navbar": {
@@ -75,13 +75,11 @@
 
   "home": {
     "meta": {
-      "title": "Gîte Au fil de l'eau – Ferienhaus in Storckensohn",
-      "description": "Gîte Au fil de l'eau in Storckensohn, ein renovierter ehemaliger Bauernhof für bis zu 10 Personen, mit Wellnessbereich und Terrasse im Herzen der Hohen Vogesen im Elsass."
+      "title": "Les Jardins de Wesserling",
+      "description": "Entdecken Sie Les Jardins de Wesserling: Küchengarten, Restaurant und festliche Veranstaltungen. Ein Verein, der sich für das kulturelle und natürliche Erbe sowie für soziale Integration durch Gartenarbeit engagiert."
     },
     "hero": {
-      "title": "Willkommen im Gîte",
-      "intro1": "Das Gîte Au fil de l'eau bietet eine ruhige Umgebung zum Entspannen im Herzen der Hohen Vogesen im Elsass, im kleinen Dorf Storckensohn.",
-      "intro2": "Das Ferienhaus befindet sich in einem renovierten ehemaligen Bauernhof und bietet Platz für bis zu 10 Personen."
+      "title": "Willkommen im "
     }
   },
 

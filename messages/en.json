@@ -1,7 +1,7 @@
 {
   "rootLayout": {
-    "title": "Gîte Au fil de l'eau",
-    "description": "A welcoming holiday cottage in Storckensohn, in the heart of the High Vosges of Alsace."
+    "title": "Les Jardins de Wesserling",
+    "description": "An association committed to preserving and promoting the natural and cultural heritage of the Wesserling Gardens, while supporting social and professional integration through gardening."
   },
 
   "navbar": {
@@ -75,15 +75,14 @@
 
   "home": {
     "meta": {
-      "title": "Gîte Au fil de l'eau — Holiday rental in Storckensohn",
-      "description": "Gîte Au fil de l'eau in Storckensohn, a renovated former farmhouse that can host up to 10 guests, with wellness area and terrace in the heart of the High Vosges of Alsace."
+      "title": "Les Jardins de Wesserling",
+      "description": "Discover Les Jardins de Wesserling: kitchen garden, restaurant and festive events. An association committed to heritage preservation and social integration through gardening."
     },
     "hero": {
-      "title": "Welcome to the Gîte",
-      "intro1": "The Gîte Au fil de l'eau offers a peaceful setting to relax in the heart of the High Vosges of Alsace, in the small village of Storckensohn.",
-      "intro2": "Located in a renovated former farmhouse turned into a comfortable country home, the gîte can accommodate up to 10 guests."
+      "title": "Welcome to "
     }
   },
+
   "contact": {
     "meta": {
       "title": "Contact and Access — Gîte Au fil de l'eau in Storckensohn",
