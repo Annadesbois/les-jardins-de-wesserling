@@ -31,10 +31,10 @@ export const generateMetadata = async ({
   };
 
   return {
-    title: root?.title ?? "Gîte Au fil de l'eau",
+    title: root?.title ?? "Les Jardins de Wesserling",
     description:
       root?.description ??
-      "Gîte chaleureux à Storckensohn, au cœur des Hautes-Vosges d'Alsace.",
+      "Jardins de Wesserling, chantier d'insertion, site culturel et touristique en Alsace, Grand Est, France.",
   };
 };
 
