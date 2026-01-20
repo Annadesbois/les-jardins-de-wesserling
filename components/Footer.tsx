@@ -13,7 +13,7 @@ import type { FooterMessages, FooterProps } from "@/types/i18n";
 const Footer = ({ messages }: FooterProps) => {
   const footerMessages = messages as FooterMessages;
   return (
-    <footer className="relative flex gap-8 md:gap-12 lg:gap-16 justify-center bg-surface-2 mt-8 py-5">
+    <footer className="relative flex gap-2 md:gap-8 lg:gap-12 bg-surface-2 mt-8 py-5 px-3 md:px-14 justify-center items-center">
       <a
         href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
         aria-label={footerMessages.fondsSocialEuropeenAria}
@@ -23,7 +23,7 @@ const Footer = ({ messages }: FooterProps) => {
         <Image
           src={fse}
           alt={footerMessages.fondsSocialEuropeenAlt}
-          width={100}
+          width={70}
         />
       </a>
       <a
@@ -35,7 +35,7 @@ const Footer = ({ messages }: FooterProps) => {
         <Image
           src={republicFrancaise}
           alt={footerMessages.republiqueFrancaiseAlt}
-          width={100}
+          width={70}
         />
       </a>
       <a
@@ -44,7 +44,7 @@ const Footer = ({ messages }: FooterProps) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={grandEst} alt={footerMessages.grandEstAlt} width={100} />
+        <Image src={grandEst} alt={footerMessages.grandEstAlt} width={70} />
       </a>
       <a
         href="https://www.alsace.fr/"
@@ -52,7 +52,7 @@ const Footer = ({ messages }: FooterProps) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={alsace} alt={footerMessages.alsaceAlt} width={100} />
+        <Image src={alsace} alt={footerMessages.alsaceAlt} width={70} />
       </a>
       <a
         href="https://www.tourisme-thur-doller.fr/"
@@ -63,7 +63,7 @@ const Footer = ({ messages }: FooterProps) => {
         <Image
           src={thurDoller}
           alt={footerMessages.thurDollerAlt}
-          width={100}
+          width={70}
         />
       </a>
       <a
@@ -72,7 +72,7 @@ const Footer = ({ messages }: FooterProps) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={leader} alt={footerMessages.leaderAlt} width={100} />
+        <Image src={leader} alt={footerMessages.leaderAlt} width={70} />
       </a>
       <a
         href="https://www.saint-amarin.com/"
@@ -80,7 +80,7 @@ const Footer = ({ messages }: FooterProps) => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <Image src={stAmarin} alt={footerMessages.stAmarinAlt} width={100} />
+        <Image src={stAmarin} alt={footerMessages.stAmarinAlt} width={70} />
       </a>
     </footer>
   );
