@@ -174,7 +174,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
           >
             <button
               type="button"
-              className="w-full flex items-center justify-between cursor-pointer"
+              className="w-full flex items-center justify-between cursor-pointer text-left"
               onClick={() => toggleSection("festiveEntertainment")}
               aria-expanded={openSection === "festiveEntertainment"}
             >
