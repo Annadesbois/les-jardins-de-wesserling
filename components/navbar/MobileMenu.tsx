@@ -17,9 +17,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
     vegetableGarden,
     restaurant,
     festiveEntertainment,
-    association,
-    mission,
-    partners,
+    about,
     contact,
   } = messages;
 
@@ -29,9 +27,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
     | "vegetableGarden"
     | "restaurant"
     | "festiveEntertainment"
-    | "association"
-    | "mission"
-    | "partners"
+    | "about"
     | null
   >(null);
 
@@ -111,61 +107,22 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
               >
                 {vegetableGarden.description}
               </Link>
+              <Link
+                href={`${base}/vegetable-garden/membership`}
+                className="menu-link block whitespace-normal wrap-break-word py-2"
+                onClick={closeMenu}
+              >
+                {vegetableGarden.membership}
+              </Link>
             </div>
           )}
 
           {/* RESTAURANT */}
-          <DropdownMenu.Item
-            className="navigation-menu-trigger"
-            onSelect={(e) => e.preventDefault()}
-          >
-            <button
-              type="button"
-              className="w-full flex items-center justify-between cursor-pointer"
-              onClick={() => toggleSection("restaurant")}
-              aria-expanded={openSection === "restaurant"}
-            >
-              <span>{restaurant.label}</span>
-              <FaChevronRight
-                className={`h-3 w-3 ml-2 transition-transform ${
-                  openSection === "restaurant" ? "rotate-90" : ""
-                }`}
-              />
-            </button>
+          <DropdownMenu.Item asChild>
+            <Link href={`${base}/restaurant`} className="menu-link block">
+              {restaurant.label}
+            </Link>
           </DropdownMenu.Item>
-
-          {openSection === "restaurant" && (
-            <div className="pl-4 pb-2">
-              <Link
-                href={`${base}/restaurant/restaurant-style`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {restaurant.restaurantStyle}
-              </Link>
-              <Link
-                href={`${base}/restaurant/values`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {restaurant.values}
-              </Link>
-              <Link
-                href={`${base}/restaurant/menu`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {restaurant.menu}
-              </Link>
-              <Link
-                href={`${base}/restaurant/booking-access`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {restaurant.bookingAccess}
-              </Link>
-            </div>
-          )}
 
           {/* FESTIVE ENTERTAINMENT */}
           <DropdownMenu.Item
@@ -241,7 +198,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
             </div>
           )}
 
-          {/* ASSOCIATION */}
+          {/* ABOUT */}
           <DropdownMenu.Item
             className="navigation-menu-trigger"
             onSelect={(e) => e.preventDefault()}
@@ -249,153 +206,47 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
             <button
               type="button"
               className="w-full flex items-center justify-between cursor-pointer"
-              onClick={() => toggleSection("association")}
-              aria-expanded={openSection === "association"}
+              onClick={() => toggleSection("about")}
+              aria-expanded={openSection === "about"}
             >
-              <span>{association.label}</span>
+              <span>{about.label}</span>
               <FaChevronRight
                 className={`h-3 w-3 ml-2 transition-transform ${
-                  openSection === "association" ? "rotate-90" : ""
+                  openSection === "about" ? "rotate-90" : ""
                 }`}
               />
             </button>
           </DropdownMenu.Item>
 
-          {openSection === "association" && (
+          {openSection === "about" && (
             <div className="pl-4 pb-2">
               <Link
-                href={`${base}/association/objectives`}
+                href={`${base}/about/association`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
                 onClick={closeMenu}
               >
-                {association.objectives}
+                {about.association}
               </Link>
               <Link
-                href={`${base}/association/members`}
+                href={`${base}/about/mission`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
                 onClick={closeMenu}
               >
-                {association.members}
+                {about.mission}
               </Link>
               <Link
-                href={`${base}/association/history`}
+                href={`${base}/about/partners`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
                 onClick={closeMenu}
               >
-                {association.history}
+                {about.partners}
               </Link>
               <Link
-                href={`${base}/association/support-us`}
+                href={`${base}/about/support-us`}
                 className="menu-link block whitespace-normal wrap-break-word py-2"
                 onClick={closeMenu}
               >
-                {association.supportUs}
-              </Link>
-            </div>
-          )}
-
-          {/* MISSION */}
-          <DropdownMenu.Item
-            className="navigation-menu-trigger"
-            onSelect={(e) => e.preventDefault()}
-          >
-            <button
-              type="button"
-              className="w-full flex items-center justify-between cursor-pointer"
-              onClick={() => toggleSection("mission")}
-              aria-expanded={openSection === "mission"}
-            >
-              <span>{mission.label}</span>
-              <FaChevronRight
-                className={`h-3 w-3 ml-2 transition-transform ${
-                  openSection === "mission" ? "rotate-90" : ""
-                }`}
-              />
-            </button>
-          </DropdownMenu.Item>
-
-          {openSection === "mission" && (
-            <div className="pl-4 pb-2">
-              <Link
-                href={`${base}/mission/social-integration`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {mission.socialIntegration}
-              </Link>
-              <Link
-                href={`${base}/mission/employees`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {mission.employees}
-              </Link>
-              <Link
-                href={`${base}/mission/activities`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {mission.activities}
-              </Link>
-              <Link
-                href={`${base}/mission/applying`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {mission.applying}
-              </Link>
-            </div>
-          )}
-
-          {/* PARTNERS */}
-          <DropdownMenu.Item
-            className="navigation-menu-trigger"
-            onSelect={(e) => e.preventDefault()}
-          >
-            <button
-              type="button"
-              className="w-full flex items-center justify-between cursor-pointer"
-              onClick={() => toggleSection("partners")}
-              aria-expanded={openSection === "partners"}
-            >
-              <span>{partners.label}</span>
-              <FaChevronRight
-                className={`h-3 w-3 ml-2 transition-transform ${
-                  openSection === "partners" ? "rotate-90" : ""
-                }`}
-              />
-            </button>
-          </DropdownMenu.Item>
-
-          {openSection === "partners" && (
-            <div className="pl-4 pb-2">
-              <Link
-                href={`${base}/partners/fse`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {partners.fse}
-              </Link>
-              <Link
-                href={`${base}/partners/ecomusee-textile`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {partners.ecomuseeTextile}
-              </Link>
-              <Link
-                href={`${base}/partners/other-partners`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {partners.otherPartners}
-              </Link>
-              <Link
-                href={`${base}/partners/sponsors`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {partners.sponsors}
+                {about.supportUs}
               </Link>
             </div>
           )}

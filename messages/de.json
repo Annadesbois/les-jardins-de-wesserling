@@ -11,14 +11,11 @@
     "vegetableGarden": {
       "label": "Küchengarten",
       "wesserlingPark": "Im Herzen des Parks von Wesserling",
-      "description": "Beschreibung"
+      "description": "Der Garten",
+      "membership": "Mitgliedschaft"
     },
     "restaurant": {
-      "label": "Restaurant",
-      "restaurantStyle": "Stil",
-      "values": "Werte",
-      "menu": "Speisekarte",
-      "bookingAccess": "Anfahrt & Reservierung"
+      "label": "Restaurant"
     },
     "festiveEntertainment": {
       "label": "Festliche Veranstaltungen",
@@ -30,26 +27,12 @@
       "automne": "Herbstfest",
       "noel": "Weihnachten im Garten"
     },
-    "association": {
-      "label": "Gemeinnützige Struktur",
-      "objectives": "Ziele",
-      "members": "Mitglieder & Aktivitäten",
-      "history": "Geschichte",
-      "supportUs": "Uns unterstützen"
-    },
-    "mission": {
-      "label": "Soziale Mission",
-      "socialIntegration": "Integrationsprojekt",
-      "employees": "Mitarbeitende",
-      "activities": "Aktivitäten",
-      "applying": "Bewerben"
-    },
-    "partners": {
-      "label": "Partner",
-      "fse": "Europäischer Sozialfonds",
-      "ecomuseeTextile": "Textil-Ökomuseum",
-      "otherPartners": "Weitere Partner",
-      "sponsors": "Förderer & Spender"
+    "about": {
+      "label": "Über uns",
+      "association": "Gemeinnützige Struktur",
+      "mission": "Soziale Mission",
+      "partners": "Partner",
+      "supportUs": "Unterstützen & Mitmachen"
     },
     "contact": {
       "label": "Kontakt"

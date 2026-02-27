@@ -1,6 +1,6 @@
 const SupportUsPage = () => {
   return (
-    <div>SupportPage</div>
+    <div>SupportUsPage</div>
   )
 }
 export default SupportUsPage

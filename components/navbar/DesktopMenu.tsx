@@ -11,9 +11,7 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
     vegetableGarden,
     restaurant,
     festiveEntertainment,
-    association,
-    mission,
-    partners,
+    about,
     contact,
   } = messages;
   const base = `/${locale}`;
@@ -61,63 +59,27 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
                   </Link>
                 </NavigationMenu.Link>
               </li>
+              <li>
+                <NavigationMenu.Link asChild>
+                  <Link
+                    href={`${base}/vegetable-garden/membership`}
+                    className="block menu-link"
+                  >
+                    {vegetableGarden.membership}
+                  </Link>
+                </NavigationMenu.Link>
+              </li>
             </ul>
           </NavigationMenu.Content>
         </NavigationMenu.Item>
 
         {/* RESTAURANT */}
-        <NavigationMenu.Item className="relative">
-          <NavigationMenu.Trigger className="navigation-menu-trigger">
-            {restaurant.label}
-            <FaChevronDown
-              className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
-              aria-hidden
-            />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
-            <ul className="space-y-1">
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/restaurant/restaurant-style`}
-                    className="block menu-link"
-                  >
-                    {restaurant.restaurantStyle}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/restaurant/values`}
-                    className="block menu-link"
-                  >
-                    {restaurant.values}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/restaurant/menu`}
-                    className="block menu-link"
-                  >
-                    {restaurant.menu}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/restaurant/booking-access`}
-                    className="block menu-link"
-                  >
-                    {restaurant.bookingAccess}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-            </ul>
-          </NavigationMenu.Content>
+        <NavigationMenu.Item>
+          <NavigationMenu.Link asChild>
+            <Link href={`${base}/restaurant`} className="menu-link">
+              {restaurant.label}
+            </Link>
+          </NavigationMenu.Link>
         </NavigationMenu.Item>
 
         {/* FESTIVE ENTERTAINMENT */}
@@ -205,10 +167,10 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
           </NavigationMenu.Content>
         </NavigationMenu.Item>
 
-        {/* ASSOCIATION */}
+        {/* ABOUT */}
         <NavigationMenu.Item className="relative">
           <NavigationMenu.Trigger className="navigation-menu-trigger">
-            {association.label}
+            {about.label}
             <FaChevronDown
               className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
               aria-hidden
@@ -219,150 +181,40 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/association/objectives`}
+                    href={`${base}/about/association`}
                     className="block menu-link"
                   >
-                    {association.objectives}
+                    {about.association}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/association/members`}
+                    href={`${base}/about/mission`}
                     className="block menu-link"
                   >
-                    {association.members}
+                    {about.mission}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/association/history`}
+                    href={`${base}/about/partners`}
                     className="block menu-link"
                   >
-                    {association.history}
+                    {about.partners}
                   </Link>
                 </NavigationMenu.Link>
               </li>
               <li>
                 <NavigationMenu.Link asChild>
                   <Link
-                    href={`${base}/association/support-us`}
+                    href={`${base}/about/support-us`}
                     className="block menu-link"
                   >
-                    {association.supportUs}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-            </ul>
-          </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        {/* MISSION */}
-        <NavigationMenu.Item className="relative">
-          <NavigationMenu.Trigger className="navigation-menu-trigger">
-            {mission.label}
-            <FaChevronDown
-              className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
-              aria-hidden
-            />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
-            <ul className="space-y-1">
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/mission/social-integration`}
-                    className="block menu-link"
-                  >
-                    {mission.socialIntegration}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/mission/employees`}
-                    className="block menu-link"
-                  >
-                    {mission.employees}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/mission/activities`}
-                    className="block menu-link"
-                  >
-                    {mission.activities}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/mission/applying`}
-                    className="block menu-link"
-                  >
-                    {mission.applying}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-            </ul>
-          </NavigationMenu.Content>
-        </NavigationMenu.Item>
-
-        {/* PARTNERS */}
-        <NavigationMenu.Item className="relative">
-          <NavigationMenu.Trigger className="navigation-menu-trigger">
-            {partners.label}
-            <FaChevronDown
-              className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
-              aria-hidden
-            />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
-            <ul className="space-y-1">
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/partners/fse`}
-                    className="block menu-link"
-                  >
-                    {partners.fse}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/partners/ecomusee-textile`}
-                    className="block menu-link"
-                  >
-                    {partners.ecomuseeTextile}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/partners/other-partners`}
-                    className="block menu-link"
-                  >
-                    {partners.otherPartners}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/partners/sponsors`}
-                    className="block menu-link"
-                  >
-                    {partners.sponsors}
+                    {about.supportUs}
                   </Link>
                 </NavigationMenu.Link>
               </li>
