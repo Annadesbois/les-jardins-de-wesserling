@@ -47,7 +47,14 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
 
 
   return (
-    <DropdownMenu.Root open={menuOpen} onOpenChange={setMenuOpen} modal={false}>
+    <DropdownMenu.Root
+      open={menuOpen}
+      onOpenChange={(open) => {
+        setMenuOpen(open);
+        if (!open) setOpenSection(null);
+      }}
+      modal={false}
+    >
       <DropdownMenu.Trigger asChild>
         <button
           type="button"
