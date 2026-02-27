@@ -8,6 +8,7 @@ export type NavbarVegetableGardenMessages = {
   label: string;
   wesserlingPark: string;
   description: string;
+  membership: string;
 };
 
 export type NavbarRestaurantMessages = {
@@ -29,29 +30,12 @@ export type NavbarFestiveEntertainmentMessages = {
   noel: string;
 };
 
-export type NavbarAssociationMessages = {
+export type NavbarAboutMessages = {
   label: string;
-  objectives: string;
-  members: string;
-  history: string;
+  association: string;
+  mission: string;
   partners: string;
   supportUs: string;
-};
-
-export type NavbarMissionMessages = {
-  label: string;
-  socialIntegration: string;
-  employees: string;
-  activities: string;
-  applying: string;
-};
-
-export type NavbarPartnersMessages = {
-  label: string;
-  fse: string;
-  ecomuseeTextile: string;
-  otherPartners: string;
-  sponsors: string;
 };
 
 export type NavbarSimpleSectionMessages = {
@@ -63,9 +47,7 @@ export type NavbarMessages = {
   vegetableGarden: NavbarVegetableGardenMessages;
   restaurant: NavbarRestaurantMessages;
   festiveEntertainment: NavbarFestiveEntertainmentMessages;
-  association: NavbarAssociationMessages;
-  mission: NavbarMissionMessages;
-  partners: NavbarPartnersMessages;
+  about: NavbarAboutMessages;
   contact: NavbarSimpleSectionMessages;
 };
 
