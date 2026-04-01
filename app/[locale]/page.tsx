@@ -1,3 +1,4 @@
+import Hero from "@/components/Hero";
 import { createPageHelpers } from "@/lib/metadata";
 
 import type { PageProp } from "@/types/i18n";
@@ -15,9 +16,16 @@ const HomePage = async ({ params }: PageProp) => {
         <div className="flex flex-col gap-6 text-center font-bold">
           <h1 className="text-2xl md:mb-4">
             {home.hero.title}
-            <br className="block md:hidden" />Jardins de Wesserling
+            <br className="block md:hidden" />
+            Jardins de Wesserling
           </h1>
-</div>
+          <Hero
+            imageSrc={"/restau-du-potager-steeve-josch.webp"}
+            imageAlt={"Restaurant du potager aux Jardins de Wesserling"}
+            title={home.hero.title}
+            description={"Chantier d'insertion et Magnifiques jardins"}
+          />
+        </div>
       </div>
     </>
   );
