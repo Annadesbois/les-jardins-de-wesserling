@@ -24,6 +24,7 @@ const HomePage = async ({ params }: PageProp) => {
             imageAlt={"Restaurant du potager aux Jardins de Wesserling"}
             title={home.hero.title}
             description={"Chantier d'insertion et Magnifiques jardins"}
+            textPosition={"right"}
           />
         </div>
       </div>
