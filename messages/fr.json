@@ -68,13 +68,13 @@
 
   "contact": {
     "meta": {
-      "title": "Contact & accès — Gîte Au fil de l'eau à Storckensohn",
-      "description": "Coordonnées, téléphone, email et accès au gîte Au fil de l'eau à Storckensohn, Hautes Vosges d’Alsace. Réservation en direct ou via Gîtes de France."
+      "title": "Contact & accès — Les Jardins de Wesserling",
+      "description": "Coordonnées, téléphone, email et accès aux Jardins de Wesserling, Hautes Vosges d’Alsace."
     },
     "title": "Contact et Accès",
-    "map": "Localisation du Gîte Au fil de l'eau",
-    "info": "Infos et réservation",
-    "reservation": "Réservation aussi possible via Gîtes de France"
+    "map": "Localisation des Jardins de Wesserling",
+    "info": "Renseignements sur l'association",
+    "reservation": "Préparez votre visite en visitant le site du Parc de Wesserling"
   },
 
   "contactForm": {
