@@ -4,13 +4,11 @@ import ThreeCards from "@/components/ThreeCards";
 import { createPageHelpers } from "@/lib/metadata";
 
 import type { PageProp } from "@/types/i18n";
+import Image from 'next/image';
 
 const { generateMetadata, getPageMessages } = createPageHelpers("home");
 
 export { generateMetadata };
-
-
-
 
 const HomePage = async ({ params }: PageProp) => {
   const {locale} = await params;
@@ -25,7 +23,7 @@ const HomePage = async ({ params }: PageProp) => {
       href: `/${locale}/about/association`,
     },
     {
-      title: "Visiter les jardins",
+      title: "Les jardins",
       caption:
         "Explorez les différents espaces des Jardins de Wesserling et planifiez votre visite",
       imageSrc: "/restau-du-potager-steeve-josch.webp",
@@ -33,7 +31,7 @@ const HomePage = async ({ params }: PageProp) => {
       href: `/${locale}/vegetable-garden/description`,
     },
     {
-      title: "Animations festives",
+      title: "Les animations festives",
       caption:
         "Participez à nos événements et animations tout au long de l'année",
       imageSrc: "/restau-du-potager-steeve-josch.webp",
@@ -43,8 +41,8 @@ const HomePage = async ({ params }: PageProp) => {
   ];
 
   return (
-    <div className="content-area relative fabric-surface-light flex flex-col gap-6 p-6 md:pb-10 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm text-center font-bold">
-      <h1 className="text-2xl md:mb-4">
+    <div className="page-layout text-center font-bold">
+      <h1>
         {home.hero.title}
         <br className="block md:hidden" />
         Jardins de Wesserling
@@ -69,6 +67,7 @@ const HomePage = async ({ params }: PageProp) => {
         seventhParagraph="Georgette Tacquard, présidente"
         textPosition={"right"}
       />
+      <Image src="/leaf-divider.png" alt="Feuille de division" width={500} height={50} className="mx-auto mb-20 mt-6" />
       <ThreeCards cards={cards} />
     </div>
   );

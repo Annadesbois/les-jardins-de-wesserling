@@ -3,7 +3,8 @@
 /* Design tokens / theme */
 :root {
   --surface-1: #ffffff;
-  --surface-2: #ffffff;
+  --surface-2: linear-gradient(180deg, #e8fae8 0%,
+   #e3fadf 100%);
   --surface-3: #bff293;
   --text-primary: #720f2e;
   --text-secondary: #440519;
@@ -24,7 +25,7 @@ body {
   font-family: var(--font-playpen), "Segoe UI", system-ui, -apple-system,
     BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   color: var(--text-primary);
-  background-color: var(--surface-1);
+  background: var(--surface-2);
   overflow-x: hidden;
 }
 
@@ -78,7 +79,7 @@ main h1 {
 }
 
 .page-layout {
-  @apply flex flex-col items-center my-6;
+  @apply relative flex flex-col gap-2 px-6 pb-22 pt-12;
 }
 
 .description-page-layout {
@@ -95,7 +96,7 @@ main h1 {
 }
 
 .menu-sub-content {
-  @apply rounded-lg z-50 shadow-xl;
+  @apply rounded-lg z-50 shadow-xl bg-surface-3;
 }
 
 .navigation-menu-trigger {
