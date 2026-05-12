@@ -4,14 +4,14 @@ import ThreeCards from "@/components/ThreeCards";
 import { createPageHelpers } from "@/lib/metadata";
 
 import type { PageProp } from "@/types/i18n";
-import Image from 'next/image';
+import Image from "next/image";
 
 const { generateMetadata, getPageMessages } = createPageHelpers("home");
 
 export { generateMetadata };
 
 const HomePage = async ({ params }: PageProp) => {
-  const {locale} = await params;
+  const { locale } = await params;
   const home = await getPageMessages(params);
 
   const cards: SingleCardProps[] = [
@@ -67,7 +67,13 @@ const HomePage = async ({ params }: PageProp) => {
         seventhParagraph="Georgette Tacquard, présidente"
         textPosition={"right"}
       />
-      <Image src="/leaf-divider.png" alt="Feuille de division" width={500} height={50} className="mx-auto mb-20 mt-6" />
+      <Image
+        src="/leaf-divider.png"
+        alt="Feuille de division"
+        width={500}
+        height={50}
+        className="mx-auto mb-20 mt-6"
+      />
       <ThreeCards cards={cards} />
     </div>
   );

@@ -79,7 +79,7 @@ main h1 {
 }
 
 .page-layout {
-  @apply relative flex flex-col gap-2 px-6 pb-22 pt-12;
+  @apply relative flex flex-col w-full gap-2 px-6 pb-22 pt-12;
 }
 
 .description-page-layout {
