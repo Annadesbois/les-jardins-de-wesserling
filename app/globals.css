@@ -25,7 +25,7 @@ body {
   font-family: var(--font-playpen), "Segoe UI", system-ui, -apple-system,
     BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
   color: var(--text-primary);
-  background: var(--surface-2);
+  background: var(--surface-1);
   overflow-x: hidden;
 }
 
@@ -96,7 +96,7 @@ main h1 {
 }
 
 .menu-sub-content {
-  @apply rounded-lg z-50 shadow-xl bg-surface-3;
+  @apply rounded-lg z-50 shadow-xl bg-surface-1;
 }
 
 .navigation-menu-trigger {

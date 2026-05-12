@@ -83,88 +83,12 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
         </NavigationMenu.Item>
 
         {/* FESTIVE ENTERTAINMENT */}
-        <NavigationMenu.Item className="relative">
-          <NavigationMenu.Trigger className="navigation-menu-trigger">
-            {festiveEntertainment.label}
-            <FaChevronDown
-              className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
-              aria-hidden
-            />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
-            <ul className="space-y-1">
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/festive-entertainment/pacques`}
-                    className="block menu-link"
-                  >
-                    {festiveEntertainment.pacques}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/festive-entertainment/troc-jardin`}
-                    className="block menu-link"
-                  >
-                    {festiveEntertainment.trocJardin}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/festive-entertainment/musique`}
-                    className="block menu-link"
-                  >
-                    {festiveEntertainment.musique}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/festive-entertainment/cocktails`}
-                    className="block menu-link"
-                  >
-                    {festiveEntertainment.cocktails}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/festive-entertainment/nocturnes`}
-                    className="block menu-link"
-                  >
-                    {festiveEntertainment.nocturnes}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/festive-entertainment/automne`}
-                    className="block menu-link"
-                  >
-                    {festiveEntertainment.automne}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/festive-entertainment/noel-au-jardin`}
-                    className="block menu-link"
-                  >
-                    {festiveEntertainment.noel}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-            </ul>
-          </NavigationMenu.Content>
+        <NavigationMenu.Item>
+          <NavigationMenu.Link asChild>
+            <Link href={`${base}/festive-entertainment`} className="menu-link">
+              {festiveEntertainment.label}
+            </Link>
+          </NavigationMenu.Link>
         </NavigationMenu.Item>
 
         {/* ABOUT */}

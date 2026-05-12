@@ -132,78 +132,11 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
           </DropdownMenu.Item>
 
           {/* FESTIVE ENTERTAINMENT */}
-          <DropdownMenu.Item
-            className="navigation-menu-trigger"
-            onSelect={(e) => e.preventDefault()}
-          >
-            <button
-              type="button"
-              className="w-full flex items-center justify-between cursor-pointer text-left"
-              onClick={() => toggleSection("festiveEntertainment")}
-              aria-expanded={openSection === "festiveEntertainment"}
-            >
-              <span>{festiveEntertainment.label}</span>
-              <FaChevronRight
-                className={`h-3 w-3 ml-2 transition-transform ${
-                  openSection === "festiveEntertainment" ? "rotate-90" : ""
-                }`}
-              />
-            </button>
+          <DropdownMenu.Item asChild>
+            <Link href={`${base}/festive-entertainment`} className="menu-link block">
+              {festiveEntertainment.label}
+            </Link>
           </DropdownMenu.Item>
-
-          {openSection === "festiveEntertainment" && (
-            <div className="pl-4 pb-2 max-h-[50vh] overflow-y-auto overscroll-contain">
-              <Link
-                href={`${base}/festive-entertainment/pacques`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {festiveEntertainment.pacques}
-              </Link>
-              <Link
-                href={`${base}/festive-entertainment/troc-jardin`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {festiveEntertainment.trocJardin}
-              </Link>
-              <Link
-                href={`${base}/festive-entertainment/musique`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {festiveEntertainment.musique}
-              </Link>
-              <Link
-                href={`${base}/festive-entertainment/cocktails`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {festiveEntertainment.cocktails}
-              </Link>
-              <Link
-                href={`${base}/festive-entertainment/nocturnes`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {festiveEntertainment.nocturnes}
-              </Link>
-              <Link
-                href={`${base}/festive-entertainment/automne`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {festiveEntertainment.automne}
-              </Link>
-              <Link
-                href={`${base}/festive-entertainment/noel-au-jardin`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {festiveEntertainment.noel}
-              </Link>
-            </div>
-          )}
 
           {/* ABOUT */}
           <DropdownMenu.Item
