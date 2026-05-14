@@ -18,18 +18,11 @@
       "label": "Restaurant"
     },
     "festiveEntertainment": {
-      "label": "Animations festives",
-      "pacques": "Pâques en Folie",
-      "trocJardin": "Troc'Jardin",
-      "musique": "Fête de la musique",
-      "cocktails": "Soirées cocktails",
-      "nocturnes": "Féeries nocturnes",
-      "automne": "Fête d'Automne",
-      "noel": "Noël au Jardin"
+      "label": "Animations festives"
     },
     "about": {
       "label": "À propos",
-      "association": "Structure associative",
+      "association": "Notre association",
       "mission": "Mission sociale",
       "partners": "Partenaires",
       "supportUs": "Soutenir et participer"
