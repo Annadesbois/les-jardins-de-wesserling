@@ -106,7 +106,7 @@ const AssociationPage = () => {
         <p className="pt-5 font-bold text-justify">
           Leur motivation correspond aux objectifs de l’association :
         </p>
-        <ul className="list-disc pl-12 pt-5 space-y-3">
+        <ul>
           <li>
             Créer de l’emploi notamment pour des personnes rencontrant des
             difficultés dans ce domaine
@@ -143,7 +143,7 @@ const AssociationPage = () => {
           Les bénévoles s’impliquent dans différents domaines, selon leurs goûts
           et leurs compétences :
         </p>
-        <ul className="list-disc pl-12 pt-5 pb-5 space-y-3">
+        <ul>
           <li>
             Les aménagements pédagogiques, la conception et les décors du
             potager

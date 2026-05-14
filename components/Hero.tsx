@@ -6,15 +6,14 @@ type HeroProps = {
   imageAlt: string;
   title?: string;
   subtitle?: React.ReactNode;
-  firstParagraph?: string;
-  secondParagraph?: string;
-  thirdParagraph?: string;
-  fourthParagraph?: string;
-  fifthParagraph?: string;
-  sixthParagraph?: string;
-  seventhParagraph?: string;
+  firstParagraph?: React.ReactNode;
+  secondParagraph?: React.ReactNode;
+  thirdParagraph?: React.ReactNode;
+  fourthParagraph?: React.ReactNode;
+  fifthParagraph?: React.ReactNode;
+  sixthParagraph?: React.ReactNode;
+  seventhParagraph?: React.ReactNode;
   textPosition?: "left" | "right";
-  centerTextVertically?: boolean;
 };
 
 const Hero = ({
