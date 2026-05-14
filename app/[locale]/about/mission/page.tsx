@@ -16,7 +16,7 @@ function MissionPage() {
               href="https://travail-emploi.gouv.fr/les-ateliers-et-chantiers-dinsertion-aci"
               target="blank"
               rel="noopener noreferrer"
-              className="underline hover:text-title"
+              className="link"
             >
               Ateliers et Chantiers d’Insertion
             </Link>
@@ -35,7 +35,7 @@ function MissionPage() {
               href="https://www.service-public.gouv.fr/particuliers/vosdroits/F2284"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-title"
+              className="link"
             >
               Insertion par l’Activité Economique
             </Link>
@@ -44,7 +44,7 @@ function MissionPage() {
               href="https://www.economie.gouv.fr/ess"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline hover:text-title"
+              className="link"
             >
               Economie Sociale et Solidaire
             </Link>
