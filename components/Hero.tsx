@@ -14,6 +14,7 @@ type HeroProps = {
   sixthParagraph?: string;
   seventhParagraph?: string;
   textPosition?: "left" | "right";
+  centerTextVertically?: boolean;
 };
 
 const Hero = ({
@@ -48,16 +49,20 @@ const Hero = ({
         />
       </div>
 
-      <section className="flex w-full flex-col md:w-1/2 gap-3">
-        <h2 className="text-2xl font-bold">{title}</h2>
-        {subtitle && <p className="bg-accent p-3 rounded-2xl font-bold">{subtitle}</p>}
-        <p>{firstParagraph}</p>
-        <p>{secondParagraph}</p>
-        <p>{thirdParagraph}</p>
-        <p>{fourthParagraph}</p>
-        <p>{fifthParagraph}</p>
-        <p>{sixthParagraph}</p>
-        <p>{seventhParagraph}</p>
+      <section
+        className="flex w-full flex-col gap-3 md:w-1/2 justify-center"
+      >
+        {title && <h1 className="text-2xl font-bold">{title}</h1>}
+        {subtitle && (
+          <p className="bg-accent p-3 rounded-2xl font-bold">{subtitle}</p>
+        )}
+        {firstParagraph && <p>{firstParagraph}</p>}
+        {secondParagraph && <p>{secondParagraph}</p>}
+        {thirdParagraph && <p>{thirdParagraph}</p>}
+        {fourthParagraph && <p>{fourthParagraph}</p>}
+        {fifthParagraph && <p>{fifthParagraph}</p>}
+        {sixthParagraph && <p>{sixthParagraph}</p>}
+        {seventhParagraph && <p>{seventhParagraph}</p>}
       </section>
     </div>
   );
