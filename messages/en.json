@@ -18,18 +18,11 @@
       "label": "Restaurant"
     },
     "festiveEntertainment": {
-      "label": "Festive Events",
-      "pacques": "Easter Celebrations",
-      "trocJardin": "Garden Swap",
-      "musique": "Music Festival",
-      "cocktails": "Cocktail Evenings",
-      "nocturnes": "Night-time Enchantments",
-      "automne": "Autumn Festival",
-      "noel": "Christmas in the Garden"
+      "label": "Festive Events"
     },
     "about": {
       "label": "About",
-      "association": "Non-profit Organisation",
+      "association": "Our Association",
       "mission": "Social Mission",
       "partners": "Partners",
       "supportUs": "Get Involved"

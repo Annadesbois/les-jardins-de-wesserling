@@ -18,18 +18,11 @@
       "label": "Restaurant"
     },
     "festiveEntertainment": {
-      "label": "Festliche Veranstaltungen",
-      "pacques": "Osterfest",
-      "trocJardin": "Pflanzen- & Gartentausch",
-      "musique": "Musikfest",
-      "cocktails": "Cocktailabende",
-      "nocturnes": "Nächtliche Märchen",
-      "automne": "Herbstfest",
-      "noel": "Weihnachten im Garten"
+      "label": "Festliche Veranstaltungen"
     },
     "about": {
       "label": "Über uns",
-      "association": "Gemeinnützige Struktur",
+      "association": "Unsere Vereinigung",
       "mission": "Soziale Mission",
       "partners": "Partner",
       "supportUs": "Unterstützen & Mitmachen"
