@@ -179,7 +179,40 @@ const AssociationPage = () => {
         <h2 className="mb-20 text-center text-3xl font-bold text-title">
           Historique de l’association
         </h2>
-
+        <article className="space-y-6 mb-24 text-justify">
+          <p>
+            L’association Les Jardins de Wesserling a été créée en 2000 par une
+            trentaine d’habitants afin de relever un défi ambitieux : créer de
+            l’emploi à partir de la reconversion de la friche industrielle du
+            Parc de Wesserling.
+          </p>
+          <p>
+            Elle a rejoint la fédération d’associations chargée, d’abord par le
+            Département du Haut-Rhin puis par la Collectivité Européenne
+            d’Alsace, d’assurer la reconversion touristique de cet ancien haut
+            lieu de l’industrie textile du Massif Vosgien.
+          </p>
+          <p>
+            Les jardins ont été imaginés par les paysagistes Agnès Daval et
+            Philippe Raguin dans le respect de l’histoire du site. Leur
+            implantation a été réalisée grâce au travail d’un géomètre bénévole,
+            puis développée au fil des années par l’implication constante des
+            bénévoles de l’association.
+          </p>
+          <p>
+            Les premières années reposaient essentiellement sur l’engagement
+            collectif : défrichage, plantations, culture maraîchère, gestion du
+            site, vente des productions, accompagnement vers l’emploi et
+            organisation des animations. Plus de cent bénévoles participaient
+            notamment à la fête annuelle du potager.
+          </p>
+          <p>
+            L’association a toujours poursuivi le même objectif :
+            professionnaliser progressivement les activités dès que les moyens
+            financiers le permettaient, afin de pérenniser les emplois et les
+            missions du projet associatif.
+          </p>
+        </article>
         <div className="relative">
           {/* Vertical arrow */}
           <div className="absolute left-4 top-8 hidden h-full md:block">
