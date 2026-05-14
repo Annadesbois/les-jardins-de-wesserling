@@ -106,7 +106,7 @@ const festive = () => {
               href="https://www.parc-wesserling.fr"
               target="blank"
               rel="noopener noreferrer"
-              className="underline hover:no-underline"
+              className="link"
             >
               Plus d’info sur le site du Parc de Wesserling
             </Link>
@@ -152,7 +152,7 @@ const festive = () => {
               href="https://www.parc-wesserling.fr"
               target="blank"
               rel="noopener noreferrer"
-              className="underline hover:no-underline"
+              className="link"
             >
               Plus d’info sur le site du Parc de Wesserling
             </Link>

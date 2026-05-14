@@ -48,8 +48,8 @@ main h1 {
   @apply mb-2 md:mb-8 text-center text-3xl font-bold text-title;
 }
 
-h2 {
-  @apply text-2xl font-bold text-title;
+main h2 {
+  @apply text-2xl font-bold text-title mb-2 md:mb-8 sm:mb-6;
 }
 
 main ul {
@@ -59,6 +59,8 @@ main ul {
 .page-layout {
   @apply relative flex flex-col w-full gap-12 px-6 pb-12 md:pb-22 pt-12 md:pt-14 font-medium;
 }
+
+.link {@apply underline hover:text-title}
 
 /* Component / utility-like classes using @apply */
 .menu-link {
