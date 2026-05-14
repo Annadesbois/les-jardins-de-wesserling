@@ -63,7 +63,7 @@ body {
   background-blend-mode: multiply;
 } */
 
-h1 {
+h1, h2 {
   font-family: var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
     "Segoe Script", "Comic Sans MS", cursive;
 }
