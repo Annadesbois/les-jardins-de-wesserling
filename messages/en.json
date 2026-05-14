@@ -8,11 +8,8 @@
     "home": {
       "label": "Home"
     },
-    "vegetableGarden": {
-      "label": "Kitchen Garden",
-      "wesserlingPark": "In the Heart of Wesserling Park",
-      "description": "The Garden",
-      "membership": "Become a Member"
+    "garden": {
+      "label": "Kitchen Garden"
     },
     "restaurant": {
       "label": "Restaurant"

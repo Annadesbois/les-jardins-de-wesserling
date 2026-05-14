@@ -6,6 +6,7 @@ type HeroProps = {
   imageAlt: string;
   title?: string;
   subtitle?: React.ReactNode;
+  description?: string;
   firstParagraph?: React.ReactNode;
   secondParagraph?: React.ReactNode;
   thirdParagraph?: React.ReactNode;
@@ -21,6 +22,7 @@ const Hero = ({
   imageAlt,
   title,
   subtitle,
+  description,
   firstParagraph,
   secondParagraph,
   thirdParagraph,
@@ -55,6 +57,7 @@ const Hero = ({
         {subtitle && (
           <p className="bg-accent p-3 rounded-2xl font-bold">{subtitle}</p>
         )}
+        {description && <p className="font-bold text-center">{description}</p>}
         {firstParagraph && <p>{firstParagraph}</p>}
         {secondParagraph && <p>{secondParagraph}</p>}
         {thirdParagraph && <p>{thirdParagraph}</p>}

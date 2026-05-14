@@ -8,11 +8,8 @@
     "home": {
       "label": "Accueil"
     },
-    "vegetableGarden": {
-      "label": "Jardin potager",
-      "wesserlingPark": "Au cœur du Parc de Wesserling",
-      "description": "Le Jardin",
-      "membership": "Devenir membre"
+    "garden": {
+      "label": "Jardin potager"
     },
     "restaurant": {
       "label": "Restaurant"

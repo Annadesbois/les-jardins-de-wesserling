@@ -8,7 +8,7 @@ import type { NavbarProps } from "@/types/i18n";
 const DesktopMenu = ({ locale, messages }: NavbarProps) => {
   const {
     home,
-    vegetableGarden,
+    garden,
     restaurant,
     festiveEntertainment,
     about,
@@ -28,49 +28,13 @@ const DesktopMenu = ({ locale, messages }: NavbarProps) => {
           </NavigationMenu.Link>
         </NavigationMenu.Item>
 
-        {/* VEGETABLE GARDEN */}
-        <NavigationMenu.Item className="relative">
-          <NavigationMenu.Trigger className="navigation-menu-trigger">
-            {vegetableGarden.label}
-            <FaChevronDown
-              className="w-3 h-3 transition-transform duration-250 group-data-[state=open]:rotate-180"
-              aria-hidden
-            />
-          </NavigationMenu.Trigger>
-          <NavigationMenu.Content className="bg-surface-2 menu-sub-content absolute min-w-max top-full left-0 p-2 mt-2">
-            <ul className="space-y-1">
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/vegetable-garden/wesserling-park`}
-                    className="block menu-link"
-                  >
-                    {vegetableGarden.wesserlingPark}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/vegetable-garden/description`}
-                    className="block menu-link"
-                  >
-                    {vegetableGarden.description}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-              <li>
-                <NavigationMenu.Link asChild>
-                  <Link
-                    href={`${base}/vegetable-garden/membership`}
-                    className="block menu-link"
-                  >
-                    {vegetableGarden.membership}
-                  </Link>
-                </NavigationMenu.Link>
-              </li>
-            </ul>
-          </NavigationMenu.Content>
+        {/* GARDEN */}
+        <NavigationMenu.Item>
+          <NavigationMenu.Link asChild>
+            <Link href={`${base}/garden`} className="menu-link">
+              {garden.label}
+            </Link>
+          </NavigationMenu.Link>
         </NavigationMenu.Item>
 
         {/* RESTAURANT */}

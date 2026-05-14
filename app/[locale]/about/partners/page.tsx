@@ -161,7 +161,7 @@ const PartnersPage = () => {
       </section>
       <section className="text-justify space-y-6">
         <h2>Nos partenaires techniques</h2>
-        <h3 className="font-bold">
+        <h3>
           L’association de Gestion et d’Animation du Parc Textile de Wesserling
         </h3>
         <p>
@@ -186,7 +186,7 @@ const PartnersPage = () => {
           d’insertion Patrimoine et Emploi, locaux réhabilités puis mis
           gratuitement à la disposition des structures.
         </p>
-        <h3 className="font-bold pt-6">Les autres associations partenaires</h3>
+        <h3 className="pt-6">Les autres associations partenaires</h3>
         <p>
           Diverses associations participent aux animations de l’association Les
           Jardins de Wesserling : la médiathèque de Wesserling l’Etoffe des

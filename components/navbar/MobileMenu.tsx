@@ -14,7 +14,7 @@ import type { NavbarProps } from "@/types/i18n";
 const MobileMenu = ({ locale, messages }: NavbarProps) => {
   const {
     home,
-    vegetableGarden,
+    garden,
     restaurant,
     festiveEntertainment,
     about,
@@ -24,7 +24,7 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
   const base = `/${locale}`;
 
   const [openSection, setOpenSection] = useState<
-    | "vegetableGarden"
+    | "garden"
     | "restaurant"
     | "festiveEntertainment"
     | "about"
@@ -78,51 +78,12 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
             </Link>
           </DropdownMenu.Item>
 
-          {/* VEGETABLE GARDEN */}
-          <DropdownMenu.Item
-            className="navigation-menu-trigger"
-            onSelect={(e) => e.preventDefault()}
-          >
-            <button
-              type="button"
-              className="w-full flex items-center justify-between cursor-pointer"
-              onClick={() => toggleSection("vegetableGarden")}
-              aria-expanded={openSection === "vegetableGarden"}
-            >
-              <span>{vegetableGarden.label}</span>
-              <FaChevronRight
-                className={`h-3 w-3 ml-2 transition-transform ${
-                  openSection === "vegetableGarden" ? "rotate-90" : ""
-                }`}
-              />
-            </button>
+          {/* GARDEN */}
+          <DropdownMenu.Item asChild>
+            <Link href={`${base}/garden`} className="menu-link block">
+              {garden.label}
+            </Link>
           </DropdownMenu.Item>
-
-          {openSection === "vegetableGarden" && (
-            <div className="pl-4 pb-2">
-              <Link
-                href={`${base}/vegetable-garden/wesserling-park`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {vegetableGarden.wesserlingPark}
-              </Link>
-              <Link
-                href={`${base}/vegetable-garden/description`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {vegetableGarden.description}
-              </Link>
-              <Link
-                href={`${base}/vegetable-garden/membership`}
-                className="menu-link block whitespace-normal wrap-break-word py-2"
-                onClick={closeMenu}
-              >
-                {vegetableGarden.membership}
-              </Link>
-            </div>
-          )}
 
           {/* RESTAURANT */}
           <DropdownMenu.Item asChild>
@@ -133,7 +94,10 @@ const MobileMenu = ({ locale, messages }: NavbarProps) => {
 
           {/* FESTIVE ENTERTAINMENT */}
           <DropdownMenu.Item asChild>
-            <Link href={`${base}/festive-entertainment`} className="menu-link block">
+            <Link
+              href={`${base}/festive-entertainment`}
+              className="menu-link block"
+            >
               {festiveEntertainment.label}
             </Link>
           </DropdownMenu.Item>
