@@ -26,7 +26,7 @@ const PartnersPage = () => {
           réguliers, au même titre que l’ensemble des structures d’Insertion par
           l’Activité Economique.
         </p>
-        <div className="flex flex-wrap relative flex gap-6 md:gap-8 lg:gap-12 py-14 px-3 md:px-14 justify-center items-center">
+        <div className="flex flex-wrap relative gap-6 md:gap-8 lg:gap-12 py-14 px-3 md:px-14 justify-center items-center">
           <Image src={stAmarin} alt={"stAmarinAlt"} width={70} />
           <Image src={thurDoller} alt={"thurDollerAlt"} width={70} />
           <Image src={alsace} alt={"alsaceAlt"} width={70} />
@@ -42,7 +42,7 @@ const PartnersPage = () => {
           projets spécifiques d’investissement ou de création de postes
           associatifs :{" "}
         </p>
-        <div className="flex flex-wrap relative flex gap-6 md:gap-8 lg:gap-12 py-14 px-3 md:px-14 justify-center items-center">
+        <div className="flex flex-wrap relative gap-6 md:gap-8 lg:gap-12 py-14 px-3 md:px-14 justify-center items-center">
           <Image src={grandEst} alt={"grandEstAlt"} width={70} />
           <Image src={sm4} alt={"sm4Alt"} width={70} />
           <Image src={alliance} alt={"allianceAlt"} width={70} />
