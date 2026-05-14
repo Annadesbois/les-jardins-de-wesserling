@@ -86,7 +86,7 @@ const PartnersPage = () => {
         <ul>
           <li>
             La Délégation générale à l’emploi et à la formation professionnelle
-            (DGEFP) est autorité de gestion du 
+            (DGEFP) est autorité de gestion du
             <Link
               href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-fse"
               target="_blank"
@@ -100,7 +100,7 @@ const PartnersPage = () => {
           </li>
           <li>
             • La Direction générale de la cohésion sociale (DGCS) est autorité
-            de gestion du 
+            de gestion du
             <Link
               href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-seaa"
               target="_blank"
@@ -158,6 +158,43 @@ const PartnersPage = () => {
             accords locaux de lignes de partage.
           </li>
         </ul>
+      </section>
+      <section className="text-justify space-y-6">
+        <h2>Nos partenaires techniques</h2>
+        <h3 className="font-bold">
+          L’association de Gestion et d’Animation du Parc Textile de Wesserling
+        </h3>
+        <p>
+          Le Parc de Wesserling, dans lequel est intégré l’association Les
+          Jardins de Wesserling, est pour partie propriété du Département du
+          Haut-Rhin, aujourd’hui Collectivité Européenne d’Alsace, et pour
+          partie propriété de la Communauté de Communes de la Vallée de
+          Saint-Amarin.
+        </p>
+        <p>
+          Le Département du Haut-Rhin (aujourd’hui la CEA) a délégué à
+          l’association de Gestion et d’Animation du Parc Textile de Wesserling,
+          la mission de reconvertir cet ancien domaine industriel textile vers
+          le tourisme, et de le gérer. Il s’agit d’une fédération
+          d’associations, dont l’association Les Jardins de Wesserling est
+          membre. Une convention précise les modalités de collaboration sur les
+          espaces communs aux deux structures.
+        </p>
+        <p>
+          L’association Les Jardins de Wesserling partage des locaux commun avec
+          l’association de Gestion du Parc de Wesserling et le chantier
+          d’insertion Patrimoine et Emploi, locaux réhabilités puis mis
+          gratuitement à la disposition des structures.
+        </p>
+        <h3 className="font-bold pt-6">Les autres associations partenaires</h3>
+        <p>
+          Diverses associations participent aux animations de l’association Les
+          Jardins de Wesserling : la médiathèque de Wesserling l’Etoffe des
+          Mots, les Jardins Familiaux de Thann, des sociétés d’aviculteurs et
+          d’apiculteurs, le SM4, les Ecojardiniers Na’Thur Doller, la recyclerie
+          Krempel & Pric a Prac, Les Oiseaux du Stockenberg, le CPIE des Hautes
+          Vosges, la LPO, le Moulin de Storckensohn, ...
+        </p>
       </section>
     </div>
   );

@@ -49,7 +49,7 @@ main h1 {
 }
 
 main h2 {
-  @apply text-2xl font-bold text-title mb-2 md:mb-8;
+  @apply text-2xl font-bold text-title mb-2 md:mb-8 sm:mb-6;
 }
 
 main ul {
