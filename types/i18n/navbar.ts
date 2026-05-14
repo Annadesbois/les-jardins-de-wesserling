@@ -4,11 +4,8 @@ export type NavbarHomeMessages = {
   label: string;
 };
 
-export type NavbarVegetableGardenMessages = {
+export type NavbarGardenMessages = {
   label: string;
-  wesserlingPark: string;
-  description: string;
-  membership: string;
 };
 
 export type NavbarRestaurantMessages = {
@@ -21,13 +18,6 @@ export type NavbarRestaurantMessages = {
 
 export type NavbarFestiveEntertainmentMessages = {
   label: string;
-  pacques: string;
-  trocJardin: string;
-  musique: string;
-  cocktails: string;
-  nocturnes: string;
-  automne: string;
-  noel: string;
 };
 
 export type NavbarAboutMessages = {
@@ -44,7 +34,7 @@ export type NavbarSimpleSectionMessages = {
 
 export type NavbarMessages = {
   home: NavbarHomeMessages;
-  vegetableGarden: NavbarVegetableGardenMessages;
+  garden: NavbarGardenMessages;
   restaurant: NavbarRestaurantMessages;
   festiveEntertainment: NavbarFestiveEntertainmentMessages;
   about: NavbarAboutMessages;

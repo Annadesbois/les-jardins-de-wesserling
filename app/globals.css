@@ -52,6 +52,10 @@ main h2 {
   @apply text-2xl font-bold text-title mb-2 md:mb-8 sm:mb-6;
 }
 
+main h3 {
+  @apply font-bold text-title mb-2 md:mb-6;
+}
+
 main ul {
   @apply list-disc pl-8 md:pt-12 pt-5 pb-5 space-y-3;
 }

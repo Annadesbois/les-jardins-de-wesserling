@@ -28,7 +28,7 @@ const HomePage = async ({ params }: PageProp) => {
         "Explorez les différents espaces des Jardins de Wesserling et planifiez votre visite",
       imageSrc: "/restau-du-potager-steeve-josch.webp",
       imageAlt: "Photo des Jardins de Wesserling",
-      href: `/${locale}/vegetable-garden/description`,
+      href: `/${locale}/garden`,
     },
     {
       title: "Les animations festives",
