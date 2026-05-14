@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import Link from "next/link";
 
 const festive = () => {
   return (
@@ -95,7 +96,22 @@ const festive = () => {
         imageSrc="/restau-du-potager-steeve-josch.webp"
         imageAlt="Féeries Nocturnes aux Jardins de Wesserling"
         title="Féeries Nocturnes"
-        subtitle="Les jeudis, vendredis, samedis et dimanches du mois d’août et la semaine du 15 août. De 18h30 à 23h30. Entrée payante par les jardins. Lien vers le site internet du Parc"
+        subtitle={
+          <>
+            "Les jeudis, vendredis, samedis et dimanches du mois d’août et la
+            semaine du 15 août. De 18h30 à 23h30. Entrée payante par les
+            jardins. Lien vers le site internet du Parc"
+            <br />
+            <Link
+              href="https://www.parc-wesserling.fr"
+              target="blank"
+              rel="noopener noreferrer"
+              className="underline hover:no-underline"
+            >
+              Plus d’info sur le site du Parc de Wesserling
+            </Link>
+          </>
+        }
         firstParagraph={"Grand jeu. Balades contées. Spectacle de feu."}
         secondParagraph={
           "Buvette, tartes flambées, bretzels natures ou gratinés, crêpes, glaces."
@@ -125,7 +141,23 @@ const festive = () => {
         imageSrc="/restau-du-potager-steeve-josch.webp"
         imageAlt="Le Noël au jardin aux Jardins de Wesserling"
         title="Le Noël au jardin"
-        subtitle="Les jeudis, vendredis, samedis et dimanches du mois de décembre et la semaine entre Noël et Nouvel An. De 17h à 23h. Entrée payante par le Château des Manufacturiers. Vin chaud ou jus de pomme chaud offert avec le ticket d’entrée. Lien vers le site internet du Parc"
+        subtitle={
+          <>
+            "Les jeudis, vendredis, samedis et dimanches du mois de décembre et
+            la semaine entre Noël et Nouvel An. De 17h à 23h. Entrée payante par
+            le Château des Manufacturiers. Vin chaud ou jus de pomme chaud
+            offert avec le ticket d’entrée."
+            <br />
+            <Link
+              href="https://www.parc-wesserling.fr"
+              target="blank"
+              rel="noopener noreferrer"
+              className="underline hover:no-underline"
+            >
+              Plus d’info sur le site du Parc de Wesserling
+            </Link>
+          </>
+        }
         firstParagraph={"Balade théâtralisée dans les jardins illuminés."}
         secondParagraph={
           "Buvette, vin chaud, jus de pomme chaud, chocolat chaud, tartines chaudes, soupes, desserts."

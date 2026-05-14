@@ -6,6 +6,7 @@
   --surface-2: linear-gradient(180deg, #e8fae8 0%,
    #e3fadf 100%);
   --surface-3: #bff293;
+  --title: #75af00;
   --text-primary: #720f2e;
   --text-secondary: #440519;
   --accent: #badf4a;
@@ -15,6 +16,7 @@
   --color-surface-1: var(--surface-1);
   --color-surface-2: var(--surface-2);
   --color-surface-3: var(--surface-3);
+  --color-title: var(--title);
   --color-primary: var(--text-primary);
   --color-secondary: var(--text-secondary);
   --color-accent: var(--accent);
@@ -72,6 +74,7 @@ main h1 {
   line-height: 2.25rem;
   font-weight: bold;
   text-align: center;
+  color: var(--title)
 }
 
 .title-block {

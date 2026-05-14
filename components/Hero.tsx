@@ -1,10 +1,11 @@
 import Image from "next/image";
+import React from "react";
 
 type HeroProps = {
   imageSrc: string;
   imageAlt: string;
   title?: string;
-  subtitle?: string;
+  subtitle?: React.ReactNode;
   firstParagraph?: string;
   secondParagraph?: string;
   thirdParagraph?: string;
