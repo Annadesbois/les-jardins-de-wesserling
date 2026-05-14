@@ -3,8 +3,7 @@
 /* Design tokens / theme */
 :root {
   --surface-1: #ffffff;
-  --surface-2: linear-gradient(180deg, #e8fae8 0%,
-   #e3fadf 100%);
+  --surface-2: linear-gradient(180deg, #e8fae8 0%, #e3fadf 100%);
   --surface-3: #bff293;
   --title: #75af00;
   --text-primary: #720f2e;
@@ -24,69 +23,41 @@
 
 /* Base / global element styles */
 body {
-  font-family: var(--font-playpen), "Segoe UI", system-ui, -apple-system,
-    BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  font-family:
+    var(--font-playpen),
+    "Segoe UI",
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
   color: var(--text-primary);
   background: var(--surface-1);
   overflow-x: hidden;
 }
 
-/* body::before {
-  content: "";
-  position: fixed;
-  inset: 0;
-  z-index: -1;
-  pointer-events: none;
-
-  background-image: linear-gradient(
-      rgba(181, 240, 154, 0.87),
-      rgba(153, 227, 87, 0.87)
-    ),
-    image-set(url("/textures/fabric2.webp") type("image/webp"));
-
-  background-repeat: no-repeat, repeat;
-  background-size: 100%, 512px 512px;
-  background-blend-mode: multiply, normal;
-}
-
-.fabric-surface-light::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  z-index: -1;
-  filter: blur(0.8px);
-  border-radius: inherit;
-  background-color: var(--surface-1);
-  background-image: url("/textures/fabric2.webp");
-  background-repeat: repeat;
-  background-size: 512px 512px;
-  background-blend-mode: multiply;
-} */
-
-h1, h2 {
-  font-family: var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
+h1,
+h2 {
+  font-family:
+    var(--font-courgette), "Lucida Handwriting", "Brush Script MT",
     "Segoe Script", "Comic Sans MS", cursive;
 }
 
 main h1 {
-  margin-bottom: 2.5rem;
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-  font-weight: bold;
-  text-align: center;
-  color: var(--title)
+  @apply mb-2 md:mb-8 text-center text-3xl font-bold text-title;
 }
 
-.title-block {
-  @apply relative rounded-3xl p-4;
+h2 {
+  @apply text-2xl font-bold text-title;
+}
+
+main ul {
+  @apply list-disc pl-8 md:pt-12 pt-5 pb-5 space-y-3;
 }
 
 .page-layout {
-  @apply relative flex flex-col w-full gap-12 px-6 pb-22 pt-12 font-medium;
-}
-
-.description-page-layout {
-  @apply relative p-6 pb-12 rounded-tl-4xl rounded-br-4xl rounded-tr-sm rounded-bl-sm
+  @apply relative flex flex-col w-full gap-12 px-6 pb-12 md:pb-22 pt-12 md:pt-14 font-medium;
 }
 
 /* Component / utility-like classes using @apply */
@@ -108,14 +79,6 @@ main h1 {
 
 .navigation-menu-trigger:hover {
   @apply bg-surface-3;
-}
-
-.content-area ul {
-  @apply pt-3;
-}
-
-.content-area li {
-  @apply list-disc ml-7 pt-3;
 }
 
 .form-input {
