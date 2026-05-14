@@ -1,9 +1,11 @@
 import Image from "next/image";
+import React from "react";
 
 type HeroProps = {
   imageSrc: string;
   imageAlt: string;
   title?: string;
+  subtitle?: React.ReactNode;
   firstParagraph?: string;
   secondParagraph?: string;
   thirdParagraph?: string;
@@ -18,6 +20,7 @@ const Hero = ({
   imageSrc,
   imageAlt,
   title,
+  subtitle,
   firstParagraph,
   secondParagraph,
   thirdParagraph,
@@ -47,6 +50,7 @@ const Hero = ({
 
       <section className="flex w-full flex-col md:w-1/2 gap-3">
         <h2 className="text-2xl font-bold">{title}</h2>
+        {subtitle && <p className="bg-accent p-3 rounded-2xl font-bold">{subtitle}</p>}
         <p>{firstParagraph}</p>
         <p>{secondParagraph}</p>
         <p>{thirdParagraph}</p>
