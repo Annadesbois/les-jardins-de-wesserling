@@ -62,6 +62,141 @@ const PartnersPage = () => {
             Le Fonds Social Européen FSE
           </Link>
         </h2>
+
+        <p>
+          Le Fonds Social Européen + (FSE+) soutient financièrement le chantier
+          d’insertion des Jardins de Wesserling, notamment pour l’embauche,
+          l’accompagnement socioprofessionnel et l’encadrement technique des
+          salariés en insertion.
+        </p>
+
+        <p>
+          Le FSE+ est le principal instrument de l’Union Européenne pour
+          soutenir l’emploi, la formation, l’inclusion sociale et la lutte
+          contre la précarité. La programmation actuelle couvre la période
+          2021-2027.
+        </p>
+
+        <ul className="space-y-2">
+          <li>
+            La Délégation générale à l’emploi et à la formation professionnelle
+            (DGEFP) pilote le{" "}
+            <Link
+              href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-fse"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              programme national FSE+ « emploi, inclusion, jeunesse et
+              compétences »
+            </Link>
+            , doté de 4 milliards d’euros pour la période 2021-2027.
+          </li>
+
+          <li>
+            La Direction générale de la cohésion sociale (DGCS) pilote le{" "}
+            <Link
+              href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-seaa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              programme national FSE+ « Soutien européen à l’aide alimentaire »
+            </Link>
+            .
+          </li>
+
+          <li>
+            Les Régions gèrent également des programmes régionaux FEDER-FSE+.{" "}
+            <Link
+              href="https://www.europe-en-france.gouv.fr/en/programmes-europeens-2021-2027/programme-reunion-feder-fse-2021-2027"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link"
+            >
+              En savoir plus
+            </Link>
+          </li>
+        </ul>
+      </section>
+      {/* <section className="text-justify">
+  <h2>
+    <Link
+      href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="link"
+    >
+      Le Fonds Social Européen FSE+
+    </Link>
+  </h2>
+
+  <p>
+    Le Fonds Social Européen + (FSE+) soutient financièrement le chantier
+    d’insertion des Jardins de Wesserling, notamment pour
+    l’accompagnement socioprofessionnel et l’encadrement technique.
+  </p>
+
+  <p>
+    Programme de financement de l’Union Européenne, le FSE+ soutient des
+    actions en faveur de l’emploi, de la formation et de l’inclusion
+    sociale. La programmation actuelle couvre la période 2021-2027.
+  </p>
+
+  <ul>
+    <li>
+      La DGEFP pilote le
+      {" "}
+      <Link
+        href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-fse"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="link"
+      >
+        programme national FSE+ « emploi, inclusion, jeunesse et compétences »
+      </Link>
+      .
+    </li>
+
+    <li>
+      La DGCS pilote le
+      {" "}
+      <Link
+        href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-seaa"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="link"
+      >
+        programme national FSE+ « Soutien européen à l’aide alimentaire »
+      </Link>
+      .
+    </li>
+
+    <li>
+      Les Régions gèrent également des programmes régionaux FEDER-FSE+.
+      {" "}
+      <Link
+        href="https://fse.gouv.fr/programmes-regionaux"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="link"
+      >
+        En savoir plus
+      </Link>
+    </li>
+  </ul>
+</section> */}
+      {/* <section className="text-justify">
+        <h2>
+          <Link
+            href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="link"
+          >
+            Le Fonds Social Européen FSE
+          </Link>
+        </h2>
         <p>
           Le Fonds Social Européen apporte une aide financière substantielle au
           chantier d’Insertion des Jardins de Wesserling, pour le financement du
@@ -158,7 +293,7 @@ const PartnersPage = () => {
             accords locaux de lignes de partage.
           </li>
         </ul>
-      </section>
+      </section> */}
       <section className="text-justify space-y-6">
         <h2>Nos partenaires techniques</h2>
         <h3>

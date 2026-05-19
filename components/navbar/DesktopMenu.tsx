@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 
 import { FaChevronDown } from "react-icons/fa";
@@ -6,14 +8,8 @@ import { NavigationMenu } from "radix-ui";
 import type { NavbarProps } from "@/types/i18n";
 
 const DesktopMenu = ({ locale, messages }: NavbarProps) => {
-  const {
-    home,
-    garden,
-    restaurant,
-    festiveEntertainment,
-    about,
-    contact,
-  } = messages;
+  const { home, garden, restaurant, festiveEntertainment, about, contact } =
+    messages;
   const base = `/${locale}`;
 
   return (

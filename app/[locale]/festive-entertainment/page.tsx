@@ -1,7 +1,7 @@
 import Hero from "@/components/Hero";
 import Link from "next/link";
 
-const festive = () => {
+const FestivePage = () => {
   return (
     <div className="page-layout text-center font-bold">
       <h1>Les animations festives</h1>
@@ -171,4 +171,4 @@ const festive = () => {
     </div>
   );
 };
-export default festive;
+export default FestivePage;

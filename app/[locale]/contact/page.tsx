@@ -1,5 +1,4 @@
 import LinkButton from "@/components/LinkButton";
-import ContactForm from "@/components/ContactForm";
 import { getMessages } from "@/lib/i18n";
 import { createPageHelpers } from "@/lib/metadata";
 
@@ -9,11 +8,9 @@ const { generateMetadata, getPageMessages } = createPageHelpers("contact");
 
 export { generateMetadata };
 
-const contact = async ({ params }: PageProp) => {
+const ContactPage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const contact = await getPageMessages(params);
-  const messages = getMessages(locale);
-  const formMessages = messages.contactForm as ContactFormMessages;
 
   const emailName = "giteaufildeleau68";
   const provider = "gmail.com";
@@ -21,8 +18,8 @@ const contact = async ({ params }: PageProp) => {
 
   return (
     <div className="page-layout">
-      <h1 className="fabric-surface-light title-block">{contact.title}</h1>
-      <div className="relative fabric-surface-light w-full rounded-xl flex flex-col gap-6 md:gap-8 p-6 md:p-8 mb-6 md:mb-10 max-w-212 shadow-sm">
+      <h1 className="fabric-surface-light">{contact.title}</h1>
+      <div className="relative fabric-surface-light w-full rounded-xl flex flex-col gap-6 md:gap-8 p-6 md:p-8 mb-6 md:mb-10 shadow-sm">
         <div className="text-center">
           <p className="font-bold">Les Jardins de Wesserling</p>
           <address className="not-italic">
@@ -76,4 +73,4 @@ const contact = async ({ params }: PageProp) => {
     </div>
   );
 };
-export default contact;
+export default ContactPage;

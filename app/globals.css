@@ -72,7 +72,7 @@ main ul {
 }
 
 .menu-link:hover {
-  @apply bg-surface-3 border-none outline-none;
+  @apply bg-accent border-none outline-none;
 }
 
 .menu-sub-content {
@@ -84,13 +84,5 @@ main ul {
 }
 
 .navigation-menu-trigger:hover {
-  @apply bg-surface-3;
-}
-
-.form-input {
-  @apply w-full rounded-lg border border-surface-3/40 bg-white/80 px-3 py-2 shadow-sm focus:outline-none focus:ring-2 focus:ring-accent font-sans;
-}
-
-.form-label {
-  @apply mb-1 block font-semibold;
+  @apply bg-accent;
 }
