@@ -1,7 +1,16 @@
 import Image from "next/image";
 import React from "react";
 
+import LinkButton from "./LinkButton";
+
+type HeroButton = {
+  href: string;
+  label: string;
+  external?: boolean;
+}
+
 type HeroProps = {
+  locale?: string;
   imageSrc: string;
   imageAlt: string;
   title?: string;
@@ -15,9 +24,11 @@ type HeroProps = {
   sixthParagraph?: React.ReactNode;
   seventhParagraph?: React.ReactNode;
   textPosition?: "left" | "right";
+  button?: HeroButton;
 };
 
 const Hero = ({
+  locale,
   imageSrc,
   imageAlt,
   title,
@@ -31,6 +42,7 @@ const Hero = ({
   sixthParagraph,
   seventhParagraph,
   textPosition = "right",
+  button
 }: HeroProps) => {
   const isTextLeft = textPosition === "left";
 
@@ -65,6 +77,16 @@ const Hero = ({
         {fifthParagraph && <p>{fifthParagraph}</p>}
         {sixthParagraph && <p>{sixthParagraph}</p>}
         {seventhParagraph && <p>{seventhParagraph}</p>}
+
+        {button && (
+          <LinkButton
+            href={button.external ? button.href : `/${locale}${button.href}`}
+            external={button.external}
+            className="mt-4"
+            >
+              {button.label}
+            </LinkButton>
+        )}
       </section>
     </div>
   );

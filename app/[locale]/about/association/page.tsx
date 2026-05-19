@@ -1,3 +1,4 @@
+import LinkButton from "@/components/LinkButton";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -110,6 +111,9 @@ const AssociationPage = () => {
           <li>
             Créer de l’emploi notamment pour des personnes rencontrant des
             difficultés dans ce domaine
+            <LinkButton href={`/$locale/about/mission`} className="mb-8 mt-6">
+              Plus d'info sur notre mission sociale
+            </LinkButton>
           </li>
           <li>
             Contribuer à mettre en valeur le remarquable patrimoine industriel
@@ -162,11 +166,9 @@ const AssociationPage = () => {
           Les activités de l’association sont l’occasion de rencontres
           constructives et conviviales, ouvertes à toutes les bonnes volontés.
         </p>
-        <Link href="/$locale/contact" className="mx-auto text-center">
-          <button className="bg-accent text-primary hover:bg-primary/90 hover:text-white px-6 py-3 text-base font-bold shadow-sm rounded-2xl mt-8">
-            Je souhaite devenir bénévole, je vous contacte
-          </button>
-        </Link>
+        <LinkButton href={`/$locale/about/support-us`}className="mt-8">
+          Nous soutenir ou devenir bénévole
+        </LinkButton>
       </section>
       <Image
         src="/leaf-divider.png"

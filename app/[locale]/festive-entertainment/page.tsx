@@ -165,6 +165,7 @@ const festive = () => {
         thirdParagraph={
           "Pendant environ une heure, les participants embarquent dans une balade contée qui les mène à la découverte de l’univers de Noël, de ses valeurs, de sa magie. Tout cela au travers des jardins illuminés. La balade se termine à la Ferme de Wesserling, aux décors de Noël chaleureux, autour d’une boisson chaude ou d’un repas convivial."
         }
+        // button={{ href: "https://www.parc-wesserling.fr", external: true, label: "Plus d’info sur le site du Parc de Wesserling"}}
         textPosition="left"
       />
     </div>

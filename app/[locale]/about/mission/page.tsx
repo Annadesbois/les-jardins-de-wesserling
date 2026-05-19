@@ -1,7 +1,17 @@
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import LinkButton from "@/components/LinkButton";
 
-function MissionPage() {
+import type { PageProp } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
+
+// const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
+
+// export { generateMetadata };
+const MissionPage = async ({ params }: PageProp) => {
+  const { locale } = await params;
+  // const mission = await getPageMessages(params);
+
   return (
     <div className="page-layout text-justify">
       <h1>Mission Sociale</h1>
@@ -77,8 +87,8 @@ function MissionPage() {
         laquelle le stagiaire reste employé dans le chantier d’insertion), lever
         les freins à l’emploi, répondre aux offres d’emploi."
       />
-      <h3 className="bg-accent text-primary font-bold text-xl p-3 rounded-4xl text-center mt-8 mb-4">
-        Pour candidater à un poste en insertion professionnelle
+      <h3 className="text-primary font-bold text-3xl p-3 rounded-4xl text-center mt-8 mb-4">
+        Candidater à un poste en insertion professionnelle
       </h3>
       <p className="font-bold">
         Pour candidater à un poste en insertion professionnelle dans un chantier
@@ -106,7 +116,8 @@ function MissionPage() {
         l’Activité Economique, et faire ainsi connaissance avec de futurs
         employeurs.
       </p>
+      <LinkButton href={`/${locale}/contact`} className="text-xl mt-4">Nous contacter</LinkButton>
     </div>
   );
-}
-export default MissionPage
+};
+export default MissionPage;
