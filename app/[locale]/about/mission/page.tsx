@@ -1,9 +1,9 @@
 import Link from "next/link";
 import Hero from "@/components/Hero";
-import LinkButton from "@/components/Button";
+import LinkButton from "@/components/LinkButton";
 
-import type {PageProp} from "@/types/i18n";
-import {createPageHelpers} from "@/lib/metadata";
+import type { PageProp } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
 // const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
 
@@ -119,5 +119,5 @@ const MissionPage = async ({ params }: PageProp) => {
       <LinkButton href={`/${locale}/contact`}>Nous contacter</LinkButton>
     </div>
   );
-}
-export default MissionPage
+};
+export default MissionPage;

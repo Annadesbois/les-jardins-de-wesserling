@@ -2,7 +2,7 @@
 
 import { FormEvent, useState } from "react";
 
-import Button from "./Button";
+import Button from "./LinkButton";
 
 import { ContactFormProps } from "@/types/i18n";
 

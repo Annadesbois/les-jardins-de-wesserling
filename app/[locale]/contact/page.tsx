@@ -1,4 +1,4 @@
-import LinkButton from "@/components/Button";
+import LinkButton from "@/components/LinkButton";
 import ContactForm from "@/components/ContactForm";
 import { getMessages } from "@/lib/i18n";
 import { createPageHelpers } from "@/lib/metadata";
@@ -65,8 +65,11 @@ const contact = async ({ params }: PageProp) => {
           </address>
         </div>
         <div className="my-7">
-          <LinkButton href={`https://www.parc-wesserling.fr/preparez-votre-visite/`} external>
-              {contact.reservation}
+          <LinkButton
+            href={`https://www.parc-wesserling.fr/preparez-votre-visite/`}
+            external
+          >
+            {contact.reservation}
           </LinkButton>
         </div>
       </div>

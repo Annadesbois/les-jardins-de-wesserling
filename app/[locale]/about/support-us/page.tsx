@@ -1,13 +1,13 @@
-import LinkButton from "@/components/Button";
+import LinkButton from "@/components/LinkButton";
 
-import type {PageProp} from "@/types/i18n";
-import {createPageHelpers} from "@/lib/metadata";
+import type { PageProp } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
 // const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
 
 // export { generateMetadata };
 
-const SupportUsPage = async ({params}: PageProp) => {
+const SupportUsPage = async ({ params }: PageProp) => {
   const { locale } = await params;
   // const supportUs = await getPageMessages(params);
 

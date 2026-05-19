@@ -1,7 +1,18 @@
 import Hero from "@/components/Hero";
 import Link from "next/link";
 
-const GardenPage = () => {
+import type { PageProp } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
+import LinkButton from '@/components/LinkButton';
+
+// const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
+
+// export { generateMetadata };
+
+const GardenPage = async ({ params }: PageProp) => {
+  const { locale } = await params;
+  // const garden = await getPageMessages(params);
+
   return (
     <div className="page-layout">
       <h1>Un potager à visiter</h1>
@@ -80,7 +91,10 @@ const GardenPage = () => {
           insertion professionnelle.
         </p>
       </section>
-      <section className="space-y-6">
+      <LinkButton href="https://www.parc-wesserling.fr/billetterie/" external>
+        Lien vers la billeterie sur le site du Parc de Wesserling
+      </LinkButton>
+      <section className="md:mt-8">
         <h2 className="text-center pt-10">
           Le potager de Wesserling initie le visiteur à l’art du jardinage
           respectueux de l’environnement, tout en offrant une flânerie insolite.
@@ -89,7 +103,9 @@ const GardenPage = () => {
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
             imageAlt=""
-            description={"L’allée centrale qui relie les anciens bassins, est l’ossature du potager. Elle fait le lien entre horticulture et patrimoine industriel de Wesserling. L’agencement des légumes, fleurs et aromates, représente des motifs textiles créés dans l’ancienne Manufacture. Chaque année, une nouvelle composition est présentée, en lien avec le thème du Festival des Jardins Métissés."}
+            description={
+              "L’allée centrale qui relie les anciens bassins, est l’ossature du potager. Elle fait le lien entre horticulture et patrimoine industriel de Wesserling. L’agencement des légumes, fleurs et aromates, représente des motifs textiles créés dans l’ancienne Manufacture. Chaque année, une nouvelle composition est présentée, en lien avec le thème du Festival des Jardins Métissés."
+            }
             textPosition="right"
           />
           <Hero
@@ -106,19 +122,33 @@ const GardenPage = () => {
             description={
               "Un verger conservatoire de cognassiers, une terrasse de petits fruits et d’aromatiques, complètent ce jardin gourmand, dont les productions sont vendues ou transformées au Resto du Potager."
             }
+            locale={locale}
+            button={{
+              href: "/restaurant",
+              label: "Découvrir le Resto du Potager",
+            }}
             textPosition="right"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
             imageAlt=""
             description={
-              "Afin d’être accessible à tous, y compris aux personnes à mobilité réduite, de nombreux lieux de repos, immergés dans la végétation,ponctuent les allées du potager."
+              "Afin d’être accessible à tous, y compris aux personnes à mobilité réduite, de nombreux lieux de repos, immergés dans la végétation, ponctuent les allées du potager."
             }
             textPosition="left"
           />
         </div>
+        <p className="text-center">
+          En adhérant à l’association ou en devenant donateur, vous bénéficiez
+          d’un avantage fiscal de 66%, l’association étant reconnue d’intérêt
+          public. Cela participe au financement des actions en faveur de
+          l’emploi.
+        </p>
+        <LinkButton href="/support-us " className="mt-8">
+          Adhérer à l’association
+        </LinkButton>
       </section>
     </div>
   );
-}
-export default GardenPage
+};
+export default GardenPage;
