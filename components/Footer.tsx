@@ -5,8 +5,13 @@ import republicFrancaise from "@/public/logos/republique-francaise.svg";
 import grandEst from "@/public/logos/region-grand-est.png";
 import alsace from "@/public/logos/collectivite-europeenne-alsace.png";
 import thurDoller from "@/public/logos/pays-thur-doller.png";
-import leader from "@/public/logos/feader-leader.jpg";
+// import leader from "@/public/logos/feader-leader.jpg";
 import stAmarin from "@/public/logos/vallée-de-st-amarin.svg";
+import alliance from "@/public/logos/fondation-alliance-cairpsa-carpreca.jpg";
+import sm4 from "@/public/logos/sm4.png";
+import total from "@/public/logos/total-energies.jpg";
+import patrimoine from "@/public/logos/fondation-du-patrimoine.png";
+import hermes from "@/public/logos/fondation-hermes.png";
 
 import ab from "@/public/logos/ab_logo.png";
 import eurofeuille from "@/public/logos/eurofeuille_logo.png";
@@ -126,7 +131,7 @@ const Footer = ({ messages }: FooterProps) => {
                   className="logo-image"
                 />
               </a>
-              <a
+              {/* <a
                 href="https://www.europe-en-france.gouv.fr/en/leader-accompagne-territoires-ruraux"
                 aria-label={footerMessages.leaderAria}
                 target="_blank"
@@ -138,7 +143,7 @@ const Footer = ({ messages }: FooterProps) => {
                   alt={footerMessages.leaderAlt}
                   className="logo-image"
                 />
-              </a>
+              </a> */}
               <a
                 href="https://www.saint-amarin.com/"
                 aria-label={footerMessages.stAmarinAria}
@@ -152,6 +157,29 @@ const Footer = ({ messages }: FooterProps) => {
                   className="logo-image"
                 />
               </a>
+              <div className="flex h-28 items-center justify-center rounded-xl p-4">
+                <Image src={sm4} alt={"sm4Alt"} className="logo-image" />
+              </div>
+              <div className="flex h-28 items-center justify-center rounded-xl p-4">
+                <Image
+                  src={alliance}
+                  alt={"allianceAlt"}
+                  className="max-w-[8.5rem] object-contain"
+                />
+              </div>
+              <div className="flex h-28 items-center justify-center rounded-xl p-4">
+                <Image
+                  src={patrimoine}
+                  alt={"patrimoineAlt"}
+                  className="logo-image"
+                />
+              </div>
+              <div className="flex h-28 items-center justify-center rounded-xl p-4">
+                <Image src={total} alt={"totalAlt"} className="logo-image" />
+              </div>
+              <div className="flex h-28 items-center justify-center rounded-xl p-4">
+                <Image src={hermes} alt={"hermesAlt"} className="logo-image" />
+              </div>
             </div>
           </div>
 

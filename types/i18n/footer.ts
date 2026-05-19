@@ -1,8 +1,8 @@
 import type { Locale } from "@/lib/i18n.config";
-import leader from '@/public/logos/feader-leader.jpg';
-import eurofeuille from '@/public/logos/eurofeuille_logo.png';
-import potagers from '@/public/logos/potagers-de-france.jpg';
-import instagram from '@/public/logos/Instagram_Glyph_Gradient.png';
+import sm4 from '@/public/logos/sm4.png';
+import alliance from '@/public/logos/fondation-alliance-cairpsa-carpreca.jpg';
+import patrimoine from '@/public/logos/fondation-du-patrimoine.png';
+import total from '@/public/logos/total-energies.jpg';
 
 export type FooterMessages = {
   fondsSocialEuropeenAria: string;
@@ -19,6 +19,11 @@ export type FooterMessages = {
   leaderAlt: string;
   stAmarinAria: string;
   stAmarinAlt: string;
+  sm4Alt: string;
+  allianceAlt: string;
+  patrimoineAlt: string;
+  totalAlt: string;
+  hermesAlt: string;
   abAlt: string;
   eurofeuilleAlt: string;
   potagersAlt: string;
