@@ -30,20 +30,34 @@
   },
 
   "footer": {
-    "fondsSocialEuropeenAria": "Lien vers le site du Fonds Social Européen",
-    "fondsSocialEuropeenAlt": "Logo Fonds Social Européen",
-    "republiqueFrancaiseAria": "Lien vers le site de la République Française",
-    "republiqueFrancaiseAlt": "Logo République Française",
-    "grandEstAria": "Lien vers le site de la Région Grand Est",
-    "grandEstAlt": "Logo Région Grand Est",
-    "alsaceAria": "Lien vers le site de la Région Alsace",
-    "alsaceAlt": "Logo Région Alsace",
-    "thurDollerAria": "Lien vers le site de la Communauté de communes de la Vallée de la Thur et du Doller",
-    "thurDollerAlt": "Logo Communauté de communes de la Vallée de la Thur et du Doller",
-    "leaderAria": "Lien vers le site du programme LEADER",
-    "leaderAlt": "Logo programme LEADER",
-    "stAmarinAria": "Lien vers le site de la Commune de Saint-Amarin",
-    "stAmarinAlt": "Logo Commune de Saint-Amarin"
+    "fondsSocialEuropeenAria": "Link to the European Social Fund website",
+    "fondsSocialEuropeenAlt": "European Social Fund logo",
+    "republiqueFrancaiseAria": "Link to the French Republic website",
+    "republiqueFrancaiseAlt": "French Republic logo",
+    "grandEstAria": "Link to the Grand Est Region website",
+    "grandEstAlt": "Grand Est Region logo",
+    "alsaceAria": "Link to the Alsace Region website",
+    "alsaceAlt": "Alsace Region logo",
+    "thurDollerAria": "Link to the Thur and Doller Valley Community of Communes website",
+    "thurDollerAlt": "Thur and Doller Valley Community of Communes logo",
+    "leaderAria": "Link to the LEADER programme website",
+    "leaderAlt": "LEADER programme logo",
+    "stAmarinAria": "Link to the Saint-Amarin municipality website",
+    "stAmarinAlt": "Saint-Amarin municipality logo",
+    "sm4Alt": "Logo SM4",
+    "allianceAlt": "Logo Fondation Alliance Cairpsa Carpreca",
+    "patrimoineAlt": "Logo Fondation du Patrimoine",
+    "totalAlt": "Logo Total Energies",
+    "hermesAlt": "Logo Hermes",
+    "abAlt": "Organic Farming logo",
+    "eurofeuilleAlt": "European Organic Farming logo",
+    "potagersAlt": "Les Potagers de France logo",
+    "jardinAlt": "Remarkable Garden logo",
+    "pnrAlt": "Regional Natural Park Value logo",
+    "fbAria": "Link to the association's Facebook account",
+    "fbAlt": "Facebook logo",
+    "instagramAria": "Link to the association's Instagram account",
+    "instagramAlt": "Instagram logo"
   },
 
   "home": {
@@ -65,14 +79,5 @@
     "map": "Location of Les Jardins de Wesserling",
     "info": "Information about the association",
     "reservation": "Prepare your visit by visiting the Parc de Wesserling website"
-  },
-
-  "contactForm": {
-    "title": "Contact form",
-    "name": "Name",
-    "message": "Message",
-    "send": "Send",
-    "sending": "Sending…",
-    "success": "Thank you, your message has been sent."
   }
 }
