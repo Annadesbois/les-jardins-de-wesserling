@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import LinkButton from "@/components/LinkButton";
+import Image from "next/image";
 
 import type { PageProp } from "@/types/i18n";
 import { createPageHelpers } from "@/lib/metadata";
@@ -49,6 +50,13 @@ const RestaurantPage = async ({params}: PageProp) => {
       <LinkButton href={`/${locale}/contact`}>
         Contact et Réservation
       </LinkButton>
+      <Image
+              src="/leaf-divider.png"
+              alt="Feuille de division"
+              width={500}
+              height={50}
+              className="mx-auto mb-20 mt-6"
+            />
       <h1 className="font-bold text-2xl">Menu</h1>
     </div>
   );

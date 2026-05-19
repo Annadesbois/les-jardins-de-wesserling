@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Link from "next/link";
+import Image from "next/image";
 
 import type { PageProp } from "@/types/i18n";
 import { createPageHelpers } from "@/lib/metadata";
@@ -94,8 +95,15 @@ const GardenPage = async ({ params }: PageProp) => {
       <LinkButton href="https://www.parc-wesserling.fr/billetterie/" external>
         Lien vers la billeterie sur le site du Parc de Wesserling
       </LinkButton>
+      <Image
+              src="/leaf-divider.png"
+              alt="Feuille de division"
+              width={500}
+              height={50}
+              className="mx-auto mb-20 mt-16"
+            />
       <section className="md:mt-8">
-        <h2 className="text-center pt-10">
+        <h2 className="text-center">
           Le potager de Wesserling initie le visiteur à l’art du jardinage
           respectueux de l’environnement, tout en offrant une flânerie insolite.
         </h2>
