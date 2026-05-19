@@ -144,7 +144,7 @@ const GardenPage = async ({ params }: PageProp) => {
           public. Cela participe au financement des actions en faveur de
           l’emploi.
         </p>
-        <LinkButton href="/support-us " className="mt-8">
+        <LinkButton href={`/${locale}/about/support-us`} className="mt-12">
           Adhérer à l’association
         </LinkButton>
       </section>

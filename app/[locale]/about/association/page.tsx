@@ -111,7 +111,7 @@ const AssociationPage = () => {
           <li>
             Créer de l’emploi notamment pour des personnes rencontrant des
             difficultés dans ce domaine
-            <LinkButton href={`/$locale/about/mission`} className="mb-8">
+            <LinkButton href={`/$locale/about/mission`} className="mb-8 mt-6">
               Plus d'info sur notre mission sociale
             </LinkButton>
           </li>
@@ -166,8 +166,8 @@ const AssociationPage = () => {
           Les activités de l’association sont l’occasion de rencontres
           constructives et conviviales, ouvertes à toutes les bonnes volontés.
         </p>
-        <LinkButton href={`/$locale/about/support-us`}>
-          Je souhaite vous soutenir ou devenir bénévole
+        <LinkButton href={`/$locale/about/support-us`}className="mt-8">
+          Nous soutenir ou devenir bénévole
         </LinkButton>
       </section>
       <Image

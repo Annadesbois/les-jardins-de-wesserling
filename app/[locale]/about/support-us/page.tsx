@@ -35,7 +35,7 @@ const SupportUsPage = async ({ params }: PageProp) => {
             objectifs d’intérêt public
           </li>
         </ul>
-        <LinkButton href={`/${locale}/contact`}>Nous contacter</LinkButton>
+        <LinkButton href={`/${locale}/contact`}className="mt-4">Nous contacter</LinkButton>
       </section>
       <section className="space-y-4">
         <p className="font-bold">
