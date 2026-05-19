@@ -110,6 +110,14 @@ const AssociationPage = () => {
           <li>
             Créer de l’emploi notamment pour des personnes rencontrant des
             difficultés dans ce domaine
+            <p className="p-4">
+              <Link
+                href="/$locale/about/mission"
+                className="bg-accent p-1.5 rounded-md shadow-sm hover:bg-primary/90 hover:text-white text-primary font-bold"
+              >
+                Plus d'info sur notre mission sociale
+              </Link>
+            </p>
           </li>
           <li>
             Contribuer à mettre en valeur le remarquable patrimoine industriel
