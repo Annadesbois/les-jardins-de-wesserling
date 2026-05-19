@@ -1,7 +1,17 @@
 import Link from "next/link";
 import Hero from "@/components/Hero";
+import LinkButton from "@/components/Button";
 
-function MissionPage() {
+import type {PageProp} from "@/types/i18n";
+import {createPageHelpers} from "@/lib/metadata";
+
+// const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
+
+// export { generateMetadata };
+const MissionPage = async ({ params }: PageProp) => {
+  const { locale } = await params;
+  // const mission = await getPageMessages(params);
+
   return (
     <div className="page-layout text-justify">
       <h1>Mission Sociale</h1>
@@ -106,6 +116,7 @@ function MissionPage() {
         l’Activité Economique, et faire ainsi connaissance avec de futurs
         employeurs.
       </p>
+      <LinkButton href={`/${locale}/contact`}>Nous contacter</LinkButton>
     </div>
   );
 }

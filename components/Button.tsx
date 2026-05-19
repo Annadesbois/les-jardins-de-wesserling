@@ -1,22 +1,23 @@
-"use client"
+import Link from "next/link";
 
-import { ReactNode } from "react";
+type LinkButtonProps = {
+  href: string;
+  children: React.ReactNode;
+  className?: string;
+  external?: boolean;
+}
 
-type ButtonProps = {
-  children: ReactNode;
-  disabled?: boolean;
-  type: "button" | "submit" | "reset";
-};
-
-const Button = ({ children, disabled, type = "button" }: ButtonProps) => {
+const LinkButton = ({ href, children, className = "", external }: LinkButtonProps) => {
   return (
-    <button
-      type={type}
-      disabled={disabled}
-      className="rounded-full bg-surface-2 px-6 py-2 font-semibold shadow transition hover:bg-surface-3 cursor-pointer block mx-auto disabled:cursor-not-allowed disabled:opacity-70"
+    <Link
+      href={href}
+      target={external ? "_blank" : undefined}
+      rel={external ? "noopener noreferrer" : undefined}
+      className={`mx-auto flex w-fit justify-center rounded-2xl bg-accent px-6 py-3 mt-8 text-base font-bold text-primary shadow-sm hover:bg-primary/90 hover:text-white ${className}`}
     >
       {children}
-    </button>
+    </Link>
   );
 };
-export default Button;
+
+export default LinkButton;

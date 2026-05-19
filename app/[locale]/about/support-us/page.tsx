@@ -1,6 +1,16 @@
-import Link from "next/link";
+import LinkButton from "@/components/Button";
 
-const SupportUsPage = () => {
+import type {PageProp} from "@/types/i18n";
+import {createPageHelpers} from "@/lib/metadata";
+
+// const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
+
+// export { generateMetadata };
+
+const SupportUsPage = async ({params}: PageProp) => {
+  const { locale } = await params;
+  // const supportUs = await getPageMessages(params);
+
   return (
     <div className="page-layout">
       <h1>Soutenir et participer</h1>
@@ -25,14 +35,12 @@ const SupportUsPage = () => {
             objectifs d’intérêt public
           </li>
         </ul>
-        <Link href="/$locale/contact" className="mx-auto flex justify-center">
-          <button className="bg-accent text-primary hover:bg-primary/90 hover:text-white cursor-pointer px-6 py-3 text-base font-bold shadow-sm rounded-2xl mt-8">
-            Nous contacter
-          </button>
-        </Link>
+        <LinkButton href={`/${locale}/contact`}>Nous contacter</LinkButton>
       </section>
       <section className="space-y-4">
-        <p className="font-bold">Pour adhérer à l’association Les Jardins de Wesserling :</p>
+        <p className="font-bold">
+          Pour adhérer à l’association Les Jardins de Wesserling :
+        </p>
         <p>
           Remplir le bulletin d’adhésion et le renvoyer avec le règlement par
           chèque à « Association Les Jardins de Wesserling 16 rue de Ranspach
@@ -42,7 +50,9 @@ const SupportUsPage = () => {
           Le règlement peut également être fait par virement bancaire, ou en se
           rendant sur place dans les bureaux de l’association.
         </p>
-        <p className="text-blue-800">Lien vers bulletin d’adhésion imprimable</p>
+        <p className="text-blue-800">
+          Lien vers bulletin d’adhésion imprimable
+        </p>
       </section>
     </div>
   );
