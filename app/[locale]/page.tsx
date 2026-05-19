@@ -1,10 +1,12 @@
+import Image from "next/image";
+
 import Hero from "@/components/Hero";
+import LinkButton from "@/components/LinkButton";
 import { SingleCardProps } from "@/components/SingleCard";
 import ThreeCards from "@/components/ThreeCards";
-import { createPageHelpers } from "@/lib/metadata";
 
+import { createPageHelpers } from "@/lib/metadata";
 import type { PageProp } from "@/types/i18n";
-import Image from "next/image";
 
 const { generateMetadata, getPageMessages } = createPageHelpers("home");
 
@@ -75,6 +77,9 @@ const HomePage = async ({ params }: PageProp) => {
         className="mx-auto mb-20 mt-6"
       />
       <ThreeCards cards={cards} />
+      <LinkButton href="https://www.parc-wesserling.fr/billetterie/" external className="mt-4">
+        Lien vers la billeterie sur le site du Parc de Wesserling
+      </LinkButton>
     </div>
   );
 };
