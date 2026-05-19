@@ -43,7 +43,16 @@
     "leaderAria": "Lien vers le site du programme LEADER",
     "leaderAlt": "Logo programme LEADER",
     "stAmarinAria": "Lien vers le site de la Commune de Saint-Amarin",
-    "stAmarinAlt": "Logo Commune de Saint-Amarin"
+    "stAmarinAlt": "Logo Commune de Saint-Amarin",
+    "abAlt": "Logo Agriculture Biologique",
+    "eurofeuilleAlt": "Logo Agriculture Biologique Européenne",
+    "potagersAlt": "Logo Les Potagers de France",
+    "jardinAlt": "Logo Jardin Remarquable",
+    "pnrAlt": "Logo Valeur Parc Naturel Régional",
+    "fbAria": "Lien vers le compte facebook de l'association",
+    "fbAlt": "Logo Facebook",
+    "instagramAria": "Lien vers le compte instagram de l'association",
+    "instagramAlt": "Logo instagram"
   },
 
   "home": {
@@ -65,14 +74,5 @@
     "map": "Localisation des Jardins de Wesserling",
     "info": "Renseignements sur l'association",
     "reservation": "Préparez votre visite en visitant le site du Parc de Wesserling"
-  },
-
-  "contactForm": {
-    "title": "Formulaire de contact",
-    "name": "Nom",
-    "message": "Message",
-    "send": "Envoyer",
-    "sending": "Envoi en cours…",
-    "success": "Merci, votre message a bien été envoyé."
   }
 }

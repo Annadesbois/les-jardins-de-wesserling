@@ -30,20 +30,29 @@
   },
 
   "footer": {
-    "fondsSocialEuropeenAria": "Lien vers le site du Fonds Social Européen",
-    "fondsSocialEuropeenAlt": "Logo Fonds Social Européen",
-    "republiqueFrancaiseAria": "Lien vers le site de la République Française",
-    "republiqueFrancaiseAlt": "Logo République Française",
-    "grandEstAria": "Lien vers le site de la Région Grand Est",
-    "grandEstAlt": "Logo Région Grand Est",
-    "alsaceAria": "Lien vers le site de la Région Alsace",
-    "alsaceAlt": "Logo Région Alsace",
-    "thurDollerAria": "Lien vers le site de la Communauté de communes de la Vallée de la Thur et du Doller",
-    "thurDollerAlt": "Logo Communauté de communes de la Vallée de la Thur et du Doller",
-    "leaderAria": "Lien vers le site du programme LEADER",
-    "leaderAlt": "Logo programme LEADER",
-    "stAmarinAria": "Lien vers le site de la Commune de Saint-Amarin",
-    "stAmarinAlt": "Logo Commune de Saint-Amarin"
+    "fondsSocialEuropeenAria": "Link zur Website des Europäischen Sozialfonds",
+    "fondsSocialEuropeenAlt": "Logo des Europäischen Sozialfonds",
+    "republiqueFrancaiseAria": "Link zur Website der Französischen Republik",
+    "republiqueFrancaiseAlt": "Logo der Französischen Republik",
+    "grandEstAria": "Link zur Website der Region Grand Est",
+    "grandEstAlt": "Logo der Region Grand Est",
+    "alsaceAria": "Link zur Website der Region Elsass",
+    "alsaceAlt": "Logo der Region Elsass",
+    "thurDollerAria": "Link zur Website der Communauté de communes des Thur- und Doller-Tals",
+    "thurDollerAlt": "Logo der Communauté de communes des Thur- und Doller-Tals",
+    "leaderAria": "Link zur Website des LEADER-Programms",
+    "leaderAlt": "Logo des LEADER-Programms",
+    "stAmarinAria": "Link zur Website der Gemeinde Saint-Amarin",
+    "stAmarinAlt": "Logo der Gemeinde Saint-Amarin",
+    "abAlt": "Logo für biologischen Landbau",
+    "eurofeuilleAlt": "Logo für europäischen biologischen Landbau",
+    "potagersAlt": "Logo Les Potagers de France",
+    "jardinAlt": "Logo Jardin Remarquable",
+    "pnrAlt": "Logo Valeur Parc Naturel Régional",
+    "fbAria": "Link zum Facebook-Konto des Vereins",
+    "fbAlt": "Facebook-Logo",
+    "instagramAria": "Link zum Instagram-Konto des Vereins",
+    "instagramAlt": "Instagram-Logo"
   },
 
   "home": {
@@ -65,14 +74,5 @@
     "map": "Lage der Les Jardins de Wesserling",
     "info": "Informationen über die Vereinigung",
     "reservation": "Bereiten Sie Ihren Besuch vor, indem Sie die Website des Parc de Wesserling besuchen"
-  },
-
-  "contactForm": {
-    "title": "Kontaktformular",
-    "name": "Name",
-    "message": "Nachricht",
-    "send": "Senden",
-    "sending": "Wird gesendet…",
-    "success": "Vielen Dank, Ihre Nachricht wurde erfolgreich gesendet."
   }
 }

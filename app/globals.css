@@ -86,3 +86,11 @@ main ul {
 .navigation-menu-trigger:hover {
   @apply bg-accent;
 }
+
+.logo-card {
+  @apply flex h-28 items-center justify-center rounded-xl p-3
+}
+
+.logo-image {
+  @apply max-w-[4.5rem] object-contain
+}
