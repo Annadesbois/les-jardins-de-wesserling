@@ -193,7 +193,7 @@ const Footer = ({ messages }: FooterProps) => {
               <Image
                 src={ab}
                 alt={footerMessages.abAlt}
-                className="logo-image"
+                className="max-w-16 object-contain"
               />
               <Image
                 src={eurofeuille}
