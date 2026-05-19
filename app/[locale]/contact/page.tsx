@@ -1,5 +1,4 @@
 import LinkButton from "@/components/LinkButton";
-import ContactForm from "@/components/ContactForm";
 import { getMessages } from "@/lib/i18n";
 import { createPageHelpers } from "@/lib/metadata";
 
@@ -12,8 +11,6 @@ export { generateMetadata };
 const ContactPage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const contact = await getPageMessages(params);
-  const messages = getMessages(locale);
-  const formMessages = messages.contactForm as ContactFormMessages;
 
   const emailName = "giteaufildeleau68";
   const provider = "gmail.com";
