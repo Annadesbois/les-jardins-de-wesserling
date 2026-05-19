@@ -170,9 +170,9 @@ const AssociationPage = () => {
           Les activités de l’association sont l’occasion de rencontres
           constructives et conviviales, ouvertes à toutes les bonnes volontés.
         </p>
-        <Link href="/$locale/contact" className="mx-auto text-center">
-          <button className="bg-accent text-primary hover:bg-primary/90 hover:text-white px-6 py-3 text-base font-bold shadow-sm rounded-2xl mt-8">
-            Je souhaite devenir bénévole, je vous contacte
+        <Link href="/$locale/about/support-us" className="mx-auto text-center">
+          <button className="bg-accent text-primary hover:bg-primary/90 hover:text-white cursor-pointer px-6 py-3 text-base font-bold shadow-sm rounded-2xl mt-8">
+            Je souhaite vous soutenir ou devenir bénévole
           </button>
         </Link>
       </section>
