@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const SupportUsPage = () => {
   return (
     <div className="page-layout">
@@ -23,6 +25,11 @@ const SupportUsPage = () => {
             objectifs d’intérêt public
           </li>
         </ul>
+        <Link href="/$locale/contact" className="mx-auto flex justify-center">
+          <button className="bg-accent text-primary hover:bg-primary/90 hover:text-white cursor-pointer px-6 py-3 text-base font-bold shadow-sm rounded-2xl mt-8">
+            Nous contacter
+          </button>
+        </Link>
       </section>
       <section className="space-y-4">
         <p className="font-bold">Pour adhérer à l’association Les Jardins de Wesserling :</p>
