@@ -9,7 +9,7 @@ const { generateMetadata, getPageMessages } = createPageHelpers("contact");
 
 export { generateMetadata };
 
-const contact = async ({ params }: PageProp) => {
+const ContactPage = async ({ params }: PageProp) => {
   const { locale } = await params;
   const contact = await getPageMessages(params);
   const messages = getMessages(locale);
@@ -76,4 +76,4 @@ const contact = async ({ params }: PageProp) => {
     </div>
   );
 };
-export default contact;
+export default ContactPage;
