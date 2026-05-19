@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import LinkButton from "@/components/LinkButton";
 
 const RestaurantPage = () => {
   return (
@@ -36,6 +37,9 @@ const RestaurantPage = () => {
         }
         textPosition="left"
       />
+      <LinkButton href="/contact">
+        Contact et Reservation
+      </LinkButton>
       <h1 className="font-bold text-2xl">Menu</h1>
     </div>
   );
