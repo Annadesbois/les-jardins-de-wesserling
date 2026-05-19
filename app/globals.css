@@ -92,5 +92,5 @@ main ul {
 }
 
 .logo-image {
-  @apply max-w-[4.5rem] object-contain
+  @apply max-w-18 object-contain
 }

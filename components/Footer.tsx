@@ -164,7 +164,7 @@ const Footer = ({ messages }: FooterProps) => {
                 <Image
                   src={alliance}
                   alt={"allianceAlt"}
-                  className="max-w-[8.5rem] object-contain"
+                  className="max-w-34 object-contain"
                 />
               </div>
               <div className="flex h-28 items-center justify-center rounded-xl p-4">
