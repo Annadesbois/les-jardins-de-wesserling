@@ -1,7 +1,16 @@
 import Hero from "@/components/Hero";
 import LinkButton from "@/components/LinkButton";
 
-const RestaurantPage = () => {
+import type { PageProp } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
+
+// const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
+
+// export { generateMetadata };
+
+const RestaurantPage = async ({params}: PageProp) => {
+  const { locale } = await params;
+  // const resto = await getPageMessages(params);
   return (
     <div className="page-layout text-center">
       <h1>Le Resto du Potager</h1>
@@ -37,8 +46,8 @@ const RestaurantPage = () => {
         }
         textPosition="left"
       />
-      <LinkButton href="/contact">
-        Contact et Reservation
+      <LinkButton href={`/${locale}/contact`}>
+        Contact et Réservation
       </LinkButton>
       <h1 className="font-bold text-2xl">Menu</h1>
     </div>
