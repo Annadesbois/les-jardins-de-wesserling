@@ -1,8 +1,10 @@
 import Link from "next/link";
+import Image from "next/image";
 
 import DesktopMenu from "./DesktopMenu";
 import LocaleSwitcher from "./LocaleSwitcher";
 import MobileMenu from "./MobileMenu";
+import jdw from "@/public/logos/les-jardins-de-wesserling-logo.svg"
 
 import type { NavbarProps } from "@/types/i18n";
 
@@ -18,8 +20,11 @@ const Navbar = ({ locale, messages }: NavbarProps) => {
         href={base}
         className="flex items-center justify-center lg:justify-start lg:ml-4 "
       >
-        <h1 className="font-bold text-2xl whitespace-nowrap text-primary">
-          Les Jardins de Wesserling
+        <Image src={jdw} alt="Les Jardins de Wesserling logo" className="ml-5 mr-1 w-10 md:mr-2 md:ml-0 md:w-12"></Image>
+        <h1 className="font-bold whitespace-nowrap text-primary text-center text-xl lg:text-lg">
+          Les Jardins de
+          <br className="hidden lg:block" />
+          <span className="lg:"> Wesserling</span>
         </h1>
       </Link>
       <div className="hidden lg:flex lg:items-center lg:justify-end w-full lg:mr-4">
