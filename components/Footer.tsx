@@ -175,7 +175,11 @@ const Footer = ({ messages }: FooterProps) => {
                 />
               </div>
               <div className="flex h-28 items-center justify-center rounded-xl p-4">
-                <Image src={total} alt={"totalAlt"} className="logo-image" />
+                <Image
+                  src={total}
+                  alt={"totalAlt"}
+                  className="max-w-12 object-contain"
+                />
               </div>
               <div className="flex h-28 items-center justify-center rounded-xl p-4">
                 <Image src={hermes} alt={"hermesAlt"} className="logo-image" />

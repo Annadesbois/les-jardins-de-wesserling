@@ -178,7 +178,7 @@ const AssociationPage = () => {
         className="mx-auto mb-20 mt-6"
       />
       <section className="mx-auto max-w-7xl px-4 py-12">
-        <h2 className="mb-20 text-center text-3xl font-bold text-title">
+        <h2 className="pb-8 md:pb-6 text-center text-3xl font-bold text-title">
           Historique de l’association
         </h2>
         <article className="space-y-6 mb-24 text-justify">

@@ -45,7 +45,7 @@ const GardenPage = async ({ params }: PageProp) => {
           siècle. La partie haute de ce domaine fait l’objet d’une découverte
           touristique structurée :
         </p>
-        <div className="mt-10">
+        <div className="mt-10 flex flex-col gap-4 md:gap-0">
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
             imageAlt=""
