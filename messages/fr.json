@@ -95,6 +95,67 @@
     "button": "Lien vers la billeterie sur le site du Parc de Wesserling"
   },
 
+  "garden": {
+    "meta": {
+      "title": "Le jardin potager — Les Jardins de Wesserling",
+      "description": "Découvrez les Jardins de Wesserling, un magnifique jardin potager pédagogique au cœur du Parc de Wesserling."
+    },
+    "title": "Un potager à visiter",
+    "park": {
+      "intro1": "Les potagers de Wesserling sont situés au cœur du remarquable",
+      "link1": "parc industriel de Wesserling",
+      "intro2": ", ouvert au public, intégré au",
+      "link2": "réseau ERIH",
+      "intro3": "du tourisme industriel européen.",
+      "intro4": "Toutes les architectures industrielles y sont représentées, de la révolution industrielle au 18ème siècle jusqu’au déclin du 20ème siècle. La partie haute de ce domaine fait l’objet d’une découverte touristique structurée :",
+      "reception": {
+        "imageAlt": "Photo de la réception du Parc de Wesserling",
+        "description": "Accueil au niveau du château des manufacturiers"
+      },
+      "gardens": {
+        "imageAlt": "Photo du jardin potager des Jardins de Wesserling",
+        "description": "Traversée des jardins par les terrasses méditerranéennes, le parc arboré à l’anglaise, le jardin régulier et son festival, le potager pédagogique, et le parc rural"
+      },
+      "farm": {
+        "imageAlt": "Photo de la ferme des Jardins de Wesserling",
+        "description": "Visite de la ferme et de son rôle dans l’ancienne industrie"
+      },
+      "factory": {
+        "imageAlt": "Photo de l'ancienne usine du Parc de Wesserling",
+        "description": "Découverte des bâtiments industriels et du 'son et lumière' dans la grande chaufferie"
+      },
+      "shop": {
+        "imageAlt": "Photo de la boutique du Parc de Wesserling",
+        "description": "Sortie par la boutique et le café de la salle des turbines"
+      },
+      "association": "C’est dans cet ensemble que l’association Les Jardins de Wesserling a développé son projet social : un potager pédagogique et une restauration légère, dans lesquels travaillent les salariés en insertion professionnelle.",
+      "button": "Lien vers la billeterie sur le site du Parc de Wesserling"
+    },
+    "image": "Feuille de division",
+    "garden": {
+      "intro": "Le potager de Wesserling initie le visiteur à l’art du jardinage respectueux de l’environnement, tout en offrant une flânerie insolite.",
+      "centralPath": {
+        "imageAlt": "Photo du jardin potager des Jardins de Wesserling",
+        "description": "L’allée centrale qui relie les anciens bassins, est l’ossature du potager. Elle fait le lien entre horticulture et patrimoine industriel de Wesserling. L’agencement des légumes, fleurs et aromates, représente des motifs textiles créés dans l’ancienne Manufacture. Chaque année, une nouvelle composition est présentée, en lien avec le thème du Festival des Jardins Métissés."
+      },
+      "pedagogy": {
+        "imageAlt": "Photo du jardin pédagogique des Jardins de Wesserling",
+        "description": "De part et d’autre de cet axe s’étendent les quatre secteurs du potager pédagogique. Leurs parcelles mettent en scène les façons de cultiver en tenant compte des processus naturels : rotation des cultures, associations bénéfiques entre plantes, aide des auxiliaires de culture, gestion du sol et de l’eau, ... Un cheminement au cœur d’une haie dévoile les habitats d’auxiliaires de culture utiles au jardinier. Des panneaux pédagogiques et des jeux éducatifs initient aux secrets du jardinier."
+      },
+      "orchard": {
+        "imageAlt": "Photo du verger des Jardins de Wesserling",
+        "description": "Un verger conservatoire de cognassiers, une terrasse de petits fruits et d’aromatiques, complètent ce jardin gourmand, dont les productions sont vendues ou transformées au Resto du Potager.",
+        "button": "Découvrir le Resto du Potager"
+      },
+      "accessibility": {
+        "imageAlt": "Photo d'un lieu de repos aux Jardins de Wesserling",
+        "description": "Afin d’être accessible à tous, y compris aux personnes à mobilité réduite, de nombreux lieux de repos, immergés dans la végétation, ponctuent les allées du potager."
+      },
+      "membership": "En adhérant à l’association ou en devenant donateur, vous bénéficiez d’un avantage fiscal de 66%, l’association étant reconnue d’intérêt public. Cela participe au financement des actions en faveur de l’emploi.",
+      "button": "Adhérer à l’association"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact & accès — Les Jardins de Wesserling",

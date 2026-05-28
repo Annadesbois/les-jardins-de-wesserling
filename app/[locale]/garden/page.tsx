@@ -6,21 +6,21 @@ import type { PageProp } from "@/types/i18n";
 import { createPageHelpers } from "@/lib/metadata";
 import LinkButton from '@/components/LinkButton';
 
-// const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
+const { generateMetadata, getPageMessages } = createPageHelpers("garden");
 
-// export { generateMetadata };
+export { generateMetadata };
 
 const GardenPage = async ({ params }: PageProp) => {
   const { locale } = await params;
-  // const garden = await getPageMessages(params);
+  const garden = await getPageMessages(params);
 
   return (
     <div className="page-layout">
-      <h1>Un potager à visiter</h1>
+      <h1>{garden.title}</h1>
       <section className="text-center">
         <h3 className="pb-10">
           Les potagers de Wesserling sont situés au cœur du remarquable
-          <Link
+          <Link 
             href="https://www.parc-wesserling.fr/"
             target="_blank"
             rel="noopener noreferrer"
@@ -28,7 +28,7 @@ const GardenPage = async ({ params }: PageProp) => {
           >
             parc industriel de Wesserling
           </Link>
-          , ouvert au public, intégré au{" "}
+          , ouvert au public, intégré au
           <Link
             href="https://www.erih.net/"
             target="_blank"
