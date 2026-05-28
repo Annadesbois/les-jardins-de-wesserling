@@ -378,6 +378,48 @@
     }
   },
 
+  "mission": {
+    "meta": {
+      "title": "Soziale Mission — Les Jardins de Wesserling",
+      "description": "Entdecken Sie die soziale Mission von Les Jardins de Wesserling, die Integrationsbaustelle und die Unterstützung für Mitarbeitende in beruflicher Integration."
+    },
+    "title": "Soziale Mission",
+    "insertionWorksite": {
+      "imageAlt": "Die Integrationsbaustelle von Les Jardins de Wesserling",
+      "title": "Die Integrationsbaustelle",
+      "firstParagraphStart": "Der Verein Les Jardins de Wesserling ist seit 2004 vom französischen Staat als",
+      "aciLinkLabel": "Integrationswerkstatt und Integrationsbaustelle",
+      "firstParagraphEnd": "anerkannt. Dieses System ermöglicht es dem Verein, eine finanzielle Ausgleichszahlung für die Einstellung und Begleitung von Menschen zu erhalten, die Schwierigkeiten beim Zugang zum Arbeitsmarkt haben: junge Menschen ohne Ausbildung, arbeitslose Personen über 50 Jahre, Menschen mit Behinderung oder Personen, die mit verschiedenen vorübergehenden Problemen konfrontiert sind, ...",
+      "secondParagraphStart": "Damit gehört der Verein zur großen Familie der Strukturen für",
+      "iaeLinkLabel": "Integration durch wirtschaftliche Tätigkeit",
+      "secondParagraphMiddle": ". Er ist Teil der",
+      "essLinkLabel": "Sozial- und Solidarwirtschaft",
+      "secondParagraphEnd": ", die 12 Millionen Arbeitsplätze umfasst, getragen von 11 Millionen Ehrenamtlichen, darunter 5 Millionen regelmäßig engagierte Ehrenamtliche."
+    },
+    "employees": {
+      "imageAlt": "Die Mitarbeitenden der Integrationsbaustelle",
+      "title": "Die Mitarbeitenden der Integrationsbaustelle",
+      "firstParagraph": "Derzeit bietet die Integrationsbaustelle von Les Jardins de Wesserling 20 Stellen für Mitarbeitende in beruflicher Integration. 6 feste Mitarbeitende begleiten sie täglich: 3 technische Betreuer, eine sozialberufliche Begleiterin, eine Verwaltungsleiterin, eine Direktorin, 2 Saisonkräfte.",
+      "secondParagraph": "Die Arbeitsgrundlage der Integrationsbaustelle ist die Gartenarbeit im pädagogischen Gemüsegarten und auf dem Gemüsefeld, die Herstellung von Einrichtungen, der Service im Resto du Potager, die Verarbeitung der Erzeugnisse zu Marmeladen, Sirupen, Quittenpasten und Pickles, der Verkauf sowie die Teilnahme an Veranstaltungen. Professionelle Ausrüstung wird ihnen zur Verfügung gestellt, damit sie in verschiedenen Berufen geschult werden können.",
+      "thirdParagraph": "Im Rahmen zahlreicher Einzelgespräche und Gruppenreflexionen werden die Mitarbeitenden in beruflicher Integration dabei begleitet, ihr Projekt zu entwickeln, qualifizierende Ausbildungen zu absolvieren, Praktika in Unternehmen durchzuführen (Phase der beruflichen Praxiserfahrung, während der die Praktikantin oder der Praktikant weiterhin bei der Integrationsbaustelle angestellt bleibt), Hindernisse für den Zugang zur Beschäftigung abzubauen und auf Stellenangebote zu antworten."
+    },
+    "application": {
+      "title": "Bewerbung auf eine Stelle in beruflicher Integration",
+      "introduction": "Um sich auf eine Stelle in beruflicher Integration in einer Integrationsbaustelle zu bewerben, sind eine vorherige Anmeldung bei France Travail und dessen Genehmigung erforderlich. Diese Stellen sind insbesondere vorbehalten für:",
+      "eligibility": {
+        "longTermUnemployed": "Langzeitarbeitslose (mehr als ein Jahr)",
+        "youngAndSenior": "Junge Menschen unter 26 Jahren und Personen über 50 Jahre",
+        "singleParents": "Alleinerziehende",
+        "rsaRecipients": "Empfänger des RSA oder Personen am Ende ihres Anspruchs auf Arbeitslosengeld",
+        "disabledPeople": "Menschen mit Behinderung",
+        "newcomers": "Personen, die erst kürzlich nach Frankreich gekommen sind"
+      },
+      "applicationProcess": "Die Bewerber reichen ihr Motivationsschreiben und ihren Lebenslauf beim Verein Les Jardins de Wesserling ein und führen anschließend ein Einstellungsgespräch, wie in jedem Unternehmen.",
+      "franceTravailInfo": "Arbeitssuchende können von France Travail zu Treffen mit allen Anbietern der Integration durch wirtschaftliche Tätigkeit eingeladen werden und so zukünftige Arbeitgeber kennenlernen.",
+      "contactButton": "Kontaktieren Sie uns"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Kontakt und Anfahrt — Les Jardins de Wesserling",

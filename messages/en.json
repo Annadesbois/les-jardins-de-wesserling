@@ -378,6 +378,48 @@
     }
   },
 
+  "mission": {
+    "meta": {
+      "title": "Social Mission — Les Jardins de Wesserling",
+      "description": "Discover the social mission of Les Jardins de Wesserling, its integration worksite and the support provided to employees in professional integration."
+    },
+    "title": "Social Mission",
+    "insertionWorksite": {
+      "imageAlt": "The integration worksite of Les Jardins de Wesserling",
+      "title": "The integration worksite",
+      "firstParagraphStart": "The Les Jardins de Wesserling association has been approved as an",
+      "aciLinkLabel": "Integration Workshop and Worksite",
+      "firstParagraphEnd": "by the French State since 2004. This scheme enables the association to receive financial compensation for employing and supporting people who have difficulty accessing employment: young people without training, unemployed people over 50, disabled people or people facing various temporary difficulties, ...",
+      "secondParagraphStart": "The association is therefore part of the wider family of organisations for",
+      "iaeLinkLabel": "Integration through Economic Activity",
+      "secondParagraphMiddle": ". It is part of the",
+      "essLinkLabel": "Social and Solidarity Economy",
+      "secondParagraphEnd": ", which represents 12 million jobs, supported by 11 million volunteers including 5 million regular volunteers."
+    },
+    "employees": {
+      "imageAlt": "Employees of the integration worksite",
+      "title": "Employees of the integration worksite",
+      "firstParagraph": "The Les Jardins de Wesserling integration worksite currently offers 20 positions for employees in professional integration. 6 permanent employees support them on a daily basis: 3 technical supervisors, a socio-professional support worker, an administrative manager, a director, and 2 seasonal workers.",
+      "secondParagraph": "The work carried out through the integration worksite is based on gardening in the educational kitchen garden and in the market garden field, creating installations, service at the Resto du Potager, processing produce into jams, syrups, quince pastes and pickles, sales, and participation in events. Professional equipment is made available to them so that they can gain experience in different trades.",
+      "thirdParagraph": "Through multiple individual interviews and group discussions, employees in professional integration are supported in developing their project, undertaking qualifying training, carrying out work placements in companies (Periods of Professional Immersion during which the trainee remains employed by the integration worksite), removing barriers to employment, and applying for job offers."
+    },
+    "application": {
+      "title": "Applying for a professional integration position",
+      "introduction": "To apply for a professional integration position in an integration worksite, prior registration with France Travail and its approval are required. These positions are particularly reserved for:",
+      "eligibility": {
+        "longTermUnemployed": "Long-term unemployed people (more than one year)",
+        "youngAndSenior": "Young people under 26 and people over 50",
+        "singleParents": "Single parents",
+        "rsaRecipients": "Recipients of RSA or people at the end of their unemployment benefit entitlement",
+        "disabledPeople": "Disabled people",
+        "newcomers": "People who have recently arrived in France"
+      },
+      "applicationProcess": "Candidates submit their cover letter and curriculum vitae to the Les Jardins de Wesserling association, then attend a pre-employment interview, as in any company.",
+      "franceTravailInfo": "Jobseekers may be invited by France Travail to meetings with all providers of Integration through Economic Activity, and in this way get to know future employers.",
+      "contactButton": "Contact us"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact and Access — Les Jardins de Wesserling",

@@ -7,4 +7,5 @@ export * from "./garden";
 export * from "./restaurant";
 export * from "./festive";
 export * from "./association";
+export * from "./mission";
 export * from "./contact";
