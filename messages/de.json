@@ -30,6 +30,7 @@
   },
 
   "footer": {
+    "financialPartners": "Unsere finanziellen Partner",
     "fondsSocialEuropeenAria": "Link zur Website des Europäischen Sozialfonds",
     "fondsSocialEuropeenAlt": "Logo des Europäischen Sozialfonds",
     "republiqueFrancaiseAria": "Link zur Website der Französischen Republik",
@@ -57,7 +58,8 @@
     "fbAria": "Link zum Facebook-Konto des Vereins",
     "fbAlt": "Facebook-Logo",
     "instagramAria": "Link zum Instagram-Konto des Vereins",
-    "instagramAlt": "Instagram-Logo"
+    "instagramAlt": "Instagram-Logo",
+    "certifications": "Unsere Qualitätszertifikate"
   },
 
   "home": {
@@ -65,8 +67,440 @@
       "title": "Les Jardins de Wesserling",
       "description": "Entdecken Sie Les Jardins de Wesserling: Küchengarten, Restaurant und festliche Veranstaltungen. Ein Verein, der sich für das kulturelle und natürliche Erbe sowie für soziale Integration durch Gartenarbeit engagiert."
     },
+    "cardOne": {
+      "title": "Die Vereinigung",
+      "caption": "Entdecken Sie unsere Geschichte, unsere Werte und unser Team",
+      "imageAlt": "Foto der Vereinigung Les Jardins de Wesserling"
+    },
+    "cardTwo": {
+      "title": "Die Gärten",
+      "caption": "Entdecken Sie die verschiedenen Bereiche der Les Jardins de Wesserling und planen Sie Ihren Besuch",
+      "imageAlt": "Foto der Les Jardins de Wesserling"
+    },
+    "cardThree": {
+      "title": "Festliche Veranstaltungen",
+      "caption": "Nehmen Sie an unseren Veranstaltungen und Festen das ganze Jahr über teil",
+      "imageAlt": "Foto der Les Jardins de Wesserling in Feierlaune"
+    },
     "hero": {
-      "title": "Willkommen im "
+      "title": "Willkommen im ",
+      "imageAlt": "Willkommensfoto der Les Jardins de Wesserling",
+      "firstParagraph": "Seit 2000 arbeitet die Vereinigung Les Jardins de Wesserling daran, den Parc de Wesserling zu einem lebendigen, kreativen und gemeinschaftsorientierten Ort im Herzen der Vogesen zu machen.",
+      "secondParagraph": "Durch die Küchengärten, Veranstaltungen und Bildungsräume fördert und wertet die Vereinigung diesen Kulturerbe-Ort auf, unterstützt soziale und berufliche Integration und stärkt die lokale Solidarität.",
+      "thirdParagraph": "Heute tragen rund zwanzig Menschen, die an Arbeitsintegrationsprogrammen teilnehmen, unterstützt von einem engagierten Team und vielen Freiwilligen, jedes Jahr zum Leben und zur Entwicklung der Gärten bei.",
+      "fourthParagraph": "Vor allem sind die Les Jardins de Wesserling ein Ort des Teilens, der Kreativität und des Lernens, offen für alle, die sich engagieren oder einfach den Ort entdecken möchten.",
+      "fifthParagraph": "Ein herzliches Willkommen an alle, die sich uns anschließen möchten.",
+      "sixthParagraph": "Im Namen des Vorstands",
+      "seventhParagraph": "Georgette Tacquard, Vorsitzende"
+    },
+    "image": "Trennblatt",
+    "button": "Link zum Ticketverkauf auf der Website des Parc de Wesserling"
+  },
+
+  "garden": {
+    "meta": {
+      "title": "Der Gemüsegarten — Les Jardins de Wesserling",
+      "description": "Entdecken Sie Les Jardins de Wesserling, einen wunderschönen pädagogischen Gemüsegarten im Herzen des Parc de Wesserling."
+    },
+    "title": "Ein Gemüsegarten zum Besuchen",
+    "park": {
+      "intro1": "Die Gemüsegärten von Wesserling befinden sich im Herzen des bemerkenswerten",
+      "link1": "Industrieparks Wesserling",
+      "intro2": ", der für die Öffentlichkeit zugänglich und Teil des",
+      "link2": "ERIH-Netzwerks",
+      "intro3": "des europäischen Industrietourismus ist.",
+      "intro4": "Hier sind alle Epochen der Industriearchitektur vertreten – von der industriellen Revolution des 18. Jahrhunderts bis zum Niedergang im 20. Jahrhundert. Der obere Teil des Geländes bietet einen strukturierten Rundgang:",
+      "reception": {
+        "imageAlt": "Foto des Empfangsbereichs im Parc de Wesserling",
+        "description": "Empfang beim Schloss der Fabrikanten"
+      },
+      "garden": {
+        "imageAlt": "Foto des Gemüsegartens von Les Jardins de Wesserling",
+        "description": "Rundgang durch die Gärten mit mediterranen Terrassen, dem englischen Landschaftspark, dem formalen Garten und seinem Festival, dem pädagogischen Gemüsegarten und dem ländlichen Park"
+      },
+      "farm": {
+        "imageAlt": "Foto des Bauernhofs von Les Jardins de Wesserling",
+        "description": "Besichtigung des Bauernhofs und seiner Rolle in der ehemaligen Industrieanlage"
+      },
+      "factory": {
+        "imageAlt": "Foto der ehemaligen Fabrik im Parc de Wesserling",
+        "description": "Entdeckung der Industriegebäude sowie der Ton- und Lichtshow im grossen Heizhaus"
+      },
+      "shop": {
+        "imageAlt": "Foto des Shops im Parc de Wesserling",
+        "description": "Ausgang über den Shop und das Café im Turbinensaal"
+      },
+      "association": "In diesem Umfeld hat der Verein Les Jardins de Wesserling sein soziales Projekt entwickelt: einen pädagogischen Gemüsegarten und ein kleines Restaurant, in denen Menschen in beruflicher Eingliederung arbeiten.",
+      "button": "Link zum Ticketverkauf auf der Website des Parc de Wesserling"
+    },
+    "image": "Blatttrenner",
+    "garden": {
+      "intro": "Der Gemüsegarten von Wesserling führt Besucherinnen und Besucher in die umweltfreundliche Gartenkunst ein und lädt zugleich zu einem besonderen Spaziergang ein.",
+      "centralPath": {
+        "imageAlt": "Foto des Gemüsegartens von Les Jardins de Wesserling",
+        "description": "Der zentrale Weg, der die ehemaligen Wasserbecken verbindet, bildet das Rückgrat des Gemüsegartens. Er verbindet Gartenbau mit dem industriellen Erbe von Wesserling. Die Anordnung von Gemüse, Blumen und Kräutern stellt textile Muster dar, die einst in der ehemaligen Manufaktur entworfen wurden. Jedes Jahr wird eine neue Gestaltung passend zum Thema des Festivals der gemischten Gärten präsentiert."
+      },
+      "pedagogy": {
+        "imageAlt": "Foto des pädagogischen Gartens von Les Jardins de Wesserling",
+        "description": "Zu beiden Seiten dieser Achse erstrecken sich die vier Bereiche des pädagogischen Gemüsegartens. Die Beete zeigen Anbaumethoden im Einklang mit natürlichen Prozessen: Fruchtfolge, vorteilhafte Pflanzenkombinationen, Unterstützung durch Nützlinge sowie Boden- und Wassermanagement. Ein Weg durch eine Hecke zeigt Lebensräume für nützliche Gartenhelfer. Informationstafeln und Lernspiele führen in die Geheimnisse des Gärtnerns ein."
+      },
+      "orchard": {
+        "imageAlt": "Foto des Obstgartens von Les Jardins de Wesserling",
+        "description": "Ein Erhaltungsobstgarten mit Quittenbäumen sowie eine Terrasse mit Beeren und Kräutern ergänzen diesen genussvollen Garten, dessen Produkte im Resto du Potager verkauft oder verarbeitet werden.",
+        "button": "Das Resto du Potager entdecken"
+      },
+      "accessibility": {
+        "imageAlt": "Foto eines Ruhebereichs in Les Jardins de Wesserling",
+        "description": "Um allen Menschen, einschliesslich Personen mit eingeschränkter Mobilität, den Zugang zu ermöglichen, befinden sich entlang der Wege des Gemüsegartens zahlreiche Ruhebereiche mitten im Grünen."
+      },
+      "membership": "Wenn Sie Mitglied des Vereins werden oder spenden, profitieren Sie von einer Steuervergünstigung von 66 %, da der Verein als gemeinnützig anerkannt ist. Ihre Unterstützung trägt zur Finanzierung von Beschäftigungsinitiativen bei.",
+      "button": "Dem Verein beitreten"
+    }
+  },
+
+  "restaurant": {
+    "meta": {
+      "title": "Das Restaurant des Gemüsegartens — Les Jardins de Wesserling",
+      "description": "Entdecken Sie das Restaurant des Gemüsegartens, ein Restaurant mit leichter und saisonaler Küche im Herzen von Les Jardins de Wesserling."
+    },
+    "title": "Das Restaurant des Gemüsegartens",
+    "atmosphere": {
+      "imageAlt": "Foto des Restaurants des Gemüsegartens in Les Jardins de Wesserling",
+      "firstParagraph": "Das Restaurant des Gemüsegartens bietet ein einzigartiges Ambiente mitten in einer Umgebung aus Blumen, Gemüse und aromatischen Pflanzen sowie in einem Dekor aus Stoffen der ehemaligen Stoffdruckerei von Wesserling. Es handelt sich um ein soziales Restaurant, in dem der Service von Menschen in beruflicher Eingliederung übernommen wird."
+    },
+    "solidarity": {
+      "imageAlt": "Foto des sozialen Restaurants in Les Jardins de Wesserling",
+      "firstParagraph": "Im Restaurant des Gemüsegartens zu Mittag zu essen bedeutet, Menschen auf Arbeitssuche sowie die Landwirte der umliegenden Bergregion zu unterstützen, da ein Teil der Produkte des Restaurants von ihren Höfen stammt. Darüber hinaus trägt es zur Aufwertung des bemerkenswerten Industrieerbes von Wesserling bei."
+    },
+    "menu": {
+      "imageAlt": "Foto der Speisekarte des Restaurants des Gemüsegartens",
+      "firstParagraph": "Die Menüs spiegeln alle Aromen des Gemüsegartens wider: verschiedene Rohkostschalen, Gemüsetartes, Melba-Desserts mit saisonalen Früchten, Suppen, Sirupe und vieles mehr. Ergänzt wird dies durch Produkte von Landwirten aus den umliegenden Bergen, darunter Wurst- und Käseplatten."
+    },
+    "produce": {
+      "imageAlt": "Foto der frischen Produkte des Restaurants des Gemüsegartens",
+      "firstParagraph": "Das in den Gärten angebaute Gemüse, die Beeren und Kräuter werden frisch im Restaurant des Gemüsegartens verkauft oder zu Konfitüren verarbeitet."
+    },
+    "button": "Kontakt und Reservierung",
+    "image": "Blatttrenner",
+    "menuTitle": "Speisekarte"
+  },
+
+  "festive": {
+    "meta": {
+      "title": "Festliche Veranstaltungen — Les Jardins de Wesserling",
+      "description": "Entdecken Sie die festlichen Veranstaltungen von Les Jardins de Wesserling: das Festival der gemischten Gärten, das Naturfest und vieles mehr."
+    },
+    "title": "Festliche Veranstaltungen",
+    "intro": "Zahlreiche festliche Veranstaltungen beleben das Industrieerbe von Wesserling das ganze Jahr über (Link zur Website des Parks). Getränke und kleine Speisen werden vom Integrationsprojekt des Vereins Les Jardins de Wesserling angeboten: Flammkuchen, einfache oder überbackene Bretzeln, süsse Crêpes (und je nach Saison Eis), Getränke einschliesslich Sirupen aus dem Gemüsegarten. Der Verein Les Jardins de Wesserling organisiert drei eigene Veranstaltungen: den Garten-Tauschmarkt, das Musikfest und die Cocktailabende. Ausserdem übernimmt der Verein die kleine Gastronomie bei Veranstaltungen im Parc de Wesserling, wie Pâques en Folie, dem Tag des Kulturerbes, dem Barfusspfad-Fest, den nächtlichen Lichterfesten, dem Herbstfest und Weihnachten im Garten.",
+    "easter": {
+      "imageAlt": "Pâques en Folie in Les Jardins de Wesserling",
+      "title": "Pâques en Folie",
+      "subtitle": "In der Woche rund um Ostern. Von 12 bis 17 Uhr. Im Hof des Bauernhofs von Wesserling. Eintritt kostenpflichtig.",
+      "firstParagraph": "Ostereiersuche. Spielerische und kreative Workshops.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Osterhasen-Zvieri.",
+      "thirdParagraph": "Tausende Holzeier sind im Rural Park versteckt. Die Teilnehmenden suchen diese Schätze, indem sie Rätsel lösen und Hinweisen folgen. Die Holzeier werden anschliessend gegen echte Schokoladeneier eingetauscht."
+    },
+    "troc": {
+      "imageAlt": "Troc’Jardin in Les Jardins de Wesserling",
+      "title": "Troc’Jardin",
+      "subtitle": "Am letzten Sonntag im April von 10 bis 18 Uhr. Im Hof des Bauernhofs von Wesserling. Freier Eintritt.",
+      "firstParagraph": "Tauschbereich. Spielerische Workshops. Beratungsstände. Gemüsestand.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes.",
+      "thirdParagraph": "Dies ist ein besonderer Moment für Hobbygärtnerinnen und Hobbygärtner, um Pflanzen, Werkzeuge oder Tipps auszutauschen. Die Teilnehmenden können ihre Gegenstände ab 10 Uhr morgens abgeben. Sie werden mit der Währung des Tages „bezahlt“: Radieschen-Münzen, mit denen sie Pflanzen und Gegenstände ihrer Wahl erwerben können. Radieschen-Münzen können auch durch Spiele, den Kauf eines Flammkuchens oder einer Vereinsmitgliedschaft erworben werden."
+    },
+    "festival": {
+      "imageAlt": "Festival des Jardins Métissés in Les Jardins de Wesserling",
+      "title": "Festival des Jardins Métissés",
+      "subtitle": "Von Juni bis Oktober. Von 10 bis 18:30 Uhr.",
+      "firstParagraph": "Getränke, Tartes, Rohkost, Wurst- oder Käseplatten, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "secondParagraph": "Das Ökomuseum des Parc de Wesserling ist bereits ab Mai geöffnet. Das Festival des Jardins Métissés beginnt jedoch erst im Juni. Seine temporären Gärten entführen die Besucherinnen und Besucher jedes Jahr mit einem neuen Thema in poetische, künstlerische, spielerische und exotische Welten … perfekt für schöne Familientage!"
+    },
+    "music": {
+      "imageAlt": "Fête de la Musique in Les Jardins de Wesserling",
+      "title": "Fête de la Musique",
+      "subtitle": "Am Freitag, der dem 21. Juni am nächsten liegt. Von 18 bis 23 Uhr. Im Hof des Bauernhofs von Wesserling. Freier Eintritt.",
+      "firstParagraph": "Musik den ganzen Abend über. Kostenloser Besuch der Gärten und des Festivals der gemischten Gärten.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "thirdParagraph": "Musikliebhaberinnen und Musikliebhaber können unter den Vordächern des Bauernhofs oder auf den Hängen des Rural Parks Musik verschiedenster Stilrichtungen entdecken. Das Fête de la Musique in Wesserling findet in der bemerkenswerten Kulisse des Industrieerbes von Wesserling statt."
+    },
+    "cocktail": {
+      "imageAlt": "Soirées cocktails in Les Jardins de Wesserling",
+      "title": "Soirées cocktails",
+      "subtitle": "Drei Freitage im Juli. Von 18 bis 22 Uhr. In den Gemüsegärten von Wesserling. Eintritt über die Gärten kostenpflichtig. Ein Cocktail ist im Eintritt enthalten.",
+      "firstParagraph": "Cocktails mit oder ohne Alkohol, Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "secondParagraph": "Musikalische Atmosphäre. Markt mit Kunsthandwerkern und Designerinnen.",
+      "thirdParagraph": "Ein Moment der Entspannung und Geselligkeit in einem Garten, der im Licht der untergehenden Sonne ganz anders erscheint. Eine Gelegenheit, Kunst im Garten in all ihren Formen zu erleben: musikalisch, grafisch, skulptural, choreografisch und mehr."
+    },
+    "nocturnes": {
+      "imageAlt": "Féeries Nocturnes in Les Jardins de Wesserling",
+      "title": "Féeries Nocturnes",
+      "subtitle": {
+        "text": "Donnerstags, freitags, samstags und sonntags im August sowie in der Woche rund um den 15. August. Von 18:30 bis 23:30 Uhr. Eintritt über die Gärten kostenpflichtig.",
+        "link": "Weitere Informationen auf der Website des Parc de Wesserling"
+      },
+      "firstParagraph": "Grosses Spiel. Erzählerische Spaziergänge. Feuershow.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "thirdParagraph": "Sobald die Nacht hereinbricht, erleuchten die Gärten und alles wird magisch. Die Féeries Nocturnes sind ein unvergessliches Erlebnis für Familien und Freunde."
+    },
+    "automne": {
+      "imageAlt": "Fête d'Automne in Les Jardins de Wesserling",
+      "title": "Fête d'Automne",
+      "subtitle": "An einem Sonntag Mitte Oktober. Von 10 bis 18:30 Uhr. Eintritt über das Schloss der Fabrikanten kostenpflichtig.",
+      "firstParagraph": "Gartentipps. Apfelsaftpressen. Kreative Workshops. Gemüsestand.",
+      "secondParagraph": "Getränke, Flammkuchen, Suppenbar, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "thirdParagraph": "Gärten in leuchtenden Herbstfarben, reichhaltige Gemüseernte … Dies ist die letzte Veranstaltung vor dem Ende des Festivals der gemischten Gärten. Die Gärtner geben Tipps, Besucherinnen und Besucher können beim Pressen von Apfelsaft zusehen und dieses saisonale Produkt probieren. Eine reichhaltige Suppenbar stellt frisch geerntetes Gemüse in den Mittelpunkt. Alles ist darauf ausgerichtet, Augen und Gaumen zu erfreuen."
+    },
+    "christmas": {
+      "imageAlt": "Noël au jardin in Les Jardins de Wesserling",
+      "title": "Noël au jardin",
+      "subtitle": {
+        "text": "Donnerstags, freitags, samstags und sonntags im Dezember sowie in der Woche zwischen Weihnachten und Neujahr. Von 17 bis 23 Uhr. Eintritt über das Schloss der Fabrikanten kostenpflichtig. Glühwein oder heisser Apfelsaft im Eintritt enthalten.",
+        "link": "Weitere Informationen auf der Website des Parc de Wesserling"
+      },
+      "firstParagraph": "Theatralischer Spaziergang durch die beleuchteten Gärten.",
+      "secondParagraph": "Getränke, Glühwein, heisser Apfelsaft, heisse Schokolade, warme Brote, Suppen, Desserts.",
+      "thirdParagraph": "Etwa eine Stunde lang erleben die Teilnehmenden einen erzählerischen Spaziergang durch die Welt von Weihnachten, seine Werte und seine Magie – mitten in den beleuchteten Gärten. Der Spaziergang endet auf dem Bauernhof von Wesserling mit seinen gemütlichen Weihnachtsdekorationen bei einem heissen Getränk oder einer geselligen Mahlzeit."
+    }
+  },
+
+  "association": {
+    "meta": {
+      "title": "Unser Verein — Les Jardins de Wesserling",
+      "description": "Entdecken Sie den Verein Les Jardins de Wesserling, seine Geschichte, seine sozialen und ökologischen Ziele sowie seine Entwicklung seit dem Jahr 2000."
+    },
+    "title": "Unser Verein",
+    "intro": {
+      "firstParagraph": "Der pädagogische Gemüsegarten und das Resto du Potager werden vom gemeinnützigen Verein Les Jardins de Wesserling verwaltet. Im Jahr 2025 zählt der Verein 240 Einzel- oder Familienmitglieder, was unter Einbeziehung der Familienangehörigen etwa 800 Personen entspricht.",
+      "secondParagraph": "Ihre Motivation entspricht den Zielen des Vereins:",
+      "objectivesTitle": "Ziele des Vereins",
+      "objectives": {
+        "employment": "Arbeitsplätze schaffen, insbesondere für Menschen mit Schwierigkeiten in diesem Bereich",
+        "heritage": "Zur Aufwertung des bemerkenswerten industriellen Erbes von Wesserling beitragen",
+        "environment": "Für den respektvollen Umgang mit der Umwelt sensibilisieren"
+      },
+      "missionButton": "Mehr Informationen über unsere soziale Mission",
+      "imageAlt": "Foto des Vereins",
+      "thirdParagraph": "Der Verein ist seit 2004 vom Staat als Integrationsbetrieb anerkannt und erhält dadurch kommunale, departementale, regionale, nationale und europäische Fördermittel.",
+      "volunteersTitle": "Die Ehrenamtlichen beteiligen sich ebenfalls an zahlreichen Aktivitäten:",
+      "volunteerActions": {
+        "gardenDesign": "Gestaltung und Entwicklung der Gärten",
+        "educationalActivities": "Pädagogische Aktivitäten",
+        "festiveEvents": "Organisation festlicher Veranstaltungen",
+        "maintenance": "Instandhaltungsarbeiten",
+        "communication": "Kommunikation und Öffentlichkeitsarbeit",
+        "governance": "Mitwirkung an der Vereinsverwaltung"
+      },
+      "closingParagraph": "Die Ehrenamtlichen spielen eine wesentliche Rolle im Leben und in der Entwicklung des Vereinsprojekts.",
+      "supportButton": "Unterstützen und mitmachen"
+    },
+    "dividerAlt": "Blatt-Trennelement",
+    "history": {
+      "title": "Geschichte des Vereins",
+      "paragraphs": [
+        "Der Verein Les Jardins de Wesserling wurde im Jahr 2000 von rund dreißig Einwohnern gegründet, um eine ehrgeizige Herausforderung anzugehen: die Schaffung von Arbeitsplätzen durch die Umwandlung der Industriebrache des Parc de Wesserling.",
+        "Er trat dem Verbund von Vereinen bei, der zunächst vom Département Haut-Rhin und später von der Europäischen Gebietskörperschaft Elsass mit der touristischen Umgestaltung dieses ehemaligen Zentrums der Textilindustrie im Vogesenmassiv beauftragt wurde.",
+        "Die Gärten wurden von den Landschaftsarchitekten Agnès Daval und Philippe Raguin unter Berücksichtigung der Geschichte des Ortes entworfen. Die Umsetzung erfolgte zunächst dank der Arbeit eines ehrenamtlichen Vermessers und wurde im Laufe der Jahre durch das kontinuierliche Engagement der Vereinsmitglieder weiterentwickelt.",
+        "Die ersten Jahre beruhten hauptsächlich auf gemeinschaftlichem Engagement: Rodung, Pflanzungen, Gemüseanbau, Verwaltung des Geländes, Verkauf der Produkte, Unterstützung bei der Arbeitsintegration und Organisation von Veranstaltungen. Mehr als hundert Ehrenamtliche beteiligten sich insbesondere am jährlichen Gartenfest.",
+        "Der Verein verfolgte stets dasselbe Ziel: die Aktivitäten schrittweise zu professionalisieren, sobald die finanziellen Mittel dies erlaubten, um die Arbeitsplätze und die Aufgaben des Vereinsprojekts dauerhaft zu sichern."
+      ],
+      "timelineLabels": {
+        "actions": "Aktionen",
+        "employees": "Anzahl und Funktionen der Mitarbeitenden",
+        "volunteers": "Aufgaben der Ehrenamtlichen"
+      },
+      "timelineItems": [
+        {
+          "years": "2000",
+          "title": "Gründung des Vereins",
+          "actions": {
+            "first": "Gründung des Vereins durch rund dreißig Einwohner.",
+            "second": "Touristische Umgestaltung des Industrieparks Wesserling.",
+            "third": "Anlage eines dekorativen und pädagogischen Gemüsegartens, der für die Öffentlichkeit zugänglich ist.",
+            "fourth": "Erste festliche Veranstaltung: Potager en Fête."
+          },
+          "employees": "Einstellung von 3 Mitarbeitenden im Rahmen des CES-Integrationsprogramms.",
+          "volunteers": "Die Ehrenamtlichen übernahmen Verwaltung, Arbeitsintegration, Rodungsarbeiten, Pflanzungen, Ernte, Verkauf und Veranstaltungen."
+        },
+        {
+          "years": "2002–2003",
+          "title": "Einführung der technischen Betreuung",
+          "actions": {
+            "first": "Technische Betreuung durch das Programm Emplois Jeunes.",
+            "second": "Finanzielle Unterstützung des Staates für 5 Jahre unter der Bedingung, die Stellen dauerhaft zu erhalten."
+          },
+          "employees": "Einstellung von 2 technischen Betreuern und 6 Integrationsstellen.",
+          "volunteers": "Die Ehrenamtlichen konzentrierten sich verstärkt auf Verwaltung, Verkauf, Arbeitsintegration und Veranstaltungen."
+        },
+        {
+          "years": "2004–2009",
+          "title": "Anerkennung als Integrationswerkstatt und Integrationsbaustelle",
+          "actions": {
+            "first": "Vereinbarung mit dem Staat ab 2004.",
+            "second": "Entwicklung einer Winteraktivität: Marmeladen, Sirupe und Quittenpaste.",
+            "third": "Teilnahme an Noël au Jardin."
+          },
+          "employees": "Dauerhafte Sicherung der technischen Betreuerstellen. 10 Integrationsstellen, ab 2008 CDDI-Verträge.",
+          "volunteers": "Die Mitarbeitenden übernahmen Pflege, Produktion und Verarbeitung. Die Ehrenamtlichen entwickelten pädagogische Einrichtungen, Veranstaltungen und Verwaltungsaufgaben weiter."
+        },
+        {
+          "years": "2009–2010",
+          "title": "Professionalisierung der Verwaltung",
+          "actions": {
+            "first": "Professionalisierung administrativer Aufgaben und der sozialberuflichen Begleitung.",
+            "second": "Schaffung gemeinsamer Stellen mit der Integrationsbaustelle Patrimoine et Emploi.",
+            "third": "Begleitung durch einen Unternehmensberater im Rahmen eines DLA-Programms."
+          },
+          "employees": "Schaffung von 2 Stellen: eine Verwaltungskraft und eine Fachkraft für sozialberufliche Begleitung.",
+          "volunteers": "Ein Vereinsmitglied übernahm ehrenamtlich die Personalführung. Die Ehrenamtlichen blieben an Gestaltung, Entwicklung und Verwaltung beteiligt."
+        },
+        {
+          "years": "2011–2020",
+          "title": "Entwicklung der Aktivitäten",
+          "actions": {
+            "first": "Verstärkte sozialberufliche Begleitung.",
+            "second": "Steigende Attraktivität des pädagogischen Gemüsegartens.",
+            "third": "Zahlreiche Veranstaltungen und verarbeitete Produkte.",
+            "fourth": "Einführung eines kleinen Gastronomiebereichs 2014/2017 mit Unterstützung eines DLA-Programms."
+          },
+          "employees": "Ende 2018 wurde eine gemeinsame Leitungsstelle mit der Integrationsbaustelle PE geschaffen.",
+          "volunteers": "Das ehrenamtliche Engagement blieb stark, insbesondere bei den Veranstaltungen, deren Zahl im Laufe des Jahres von 1 auf 8 anstieg."
+        },
+        {
+          "years": "2021–2026",
+          "title": "Strukturierung und Entwicklung des Teams",
+          "actions": {
+            "first": "Trennung der Stellen für Leitung, Verwaltung und sozialberufliche Begleitung.",
+            "second": "Umwandlung der Stellen in Vollzeitstellen.",
+            "third": "Schaffung eines Gemüseanbaubereichs."
+          },
+          "employees": "Der Verein beschäftigt rund dreißig Mitarbeitende: 22 Integrationsstellen, eine Leitungskraft, eine Verwaltungskraft, eine ASP-Fachkraft und 3 technische Betreuer.",
+          "volunteers": "Das ehrenamtliche Engagement entspricht rund 6500 Arbeitsstunden pro Jahr."
+        }
+      ]
+    }
+  },
+
+  "mission": {
+    "meta": {
+      "title": "Soziale Mission — Les Jardins de Wesserling",
+      "description": "Entdecken Sie die soziale Mission von Les Jardins de Wesserling, die Integrationsbaustelle und die Unterstützung für Mitarbeitende in beruflicher Integration."
+    },
+    "title": "Soziale Mission",
+    "insertionWorksite": {
+      "imageAlt": "Die Integrationsbaustelle von Les Jardins de Wesserling",
+      "title": "Die Integrationsbaustelle",
+      "firstParagraphStart": "Der Verein Les Jardins de Wesserling ist seit 2004 vom französischen Staat als",
+      "aciLinkLabel": "Integrationswerkstatt und Integrationsbaustelle",
+      "firstParagraphEnd": "anerkannt. Dieses System ermöglicht es dem Verein, eine finanzielle Ausgleichszahlung für die Einstellung und Begleitung von Menschen zu erhalten, die Schwierigkeiten beim Zugang zum Arbeitsmarkt haben: junge Menschen ohne Ausbildung, arbeitslose Personen über 50 Jahre, Menschen mit Behinderung oder Personen, die mit verschiedenen vorübergehenden Problemen konfrontiert sind, ...",
+      "secondParagraphStart": "Damit gehört der Verein zur großen Familie der Strukturen für",
+      "iaeLinkLabel": "Integration durch wirtschaftliche Tätigkeit",
+      "secondParagraphMiddle": ". Er ist Teil der",
+      "essLinkLabel": "Sozial- und Solidarwirtschaft",
+      "secondParagraphEnd": ", die 12 Millionen Arbeitsplätze umfasst, getragen von 11 Millionen Ehrenamtlichen, darunter 5 Millionen regelmäßig engagierte Ehrenamtliche."
+    },
+    "employees": {
+      "imageAlt": "Die Mitarbeitenden der Integrationsbaustelle",
+      "title": "Die Mitarbeitenden der Integrationsbaustelle",
+      "firstParagraph": "Derzeit bietet die Integrationsbaustelle von Les Jardins de Wesserling 20 Stellen für Mitarbeitende in beruflicher Integration. 6 feste Mitarbeitende begleiten sie täglich: 3 technische Betreuer, eine sozialberufliche Begleiterin, eine Verwaltungsleiterin, eine Direktorin, 2 Saisonkräfte.",
+      "secondParagraph": "Die Arbeitsgrundlage der Integrationsbaustelle ist die Gartenarbeit im pädagogischen Gemüsegarten und auf dem Gemüsefeld, die Herstellung von Einrichtungen, der Service im Resto du Potager, die Verarbeitung der Erzeugnisse zu Marmeladen, Sirupen, Quittenpasten und Pickles, der Verkauf sowie die Teilnahme an Veranstaltungen. Professionelle Ausrüstung wird ihnen zur Verfügung gestellt, damit sie in verschiedenen Berufen geschult werden können.",
+      "thirdParagraph": "Im Rahmen zahlreicher Einzelgespräche und Gruppenreflexionen werden die Mitarbeitenden in beruflicher Integration dabei begleitet, ihr Projekt zu entwickeln, qualifizierende Ausbildungen zu absolvieren, Praktika in Unternehmen durchzuführen (Phase der beruflichen Praxiserfahrung, während der die Praktikantin oder der Praktikant weiterhin bei der Integrationsbaustelle angestellt bleibt), Hindernisse für den Zugang zur Beschäftigung abzubauen und auf Stellenangebote zu antworten."
+    },
+    "application": {
+      "title": "Bewerbung auf eine Stelle in beruflicher Integration",
+      "introduction": "Um sich auf eine Stelle in beruflicher Integration in einer Integrationsbaustelle zu bewerben, sind eine vorherige Anmeldung bei France Travail und dessen Genehmigung erforderlich. Diese Stellen sind insbesondere vorbehalten für:",
+      "eligibility": {
+        "longTermUnemployed": "Langzeitarbeitslose (mehr als ein Jahr)",
+        "youngAndSenior": "Junge Menschen unter 26 Jahren und Personen über 50 Jahre",
+        "singleParents": "Alleinerziehende",
+        "rsaRecipients": "Empfänger des RSA oder Personen am Ende ihres Anspruchs auf Arbeitslosengeld",
+        "disabledPeople": "Menschen mit Behinderung",
+        "newcomers": "Personen, die erst kürzlich nach Frankreich gekommen sind"
+      },
+      "applicationProcess": "Die Bewerber reichen ihr Motivationsschreiben und ihren Lebenslauf beim Verein Les Jardins de Wesserling ein und führen anschließend ein Einstellungsgespräch, wie in jedem Unternehmen.",
+      "franceTravailInfo": "Arbeitssuchende können von France Travail zu Treffen mit allen Anbietern der Integration durch wirtschaftliche Tätigkeit eingeladen werden und so zukünftige Arbeitgeber kennenlernen.",
+      "contactButton": "Kontaktieren Sie uns"
+    }
+  },
+
+  "partners": {
+    "meta": {
+      "title": "Unsere Partner — Les Jardins de Wesserling",
+      "description": "Entdecken Sie die finanziellen und technischen Partner von Les Jardins de Wesserling sowie die Unterstützung durch den Europäischen Sozialfonds."
+    },
+    "title": "Unsere Partner",
+    "financialPartners": {
+      "title": "Unsere finanziellen Partner",
+      "firstParagraph": "Da der Verein Les Jardins de Wesserling als Integrationswerkstatt und Integrationsbaustelle anerkannt ist, profitiert er von regelmäßigen finanziellen Partnerschaften, ebenso wie alle Strukturen der Integration durch wirtschaftliche Tätigkeit.",
+      "secondParagraph": "Weitere finanzielle Partner unterstützen spezifische Investitionsprojekte oder die Schaffung von Stellen innerhalb des Vereins:",
+      "logos": {
+        "stAmarinAlt": "Logo der Gemeinschaft der Gemeinden des Saint-Amarin-Tals",
+        "thurDollerAlt": "Logo des Pays Thur Doller",
+        "alsaceAlt": "Logo der Europäischen Gebietskörperschaft Elsass",
+        "republiqueFrancaiseAlt": "Logo der Französischen Republik",
+        "fondsSocialEuropeenAlt": "Logo des Europäischen Sozialfonds",
+        "grandEstAlt": "Logo der Region Grand Est",
+        "sm4Alt": "Logo des SM4",
+        "allianceAlt": "Logo der Stiftung Alliance CAIRPSA CARPRECA",
+        "fondationPatrimoineAlt": "Logo der Stiftung Fondation du Patrimoine",
+        "totalEnergiesAlt": "Logo von Total Energies",
+        "hermesAlt": "Logo der Fondation Hermès"
+      }
+    },
+    "fse": {
+      "title": "Der Europäische Sozialfonds ESF",
+      "firstParagraph": "Der Europäische Sozialfonds Plus (ESF+) unterstützt die Integrationsbaustelle von Les Jardins de Wesserling finanziell, insbesondere bei der Einstellung, der sozialberuflichen Begleitung und der technischen Betreuung von Mitarbeitenden in beruflicher Integration.",
+      "secondParagraph": "Der ESF+ ist das wichtigste Instrument der Europäischen Union zur Förderung von Beschäftigung, Ausbildung, sozialer Inklusion und zur Bekämpfung von Armut. Die aktuelle Förderperiode umfasst die Jahre 2021–2027.",
+      "firstListItemStart": "Die Generaldelegation für Beschäftigung und Berufsbildung (DGEFP) leitet das",
+      "nationalProgrammeLinkLabel": "nationale ESF+-Programm „Beschäftigung, Inklusion, Jugend und Kompetenzen“",
+      "firstListItemEnd": "mit einem Budget von 4 Milliarden Euro für den Zeitraum 2021–2027.",
+      "secondListItemStart": "Die Generaldirektion für sozialen Zusammenhalt (DGCS) leitet das",
+      "foodAidProgrammeLinkLabel": "nationale ESF+-Programm „Europäische Unterstützung für Lebensmittelhilfe“",
+      "secondListItemEnd": ".",
+      "thirdListItemStart": "Die Regionen verwalten außerdem regionale EFRE-ESF+-Programme.",
+      "learnMoreLinkLabel": "Mehr erfahren",
+      "thirdListItemEnd": ""
+    },
+    "technicalPartners": {
+      "title": "Unsere technischen Partner",
+      "textileParkAssociation": {
+        "title": "Der Verein für Verwaltung und Animation des Textilparks Wesserling",
+        "firstParagraph": "Der Parc de Wesserling, in den der Verein Les Jardins de Wesserling integriert ist, gehört teilweise dem Département Haut-Rhin, heute Europäische Gebietskörperschaft Elsass, und teilweise der Gemeinschaft der Gemeinden des Saint-Amarin-Tals.",
+        "secondParagraph": "Das Département Haut-Rhin (heute die CEA) hat dem Verein für Verwaltung und Animation des Textilparks Wesserling die Aufgabe übertragen, dieses ehemalige industrielle Textilgelände touristisch umzuwandeln und zu verwalten. Es handelt sich um einen Zusammenschluss von Vereinen, zu dem auch der Verein Les Jardins de Wesserling gehört. Eine Vereinbarung legt die Bedingungen der Zusammenarbeit in den gemeinsam genutzten Bereichen fest.",
+        "thirdParagraph": "Der Verein Les Jardins de Wesserling teilt sich Räumlichkeiten mit dem Verein zur Verwaltung des Parc de Wesserling und der Integrationsbaustelle Patrimoine et Emploi. Diese Räumlichkeiten wurden renoviert und den Strukturen anschließend kostenlos zur Verfügung gestellt."
+      },
+      "otherAssociations": {
+        "title": "Weitere Partnervereine",
+        "paragraph": "Verschiedene Vereine beteiligen sich an den Veranstaltungen des Vereins Les Jardins de Wesserling: die Mediathek von Wesserling l’Etoffe des Mots, die Familiengärten von Thann, Geflügel- und Imkervereine, das SM4, die Ecojardiniers Na’Thur Doller, die Recyclingwerkstatt Krempel & Pric a Prac, Les Oiseaux du Stockenberg, das CPIE des Hautes Vosges, die LPO, die Moulin de Storckensohn, ..."
+      }
+    }
+  },
+
+  "supportUs": {
+    "meta": {
+      "title": "Unterstützen und mitmachen — Les Jardins de Wesserling",
+      "description": "Entdecken Sie, wie Sie den Verein Les Jardins de Wesserling unterstützen können: die Gärten besuchen, dem Verein beitreten oder an seinen Aktivitäten teilnehmen."
+    },
+    "title": "Unterstützen und mitmachen",
+    "visit": {
+      "title": "Die Gärten besuchen",
+      "imageAlt": "Die Gärten",
+      "paragraph": "Der Besuch der Gärten, der Kauf der Produkte oder der Besuch des Resto du Potager sind eine Unterstützung für die Mitarbeitenden in beruflicher Integration, die dort arbeiten.",
+      "contactButton": "Anfahrt und Kontakt",
+      "ticketButton": "Ticketverkauf auf der Website des Parc de Wesserling"
+    },
+    "membership": {
+      "title": "Dem Verein beitreten",
+      "imageAlt": "Die Gärten",
+      "firstParagraph": "Der Beitritt zum Verein oder eine Spende bietet einen Steuervorteil von 66 %, da der Verein als gemeinnützig anerkannt ist. Dies trägt zur Finanzierung von Maßnahmen zur Förderung der Beschäftigung bei.",
+      "secondParagraph": "Um dem Verein Les Jardins de Wesserling beizutreten, füllen Sie das Beitrittsformular aus und senden Sie es zusammen mit der Zahlung per Scheck an „Association Les Jardins de Wesserling 16 rue de Ranspach 68470 Husseren-Wesserling“ zurück.",
+      "thirdParagraph": "Die Zahlung kann auch per Banküberweisung oder direkt in den Büros des Vereins erfolgen.",
+      "button": "Mitgliedsformular herunterladen"
+    },
+    "participation": {
+      "title": "Am Vereinsleben teilnehmen",
+      "imageAlt": "Die Gärten",
+      "paragraph": "Die Teilnahme an den Aktivitäten des Vereins trägt zu seinen gemeinnützigen Zielen bei.",
+      "button": "Kontaktieren Sie uns"
     }
   },
 

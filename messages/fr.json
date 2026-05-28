@@ -30,6 +30,7 @@
   },
 
   "footer": {
+    "financialPartners": "Nos partenaires financiers",
     "fondsSocialEuropeenAria": "Lien vers le site du Fonds Social Européen",
     "fondsSocialEuropeenAlt": "Logo Fonds Social Européen",
     "republiqueFrancaiseAria": "Lien vers le site de la République Française",
@@ -57,7 +58,8 @@
     "fbAria": "Lien vers le compte facebook de l'association",
     "fbAlt": "Logo Facebook",
     "instagramAria": "Lien vers le compte instagram de l'association",
-    "instagramAlt": "Logo instagram"
+    "instagramAlt": "Logo instagram",
+    "certifications": "Nos labels de qualité"
   },
 
   "home": {
@@ -65,8 +67,440 @@
       "title": "Les Jardins de Wesserling",
       "description": "Découvrez les Jardins de Wesserling : jardin potager, restaurant et animations festives. Une association engagée pour le patrimoine et l’insertion par le jardinage."
     },
+    "cardOne": {
+      "title": "Découvrez notre association",
+      "caption": "Découvrez notre histoire, nos valeurs et notre équipe",
+      "imageAlt": "Photo de l'association des Jardins de Wesserling"
+    },
+    "cardTwo": {
+      "title": "Visitez nos jardins",
+      "caption": "Explorez notre jardin potager et découvrez la diversité de nos cultures",
+      "imageAlt": "Photo du jardin potager des Jardins de Wesserling"
+    },
+    "cardThree": {
+      "title": "Participez à nos événements",
+      "caption": "Rejoignez-nous pour des animations festives et des activités communautaires",
+      "imageAlt": "Photo des animations festives des Jardins de Wesserling"
+    },
     "hero": {
-      "title": "Bienvenue aux "
+      "title": "Bienvenue aux ",
+      "imageAlt": "Photo d'accueil des Jardins de Wesserling",
+      "firstParagraph": "Depuis 2000, l’association Les Jardins de Wesserling œuvre à la reconversion du Parc de Wesserling en un lieu vivant, créatif et solidaire, au cœur du Massif Vosgien.",
+      "secondParagraph": "À travers les jardins potagers, les animations et les aménagements pédagogiques, l’association valorise ce patrimoine tout en développant l’insertion professionnelle et l’entraide locale.",
+      "thirdParagraph": "Aujourd’hui, une vingtaine de personnes en insertion, accompagnées par une équipe salariée et de nombreux bénévoles, participent chaque année à la vie et au développement des jardins.",
+      "fourthParagraph": "Les Jardins de Wesserling sont avant tout un espace de partage, de créativité et de transmission, ouvert à toutes celles et ceux qui souhaitent s’impliquer ou simplement découvrir le lieu.",
+      "fifthParagraph": "Bienvenue à toutes celles et ceux qui souhaitent nous rejoindre.",
+      "sixthParagraph": "Pour le conseil d’administration",
+      "seventhParagraph": "Georgette Tacquard, présidente"
+    },
+    "image": "Feuille de division",
+    "button": "Lien vers la billeterie sur le site du Parc de Wesserling"
+  },
+
+  "garden": {
+    "meta": {
+      "title": "Le jardin potager — Les Jardins de Wesserling",
+      "description": "Découvrez les Jardins de Wesserling, un magnifique jardin potager pédagogique au cœur du Parc de Wesserling."
+    },
+    "title": "Un potager à visiter",
+    "park": {
+      "intro1": "Les potagers de Wesserling sont situés au cœur du remarquable",
+      "link1": "parc industriel de Wesserling",
+      "intro2": ", ouvert au public, intégré au",
+      "link2": "réseau ERIH",
+      "intro3": "du tourisme industriel européen.",
+      "intro4": "Toutes les architectures industrielles y sont représentées, de la révolution industrielle au 18ème siècle jusqu’au déclin du 20ème siècle. La partie haute de ce domaine fait l’objet d’une découverte touristique structurée :",
+      "reception": {
+        "imageAlt": "Photo de la réception du Parc de Wesserling",
+        "description": "Accueil au niveau du château des manufacturiers"
+      },
+      "garden": {
+        "imageAlt": "Photo du jardin potager des Jardins de Wesserling",
+        "description": "Traversée des jardins par les terrasses méditerranéennes, le parc arboré à l’anglaise, le jardin régulier et son festival, le potager pédagogique, et le parc rural"
+      },
+      "farm": {
+        "imageAlt": "Photo de la ferme des Jardins de Wesserling",
+        "description": "Visite de la ferme et de son rôle dans l’ancienne industrie"
+      },
+      "factory": {
+        "imageAlt": "Photo de l'ancienne usine du Parc de Wesserling",
+        "description": "Découverte des bâtiments industriels et du 'son et lumière' dans la grande chaufferie"
+      },
+      "shop": {
+        "imageAlt": "Photo de la boutique du Parc de Wesserling",
+        "description": "Sortie par la boutique et le café de la salle des turbines"
+      },
+      "association": "C’est dans cet ensemble que l’association Les Jardins de Wesserling a développé son projet social : un potager pédagogique et une restauration légère, dans lesquels travaillent les salariés en insertion professionnelle.",
+      "button": "Lien vers la billeterie sur le site du Parc de Wesserling"
+    },
+    "image": "Feuille de division",
+    "garden": {
+      "intro": "Le potager de Wesserling initie le visiteur à l’art du jardinage respectueux de l’environnement, tout en offrant une flânerie insolite.",
+      "centralPath": {
+        "imageAlt": "Photo du jardin potager des Jardins de Wesserling",
+        "description": "L’allée centrale qui relie les anciens bassins, est l’ossature du potager. Elle fait le lien entre horticulture et patrimoine industriel de Wesserling. L’agencement des légumes, fleurs et aromates, représente des motifs textiles créés dans l’ancienne Manufacture. Chaque année, une nouvelle composition est présentée, en lien avec le thème du Festival des Jardins Métissés."
+      },
+      "pedagogy": {
+        "imageAlt": "Photo du jardin pédagogique des Jardins de Wesserling",
+        "description": "De part et d’autre de cet axe s’étendent les quatre secteurs du potager pédagogique. Leurs parcelles mettent en scène les façons de cultiver en tenant compte des processus naturels : rotation des cultures, associations bénéfiques entre plantes, aide des auxiliaires de culture, gestion du sol et de l’eau, ... Un cheminement au cœur d’une haie dévoile les habitats d’auxiliaires de culture utiles au jardinier. Des panneaux pédagogiques et des jeux éducatifs initient aux secrets du jardinier."
+      },
+      "orchard": {
+        "imageAlt": "Photo du verger des Jardins de Wesserling",
+        "description": "Un verger conservatoire de cognassiers, une terrasse de petits fruits et d’aromatiques, complètent ce jardin gourmand, dont les productions sont vendues ou transformées au Resto du Potager.",
+        "button": "Découvrir le Resto du Potager"
+      },
+      "accessibility": {
+        "imageAlt": "Photo d'un lieu de repos aux Jardins de Wesserling",
+        "description": "Afin d’être accessible à tous, y compris aux personnes à mobilité réduite, de nombreux lieux de repos, immergés dans la végétation, ponctuent les allées du potager."
+      },
+      "membership": "En adhérant à l’association ou en devenant donateur, vous bénéficiez d’un avantage fiscal de 66%, l’association étant reconnue d’intérêt public. Cela participe au financement des actions en faveur de l’emploi.",
+      "button": "Adhérer à l’association"
+    }
+  },
+
+  "restaurant": {
+    "meta": {
+      "title": "Le Resto du Potager — Les Jardins de Wesserling",
+      "description": "Découvrez le Resto du Potager, un restaurant de cuisine légère et de saison situé au cœur des Jardins de Wesserling."
+    },
+    "title": "Le Resto du Potager",
+    "atmosphere": {
+      "imageAlt": "Photo du Resto du Potager aux Jardins de Wesserling",
+      "firstParagraph": "Le Resto du Potager offre un cadre original, immergé dans la végétation florale, légumière et aromatique, et dans un décor de tissus hérités de l’ancienne Manufacture d’Impression de Wesserling.  C’est un restaurant social, le service est assuré par les personnes en insertion professionnelles."
+    },
+    "solidarity": {
+      "imageAlt": "Photo du restaurant social aux Jardins de Wesserling",
+      "firstParagraph": "Déjeuner au Resto du Potager, c’est être solidaire des personnes en recherche d’emploi, ainsi que des agriculteurs de la montagne puisqu’une part des produits du Resto provient de leurs fermes. Et plus largement, cela contribue à la mise en valeur du patrimoine industriel remarquable de Wesserling."
+    },
+    "menu": {
+      "imageAlt": "Photo du menu du Resto du Potager",
+      "firstParagraph": "Les menus reflètent toutes les saveurs du potager : coupelles de crudités variées, tartes aux légumes, melba aux fruits de saison, soupes, sirops, ... S’y ajoutent les produits des agriculteurs de la montagne environnante : assiettes de charcuteries ou de fromages."
+    },
+    "produce": {
+      "imageAlt": "Photo des produits frais du Resto du Potager",
+      "firstParagraph": "Les légumes, petits fruits, aromates produits dans les jardins sont vendus en frais au Resto du Potager, ou transformés en confitures"
+    },
+    "button": "Contact et Réservation",
+    "image": "Feuille de division",
+    "menuTitle": "Menu"
+  },
+
+  "festive": {
+    "meta": {
+      "title": "Animations festives — Les Jardins de Wesserling",
+      "description": "Découvrez les animations festives organisées par les Jardins de Wesserling : Festival des Jardins Métissés, Fête de la Nature, et bien plus encore."
+    },
+    "title": "Les animations festives",
+    "intro": "De nombreuses animations festives donnent vie au patrimoine industriel de Wesserling tout au long de l’année (lien vers le site internet du Parc). La buvette et la petite restauration sont assurées par le chantier d’insertion de l’association Les Jardins de Wesserling : tartes flambées, bretzels nature ou gratiné, crêpes sucrées (et glaces selon la saison), boissons dont sirops du potager. L’association Les Jardins de Wesserling organise trois animations : le Troc’Jardin, la Fête de la Musique et les Soirées cocktails. Elle assure également la petite restauration lors des fêtes organisées dans le Parc de Wesserling, telles que Pâques en Folie, la Fête du Patrimoine et la Fête du Sentier Pieds-nus, les Féeries Nocturnes, la Fête d’Automne et le Noël Au Jardin.",
+    "easter": {
+      "imageAlt": "Pâques en Folie aux Jardins de Wesserling",
+      "title": "Pâques en Folie",
+      "subtitle": "Dans la semaine autour de Pâques. De 12h à 17h. Dans la cour de la Ferme de Wesserling. Entrée payante.",
+      "firstParagraph": "Chasse aux œufs. Ateliers ludiques ou créatifs.",
+      "secondParagraph": "Buvette, tartes flambées, bretzels natures ou gratinés, crêpes, goûter du lièvre de Pâques.",
+      "thirdParagraph": "Des milliers d’œufs en bois sont dissimulés dans le Parc Rural. Les participants recherchent ces trésors en résolvant des énigmes et en suivant des indices. Les œufs de bois sont ensuite échangés contre de vrais œufs en chocolat."
+    },
+    "troc": {
+      "imageAlt": "Troc'Jardin aux Jardins de Wesserling",
+      "title": "Troc’Jardin",
+      "subtitle": "Le dernier dimanche d’avril de 10h à 18h. Dans la cour de la Ferme de Wesserling. Entrée gratuite.",
+      "firstParagraph": "Espace Troc. Ateliers ludiques. Stands de conseils. Stand de vente de légumes.",
+      "secondParagraph": "Buvette, tartes flambées, bretzels natures ou gratinés, crêpes.",
+      "thirdParagraph": "C’est un moment privilégié pour les jardiniers amateurs, pour échanger des plants, des outils ou des conseils. Les Troqueurs peuvent déposer leurs objets dès 10h le matin. Ils sont « payés » en monnaie du jour : la monnaie de radis, avec lesquels ils peuvent acquérir les plantes et objets de leur choix.  La monnaie de radis peut également s’acquérir en participant à des jeux, en achetant une Tarte Flambée ou la carte de membre de l’association."
+    },
+    "festival": {
+      "imageAlt": "Festival des Jardins Métissés aux Jardins de Wesserling",
+      "title": "Festival des Jardins Métissés",
+      "subtitle": "De juin à octobre. De 10h à 18h30.",
+      "firstParagraph": "Buvette, tartes, crudités, assiettes de charcuteries ou de fromage, bretzels natures ou gratinés, crêpes, glaces.",
+      "secondParagraph": "L’écomusée du Parc de Wesserling est ouvert dès le mois de mai. Mais le Festival des Jardins Métissés, débute à partir de juin. Ses jardins éphémères, chaque année selon une thématique nouvelle, emportent les visiteurs vers des univers poétiques, artistiques, ludiques dépaysants... De quoi passer de belles journées en famille !"
+    },
+    "music": {
+      "imageAlt": "Fête de la Musique aux Jardins de Wesserling",
+      "title": "Fête de la Musique",
+      "subtitle": "Le vendredi le plus proche du 21 juin. De 18h à 23h. Dans la cour de la Ferme de Wesserling. Entrée gratuite.",
+      "firstParagraph": "Musique tout au long de la soirée. Visite gratuite des jardins et du Festival des Jardins Métissés.",
+      "secondParagraph": "Buvette, tartes flambées, bretzels natures ou gratinés, crêpes, glaces.",
+      "thirdParagraph": "Les mélomanes peuvent découvrir des musiques de styles variés, attablés sous les auvents de la ferme ou assis sur les pentes du Parc Rural. La fête de la musique à Wesserling se déroule dans le cadre remarquable du patrimoine industriel de Wesserling."
+    },
+    "cocktail": {
+      "imageAlt": "Soirée cocktails aux Jardins de Wesserling",
+      "title": "Soirées cocktails",
+      "subtitle": "3 vendredis de juillet. De 18h à 22h. Dans les potagers de Wesserling. Entrée payante par les jardins. Un cocktail offert avec le ticket d’entrée.",
+      "firstParagraph": "Cocktails avec ou sans alcool, buvette, tartes flambées, bretzels natures ou gratinés, crêpes, glaces.",
+      "secondParagraph": "Ambiance musicale. Stand de créateurs.",
+      "thirdParagraph": "C’est le moment de la détente, de la convivialité, dans un jardin qui apparaît différent sous le soleil couchant. Un moment pour apprécier l’art au jardin, sous toutes ses formes, musicales, graphiques, sculpturales, chorégraphique, ..."
+    },
+    "nocturnes": {
+      "imageAlt": "Féeries Nocturnes aux Jardins de Wesserling",
+      "title": "Féeries Nocturnes",
+      "subtitle": {
+        "text": "Les jeudis, vendredis, samedis et dimanches du mois d’août et la semaine du 15 août. De 18h30 à 23h30. Entrée payante par les jardins.",
+        "link": "Plus d’info sur le site du Parc de Wesserling"
+      },
+      "firstParagraph": "Grand jeu. Balades contées. Spectacle de feu.",
+      "secondParagraph": "Buvette, tartes flambées, bretzels natures ou gratinés, crêpes, glaces.",
+      "thirdParagraph": "Dès la nuit tombée, les jardins s’illuminent, tout devient magie. Les Féeries Nocturnes sont un moment inoubliable, en famille ou entre amis."
+    },
+    "automne": {
+      "imageAlt": "Fête d'Automne aux Jardins de Wesserling",
+      "title": "Fête d’Automne",
+      "subtitle": "Le dimanche à la mi-octobre. De 10h à 18h30. Entrée payante par le Château des Manufacturiers.",
+      "firstParagraph": "Conseils de jardinage. Presse de jus de pomme. Ateliers créatifs. Stand de vente de légumes.",
+      "secondParagraph": "Buvette, tartes flambées, bar à soupes, bretzels natures ou gratinés, crêpes, glaces.",
+      "thirdParagraph": "Jardins aux coloris flamboyants de l’automne, abondance de production légumière, ... C’est le dernier événement avant la fin du Festival des Jardins Métissés. Le jardinier prodigue ses conseils. Les visiteurs peuvent assister à la presse de jus de pomme et déguster ce produit de saison. Un bar à soupe bien achalandé met à l’honneur les légumes fraichement récoltés. Tout est mis en œuvre pour le plaisir des yeux et des papilles."
+    },
+    "christmas": {
+      "imageAlt": "Noël au jardin aux Jardins de Wesserling",
+      "title": "Noël au jardin",
+      "subtitle": {
+        "text": "Les jeudis, vendredis, samedis et dimanches du mois de décembre et la semaine entre Noël et Nouvel An. De 17h à 23h. Entrée payante par le Château des Manufacturiers. Vin chaud ou jus de pomme chaud offert avec le ticket d’entrée.",
+        "link": "Plus d’info sur le site du Parc de Wesserling"
+      },
+      "firstParagraph": "Balade théâtralisée dans les jardins illuminés.",
+      "secondParagraph": "Buvette, vin chaud, jus de pomme chaud, chocolat chaud, tartines chaudes, soupes, desserts.",
+      "thirdParagraph": "Pendant environ une heure, les participants embarquent dans une balade contée qui les mène à la découverte de l’univers de Noël, de ses valeurs, de sa magie. Tout cela au travers des jardins illuminés. La balade se termine à la Ferme de Wesserling, aux décors de Noël chaleureux, autour d’une boisson chaude ou d’un repas convivial."
+    }
+  },
+
+  "association": {
+    "meta": {
+      "title": "Notre association — Les Jardins de Wesserling",
+      "description": "Découvrez l’association Les Jardins de Wesserling, son histoire, ses objectifs sociaux et environnementaux ainsi que son développement depuis 2000."
+    },
+    "title": "Notre association",
+    "intro": {
+      "firstParagraph": "Le potager pédagogique et le Resto du Potager sont gérés par l’association Les Jardins de Wesserling, reconnue d’utilité publique. L’association compte 240 membres en 2025, à titre individuel ou familial, ce qui représente environ 800 personnes en comptant les membres de la famille.",
+      "secondParagraph": "Leur motivation correspond aux objectifs de l’association :",
+      "objectivesTitle": "Objectifs de l’association",
+      "objectives": {
+        "employment": "Créer de l’emploi notamment pour des personnes rencontrant des difficultés dans ce domaine",
+        "heritage": "Contribuer à mettre en valeur le remarquable patrimoine industriel de Wesserling",
+        "environment": "Sensibiliser au respect de l’environnement"
+      },
+      "missionButton": "Plus d'info sur notre mission sociale",
+      "imageAlt": "Photo de l'association",
+      "thirdParagraph": "L’association est conventionnée Chantier d’Insertion avec l’Etat depuis 2004, bénéficiant ainsi de financements intercommunaux, départementaux, régionaux, nationaux et européens.",
+      "volunteersTitle": "Les bénévoles participent également à de nombreuses activités :",
+      "volunteerActions": {
+        "gardenDesign": "Conception et aménagement des jardins",
+        "educationalActivities": "Animations pédagogiques",
+        "festiveEvents": "Organisation des événements festifs",
+        "maintenance": "Travaux d’entretien",
+        "communication": "Communication et promotion",
+        "governance": "Participation à la gestion associative"
+      },
+      "closingParagraph": "Les bénévoles jouent un rôle essentiel dans la vie et le développement du projet associatif.",
+      "supportButton": "Soutenir et participer"
+    },
+    "dividerAlt": "Feuille de division",
+    "history": {
+      "title": "Historique de l’association",
+      "paragraphs": [
+        "L’association Les Jardins de Wesserling a été créée en 2000 par une trentaine d’habitants afin de relever un défi ambitieux : créer de l’emploi à partir de la reconversion de la friche industrielle du Parc de Wesserling.",
+        "Elle a rejoint la fédération d’associations chargée, d’abord par le Département du Haut-Rhin puis par la Collectivité Européenne d’Alsace, d’assurer la reconversion touristique de cet ancien haut lieu de l’industrie textile du Massif Vosgien.",
+        "Les jardins ont été imaginés par les paysagistes Agnès Daval et Philippe Raguin dans le respect de l’histoire du site. Leur implantation a été réalisée grâce au travail d’un géomètre bénévole, puis développée au fil des années par l’implication constante des bénévoles de l’association.",
+        "Les premières années reposaient essentiellement sur l’engagement collectif : défrichage, plantations, culture maraîchère, gestion du site, vente des productions, accompagnement vers l’emploi et organisation des animations. Plus de cent bénévoles participaient notamment à la fête annuelle du potager.",
+        "L’association a toujours poursuivi le même objectif : professionnaliser progressivement les activités dès que les moyens financiers le permettaient, afin de pérenniser les emplois et les missions du projet associatif."
+      ],
+      "timelineLabels": {
+        "actions": "Actions",
+        "employees": "Nombre et fonctions des salariés",
+        "volunteers": "Fonctions des bénévoles"
+      },
+      "timelineItems": [
+        {
+          "years": "2000",
+          "title": "Création de l’association",
+          "actions": {
+            "first": "Création de l’association par une trentaine d’habitants.",
+            "second": "Reconversion touristique du Parc industriel de Wesserling.",
+            "third": "Création d’un potager décoratif et pédagogique ouvert au public.",
+            "fourth": "Premier événement festif : le Potager en Fête."
+          },
+          "employees": "Embauche de 3 emplois en insertion professionnelle selon le dispositif CES.",
+          "volunteers": "Les bénévoles assurent la gestion, l’accompagnement vers l’emploi, le défrichement, les plantations, la récolte, la vente et les animations."
+        },
+        {
+          "years": "2002–2003",
+          "title": "Mise en place de l’encadrement technique",
+          "actions": {
+            "first": "Encadrement technique grâce au dispositif Emplois Jeunes.",
+            "second": "Aide financière de l’État pendant 5 ans, à condition de pérenniser les postes."
+          },
+          "employees": "Embauche de 2 encadrants techniques et 6 postes en insertion professionnelle.",
+          "volunteers": "Les bénévoles se recentrent sur la gestion, la vente, l’accompagnement vers l’emploi et l’animation."
+        },
+        {
+          "years": "2004–2009",
+          "title": "Conventionnement Atelier et Chantier d’Insertion",
+          "actions": {
+            "first": "Conventionnement avec l’État à partir de 2004.",
+            "second": "Développement d’une activité hivernale : confitures, sirops et pâtes de coing.",
+            "third": "Participation à Noël au Jardin."
+          },
+          "employees": "Pérennisation des encadrants techniques. 10 postes en insertion professionnelle, puis CDDI à partir de 2008.",
+          "volunteers": "Les salariés assurent l’entretien, la production et la transformation. Les bénévoles développent les aménagements pédagogiques, les animations et la gestion."
+        },
+        {
+          "years": "2009–2010",
+          "title": "Professionnalisation de la gestion",
+          "actions": {
+            "first": "Professionnalisation des tâches administratives et d’accompagnement socioprofessionnel.",
+            "second": "Création de postes mutualisés avec le chantier d’insertion Patrimoine et Emploi.",
+            "third": "Accompagnement par un conseiller en gestion d’entreprise dans le cadre d’un DLA."
+          },
+          "employees": "Création de 2 postes : une administrative et une personne chargée de l’accompagnement socioprofessionnel.",
+          "volunteers": "Un membre de l’association assure bénévolement la direction du personnel. Les bénévoles restent impliqués dans la conception, l’aménagement et la gestion."
+        },
+        {
+          "years": "2011–2020",
+          "title": "Développement des activités",
+          "actions": {
+            "first": "Accompagnement socioprofessionnel renforcé.",
+            "second": "Attractivité croissante du potager pédagogique.",
+            "third": "Nombreuses animations et produits transformés.",
+            "fourth": "Création de la petite restauration en 2014/2017 avec l’appui d’un DLA."
+          },
+          "employees": "Fin 2018, création d’un poste de direction mutualisé avec le chantier d’insertion PE.",
+          "volunteers": "L’implication bénévole reste forte, notamment dans les animations, qui passent de 1 à 8 au cours de l’année."
+        },
+        {
+          "years": "2021–2026",
+          "title": "Structuration et développement de l’équipe",
+          "actions": {
+            "first": "Démutualisation des postes de direction, de gestion et d’accompagnement socioprofessionnel.",
+            "second": "Passage des postes à plein temps.",
+            "third": "Création d’un secteur maraîcher."
+          },
+          "employees": "L’association compte une trentaine de salariés : 22 postes en insertion, une direction, une administrative, une ASP et 3 encadrants techniques.",
+          "volunteers": "L’implication bénévole représente environ 6500 heures de travail chaque année."
+        }
+      ]
+    }
+  },
+
+  "mission": {
+    "meta": {
+      "title": "Mission sociale — Les Jardins de Wesserling",
+      "description": "Découvrez la mission sociale des Jardins de Wesserling, son chantier d’insertion et l’accompagnement proposé aux salariés en insertion professionnelle."
+    },
+    "title": "Mission Sociale",
+    "insertionWorksite": {
+      "imageAlt": "Le chantier d'insertion des Jardins de Wesserling",
+      "title": "Le chantier d'insertion",
+      "firstParagraphStart": "L’association Les Jardins de Wesserling est conventionnée",
+      "aciLinkLabel": "Ateliers et Chantiers d’Insertion",
+      "firstParagraphEnd": "avec l’Etat depuis 2004. Ce dispositif permet à l’association de percevoir une compensation financière pour l’embauche et l’accompagnement de personnes rencontrant des difficultés d’accès à l’emploi : jeunes sans formation, personnes de plus de 50 ans au chômage, personnes handicapées ou confrontées à divers problèmes passagers, ...",
+      "secondParagraphStart": "Ainsi, l’association rejoint la grande famille des Structures d’",
+      "iaeLinkLabel": "Insertion par l’Activité Economique",
+      "secondParagraphMiddle": ". Elle fait partie de l’",
+      "essLinkLabel": "Economie Sociale et Solidaire",
+      "secondParagraphEnd": ", qui représente 12 millions d’emplois, portés par 11 millions de bénévoles dont 5 millions de bénévoles réguliers."
+    },
+    "employees": {
+      "imageAlt": "Les salariés du chantier d’insertion",
+      "title": "Les salariés du chantier d’insertion",
+      "firstParagraph": "Actuellement, le chantier d’insertion des Jardins de Wesserling offre 20 postes pour des salariés en insertion professionnelle. 6 salariés permanents les accompagnent au quotidien : 3 encadrants techniques, une accompagnatrice socioprofessionnelle, une responsable administrative, une directrice, 2 saisonniers/saisonnières.",
+      "secondParagraph": "La base de travail du chantier d’insertion est le jardinage dans le potager pédagogique et dans le champ maraîcher, la confection d’aménagements, le service au Resto du Potager, la transformation des productions en confitures, sirops, pâtes de coing, pickles, la vente, la participation aux animations. Un matériel professionnel est mis à leur disposition, afin de les exercer à différents métiers.",
+      "thirdParagraph": "Au fil de multiples entretiens individuels et de réflexions en groupes, les salariés en insertion professionnelle sont accompagnés pour mûrir leur projet, suivre des formations qualifiantes, réaliser des stages en entreprise (Période de Mise en Situation en Milieu Professionnel durant laquelle le stagiaire reste employé dans le chantier d’insertion), lever les freins à l’emploi, répondre aux offres d’emploi."
+    },
+    "application": {
+      "title": "Candidater à un poste en insertion professionnelle",
+      "introduction": "Pour candidater à un poste en insertion professionnelle dans un chantier d’insertion, l’inscription préalable à France Travail et son agrément sont nécessaires. Ces postes sont notamment réservés aux :",
+      "eligibility": {
+        "longTermUnemployed": "Chômeurs de longue durée (plus d’un an)",
+        "youngAndSenior": "Jeunes de moins de 26 ans et personnes de plus de 50 ans",
+        "singleParents": "Parents isolés",
+        "rsaRecipients": "Bénéficiaires du RSA ou en fin de droit à l’indemnité de chômage",
+        "disabledPeople": "Personnes handicapées",
+        "newcomers": "Personnes récemment arrivées en France"
+      },
+      "applicationProcess": "Les candidats déposent leur lettre de motivation et curriculum vitae à l’association Les Jardins de Wesserling, puis passent un entretien préalable à l’embauche, comme dans toute entreprise.",
+      "franceTravailInfo": "Les demandeurs d’emplois peuvent être invités par France Travail à des rencontres avec l’ensemble des prestataires de l’Insertion par l’Activité Economique, et faire ainsi connaissance avec de futurs employeurs.",
+      "contactButton": "Nous contacter"
+    }
+  },
+
+  "partners": {
+    "meta": {
+      "title": "Nos partenaires — Les Jardins de Wesserling",
+      "description": "Découvrez les partenaires financiers et techniques des Jardins de Wesserling ainsi que le soutien apporté par le Fonds Social Européen."
+    },
+    "title": "Nos partenaires",
+    "financialPartners": {
+      "title": "Nos partenaires financiers",
+      "firstParagraph": "L’association Les Jardins de Wesserling étant conventionnée Ateliers et Chantier d’insertion, elle bénéficie de partenariats financiers réguliers, au même titre que l’ensemble des structures d’Insertion par l’Activité Economique.",
+      "secondParagraph": "D’autres partenaires financiers apportent leur soutien pour des projets spécifiques d’investissement ou de création de postes associatifs :",
+      "logos": {
+        "stAmarinAlt": "Logo de la Communauté de Communes de la Vallée de Saint-Amarin",
+        "thurDollerAlt": "Logo du Pays Thur Doller",
+        "alsaceAlt": "Logo de la Collectivité Européenne d’Alsace",
+        "republiqueFrancaiseAlt": "Logo de la République Française",
+        "fondsSocialEuropeenAlt": "Logo du Fonds Social Européen",
+        "grandEstAlt": "Logo de la Région Grand Est",
+        "sm4Alt": "Logo du SM4",
+        "allianceAlt": "Logo de la Fondation Alliance CAIRPSA CARPRECA",
+        "fondationPatrimoineAlt": "Logo de la Fondation du Patrimoine",
+        "totalEnergiesAlt": "Logo de Total Energies",
+        "hermesAlt": "Logo de la Fondation Hermès"
+      }
+    },
+    "fse": {
+      "title": "Le Fonds Social Européen FSE",
+      "firstParagraph": "Le Fonds Social Européen + (FSE+) soutient financièrement le chantier d’insertion des Jardins de Wesserling, notamment pour l’embauche, l’accompagnement socioprofessionnel et l’encadrement technique des salariés en insertion.",
+      "secondParagraph": "Le FSE+ est le principal instrument de l’Union Européenne pour soutenir l’emploi, la formation, l’inclusion sociale et la lutte contre la précarité. La programmation actuelle couvre la période 2021-2027.",
+      "firstListItemStart": "La Délégation générale à l’emploi et à la formation professionnelle (DGEFP) pilote le",
+      "nationalProgrammeLinkLabel": "programme national FSE+ « emploi, inclusion, jeunesse et compétences »",
+      "firstListItemEnd": ", doté de 4 milliards d’euros pour la période 2021-2027.",
+      "secondListItemStart": "La Direction générale de la cohésion sociale (DGCS) pilote le",
+      "foodAidProgrammeLinkLabel": "programme national FSE+ « Soutien européen à l’aide alimentaire »",
+      "secondListItemEnd": ".",
+      "thirdListItemStart": "Les Régions gèrent également des programmes régionaux FEDER-FSE+.",
+      "learnMoreLinkLabel": "En savoir plus",
+      "thirdListItemEnd": ""
+    },
+    "technicalPartners": {
+      "title": "Nos partenaires techniques",
+      "textileParkAssociation": {
+        "title": "L’association de Gestion et d’Animation du Parc Textile de Wesserling",
+        "firstParagraph": "Le Parc de Wesserling, dans lequel est intégré l’association Les Jardins de Wesserling, est pour partie propriété du Département du Haut-Rhin, aujourd’hui Collectivité Européenne d’Alsace, et pour partie propriété de la Communauté de Communes de la Vallée de Saint-Amarin.",
+        "secondParagraph": "Le Département du Haut-Rhin (aujourd’hui la CEA) a délégué à l’association de Gestion et d’Animation du Parc Textile de Wesserling, la mission de reconvertir cet ancien domaine industriel textile vers le tourisme, et de le gérer. Il s’agit d’une fédération d’associations, dont l’association Les Jardins de Wesserling est membre. Une convention précise les modalités de collaboration sur les espaces communs aux deux structures.",
+        "thirdParagraph": "L’association Les Jardins de Wesserling partage des locaux commun avec l’association de Gestion du Parc de Wesserling et le chantier d’insertion Patrimoine et Emploi, locaux réhabilités puis mis gratuitement à la disposition des structures."
+      },
+      "otherAssociations": {
+        "title": "Les autres associations partenaires",
+        "paragraph": "Diverses associations participent aux animations de l’association Les Jardins de Wesserling : la médiathèque de Wesserling l’Etoffe des Mots, les Jardins Familiaux de Thann, des sociétés d’aviculteurs et d’apiculteurs, le SM4, les Ecojardiniers Na’Thur Doller, la recyclerie Krempel & Pric a Prac, Les Oiseaux du Stockenberg, le CPIE des Hautes Vosges, la LPO, le Moulin de Storckensohn, ..."
+      }
+    }
+  },
+
+  "supportUs": {
+    "meta": {
+      "title": "Soutenir et participer — Les Jardins de Wesserling",
+      "description": "Découvrez comment soutenir l’association Les Jardins de Wesserling : visiter les jardins, adhérer à l’association ou participer à ses activités."
+    },
+    "title": "Soutenir et participer",
+    "visit": {
+      "title": "Visiter les jardins",
+      "imageAlt": "Les jardins",
+      "paragraph": "Visiter les jardins, acheter ses productions ou consommer au Resto du potager est un encouragement pour les salariés en insertion professionnelle qui y travaillent.",
+      "contactButton": "Plan d'accès et contact",
+      "ticketButton": "Billeterie sur le site du Parc de Wesserling"
+    },
+    "membership": {
+      "title": "Adhérer à l’association",
+      "imageAlt": "Les jardins",
+      "firstParagraph": "Adhérer à l’association ou devenir donateur offre un avantage fiscal de 66%, l’association étant reconnue d’intérêt public. Cela participe au financement des actions en faveur de l’emploi.",
+      "secondParagraph": "Pour adhérer à l’association Les Jardins de Wesserling, remplissez le bulletin d’adhésion et renvoyez-le avec le règlement par chèque à « Association Les Jardins de Wesserling 16 rue de Ranspach 68470 Husseren-Wesserling ».",
+      "thirdParagraph": "Le règlement peut également être fait par virement bancaire, ou en se rendant sur place dans les bureaux de l’association.",
+      "button": "Télécharger le bulletin d'adhésion"
+    },
+    "participation": {
+      "title": "Participer à la vie de l’association",
+      "imageAlt": "Les jardins",
+      "paragraph": "Participer aux activités de l’association contribue à ses objectifs d’intérêt public.",
+      "button": "Nous contacter"
     }
   },
 

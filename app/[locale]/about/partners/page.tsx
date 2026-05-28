@@ -13,44 +13,102 @@ import total from "@/public/logos/total-energies.jpg";
 import patrimoine from "@/public/logos/fondation-du-patrimoine.png";
 import hermes from "@/public/logos/fondation-hermes.png";
 
-const PartnersPage = () => {
+import type { PageProp } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
+
+const { generateMetadata, getPageMessages } = createPageHelpers("partners");
+
+export { generateMetadata };
+
+const PartnersPage = async ({ params }: PageProp) => {
+  const partners = await getPageMessages(params);
 
   return (
     <div className="page-layout">
       <section>
-        <h1 className="pb-8">Nos partenaires</h1>
-        <h2>Nos partenaires financiers</h2>
+        <h1 className="pb-8">{partners.title}</h1>
+
+        <h2>{partners.financialPartners.title}</h2>
+
         <p className="text-justify">
-          L’association Les Jardins de Wesserling étant conventionnée Ateliers
-          et Chantier d’insertion, elle bénéficie de partenariats financiers
-          réguliers, au même titre que l’ensemble des structures d’Insertion par
-          l’Activité Economique.
+          {partners.financialPartners.firstParagraph}
         </p>
+
         <div className="flex flex-wrap relative gap-6 md:gap-8 lg:gap-12 py-14 px-3 md:px-14 justify-center items-center">
-          <Image src={stAmarin} alt={"stAmarinAlt"} width={70} />
-          <Image src={thurDoller} alt={"thurDollerAlt"} width={70} />
-          <Image src={alsace} alt={"alsaceAlt"} width={70} />
           <Image
-            src={republicFrancaise}
-            alt={"republiqueFrancaiseAlt"}
+            src={stAmarin}
+            alt={partners.financialPartners.logos.stAmarinAlt}
             width={70}
           />
-          <Image src={fse} alt={"fondsSocialEuropeenAlt"} width={70} />
+
+          <Image
+            src={thurDoller}
+            alt={partners.financialPartners.logos.thurDollerAlt}
+            width={70}
+          />
+
+          <Image
+            src={alsace}
+            alt={partners.financialPartners.logos.alsaceAlt}
+            width={70}
+          />
+
+          <Image
+            src={republicFrancaise}
+            alt={partners.financialPartners.logos.republiqueFrancaiseAlt}
+            width={70}
+          />
+
+          <Image
+            src={fse}
+            alt={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+            width={70}
+          />
         </div>
+
         <p className="text-justify">
-          D’autres partenaires financiers apportent leur soutien pour des
-          projets spécifiques d’investissement ou de création de postes
-          associatifs :{" "}
+          {partners.financialPartners.secondParagraph}
         </p>
+
         <div className="flex flex-wrap relative gap-6 md:gap-8 lg:gap-12 py-14 px-3 md:px-14 justify-center items-center">
-          <Image src={grandEst} alt={"grandEstAlt"} width={70} />
-          <Image src={sm4} alt={"sm4Alt"} width={70} />
-          <Image src={alliance} alt={"allianceAlt"} width={70} />
-          <Image src={patrimoine} alt={"fondationPatrimoineAlt"} width={70} />
-          <Image src={total} alt={"totalEnergiesAlt"} width={70} />
-          <Image src={hermes} alt={"hermesAlt"} width={70} />
+          <Image
+            src={grandEst}
+            alt={partners.financialPartners.logos.grandEstAlt}
+            width={70}
+          />
+
+          <Image
+            src={sm4}
+            alt={partners.financialPartners.logos.sm4Alt}
+            width={70}
+          />
+
+          <Image
+            src={alliance}
+            alt={partners.financialPartners.logos.allianceAlt}
+            width={70}
+          />
+
+          <Image
+            src={patrimoine}
+            alt={partners.financialPartners.logos.fondationPatrimoineAlt}
+            width={70}
+          />
+
+          <Image
+            src={total}
+            alt={partners.financialPartners.logos.totalEnergiesAlt}
+            width={70}
+          />
+
+          <Image
+            src={hermes}
+            alt={partners.financialPartners.logos.hermesAlt}
+            width={70}
+          />
         </div>
       </section>
+
       <section className="text-justify">
         <h2>
           <Link
@@ -59,279 +117,81 @@ const PartnersPage = () => {
             rel="noopener noreferrer"
             className="link"
           >
-            Le Fonds Social Européen FSE
+            {partners.fse.title}
           </Link>
         </h2>
 
-        <p>
-          Le Fonds Social Européen + (FSE+) soutient financièrement le chantier
-          d’insertion des Jardins de Wesserling, notamment pour l’embauche,
-          l’accompagnement socioprofessionnel et l’encadrement technique des
-          salariés en insertion.
-        </p>
+        <p>{partners.fse.firstParagraph}</p>
 
-        <p>
-          Le FSE+ est le principal instrument de l’Union Européenne pour
-          soutenir l’emploi, la formation, l’inclusion sociale et la lutte
-          contre la précarité. La programmation actuelle couvre la période
-          2021-2027.
-        </p>
+        <p>{partners.fse.secondParagraph}</p>
 
         <ul className="space-y-2">
           <li>
-            La Délégation générale à l’emploi et à la formation professionnelle
-            (DGEFP) pilote le{" "}
+            {partners.fse.firstListItemStart}{" "}
             <Link
               href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-fse"
               target="_blank"
               rel="noopener noreferrer"
               className="link"
             >
-              programme national FSE+ « emploi, inclusion, jeunesse et
-              compétences »
+              {partners.fse.nationalProgrammeLinkLabel}
             </Link>
-            , doté de 4 milliards d’euros pour la période 2021-2027.
+            {partners.fse.firstListItemEnd}
           </li>
 
           <li>
-            La Direction générale de la cohésion sociale (DGCS) pilote le{" "}
+            {partners.fse.secondListItemStart}{" "}
             <Link
               href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-seaa"
               target="_blank"
               rel="noopener noreferrer"
               className="link"
             >
-              programme national FSE+ « Soutien européen à l’aide alimentaire »
+              {partners.fse.foodAidProgrammeLinkLabel}
             </Link>
-            .
+            {partners.fse.secondListItemEnd}
           </li>
 
           <li>
-            Les Régions gèrent également des programmes régionaux FEDER-FSE+.{" "}
+            {partners.fse.thirdListItemStart}{" "}
             <Link
               href="https://www.europe-en-france.gouv.fr/en/programmes-europeens-2021-2027/programme-reunion-feder-fse-2021-2027"
               target="_blank"
               rel="noopener noreferrer"
               className="link"
             >
-              En savoir plus
+              {partners.fse.learnMoreLinkLabel}
             </Link>
+            {partners.fse.thirdListItemEnd}
           </li>
         </ul>
       </section>
-      {/* <section className="text-justify">
-  <h2>
-    <Link
-      href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="link"
-    >
-      Le Fonds Social Européen FSE+
-    </Link>
-  </h2>
 
-  <p>
-    Le Fonds Social Européen + (FSE+) soutient financièrement le chantier
-    d’insertion des Jardins de Wesserling, notamment pour
-    l’accompagnement socioprofessionnel et l’encadrement technique.
-  </p>
-
-  <p>
-    Programme de financement de l’Union Européenne, le FSE+ soutient des
-    actions en faveur de l’emploi, de la formation et de l’inclusion
-    sociale. La programmation actuelle couvre la période 2021-2027.
-  </p>
-
-  <ul>
-    <li>
-      La DGEFP pilote le
-      {" "}
-      <Link
-        href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-fse"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link"
-      >
-        programme national FSE+ « emploi, inclusion, jeunesse et compétences »
-      </Link>
-      .
-    </li>
-
-    <li>
-      La DGCS pilote le
-      {" "}
-      <Link
-        href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-seaa"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link"
-      >
-        programme national FSE+ « Soutien européen à l’aide alimentaire »
-      </Link>
-      .
-    </li>
-
-    <li>
-      Les Régions gèrent également des programmes régionaux FEDER-FSE+.
-      {" "}
-      <Link
-        href="https://fse.gouv.fr/programmes-regionaux"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="link"
-      >
-        En savoir plus
-      </Link>
-    </li>
-  </ul>
-</section> */}
-      {/* <section className="text-justify">
-        <h2>
-          <Link
-            href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link"
-          >
-            Le Fonds Social Européen FSE
-          </Link>
-        </h2>
-        <p>
-          Le Fonds Social Européen apporte une aide financière substantielle au
-          chantier d’Insertion des Jardins de Wesserling, pour le financement du
-          poste d’accompagnement socioprofessionnel et des 3 postes d’encadrants
-          techniques. L’ensemble des Structures d’Insertion par l’Activité
-          Economique peuvent bénéficier de tels soutiens.
-        </p>
-        <p>
-          Créé en 1957, le Fonds Social Européen avait pour but initial d’aider
-          à la reconversion des travailleurs et à leur mobilité. Aujourd’hui, le
-          Fonds Social Européen + est un programme de financement de l’Union
-          Européenne qui soutient des projets pour l’emploi, l’éducation, la
-          formation et l’inclusion sociale.
-        </p>
-        <p>
-          Le FSE s’inscrit dans une programmation européenne de 7 ans. La
-          programmation actuelle couvre 2021-2027. La France dispose de 6,7
-          milliards d’euros au titre du FSE+ sur cette période. Ces crédits sont
-          répartis entre 2 programmes nationaux gérés par l’Etat et 17
-          programmes régionaux :
-        </p>
-        <ul>
-          <li>
-            La Délégation générale à l’emploi et à la formation professionnelle
-            (DGEFP) est autorité de gestion du
-            <Link
-              href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-fse"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link"
-            >
-              programme national FSE+ « emploi, inclusion, jeunesse et
-              compétences »
-            </Link>
-            doté de 4 milliards d’euros pour la période 2021-2027
-          </li>
-          <li>
-            • La Direction générale de la cohésion sociale (DGCS) est autorité
-            de gestion du
-            <Link
-              href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-seaa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link"
-            >
-              programme national FSE+ « Soutien européen à l’aide alimentaire »
-            </Link>
-            doté de 582 millions d’euros pour la période 2021-2027
-          </li>
-          <li>
-            Les Régions (ou collectivité unique en Corse, Guyane et Martinique)
-            sont autorités de gestion de programmes régionaux FEDER-FSE+ dont
-            les volets FSE+ représentent 2,1milliards d’euros. Pour en savoir
-            plus sur les programmes régionaux FEDER-FSE+ :
-            <Link
-              href="https://fse.gouv.fr/programmes-regionaux"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link"
-            >
-              Programmes européens (2021-2027) | L'Europe s'engage en France, le
-              portail des Fonds européens
-            </Link>
-          </li>
-        </ul>
-        <p>
-          Afin de s’assurer de l’absence de double financement des actions par
-          le FSE+, des « lignes de partage » définies en concertation entre
-          l’Etat et Régions de France définissent les grands principes de
-          répartition des compétences entre le programme national FSE+ piloté
-          par la DGEFP et les 17 programmes régionaux, en s’appuyant sur les
-          compétences légales de chaque autorité de gestion :
-        </p>
-        <ul>
-          <li>
-            Les domaines d’actions suivants relèvent du programme national FSE+
-            « emploi, inclusion, jeunesse et compétences » : l’insertion sociale
-            et professionnelle des personnes les plus éloignées de l’emploi
-            (sauf dans les collectivités uniques), l’accompagnement des jeunes
-            vers l’emploi et l’apprentissage, le développement des compétences
-            des salariés, la qualité de vie de travail et l’égalité
-            professionnelle
-          </li>
-          <li>
-            Les domaines d’actions suivants relèvent des programmes régionaux :
-            la formation des demandeurs d’emploi, l’appui à la création
-            d’entreprise, le soutien à l’économie sociale et solidaire,
-            l’orientation tout au long de la vie (sauf à Mayotte et
-            Saint-Martin)
-          </li>
-          <li>
-            La répartition des compétences concernant certains sujets tels que
-            la lutte contre le décrochage scolaire est déterminée dans des
-            accords locaux de lignes de partage.
-          </li>
-        </ul>
-      </section> */}
       <section className="text-justify space-y-6">
-        <h2>Nos partenaires techniques</h2>
-        <h3>
-          L’association de Gestion et d’Animation du Parc Textile de Wesserling
+        <h2>{partners.technicalPartners.title}</h2>
+
+        <h3>{partners.technicalPartners.textileParkAssociation.title}</h3>
+
+        <p>
+          {partners.technicalPartners.textileParkAssociation.firstParagraph}
+        </p>
+
+        <p>
+          {partners.technicalPartners.textileParkAssociation.secondParagraph}
+        </p>
+
+        <p>
+          {partners.technicalPartners.textileParkAssociation.thirdParagraph}
+        </p>
+
+        <h3 className="pt-6">
+          {partners.technicalPartners.otherAssociations.title}
         </h3>
-        <p>
-          Le Parc de Wesserling, dans lequel est intégré l’association Les
-          Jardins de Wesserling, est pour partie propriété du Département du
-          Haut-Rhin, aujourd’hui Collectivité Européenne d’Alsace, et pour
-          partie propriété de la Communauté de Communes de la Vallée de
-          Saint-Amarin.
-        </p>
-        <p>
-          Le Département du Haut-Rhin (aujourd’hui la CEA) a délégué à
-          l’association de Gestion et d’Animation du Parc Textile de Wesserling,
-          la mission de reconvertir cet ancien domaine industriel textile vers
-          le tourisme, et de le gérer. Il s’agit d’une fédération
-          d’associations, dont l’association Les Jardins de Wesserling est
-          membre. Une convention précise les modalités de collaboration sur les
-          espaces communs aux deux structures.
-        </p>
-        <p>
-          L’association Les Jardins de Wesserling partage des locaux commun avec
-          l’association de Gestion du Parc de Wesserling et le chantier
-          d’insertion Patrimoine et Emploi, locaux réhabilités puis mis
-          gratuitement à la disposition des structures.
-        </p>
-        <h3 className="pt-6">Les autres associations partenaires</h3>
-        <p>
-          Diverses associations participent aux animations de l’association Les
-          Jardins de Wesserling : la médiathèque de Wesserling l’Etoffe des
-          Mots, les Jardins Familiaux de Thann, des sociétés d’aviculteurs et
-          d’apiculteurs, le SM4, les Ecojardiniers Na’Thur Doller, la recyclerie
-          Krempel & Pric a Prac, Les Oiseaux du Stockenberg, le CPIE des Hautes
-          Vosges, la LPO, le Moulin de Storckensohn, ...
-        </p>
+
+        <p>{partners.technicalPartners.otherAssociations.paragraph}</p>
       </section>
     </div>
   );
 };
+
 export default PartnersPage;

@@ -6,41 +6,27 @@ import type { Locale } from "./i18n.config";
 import type {
   PageProp,
   MetadataMessages,
-  HikingMessages,
-  ContactMessages,
-  LakeMessages,
-  MillMessages,
-  WesserlingMessages,
-  VillageMessages,
-  ReviewsMessages,
   HomeMessages,
-  LivingRoomMessages,
-  AuroresMessages,
-  CerisierMessages,
-  GrangeMessages,
-  SenteursMessages,
-  WellnessMessages,
-  PriceMessages,
-  ElseMessages,
+  GardenMessages,
+  RestaurantMessages,
+  FestiveMessages,
+  AssociationMessages,
+  MissionMessages,
+  PartnersMessages,
+  SupportUsMessages,
+  ContactMessages,
 } from "@/types/i18n";
 
 type Messages = {
-  hiking: HikingMessages;
-  contact: ContactMessages;
-  lake: LakeMessages;
-  mill: MillMessages;
-  wesserling: WesserlingMessages;
-  village: VillageMessages;
-  reviews: ReviewsMessages;
   home: HomeMessages;
-  livingRoom: LivingRoomMessages;
-  aurores: AuroresMessages;
-  cerisier: CerisierMessages;
-  grange: GrangeMessages;
-  senteurs: SenteursMessages;
-  wellness: WellnessMessages;
-  price: PriceMessages;
-  else: ElseMessages;
+  garden: GardenMessages;
+  restaurant: RestaurantMessages;
+  festive: FestiveMessages;
+  association: AssociationMessages;
+  mission: MissionMessages;
+  partners: PartnersMessages;
+  supportUs: SupportUsMessages;
+  contact: ContactMessages;
 };
 
 type MessageKey = keyof Messages;

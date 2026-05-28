@@ -1,91 +1,88 @@
-import LinkButton from "@/components/LinkButton";
 import Image from "next/image";
+
+import LinkButton from "@/components/LinkButton";
 
 import type { PageProp } from "@/types/i18n";
 import { createPageHelpers } from "@/lib/metadata";
 
-// const { generateMetadata, getPageMessages } = createPageHelpers("support-us");
+const { generateMetadata, getPageMessages } = createPageHelpers("supportUs");
 
-// export { generateMetadata };
+export { generateMetadata };
 
 const SupportUsPage = async ({ params }: PageProp) => {
   const { locale } = await params;
-  // const supportUs = await getPageMessages(params);
+  const supportUs = await getPageMessages(params);
 
   return (
     <div className="page-layout">
-      <h1>Soutenir et participer</h1>
+      <h1>{supportUs.title}</h1>
+
       <article className="mb-8 flex flex-col items-center text-center">
-        <h2>Visiter les jardins</h2>
+        <h2>{supportUs.visit.title}</h2>
+
         <Image
           src="/restau-du-potager-steeve-josch.webp"
-          alt="Les jardins"
+          alt={supportUs.visit.imageAlt}
           width={600}
           height={400}
         />
-        <p className="my-6">
-          Visiter les jardins, acheter ses productions ou consommer au Resto du
-          potager est un encouragement pour les salariés en insertion
-          professionnelle qui y travaillent.
-        </p>
+
+        <p className="my-6">{supportUs.visit.paragraph}</p>
+
         <LinkButton href={`/${locale}/contact`} className="mt-4">
-          Plan d'accès et contact
+          {supportUs.visit.contactButton}
         </LinkButton>
+
         <LinkButton
           href="https://www.parc-wesserling.fr/billetterie/"
           external
           className="mt-4"
         >
-          Billeterie sur le site du Parc de Wesserling
+          {supportUs.visit.ticketButton}
         </LinkButton>
       </article>
+
       <article className="mb-8 flex flex-col items-center text-center">
-        <h2>Adhérer à l’association</h2>
+        <h2>{supportUs.membership.title}</h2>
+
         <Image
           src="/restau-du-potager-steeve-josch.webp"
-          alt="Les jardins"
+          alt={supportUs.membership.imageAlt}
           width={600}
           height={400}
         />
+
         <div className="flex flex-col gap-4 my-6">
-          <p>
-            Adhérer à l’association ou devenir donateur offre un avantage fiscal
-            de 66%, l’association étant reconnue d’intérêt public. Cela
-            participe au financement des actions en faveur de l’emploi.
-          </p>
-          <p>
-            Pour adhérer à l’association Les Jardins de Wesserling, remplissez
-            le bulletin d’adhésion et renvoyez-le avec le règlement par chèque à
-            « Association Les Jardins de Wesserling 16 rue de Ranspach 68470
-            Husseren-Wesserling ».
-          </p>
-          <p>
-            Le règlement peut également être fait par virement bancaire, ou en
-            se rendant sur place dans les bureaux de l’association.
-          </p>
+          <p>{supportUs.membership.firstParagraph}</p>
+
+          <p>{supportUs.membership.secondParagraph}</p>
+
+          <p>{supportUs.membership.thirdParagraph}</p>
         </div>
 
         <LinkButton href={`/${locale}/contact`} className="mt-4">
-          Télécharger le bulletin d'adhésion
+          {supportUs.membership.button}
         </LinkButton>
       </article>
+
       <article className="mb-6 flex flex-col items-center text-center">
-        <h2>Participer à la vie de l’association</h2>
+        <h2>{supportUs.participation.title}</h2>
+
         <Image
           src="/restau-du-potager-steeve-josch.webp"
-          alt="Les jardins"
+          alt={supportUs.participation.imageAlt}
           width={600}
           height={400}
         />
-        <p className="my-6">
-          Participer aux activités de l’association contribue à ses objectifs
-          d’intérêt public.
-        </p>
+
+        <p className="my-6">{supportUs.participation.paragraph}</p>
+
         <LinkButton href={`/${locale}/contact`} className="mt-4">
-          Nous contacter
+          {supportUs.participation.button}
         </LinkButton>
       </article>
     </div>
   );
 };
+
 export default SupportUsPage;

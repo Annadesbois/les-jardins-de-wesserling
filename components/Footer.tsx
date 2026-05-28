@@ -63,7 +63,7 @@ const Footer = ({ messages }: FooterProps) => {
           {/* Funders */}
           <div className="lg:justify-self-end lg:max-w-md">
             <p className="mb-4 text-center font-bold">
-              Nos partenaires financiers
+              {footerMessages.financialPartners}
             </p>
             <div className="grid grid-cols-3 gap-2 sm:grid-cols-4  md:grid-cols-5">
               <a
@@ -192,7 +192,9 @@ const Footer = ({ messages }: FooterProps) => {
 
           {/* Certification labels */}
           <div className="lg:justify-self-start lg:max-w-md">
-            <p className="mb-4 text-center font-bold">Nos labels de qualité</p>
+            <p className="mb-4 text-center font-bold">
+              {footerMessages.certifications}
+            </p>
             <div className="grid grid-cols-3 items-center justify-items-center gap-4 sm:grid-cols-4 md:grid-cols-5">
               <Image
                 src={ab}
