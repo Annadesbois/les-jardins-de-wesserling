@@ -5,4 +5,5 @@ export * from "./footer";
 export * from "./home";
 export * from "./garden";
 export * from "./restaurant";
+export * from "./festive";
 export * from "./contact";
