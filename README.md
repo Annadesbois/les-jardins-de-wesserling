@@ -1,249 +1,273 @@
-# 🌿 Gîte Au fil de l’eau — Website
+# 🌿 Les Jardins de Wesserling — Website
 
-A multilingual, SEO-optimised website for the **Gîte Au fil de l’eau**, a countryside holiday rental in **Storckensohn (Hautes-Vosges d’Alsace, France)**.
+A multilingual, SEO-optimised website for **Les Jardins de Wesserling**, an association dedicated to preserving and promoting the natural and cultural heritage of the Wesserling gardens.
 
-Built with **Next.js (App Router)**, **React 19**, **TypeScript**, **TailwindCSS**, **Prisma**, **Zod**, and a custom **JSON-based i18n system**.  
-Includes detailed pages for the gîte, rooms, wellness area, surroundings, a review system, and a contact form with email integration.
+Built with **Next.js**, **React 19**, **TypeScript**, **TailwindCSS**, and a custom **JSON-based i18n system**.  
+The website presents the association, its social mission, the vegetable garden, the restaurant, festive events, partners, and ways to support or participate.
 
 ---
 
 ## ✨ Features
 
-- 🏡 **Gîte & Rooms**
-  - Individual room pages: Cerisier, Grange, Aurores, Jardin des Senteurs
-  - Living room, kitchen, dining area, and wellness area
 - 🌍 **Multilingual**
   - French (default), English, German
-  - Custom JSON i18n (no external package)
-- 🖼️ **Photos & Galleries**
-  - Optimised with Next.js `<Image />`
-  - Embla Carousel for slideshows
-  - SEO-ready alt text system
-- ⭐ **Review System**
-  - Prisma + PostgreSQL
-  - Review form validated with **Zod**
-  - Server actions in `/[locale]/reviews/actions.ts`
-- 📬 **Contact Form**
-  - API route: `/app/api/contact/route.ts`
-  - Zod validation
-  - Email delivery via **Resend**
+  - Custom JSON i18n system (no external package)
+  - Localised routes under `/[locale]`
+
 - 🧭 **Navigation**
-  - Desktop and mobile menus (Radix UI)
-  - Localised pages under `/[locale]`
+  - Responsive desktop and mobile menus
+  - Accessible navigation structure
+  - Locale-aware internal links
+
 - 🎨 **Design**
   - TailwindCSS
-  - Custom fonts (Courgette, Playpen Sans)
-  - Fabric texture backgrounds
-  - Fully responsive
-- 🔒 **Security-focused**
+  - Reusable layout and content components
+  - Responsive design
+  - Image-focused content sections
+  - Fabric and heritage-inspired visual identity
+
+- 🖼️ **Images & Media**
+  - Optimised with Next.js `<Image />`
+  - SEO-friendly alt text
+  - Responsive images and logos
+
+- 📄 **Structured Content**
+  - Garden presentation
+  - Restaurant
+  - Festive activities
+  - Association pages
+  - Social mission
+  - Partners and funders
+  - Support and participation
+  - Contact page
+
+- 🔎 **SEO-focused**
+  - Localised metadata
+  - Semantic HTML structure
+  - Optimised heading hierarchy
+  - Accessible content and links
+
+- ♿ **Accessibility-focused**
+  - Semantic HTML
+  - Accessible navigation
+  - Keyboard-friendly menus
+  - Descriptive labels and alt texts
+
+- 🔒 **Lightweight & Maintainable**
   - Minimal dependencies
-  - Controlled Prisma client generation
-  - Custom i18n instead of extra libraries
+  - Custom i18n system
+  - Strong TypeScript usage
+  - Server components by default
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **Next.js 14 / App Router**
-- **React 19** + TypeScript
+- **Next.js**
+- **React 19**
+- **TypeScript**
 - **TailwindCSS**
 - **Radix UI**
-- **Prisma ORM**
-- **PostgreSQL**
-- **Embla Carousel**
-- **Zod validation** (forms)
-- **Resend** (emails)
 - **Custom JSON i18n**
+- **Vercel deployment**
 
 ---
 
 ## 📁 Project Structure
 
 ```text
-gite-au-fil-de-leau/
-├── .vscode/
-│   └── settings.json
-│
-├── app/
-│   ├── favicon.ico
-│   ├── globals.css
-│   ├── page.tsx
-│   │
-│   ├── api/
-│   │   └── contact/
-│   │       └── route.ts
-│   │
-│   ├── fonts/
-│   │   ├── courgette.ts
-│   │   └── playpen-sans.ts
-│   │
-│   ├── generated/
-│   │   └── prisma/
-│   │       ├── browser.ts
-│   │       ├── client.ts
-│   │       ├── commonInputTypes.ts
-│   │       ├── enums.ts
-│   │       ├── models.ts
+les-jardins-de-wesserling/
+├── src/
+│   ├── app/
+│   │   └── [locale]/
+│   │       ├── page.tsx
 │   │       │
-│   │       ├── internal/
-│   │       │   ├── class.ts
-│   │       │   ├── prismaNamespace.ts
-│   │       │   └── prismaNamespaceBrowser.ts
+│   │       ├── garden/
+│   │       │   └── page.tsx
 │   │       │
-│   │       └── models/
+│   │       ├── restaurant/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── festive/
+│   │       │   └── page.tsx
+│   │       │
+│   │       ├── about/
+│   │       │   ├── association/
+│   │       │   ├── mission/
+│   │       │   ├── partners/
+│   │       │   └── support-us/
+│   │       │
+│   │       └── contact/
 │   │
-│   └── [locale]/
-│       ├── layout.tsx
-│       ├── page.tsx
-│       │
-│       ├── around/
-│       │   ├── page.tsx
-│       │   ├── everything-else/page.tsx
-│       │   ├── hiking/page.tsx
-│       │   ├── lake-kruth-wildenstein/page.tsx
-│       │   ├── oil-mill/page.tsx
-│       │   ├── village/page.tsx
-│       │   └── wesserling-park/page.tsx
-│       │
-│       ├── contact/page.tsx
-│       │
-│       ├── gite/
-│       │   ├── page.tsx
-│       │   ├── aurores-room/page.tsx
-│       │   ├── cerisier-room/page.tsx
-│       │   ├── grange-room/page.tsx
-│       │   ├── jardin-des-senteurs-room/page.tsx
-│       │   ├── living-room/page.tsx
-│       │   ├── price/page.tsx
-│       │   └── wellness/page.tsx
-│       │
-│       └── reviews/
-│           ├── actions.ts
-│           └── page.tsx
-│
-├── components/
-│   ├── Button.tsx
-│   ├── ContactForm.tsx
-│   ├── Footer.tsx
-│   ├── Gallery.tsx
-│   ├── ReviewForm.tsx
+│   ├── components/
+│   │   ├── Footer.tsx
+│   │   ├── Hero.tsx
+│   │   ├── LinkButton.tsx
+│   │   │
+│   │   └── navbar/
+│   │       ├── DesktopMenu.tsx
+│   │       ├── LocaleSwitcher.tsx
+│   │       ├── MobileMenu.tsx
+│   │       └── Navbar.tsx
 │   │
-│   ├── carousel/
-│   │   ├── CarouselArrows.tsx
-│   │   └── PhotoCarousel.tsx
+│   ├── lib/
+│   │   ├── i18n.ts
+│   │   └── metadata.ts
 │   │
-│   └── navbar/
-│       ├── DesktopMenu.tsx
-│       ├── LocaleSwitcher.tsx
-│       ├── MobileMenu.tsx
-│       └── Navbar.tsx
-│
-├── data/
-│   ├── activities-photos.ts
-│   ├── aurore-photos.ts
-│   ├── cerisier-photos.ts
-│   ├── grange-photos.ts
-│   ├── hiking-photos.ts
-│   ├── home-photos.ts
-│   ├── lake-photos.ts
-│   ├── living-room-photos.ts
-│   ├── mill-photos.ts
-│   ├── senteurs-photos.ts
-│   ├── village-photos.ts
-│   ├── wellness-photos.ts
-│   └── wesserling-photos.ts
-│
-├── lib/
-│   ├── i18n.config.ts
-│   ├── i18n.ts
-│   ├── metadata.ts
-│   └── prisma.ts
-│
-├── messages/
-│   ├── de.json
-│   ├── en.json
-│   └── fr.json
-│
-├── prisma/
-│   ├── legacy-reviews.json
-│   ├── schema.prisma
-│   ├── seed.ts
+│   ├── messages/
+│   │   ├── fr.json
+│   │   ├── en.json
+│   │   └── de.json
 │   │
-│   └── migrations/
-│       ├── migration_lock.toml
-│       ├── 20251124190328_init/
-│       │   └── migration.sql
-│       └── 20251125193715_make_rating_optional/
-│           └── migration.sql
+│   └── types/
+│       └── i18n.ts
 │
 ├── public/
-│   ├── file.svg
-│   ├── globe.svg
-│   ├── vercel.svg
-│   ├── window.svg
-│   │
-│   ├── flags/
-│   │   ├── de.svg
-│   │   ├── fr.svg
-│   │   └── gb.svg
-│   │
-│   ├── fonts/
-│   │   ├── Courgette/
-│   │   └── PlaypenSans/
-│   │
 │   ├── logos/
-│   │   ├── gite-de-france.png
-│   │   └── label-tourisme-et-handicap.jpg
-│   │
-│   ├── photos-alentours/
-│   │   ├── lac/
-│   │   ├── le-reste/
-│   │   ├── moulin/
-│   │   ├── randonnees/
-│   │   ├── vues-aeriennes/
-│   │   └── wesserling/
-│   │
-│   ├── photos-gite/
-│   │   ├── bien-etre/
-│   │   ├── chambre-aurores/
-│   │   ├── chambre-cerisier/
-│   │   ├── chambre-grange/
-│   │   ├── chambre-jardin-des-senteurs/
-│   │   ├── exterieur/
-│   │   ├── interieur/
-│   │   └── sejour/
-│   │
-│   └── textures/
-│       ├── fabric1.webp
-│       └── fabric2.webp
+│   ├── textures/
+│   └── photos/
 │
-└── types/
-    ├── carousel.ts
-    │
-    └── i18n/
-        ├── activities.ts
-        ├── aurores.ts
-        ├── cerisier.ts
-        ├── contact.ts
-        ├── contactForm.ts
-        ├── else.ts
-        ├── footer.ts
-        ├── grange.ts
-        ├── hiking.ts
-        ├── home.ts
-        ├── index.ts
-        ├── lake.ts
-        ├── living-room.ts
-        ├── metadata.ts
-        ├── mill.ts
-        ├── navbar.ts
-        ├── pageProp.ts
-        ├── reviewForm.ts
-        ├── reviews.ts
-        ├── senteurs.ts
-        ├── village.ts
-        ├── wellness.ts
-        └── wesserling.ts
+└── README.md
+```
+
+---
+
+## 🌍 Internationalisation
+
+The project uses a custom **JSON-based i18n system**, without an external translation package.
+
+Translations are stored in:
+
+```text
+src/messages/
+├── fr.json
+├── en.json
+└── de.json
+```
+
+Pages use helper functions to retrieve both:
+
+- translated content
+- localised metadata
+
+Example:
+
+```ts
+const { generateMetadata, getPageMessages } =
+  createPageHelpers("restaurant");
+
+export { generateMetadata };
+
+const RestaurantPage = async ({ params }: PageProp) => {
+  const restaurant = await getPageMessages(params);
+
+  return <h1>{restaurant.title}</h1>;
+};
+```
+
+---
+
+## 🔎 SEO
+
+Each page includes localised metadata:
+
+```json
+{
+  "meta": {
+    "title": "Page title — Les Jardins de Wesserling",
+    "description": "Short and meaningful page description."
+  }
+}
+```
+
+### SEO Good Practices
+
+- Use one clear `<h1>` per page
+- Keep heading hierarchy semantic
+- Write descriptive page titles
+- Use meaningful image alt texts
+- Keep descriptions concise and readable
+- Ensure metadata exists for every locale
+- Prefer descriptive internal link text
+
+---
+
+## ♿ Accessibility
+
+Accessibility is an important part of the project.
+
+### Recommendations
+
+- Use semantic HTML elements
+- Ensure keyboard navigation works correctly
+- Preserve accessible focus states
+- Use meaningful labels for links and icons
+- Ensure sufficient colour contrast
+- Avoid unnecessary client-side rendering
+
+---
+
+## 🎨 Styling
+
+The project uses Tailwind utility classes for styling.
+
+Common layout structure:
+
+```tsx
+<div className="page-layout">
+  <h1>Page title</h1>
+</div>
+```
+
+Reusable components are preferred over duplicated page-specific layouts.
+
+---
+
+## 🔗 Links
+
+Internal links use Next.js navigation.
+
+External links should include:
+
+```tsx
+target="_blank"
+rel="noopener noreferrer"
+```
+
+The `LinkButton` component supports external links through the `external` prop.
+
+Example:
+
+```tsx
+<LinkButton
+  href="https://example.com"
+  external
+>
+  External website
+</LinkButton>
+```
+
+---
+
+## 🖼️ Images
+
+Images are stored in `public/`.
+
+The project uses `next/image` for optimisation:
+
+```tsx
+<Image
+  src="/restau-du-potager-steeve-josch.webp"
+  alt="Le Resto du Potager"
+  width={600}
+  height={400}
+/>
+```
+
+Imported logos:
+
+```tsx
+import logo from "@/public/logos/logo.png";
 ```
 
 ---
@@ -256,27 +280,22 @@ gite-au-fil-de-leau/
 npm install
 ```
 
-### Set up environment variables
-
-Create `.env`:
-
-```env
-DATABASE_URL=...
-RESEND_API_KEY=...
-NEXT_PUBLIC_SITE_URL=https://your-site.com
-```
-
-### Run Prisma
-
-```bash
-npx prisma generate
-npx prisma migrate deploy
-```
-
 ### Start development server
 
 ```bash
 npm run dev
+```
+
+### Build project
+
+```bash
+npm run build
+```
+
+### Start production build locally
+
+```bash
+npm run start
 ```
 
 ---
@@ -292,38 +311,94 @@ npm run lint
 
 ---
 
+## 🧹 Code Quality
+
+### Recommended Practices
+
+- Use TypeScript types consistently
+- Prefer server components by default
+- Avoid unnecessary `"use client"`
+- Use reusable typed components
+- Keep translations synchronised across locales
+- Centralise shared types when possible
+- Keep naming conventions consistent
+
+### TypeScript Conventions
+
+- Avoid `React.FC`
+- Prefer typed props
+- Use PascalCase for components and types
+- Keep shared types reusable and explicit
+
+---
+
+## 🚀 Deployment
+
+The project is intended to be deployed on **Vercel**.
+
+Before deployment:
+
+```bash
+npm run build
+```
+
+Verify:
+
+- all locales build correctly
+- metadata is present for every page
+- images load correctly
+- locale-aware routing works
+- external links are accessible and secure
+- no TypeScript or ESLint errors remain
+
+---
+
 ## 📌 Roadmap / TODO
 
-### 🔤 Internationalisation
-- [ ] Translate **all alt texts** into English & German  
-- [ ] Translate **all public folder content** (filenames / labels where applicable)  
-- [ ] Add missing translations in `messages/*.json`
+### 🌍 Internationalisation
 
-### 🔐 Authentication & Admin
-- [ ] Add authentication (custom or lightweight provider)
-- [ ] Create admin dashboard for:
-  - [ ] Approving reviews  
-  - [ ] Rejecting / deleting spam  
-- [ ] Protect admin routes with middleware
+- [ ] Complete all English translations
+- [ ] Complete all German translations
+- [ ] Translate all image alt texts
+- [ ] Ensure metadata exists for every locale
 
-### 📬 Contact Form Improvements
-- [ ] Configure **Resend domain authentication**
-  - [ ] Add domain in Resend
-  - [ ] Add DKIM/SPF/TXT DNS records
-  - [ ] Verify domain
-- [ ] Personalise `FROM:` email
-- [ ] Improve error handling & logging
+### ♿ Accessibility
+
+- [ ] Run full accessibility audit
+- [ ] Improve keyboard navigation testing
+- [ ] Add automated accessibility checks
 
 ### 🧪 Testing
-- [ ] Set up test environment (Vitest or Jest + Testing Library)
-- [ ] Add unit tests for:
-  - [ ] UI components (Button, Navbar, Carousel, Gallery)
-  - [ ] Forms (ReviewForm, ContactForm)
-  - [ ] Zod validation schemas
-- [ ] Add tests for server logic:
-  - [ ] `/[locale]/reviews/actions.ts`
-  - [ ] `/api/contact`
-  - [ ] Mock Prisma in tests
-- [ ] Add basic integration tests for key pages (home, gîte, reviews, contact)
-- [ ] (Optional) Add Playwright/Cypress for end-to-end tests
-- [ ] (Optional) Add GitHub Actions CI to run tests on push
+
+- [ ] Set up Vitest + React Testing Library
+- [ ] Add component tests
+- [ ] Add navigation tests
+- [ ] Add locale routing tests
+- [ ] Add accessibility-focused tests
+
+### 🔎 SEO
+
+- [ ] Add sitemap generation
+- [ ] Add structured data
+- [ ] Improve Open Graph metadata
+- [ ] Improve image SEO
+
+### 🎨 UI / UX
+
+- [ ] Improve animations and transitions
+- [ ] Add richer image galleries
+- [ ] Improve mobile navigation experience
+
+---
+
+## 📄 Notes
+
+This project is adapted from the architecture of the **Gîte Au fil de l’eau** website project, with the same emphasis on:
+
+- multilingual content
+- accessibility
+- SEO best practices
+- reusable components
+- maintainable TypeScript architecture
+- responsive design
+- minimal and controlled dependencies
