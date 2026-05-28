@@ -30,6 +30,7 @@
   },
 
   "footer": {
+    "financialPartners": "Nos partenaires financiers",
     "fondsSocialEuropeenAria": "Lien vers le site du Fonds Social Européen",
     "fondsSocialEuropeenAlt": "Logo Fonds Social Européen",
     "republiqueFrancaiseAria": "Lien vers le site de la République Française",
@@ -57,7 +58,8 @@
     "fbAria": "Lien vers le compte facebook de l'association",
     "fbAlt": "Logo Facebook",
     "instagramAria": "Lien vers le compte instagram de l'association",
-    "instagramAlt": "Logo instagram"
+    "instagramAlt": "Logo instagram",
+    "certifications": "Nos labels de qualité"
   },
 
   "home": {

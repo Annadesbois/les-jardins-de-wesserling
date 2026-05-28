@@ -5,6 +5,7 @@ import patrimoine from '@/public/logos/fondation-du-patrimoine.png';
 import total from '@/public/logos/total-energies.jpg';
 
 export type FooterMessages = {
+  financialPartners: string;
   fondsSocialEuropeenAria: string;
   fondsSocialEuropeenAlt: string;
   republiqueFrancaiseAria: string;
@@ -33,6 +34,7 @@ export type FooterMessages = {
   fbAlt: string;
   instagramAria: string;
   instagramAlt: string;
+  certifications: string;
 };
 
 export type FooterProps = {

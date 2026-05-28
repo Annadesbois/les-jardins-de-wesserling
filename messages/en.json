@@ -30,6 +30,7 @@
   },
 
   "footer": {
+    "financialPartners": "Our Financial Partners",
     "fondsSocialEuropeenAria": "Link to the European Social Fund website",
     "fondsSocialEuropeenAlt": "European Social Fund logo",
     "republiqueFrancaiseAria": "Link to the French Republic website",
@@ -57,7 +58,8 @@
     "fbAria": "Link to the association's Facebook account",
     "fbAlt": "Facebook logo",
     "instagramAria": "Link to the association's Instagram account",
-    "instagramAlt": "Instagram logo"
+    "instagramAlt": "Instagram logo",
+    "certifications": "Quality Labels"
   },
 
   "home": {
