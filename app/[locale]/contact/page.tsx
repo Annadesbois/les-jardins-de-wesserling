@@ -1,15 +1,13 @@
 import LinkButton from "@/components/LinkButton";
-import { getMessages } from "@/lib/i18n";
-import { createPageHelpers } from "@/lib/metadata";
 
-import type { PageProp, ContactFormMessages } from "@/types/i18n";
+import type { PageProp } from "@/types/i18n";
+import { createPageHelpers } from "@/lib/metadata";
 
 const { generateMetadata, getPageMessages } = createPageHelpers("contact");
 
 export { generateMetadata };
 
 const ContactPage = async ({ params }: PageProp) => {
-  const { locale } = await params;
   const contact = await getPageMessages(params);
 
   const emailName = "giteaufildeleau68";
