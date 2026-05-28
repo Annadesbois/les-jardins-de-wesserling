@@ -40,7 +40,7 @@ export type FestiveMessages = {
     secondParagraph: string;
     thirdParagraph: string;
   };
-  nocturn: {
+  nocturnes: {
     imageAlt: string;
     title: string;
     subtitle: {

@@ -183,6 +183,84 @@
     "menuTitle": "Speisekarte"
   },
 
+  "festive": {
+    "meta": {
+      "title": "Festliche Veranstaltungen — Les Jardins de Wesserling",
+      "description": "Entdecken Sie die festlichen Veranstaltungen von Les Jardins de Wesserling: das Festival der gemischten Gärten, das Naturfest und vieles mehr."
+    },
+    "title": "Festliche Veranstaltungen",
+    "intro": "Zahlreiche festliche Veranstaltungen beleben das Industrieerbe von Wesserling das ganze Jahr über (Link zur Website des Parks). Getränke und kleine Speisen werden vom Integrationsprojekt des Vereins Les Jardins de Wesserling angeboten: Flammkuchen, einfache oder überbackene Bretzeln, süsse Crêpes (und je nach Saison Eis), Getränke einschliesslich Sirupen aus dem Gemüsegarten. Der Verein Les Jardins de Wesserling organisiert drei eigene Veranstaltungen: den Garten-Tauschmarkt, das Musikfest und die Cocktailabende. Ausserdem übernimmt der Verein die kleine Gastronomie bei Veranstaltungen im Parc de Wesserling, wie Pâques en Folie, dem Tag des Kulturerbes, dem Barfusspfad-Fest, den nächtlichen Lichterfesten, dem Herbstfest und Weihnachten im Garten.",
+    "easter": {
+      "imageAlt": "Pâques en Folie in Les Jardins de Wesserling",
+      "title": "Pâques en Folie",
+      "subtitle": "In der Woche rund um Ostern. Von 12 bis 17 Uhr. Im Hof des Bauernhofs von Wesserling. Eintritt kostenpflichtig.",
+      "firstParagraph": "Ostereiersuche. Spielerische und kreative Workshops.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Osterhasen-Zvieri.",
+      "thirdParagraph": "Tausende Holzeier sind im Rural Park versteckt. Die Teilnehmenden suchen diese Schätze, indem sie Rätsel lösen und Hinweisen folgen. Die Holzeier werden anschliessend gegen echte Schokoladeneier eingetauscht."
+    },
+    "troc": {
+      "imageAlt": "Troc’Jardin in Les Jardins de Wesserling",
+      "title": "Troc’Jardin",
+      "subtitle": "Am letzten Sonntag im April von 10 bis 18 Uhr. Im Hof des Bauernhofs von Wesserling. Freier Eintritt.",
+      "firstParagraph": "Tauschbereich. Spielerische Workshops. Beratungsstände. Gemüsestand.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes.",
+      "thirdParagraph": "Dies ist ein besonderer Moment für Hobbygärtnerinnen und Hobbygärtner, um Pflanzen, Werkzeuge oder Tipps auszutauschen. Die Teilnehmenden können ihre Gegenstände ab 10 Uhr morgens abgeben. Sie werden mit der Währung des Tages „bezahlt“: Radieschen-Münzen, mit denen sie Pflanzen und Gegenstände ihrer Wahl erwerben können. Radieschen-Münzen können auch durch Spiele, den Kauf eines Flammkuchens oder einer Vereinsmitgliedschaft erworben werden."
+    },
+    "festival": {
+      "imageAlt": "Festival des Jardins Métissés in Les Jardins de Wesserling",
+      "title": "Festival des Jardins Métissés",
+      "subtitle": "Von Juni bis Oktober. Von 10 bis 18:30 Uhr.",
+      "firstParagraph": "Getränke, Tartes, Rohkost, Wurst- oder Käseplatten, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "secondParagraph": "Das Ökomuseum des Parc de Wesserling ist bereits ab Mai geöffnet. Das Festival des Jardins Métissés beginnt jedoch erst im Juni. Seine temporären Gärten entführen die Besucherinnen und Besucher jedes Jahr mit einem neuen Thema in poetische, künstlerische, spielerische und exotische Welten … perfekt für schöne Familientage!"
+    },
+    "music": {
+      "imageAlt": "Fête de la Musique in Les Jardins de Wesserling",
+      "title": "Fête de la Musique",
+      "subtitle": "Am Freitag, der dem 21. Juni am nächsten liegt. Von 18 bis 23 Uhr. Im Hof des Bauernhofs von Wesserling. Freier Eintritt.",
+      "firstParagraph": "Musik den ganzen Abend über. Kostenloser Besuch der Gärten und des Festivals der gemischten Gärten.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "thirdParagraph": "Musikliebhaberinnen und Musikliebhaber können unter den Vordächern des Bauernhofs oder auf den Hängen des Rural Parks Musik verschiedenster Stilrichtungen entdecken. Das Fête de la Musique in Wesserling findet in der bemerkenswerten Kulisse des Industrieerbes von Wesserling statt."
+    },
+    "cocktail": {
+      "imageAlt": "Soirées cocktails in Les Jardins de Wesserling",
+      "title": "Soirées cocktails",
+      "subtitle": "Drei Freitage im Juli. Von 18 bis 22 Uhr. In den Gemüsegärten von Wesserling. Eintritt über die Gärten kostenpflichtig. Ein Cocktail ist im Eintritt enthalten.",
+      "firstParagraph": "Cocktails mit oder ohne Alkohol, Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "secondParagraph": "Musikalische Atmosphäre. Markt mit Kunsthandwerkern und Designerinnen.",
+      "thirdParagraph": "Ein Moment der Entspannung und Geselligkeit in einem Garten, der im Licht der untergehenden Sonne ganz anders erscheint. Eine Gelegenheit, Kunst im Garten in all ihren Formen zu erleben: musikalisch, grafisch, skulptural, choreografisch und mehr."
+    },
+    "nocturnes": {
+      "imageAlt": "Féeries Nocturnes in Les Jardins de Wesserling",
+      "title": "Féeries Nocturnes",
+      "subtitle": {
+        "text": "Donnerstags, freitags, samstags und sonntags im August sowie in der Woche rund um den 15. August. Von 18:30 bis 23:30 Uhr. Eintritt über die Gärten kostenpflichtig.",
+        "link": "Weitere Informationen auf der Website des Parc de Wesserling"
+      },
+      "firstParagraph": "Grosses Spiel. Erzählerische Spaziergänge. Feuershow.",
+      "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "thirdParagraph": "Sobald die Nacht hereinbricht, erleuchten die Gärten und alles wird magisch. Die Féeries Nocturnes sind ein unvergessliches Erlebnis für Familien und Freunde."
+    },
+    "automne": {
+      "imageAlt": "Fête d'Automne in Les Jardins de Wesserling",
+      "title": "Fête d'Automne",
+      "subtitle": "An einem Sonntag Mitte Oktober. Von 10 bis 18:30 Uhr. Eintritt über das Schloss der Fabrikanten kostenpflichtig.",
+      "firstParagraph": "Gartentipps. Apfelsaftpressen. Kreative Workshops. Gemüsestand.",
+      "secondParagraph": "Getränke, Flammkuchen, Suppenbar, einfache oder überbackene Bretzeln, Crêpes, Eis.",
+      "thirdParagraph": "Gärten in leuchtenden Herbstfarben, reichhaltige Gemüseernte … Dies ist die letzte Veranstaltung vor dem Ende des Festivals der gemischten Gärten. Die Gärtner geben Tipps, Besucherinnen und Besucher können beim Pressen von Apfelsaft zusehen und dieses saisonale Produkt probieren. Eine reichhaltige Suppenbar stellt frisch geerntetes Gemüse in den Mittelpunkt. Alles ist darauf ausgerichtet, Augen und Gaumen zu erfreuen."
+    },
+    "christmas": {
+      "imageAlt": "Noël au jardin in Les Jardins de Wesserling",
+      "title": "Noël au jardin",
+      "subtitle": {
+        "text": "Donnerstags, freitags, samstags und sonntags im Dezember sowie in der Woche zwischen Weihnachten und Neujahr. Von 17 bis 23 Uhr. Eintritt über das Schloss der Fabrikanten kostenpflichtig. Glühwein oder heisser Apfelsaft im Eintritt enthalten.",
+        "link": "Weitere Informationen auf der Website des Parc de Wesserling"
+      },
+      "firstParagraph": "Theatralischer Spaziergang durch die beleuchteten Gärten.",
+      "secondParagraph": "Getränke, Glühwein, heisser Apfelsaft, heisse Schokolade, warme Brote, Suppen, Desserts.",
+      "thirdParagraph": "Etwa eine Stunde lang erleben die Teilnehmenden einen erzählerischen Spaziergang durch die Welt von Weihnachten, seine Werte und seine Magie – mitten in den beleuchteten Gärten. Der Spaziergang endet auf dem Bauernhof von Wesserling mit seinen gemütlichen Weihnachtsdekorationen bei einem heissen Getränk oder einer geselligen Mahlzeit."
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Kontakt und Anfahrt — Les Jardins de Wesserling",
