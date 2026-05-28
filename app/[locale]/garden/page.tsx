@@ -19,8 +19,8 @@ const GardenPage = async ({ params }: PageProp) => {
       <h1>{garden.title}</h1>
       <section className="text-center">
         <h3 className="pb-10">
-          {garden.park.intro1}
-          <Link 
+          {garden.park.intro1}{" "}
+          <Link
             href="https://www.parc-wesserling.fr/"
             target="_blank"
             rel="noopener noreferrer"
@@ -28,20 +28,18 @@ const GardenPage = async ({ params }: PageProp) => {
           >
             {garden.park.link1}
           </Link>
-          {garden.park.intro2}
+          {garden.park.intro2}{" "}
           <Link
             href="https://www.erih.net/"
             target="_blank"
             rel="noopener noreferrer"
             className="link"
           >
-            {garden.park.link2}
+            {garden.park.link2}{" "}
           </Link>
           {garden.park.intro3}
         </h3>
-        <p>
-          {garden.park.intro4}
-        </p>
+        <p>{garden.park.intro4}</p>
         <div className="mt-10 flex flex-col gap-4 md:gap-0">
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
@@ -74,24 +72,20 @@ const GardenPage = async ({ params }: PageProp) => {
             textPosition="right"
           />
         </div>
-        <p className="font-bold pt-6">
-          {garden.park.association}
-        </p>
+        <p className="font-bold pt-6">{garden.park.association}</p>
       </section>
       <LinkButton href="https://www.parc-wesserling.fr/billetterie/" external>
         {garden.park.button}
       </LinkButton>
       <Image
-              src="/leaf-divider.png"
-              alt={garden.image}
-              width={500}
-              height={50}
-              className="mx-auto mb-20 mt-16"
-            />
+        src="/leaf-divider.png"
+        alt={garden.image}
+        width={500}
+        height={50}
+        className="mx-auto mb-20 mt-16"
+      />
       <section className="md:mt-8">
-        <h2 className="text-center">
-          {garden.garden.intro}
-        </h2>
+        <h2 className="text-center">{garden.garden.intro}</h2>
         <div className="mt-10">
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
@@ -123,9 +117,7 @@ const GardenPage = async ({ params }: PageProp) => {
             textPosition="left"
           />
         </div>
-        <p className="text-center">
-          {garden.garden.membership}
-        </p>
+        <p className="text-center">{garden.garden.membership}</p>
         <LinkButton href={`/${locale}/about/support-us`} className="mt-12">
           {garden.garden.button}
         </LinkButton>
