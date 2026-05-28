@@ -6,4 +6,5 @@ export * from "./home";
 export * from "./garden";
 export * from "./restaurant";
 export * from "./festive";
+export * from "./association";
 export * from "./contact";

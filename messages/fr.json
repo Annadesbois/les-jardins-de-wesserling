@@ -261,6 +261,123 @@
     }
   },
 
+  "association": {
+    "meta": {
+      "title": "Notre association — Les Jardins de Wesserling",
+      "description": "Découvrez l’association Les Jardins de Wesserling, son histoire, ses objectifs sociaux et environnementaux ainsi que son développement depuis 2000."
+    },
+    "title": "Notre association",
+    "intro": {
+      "firstParagraph": "Le potager pédagogique et le Resto du Potager sont gérés par l’association Les Jardins de Wesserling, reconnue d’utilité publique. L’association compte 240 membres en 2025, à titre individuel ou familial, ce qui représente environ 800 personnes en comptant les membres de la famille.",
+      "secondParagraph": "Leur motivation correspond aux objectifs de l’association :",
+      "objectivesTitle": "Objectifs de l’association",
+      "objectives": {
+        "employment": "Créer de l’emploi notamment pour des personnes rencontrant des difficultés dans ce domaine",
+        "heritage": "Contribuer à mettre en valeur le remarquable patrimoine industriel de Wesserling",
+        "environment": "Sensibiliser au respect de l’environnement"
+      },
+      "missionButton": "Plus d'info sur notre mission sociale",
+      "imageAlt": "Photo de l'association",
+      "thirdParagraph": "L’association est conventionnée Chantier d’Insertion avec l’Etat depuis 2004, bénéficiant ainsi de financements intercommunaux, départementaux, régionaux, nationaux et européens.",
+      "volunteersTitle": "Les bénévoles participent également à de nombreuses activités :",
+      "volunteerActions": {
+        "gardenDesign": "Conception et aménagement des jardins",
+        "educationalActivities": "Animations pédagogiques",
+        "festiveEvents": "Organisation des événements festifs",
+        "maintenance": "Travaux d’entretien",
+        "communication": "Communication et promotion",
+        "governance": "Participation à la gestion associative"
+      },
+      "closingParagraph": "Les bénévoles jouent un rôle essentiel dans la vie et le développement du projet associatif.",
+      "supportButton": "Soutenir et participer"
+    },
+    "dividerAlt": "Feuille de division",
+    "history": {
+      "title": "Historique de l’association",
+      "paragraphs": [
+        "L’association Les Jardins de Wesserling a été créée en 2000 par une trentaine d’habitants afin de relever un défi ambitieux : créer de l’emploi à partir de la reconversion de la friche industrielle du Parc de Wesserling.",
+        "Elle a rejoint la fédération d’associations chargée, d’abord par le Département du Haut-Rhin puis par la Collectivité Européenne d’Alsace, d’assurer la reconversion touristique de cet ancien haut lieu de l’industrie textile du Massif Vosgien.",
+        "Les jardins ont été imaginés par les paysagistes Agnès Daval et Philippe Raguin dans le respect de l’histoire du site. Leur implantation a été réalisée grâce au travail d’un géomètre bénévole, puis développée au fil des années par l’implication constante des bénévoles de l’association.",
+        "Les premières années reposaient essentiellement sur l’engagement collectif : défrichage, plantations, culture maraîchère, gestion du site, vente des productions, accompagnement vers l’emploi et organisation des animations. Plus de cent bénévoles participaient notamment à la fête annuelle du potager.",
+        "L’association a toujours poursuivi le même objectif : professionnaliser progressivement les activités dès que les moyens financiers le permettaient, afin de pérenniser les emplois et les missions du projet associatif."
+      ],
+      "timelineLabels": {
+        "actions": "Actions",
+        "employees": "Nombre et fonctions des salariés",
+        "volunteers": "Fonctions des bénévoles"
+      },
+      "timelineItems": [
+        {
+          "years": "2000",
+          "title": "Création de l’association",
+          "actions": {
+            "first": "Création de l’association par une trentaine d’habitants.",
+            "second": "Reconversion touristique du Parc industriel de Wesserling.",
+            "third": "Création d’un potager décoratif et pédagogique ouvert au public.",
+            "fourth": "Premier événement festif : le Potager en Fête."
+          },
+          "employees": "Embauche de 3 emplois en insertion professionnelle selon le dispositif CES.",
+          "volunteers": "Les bénévoles assurent la gestion, l’accompagnement vers l’emploi, le défrichement, les plantations, la récolte, la vente et les animations."
+        },
+        {
+          "years": "2002–2003",
+          "title": "Mise en place de l’encadrement technique",
+          "actions": {
+            "first": "Encadrement technique grâce au dispositif Emplois Jeunes.",
+            "second": "Aide financière de l’État pendant 5 ans, à condition de pérenniser les postes."
+          },
+          "employees": "Embauche de 2 encadrants techniques et 6 postes en insertion professionnelle.",
+          "volunteers": "Les bénévoles se recentrent sur la gestion, la vente, l’accompagnement vers l’emploi et l’animation."
+        },
+        {
+          "years": "2004–2009",
+          "title": "Conventionnement Atelier et Chantier d’Insertion",
+          "actions": {
+            "first": "Conventionnement avec l’État à partir de 2004.",
+            "second": "Développement d’une activité hivernale : confitures, sirops et pâtes de coing.",
+            "third": "Participation à Noël au Jardin."
+          },
+          "employees": "Pérennisation des encadrants techniques. 10 postes en insertion professionnelle, puis CDDI à partir de 2008.",
+          "volunteers": "Les salariés assurent l’entretien, la production et la transformation. Les bénévoles développent les aménagements pédagogiques, les animations et la gestion."
+        },
+        {
+          "years": "2009–2010",
+          "title": "Professionnalisation de la gestion",
+          "actions": {
+            "first": "Professionnalisation des tâches administratives et d’accompagnement socioprofessionnel.",
+            "second": "Création de postes mutualisés avec le chantier d’insertion Patrimoine et Emploi.",
+            "third": "Accompagnement par un conseiller en gestion d’entreprise dans le cadre d’un DLA."
+          },
+          "employees": "Création de 2 postes : une administrative et une personne chargée de l’accompagnement socioprofessionnel.",
+          "volunteers": "Un membre de l’association assure bénévolement la direction du personnel. Les bénévoles restent impliqués dans la conception, l’aménagement et la gestion."
+        },
+        {
+          "years": "2011–2020",
+          "title": "Développement des activités",
+          "actions": {
+            "first": "Accompagnement socioprofessionnel renforcé.",
+            "second": "Attractivité croissante du potager pédagogique.",
+            "third": "Nombreuses animations et produits transformés.",
+            "fourth": "Création de la petite restauration en 2014/2017 avec l’appui d’un DLA."
+          },
+          "employees": "Fin 2018, création d’un poste de direction mutualisé avec le chantier d’insertion PE.",
+          "volunteers": "L’implication bénévole reste forte, notamment dans les animations, qui passent de 1 à 8 au cours de l’année."
+        },
+        {
+          "years": "2021–2026",
+          "title": "Structuration et développement de l’équipe",
+          "actions": {
+            "first": "Démutualisation des postes de direction, de gestion et d’accompagnement socioprofessionnel.",
+            "second": "Passage des postes à plein temps.",
+            "third": "Création d’un secteur maraîcher."
+          },
+          "employees": "L’association compte une trentaine de salariés : 22 postes en insertion, une direction, une administrative, une ASP et 3 encadrants techniques.",
+          "volunteers": "L’implication bénévole représente environ 6500 heures de travail chaque année."
+        }
+      ]
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact & accès — Les Jardins de Wesserling",

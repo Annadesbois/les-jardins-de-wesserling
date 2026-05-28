@@ -261,6 +261,123 @@
     }
   },
 
+  "association": {
+    "meta": {
+      "title": "Our Association — Les Jardins de Wesserling",
+      "description": "Discover the Les Jardins de Wesserling association, its history, its social and environmental objectives, and its development since 2000."
+    },
+    "title": "Our Association",
+    "intro": {
+      "firstParagraph": "The educational kitchen garden and the Resto du Potager are managed by the Les Jardins de Wesserling association, recognised as being of public interest. In 2025, the association has 240 individual or family members, representing around 800 people including family members.",
+      "secondParagraph": "Their motivation reflects the objectives of the association:",
+      "objectivesTitle": "Objectives of the association",
+      "objectives": {
+        "employment": "Create employment opportunities, particularly for people experiencing difficulties in this area",
+        "heritage": "Help showcase the remarkable industrial heritage of Wesserling",
+        "environment": "Raise awareness about respect for the environment"
+      },
+      "missionButton": "More information about our social mission",
+      "imageAlt": "Photo of the association",
+      "thirdParagraph": "The association has been officially recognised as an Integration Worksite by the French State since 2004, benefiting from intermunicipal, departmental, regional, national and European funding.",
+      "volunteersTitle": "Volunteers also take part in many activities:",
+      "volunteerActions": {
+        "gardenDesign": "Design and development of the gardens",
+        "educationalActivities": "Educational activities",
+        "festiveEvents": "Organisation of festive events",
+        "maintenance": "Maintenance work",
+        "communication": "Communication and promotion",
+        "governance": "Participation in the management of the association"
+      },
+      "closingParagraph": "Volunteers play an essential role in the life and development of the association’s project.",
+      "supportButton": "Support and take part"
+    },
+    "dividerAlt": "Leaf divider",
+    "history": {
+      "title": "History of the association",
+      "paragraphs": [
+        "The Les Jardins de Wesserling association was created in 2000 by around thirty local residents to take on an ambitious challenge: creating employment through the redevelopment of the former industrial wasteland of the Parc de Wesserling.",
+        "It joined the federation of associations entrusted, first by the Haut-Rhin Department and later by the European Collectivity of Alsace, with overseeing the tourism redevelopment of this former centre of the textile industry in the Vosges Massif.",
+        "The gardens were designed by landscape architects Agnès Daval and Philippe Raguin with respect for the history of the site. Their layout was initially carried out thanks to the work of a volunteer surveyor, then developed over the years through the continued involvement of the association’s volunteers.",
+        "The early years relied mainly on collective commitment: clearing land, planting, market gardening, site management, selling produce, supporting people towards employment and organising activities. More than one hundred volunteers took part each year in the annual garden festival.",
+        "The association has always pursued the same objective: progressively professionalising activities whenever financial resources allowed it, in order to secure jobs and sustain the missions of the association’s project."
+      ],
+      "timelineLabels": {
+        "actions": "Actions",
+        "employees": "Number and roles of employees",
+        "volunteers": "Roles of volunteers"
+      },
+      "timelineItems": [
+        {
+          "years": "2000",
+          "title": "Creation of the association",
+          "actions": {
+            "first": "Creation of the association by around thirty local residents.",
+            "second": "Tourism redevelopment of the Wesserling industrial park.",
+            "third": "Creation of a decorative and educational kitchen garden open to the public.",
+            "fourth": "First festive event: Potager en Fête."
+          },
+          "employees": "Recruitment of 3 integration employees under the CES scheme.",
+          "volunteers": "Volunteers handled management, employment support, land clearing, planting, harvesting, sales and activities."
+        },
+        {
+          "years": "2002–2003",
+          "title": "Implementation of technical supervision",
+          "actions": {
+            "first": "Technical supervision introduced through the Emplois Jeunes scheme.",
+            "second": "State financial support for 5 years, provided the positions were made sustainable."
+          },
+          "employees": "Recruitment of 2 technical supervisors and 6 integration positions.",
+          "volunteers": "Volunteers refocused on management, sales, employment support and activities."
+        },
+        {
+          "years": "2004–2009",
+          "title": "Recognition as an Integration Workshop and Worksite",
+          "actions": {
+            "first": "Agreement with the State from 2004 onwards.",
+            "second": "Development of a winter activity: jams, syrups and quince paste.",
+            "third": "Participation in Noël au Jardin."
+          },
+          "employees": "Technical supervisors’ positions made permanent. 10 integration positions, then CDDI contracts from 2008 onwards.",
+          "volunteers": "Employees handled maintenance, production and processing. Volunteers developed educational installations, activities and management."
+        },
+        {
+          "years": "2009–2010",
+          "title": "Professionalisation of management",
+          "actions": {
+            "first": "Professionalisation of administrative tasks and socio-professional support.",
+            "second": "Creation of shared positions with the Patrimoine et Emploi integration worksite.",
+            "third": "Support from a business management adviser through a DLA support scheme."
+          },
+          "employees": "Creation of 2 positions: one administrator and one socio-professional support officer.",
+          "volunteers": "A member of the association voluntarily managed staff. Volunteers remained involved in design, development and management."
+        },
+        {
+          "years": "2011–2020",
+          "title": "Development of activities",
+          "actions": {
+            "first": "Strengthened socio-professional support.",
+            "second": "Growing attractiveness of the educational kitchen garden.",
+            "third": "Numerous activities and processed products.",
+            "fourth": "Creation of a light catering service in 2014/2017 with the support of a DLA scheme."
+          },
+          "employees": "At the end of 2018, creation of a shared management position with the PE integration worksite.",
+          "volunteers": "Volunteer involvement remained strong, particularly in activities, which increased from 1 to 8 during the year."
+        },
+        {
+          "years": "2021–2026",
+          "title": "Structuring and development of the team",
+          "actions": {
+            "first": "Separation of management, administration and socio-professional support positions.",
+            "second": "Conversion of positions to full-time roles.",
+            "third": "Creation of a market gardening sector."
+          },
+          "employees": "The association now employs around thirty staff members: 22 integration positions, one director, one administrator, one ASP officer and 3 technical supervisors.",
+          "volunteers": "Volunteer involvement represents around 6,500 working hours every year."
+        }
+      ]
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact and Access — Les Jardins de Wesserling",

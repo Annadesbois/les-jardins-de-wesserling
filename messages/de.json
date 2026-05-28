@@ -261,6 +261,123 @@
     }
   },
 
+  "association": {
+    "meta": {
+      "title": "Unser Verein — Les Jardins de Wesserling",
+      "description": "Entdecken Sie den Verein Les Jardins de Wesserling, seine Geschichte, seine sozialen und ökologischen Ziele sowie seine Entwicklung seit dem Jahr 2000."
+    },
+    "title": "Unser Verein",
+    "intro": {
+      "firstParagraph": "Der pädagogische Gemüsegarten und das Resto du Potager werden vom gemeinnützigen Verein Les Jardins de Wesserling verwaltet. Im Jahr 2025 zählt der Verein 240 Einzel- oder Familienmitglieder, was unter Einbeziehung der Familienangehörigen etwa 800 Personen entspricht.",
+      "secondParagraph": "Ihre Motivation entspricht den Zielen des Vereins:",
+      "objectivesTitle": "Ziele des Vereins",
+      "objectives": {
+        "employment": "Arbeitsplätze schaffen, insbesondere für Menschen mit Schwierigkeiten in diesem Bereich",
+        "heritage": "Zur Aufwertung des bemerkenswerten industriellen Erbes von Wesserling beitragen",
+        "environment": "Für den respektvollen Umgang mit der Umwelt sensibilisieren"
+      },
+      "missionButton": "Mehr Informationen über unsere soziale Mission",
+      "imageAlt": "Foto des Vereins",
+      "thirdParagraph": "Der Verein ist seit 2004 vom Staat als Integrationsbetrieb anerkannt und erhält dadurch kommunale, departementale, regionale, nationale und europäische Fördermittel.",
+      "volunteersTitle": "Die Ehrenamtlichen beteiligen sich ebenfalls an zahlreichen Aktivitäten:",
+      "volunteerActions": {
+        "gardenDesign": "Gestaltung und Entwicklung der Gärten",
+        "educationalActivities": "Pädagogische Aktivitäten",
+        "festiveEvents": "Organisation festlicher Veranstaltungen",
+        "maintenance": "Instandhaltungsarbeiten",
+        "communication": "Kommunikation und Öffentlichkeitsarbeit",
+        "governance": "Mitwirkung an der Vereinsverwaltung"
+      },
+      "closingParagraph": "Die Ehrenamtlichen spielen eine wesentliche Rolle im Leben und in der Entwicklung des Vereinsprojekts.",
+      "supportButton": "Unterstützen und mitmachen"
+    },
+    "dividerAlt": "Blatt-Trennelement",
+    "history": {
+      "title": "Geschichte des Vereins",
+      "paragraphs": [
+        "Der Verein Les Jardins de Wesserling wurde im Jahr 2000 von rund dreißig Einwohnern gegründet, um eine ehrgeizige Herausforderung anzugehen: die Schaffung von Arbeitsplätzen durch die Umwandlung der Industriebrache des Parc de Wesserling.",
+        "Er trat dem Verbund von Vereinen bei, der zunächst vom Département Haut-Rhin und später von der Europäischen Gebietskörperschaft Elsass mit der touristischen Umgestaltung dieses ehemaligen Zentrums der Textilindustrie im Vogesenmassiv beauftragt wurde.",
+        "Die Gärten wurden von den Landschaftsarchitekten Agnès Daval und Philippe Raguin unter Berücksichtigung der Geschichte des Ortes entworfen. Die Umsetzung erfolgte zunächst dank der Arbeit eines ehrenamtlichen Vermessers und wurde im Laufe der Jahre durch das kontinuierliche Engagement der Vereinsmitglieder weiterentwickelt.",
+        "Die ersten Jahre beruhten hauptsächlich auf gemeinschaftlichem Engagement: Rodung, Pflanzungen, Gemüseanbau, Verwaltung des Geländes, Verkauf der Produkte, Unterstützung bei der Arbeitsintegration und Organisation von Veranstaltungen. Mehr als hundert Ehrenamtliche beteiligten sich insbesondere am jährlichen Gartenfest.",
+        "Der Verein verfolgte stets dasselbe Ziel: die Aktivitäten schrittweise zu professionalisieren, sobald die finanziellen Mittel dies erlaubten, um die Arbeitsplätze und die Aufgaben des Vereinsprojekts dauerhaft zu sichern."
+      ],
+      "timelineLabels": {
+        "actions": "Aktionen",
+        "employees": "Anzahl und Funktionen der Mitarbeitenden",
+        "volunteers": "Aufgaben der Ehrenamtlichen"
+      },
+      "timelineItems": [
+        {
+          "years": "2000",
+          "title": "Gründung des Vereins",
+          "actions": {
+            "first": "Gründung des Vereins durch rund dreißig Einwohner.",
+            "second": "Touristische Umgestaltung des Industrieparks Wesserling.",
+            "third": "Anlage eines dekorativen und pädagogischen Gemüsegartens, der für die Öffentlichkeit zugänglich ist.",
+            "fourth": "Erste festliche Veranstaltung: Potager en Fête."
+          },
+          "employees": "Einstellung von 3 Mitarbeitenden im Rahmen des CES-Integrationsprogramms.",
+          "volunteers": "Die Ehrenamtlichen übernahmen Verwaltung, Arbeitsintegration, Rodungsarbeiten, Pflanzungen, Ernte, Verkauf und Veranstaltungen."
+        },
+        {
+          "years": "2002–2003",
+          "title": "Einführung der technischen Betreuung",
+          "actions": {
+            "first": "Technische Betreuung durch das Programm Emplois Jeunes.",
+            "second": "Finanzielle Unterstützung des Staates für 5 Jahre unter der Bedingung, die Stellen dauerhaft zu erhalten."
+          },
+          "employees": "Einstellung von 2 technischen Betreuern und 6 Integrationsstellen.",
+          "volunteers": "Die Ehrenamtlichen konzentrierten sich verstärkt auf Verwaltung, Verkauf, Arbeitsintegration und Veranstaltungen."
+        },
+        {
+          "years": "2004–2009",
+          "title": "Anerkennung als Integrationswerkstatt und Integrationsbaustelle",
+          "actions": {
+            "first": "Vereinbarung mit dem Staat ab 2004.",
+            "second": "Entwicklung einer Winteraktivität: Marmeladen, Sirupe und Quittenpaste.",
+            "third": "Teilnahme an Noël au Jardin."
+          },
+          "employees": "Dauerhafte Sicherung der technischen Betreuerstellen. 10 Integrationsstellen, ab 2008 CDDI-Verträge.",
+          "volunteers": "Die Mitarbeitenden übernahmen Pflege, Produktion und Verarbeitung. Die Ehrenamtlichen entwickelten pädagogische Einrichtungen, Veranstaltungen und Verwaltungsaufgaben weiter."
+        },
+        {
+          "years": "2009–2010",
+          "title": "Professionalisierung der Verwaltung",
+          "actions": {
+            "first": "Professionalisierung administrativer Aufgaben und der sozialberuflichen Begleitung.",
+            "second": "Schaffung gemeinsamer Stellen mit der Integrationsbaustelle Patrimoine et Emploi.",
+            "third": "Begleitung durch einen Unternehmensberater im Rahmen eines DLA-Programms."
+          },
+          "employees": "Schaffung von 2 Stellen: eine Verwaltungskraft und eine Fachkraft für sozialberufliche Begleitung.",
+          "volunteers": "Ein Vereinsmitglied übernahm ehrenamtlich die Personalführung. Die Ehrenamtlichen blieben an Gestaltung, Entwicklung und Verwaltung beteiligt."
+        },
+        {
+          "years": "2011–2020",
+          "title": "Entwicklung der Aktivitäten",
+          "actions": {
+            "first": "Verstärkte sozialberufliche Begleitung.",
+            "second": "Steigende Attraktivität des pädagogischen Gemüsegartens.",
+            "third": "Zahlreiche Veranstaltungen und verarbeitete Produkte.",
+            "fourth": "Einführung eines kleinen Gastronomiebereichs 2014/2017 mit Unterstützung eines DLA-Programms."
+          },
+          "employees": "Ende 2018 wurde eine gemeinsame Leitungsstelle mit der Integrationsbaustelle PE geschaffen.",
+          "volunteers": "Das ehrenamtliche Engagement blieb stark, insbesondere bei den Veranstaltungen, deren Zahl im Laufe des Jahres von 1 auf 8 anstieg."
+        },
+        {
+          "years": "2021–2026",
+          "title": "Strukturierung und Entwicklung des Teams",
+          "actions": {
+            "first": "Trennung der Stellen für Leitung, Verwaltung und sozialberufliche Begleitung.",
+            "second": "Umwandlung der Stellen in Vollzeitstellen.",
+            "third": "Schaffung eines Gemüseanbaubereichs."
+          },
+          "employees": "Der Verein beschäftigt rund dreißig Mitarbeitende: 22 Integrationsstellen, eine Leitungskraft, eine Verwaltungskraft, eine ASP-Fachkraft und 3 technische Betreuer.",
+          "volunteers": "Das ehrenamtliche Engagement entspricht rund 6500 Arbeitsstunden pro Jahr."
+        }
+      ]
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Kontakt und Anfahrt — Les Jardins de Wesserling",

@@ -10,6 +10,7 @@ import type {
   GardenMessages,
   RestaurantMessages,
   FestiveMessages,
+  AssociationMessages,
   ContactMessages,
 } from "@/types/i18n";
 
@@ -18,6 +19,7 @@ type Messages = {
   garden: GardenMessages;
   restaurant: RestaurantMessages;
   festive: FestiveMessages;
+  association: AssociationMessages;
   contact: ContactMessages;
 };
 
