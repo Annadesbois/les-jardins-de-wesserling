@@ -1,8 +1,4 @@
 import type { Locale } from "@/lib/i18n.config";
-import sm4 from '@/public/logos/sm4.png';
-import alliance from '@/public/logos/fondation-alliance-cairpsa-carpreca.jpg';
-import patrimoine from '@/public/logos/fondation-du-patrimoine.png';
-import total from '@/public/logos/total-energies.jpg';
 
 export type FooterMessages = {
   financialPartners: string;
