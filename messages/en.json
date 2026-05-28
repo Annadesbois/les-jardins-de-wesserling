@@ -473,6 +473,35 @@
     }
   },
 
+  "supportUs": {
+    "meta": {
+      "title": "Support and Participate — Les Jardins de Wesserling",
+      "description": "Discover how to support the Les Jardins de Wesserling association: visit the gardens, join the association or take part in its activities."
+    },
+    "title": "Support and Participate",
+    "visit": {
+      "title": "Visit the gardens",
+      "imageAlt": "The gardens",
+      "paragraph": "Visiting the gardens, buying its produce or eating at the Resto du Potager is an encouragement for the employees in professional integration who work there.",
+      "contactButton": "Access map and contact",
+      "ticketButton": "Ticket office on the Parc de Wesserling website"
+    },
+    "membership": {
+      "title": "Join the association",
+      "imageAlt": "The gardens",
+      "firstParagraph": "Joining the association or becoming a donor provides a 66% tax benefit, as the association is recognised as being of public interest. This contributes to funding actions supporting employment.",
+      "secondParagraph": "To join the Les Jardins de Wesserling association, complete the membership form and return it with payment by cheque to “Association Les Jardins de Wesserling 16 rue de Ranspach 68470 Husseren-Wesserling”.",
+      "thirdParagraph": "Payment can also be made by bank transfer or by visiting the association’s offices in person.",
+      "button": "Download the membership form"
+    },
+    "participation": {
+      "title": "Take part in the life of the association",
+      "imageAlt": "The gardens",
+      "paragraph": "Taking part in the association’s activities contributes to its public interest objectives.",
+      "button": "Contact us"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact and Access — Les Jardins de Wesserling",

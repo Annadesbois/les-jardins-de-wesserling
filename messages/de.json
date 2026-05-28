@@ -473,6 +473,35 @@
     }
   },
 
+  "supportUs": {
+    "meta": {
+      "title": "Unterstützen und mitmachen — Les Jardins de Wesserling",
+      "description": "Entdecken Sie, wie Sie den Verein Les Jardins de Wesserling unterstützen können: die Gärten besuchen, dem Verein beitreten oder an seinen Aktivitäten teilnehmen."
+    },
+    "title": "Unterstützen und mitmachen",
+    "visit": {
+      "title": "Die Gärten besuchen",
+      "imageAlt": "Die Gärten",
+      "paragraph": "Der Besuch der Gärten, der Kauf der Produkte oder der Besuch des Resto du Potager sind eine Unterstützung für die Mitarbeitenden in beruflicher Integration, die dort arbeiten.",
+      "contactButton": "Anfahrt und Kontakt",
+      "ticketButton": "Ticketverkauf auf der Website des Parc de Wesserling"
+    },
+    "membership": {
+      "title": "Dem Verein beitreten",
+      "imageAlt": "Die Gärten",
+      "firstParagraph": "Der Beitritt zum Verein oder eine Spende bietet einen Steuervorteil von 66 %, da der Verein als gemeinnützig anerkannt ist. Dies trägt zur Finanzierung von Maßnahmen zur Förderung der Beschäftigung bei.",
+      "secondParagraph": "Um dem Verein Les Jardins de Wesserling beizutreten, füllen Sie das Beitrittsformular aus und senden Sie es zusammen mit der Zahlung per Scheck an „Association Les Jardins de Wesserling 16 rue de Ranspach 68470 Husseren-Wesserling“ zurück.",
+      "thirdParagraph": "Die Zahlung kann auch per Banküberweisung oder direkt in den Büros des Vereins erfolgen.",
+      "button": "Mitgliedsformular herunterladen"
+    },
+    "participation": {
+      "title": "Am Vereinsleben teilnehmen",
+      "imageAlt": "Die Gärten",
+      "paragraph": "Die Teilnahme an den Aktivitäten des Vereins trägt zu seinen gemeinnützigen Zielen bei.",
+      "button": "Kontaktieren Sie uns"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Kontakt und Anfahrt — Les Jardins de Wesserling",

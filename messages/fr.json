@@ -473,6 +473,35 @@
     }
   },
 
+  "supportUs": {
+    "meta": {
+      "title": "Soutenir et participer — Les Jardins de Wesserling",
+      "description": "Découvrez comment soutenir l’association Les Jardins de Wesserling : visiter les jardins, adhérer à l’association ou participer à ses activités."
+    },
+    "title": "Soutenir et participer",
+    "visit": {
+      "title": "Visiter les jardins",
+      "imageAlt": "Les jardins",
+      "paragraph": "Visiter les jardins, acheter ses productions ou consommer au Resto du potager est un encouragement pour les salariés en insertion professionnelle qui y travaillent.",
+      "contactButton": "Plan d'accès et contact",
+      "ticketButton": "Billeterie sur le site du Parc de Wesserling"
+    },
+    "membership": {
+      "title": "Adhérer à l’association",
+      "imageAlt": "Les jardins",
+      "firstParagraph": "Adhérer à l’association ou devenir donateur offre un avantage fiscal de 66%, l’association étant reconnue d’intérêt public. Cela participe au financement des actions en faveur de l’emploi.",
+      "secondParagraph": "Pour adhérer à l’association Les Jardins de Wesserling, remplissez le bulletin d’adhésion et renvoyez-le avec le règlement par chèque à « Association Les Jardins de Wesserling 16 rue de Ranspach 68470 Husseren-Wesserling ».",
+      "thirdParagraph": "Le règlement peut également être fait par virement bancaire, ou en se rendant sur place dans les bureaux de l’association.",
+      "button": "Télécharger le bulletin d'adhésion"
+    },
+    "participation": {
+      "title": "Participer à la vie de l’association",
+      "imageAlt": "Les jardins",
+      "paragraph": "Participer aux activités de l’association contribue à ses objectifs d’intérêt public.",
+      "button": "Nous contacter"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact & accès — Les Jardins de Wesserling",

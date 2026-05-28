@@ -13,6 +13,7 @@ import type {
   AssociationMessages,
   MissionMessages,
   PartnersMessages,
+  SupportUsMessages,
   ContactMessages,
 } from "@/types/i18n";
 
@@ -24,6 +25,7 @@ type Messages = {
   association: AssociationMessages;
   mission: MissionMessages;
   partners: PartnersMessages;
+  supportUs: SupportUsMessages;
   contact: ContactMessages;
 };
 

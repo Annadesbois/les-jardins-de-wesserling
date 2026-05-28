@@ -9,4 +9,5 @@ export * from "./festive";
 export * from "./association";
 export * from "./mission";
 export * from "./partners";
+export * from "./supportUs";
 export * from "./contact";
