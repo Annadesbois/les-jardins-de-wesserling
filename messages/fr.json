@@ -156,6 +156,33 @@
     }
   },
 
+  "restaurant": {
+    "meta": {
+      "title": "Le Resto du Potager — Les Jardins de Wesserling",
+      "description": "Découvrez le Resto du Potager, un restaurant de cuisine légère et de saison situé au cœur des Jardins de Wesserling."
+    },
+    "title": "Le Resto du Potager",
+    "atmosphere": {
+      "imageAlt": "Photo du Resto du Potager aux Jardins de Wesserling",
+      "firstParagraph": "Le Resto du Potager offre un cadre original, immergé dans la végétation florale, légumière et aromatique, et dans un décor de tissus hérités de l’ancienne Manufacture d’Impression de Wesserling.  C’est un restaurant social, le service est assuré par les personnes en insertion professionnelles."
+    },
+    "solidarity": {
+      "imageAlt": "Photo du restaurant social aux Jardins de Wesserling",
+      "firstParagraph": "Déjeuner au Resto du Potager, c’est être solidaire des personnes en recherche d’emploi, ainsi que des agriculteurs de la montagne puisqu’une part des produits du Resto provient de leurs fermes. Et plus largement, cela contribue à la mise en valeur du patrimoine industriel remarquable de Wesserling."
+    },
+    "menu": {
+      "imageAlt": "Photo du menu du Resto du Potager",
+      "firstParagraph": "Les menus reflètent toutes les saveurs du potager : coupelles de crudités variées, tartes aux légumes, melba aux fruits de saison, soupes, sirops, ... S’y ajoutent les produits des agriculteurs de la montagne environnante : assiettes de charcuteries ou de fromages."
+    },
+    "produce": {
+      "imageAlt": "Photo des produits frais du Resto du Potager",
+      "firstParagraph": "Les légumes, petits fruits, aromates produits dans les jardins sont vendus en frais au Resto du Potager, ou transformés en confitures"
+    },
+    "button": "Contact et Réservation",
+    "image": "Feuille de division",
+    "menuTitle": "Menu"
+  },
+
   "contact": {
     "meta": {
       "title": "Contact & accès — Les Jardins de Wesserling",

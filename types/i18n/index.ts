@@ -4,4 +4,5 @@ export * from "./navbar";
 export * from "./footer";
 export * from "./home";
 export * from "./garden";
+export * from "./restaurant";
 export * from "./contact";

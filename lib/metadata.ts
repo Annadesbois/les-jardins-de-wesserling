@@ -8,12 +8,14 @@ import type {
   MetadataMessages,
   HomeMessages,
   GardenMessages,
+  RestaurantMessages,
   ContactMessages,
 } from "@/types/i18n";
 
 type Messages = {
   home: HomeMessages;
   garden: GardenMessages;
+  restaurant: RestaurantMessages;
   contact: ContactMessages;
 };
 

@@ -156,6 +156,33 @@
     }
   },
 
+  "restaurant": {
+    "meta": {
+      "title": "Das Restaurant des Gemüsegartens — Les Jardins de Wesserling",
+      "description": "Entdecken Sie das Restaurant des Gemüsegartens, ein Restaurant mit leichter und saisonaler Küche im Herzen von Les Jardins de Wesserling."
+    },
+    "title": "Das Restaurant des Gemüsegartens",
+    "atmosphere": {
+      "imageAlt": "Foto des Restaurants des Gemüsegartens in Les Jardins de Wesserling",
+      "firstParagraph": "Das Restaurant des Gemüsegartens bietet ein einzigartiges Ambiente mitten in einer Umgebung aus Blumen, Gemüse und aromatischen Pflanzen sowie in einem Dekor aus Stoffen der ehemaligen Stoffdruckerei von Wesserling. Es handelt sich um ein soziales Restaurant, in dem der Service von Menschen in beruflicher Eingliederung übernommen wird."
+    },
+    "solidarity": {
+      "imageAlt": "Foto des sozialen Restaurants in Les Jardins de Wesserling",
+      "firstParagraph": "Im Restaurant des Gemüsegartens zu Mittag zu essen bedeutet, Menschen auf Arbeitssuche sowie die Landwirte der umliegenden Bergregion zu unterstützen, da ein Teil der Produkte des Restaurants von ihren Höfen stammt. Darüber hinaus trägt es zur Aufwertung des bemerkenswerten Industrieerbes von Wesserling bei."
+    },
+    "menu": {
+      "imageAlt": "Foto der Speisekarte des Restaurants des Gemüsegartens",
+      "firstParagraph": "Die Menüs spiegeln alle Aromen des Gemüsegartens wider: verschiedene Rohkostschalen, Gemüsetartes, Melba-Desserts mit saisonalen Früchten, Suppen, Sirupe und vieles mehr. Ergänzt wird dies durch Produkte von Landwirten aus den umliegenden Bergen, darunter Wurst- und Käseplatten."
+    },
+    "produce": {
+      "imageAlt": "Foto der frischen Produkte des Restaurants des Gemüsegartens",
+      "firstParagraph": "Das in den Gärten angebaute Gemüse, die Beeren und Kräuter werden frisch im Restaurant des Gemüsegartens verkauft oder zu Konfitüren verarbeitet."
+    },
+    "button": "Kontakt und Reservierung",
+    "image": "Blatttrenner",
+    "menuTitle": "Speisekarte"
+  },
+
   "contact": {
     "meta": {
       "title": "Kontakt und Anfahrt — Les Jardins de Wesserling",

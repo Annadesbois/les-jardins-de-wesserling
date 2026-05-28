@@ -156,6 +156,33 @@
     }
   },
 
+  "restaurant": {
+    "meta": {
+      "title": "The Kitchen Garden Restaurant — Les Jardins de Wesserling",
+      "description": "Discover the Kitchen Garden Restaurant, a light and seasonal restaurant located in the heart of Les Jardins de Wesserling."
+    },
+    "title": "The Kitchen Garden Restaurant",
+    "atmosphere": {
+      "imageAlt": "Photo of the Kitchen Garden Restaurant at Les Jardins de Wesserling",
+      "firstParagraph": "The Kitchen Garden Restaurant offers an original setting surrounded by flowers, vegetables and aromatic plants, within a décor inspired by fabrics inherited from the former Wesserling Textile Printing Factory. It is a social restaurant where service is provided by people taking part in work integration programmes."
+    },
+    "solidarity": {
+      "imageAlt": "Photo of the social restaurant at Les Jardins de Wesserling",
+      "firstParagraph": "Having lunch at the Kitchen Garden Restaurant means supporting people seeking employment, as well as farmers from the surrounding mountain area, since part of the restaurant’s produce comes from their farms. More broadly, it also contributes to promoting Wesserling’s remarkable industrial heritage."
+    },
+    "menu": {
+      "imageAlt": "Photo of the menu at the Kitchen Garden Restaurant",
+      "firstParagraph": "The menus reflect all the flavours of the kitchen garden: assorted fresh vegetable platters, vegetable tarts, seasonal fruit melba desserts, soups, syrups, and more. These are complemented by products from nearby mountain farms, including charcuterie and cheese platters."
+    },
+    "produce": {
+      "imageAlt": "Photo of the fresh produce at the Kitchen Garden Restaurant",
+      "firstParagraph": "The vegetables, berries and herbs grown in the gardens are sold fresh at the Kitchen Garden Restaurant or transformed into jams."
+    },
+    "button": "Contact and Booking",
+    "image": "Leaf divider",
+    "menuTitle": "Menu"
+  },
+
   "contact": {
     "meta": {
       "title": "Contact and Access — Les Jardins de Wesserling",
