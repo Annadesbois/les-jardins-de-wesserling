@@ -420,6 +420,59 @@
     }
   },
 
+  "partners": {
+    "meta": {
+      "title": "Nos partenaires — Les Jardins de Wesserling",
+      "description": "Découvrez les partenaires financiers et techniques des Jardins de Wesserling ainsi que le soutien apporté par le Fonds Social Européen."
+    },
+    "title": "Nos partenaires",
+    "financialPartners": {
+      "title": "Nos partenaires financiers",
+      "firstParagraph": "L’association Les Jardins de Wesserling étant conventionnée Ateliers et Chantier d’insertion, elle bénéficie de partenariats financiers réguliers, au même titre que l’ensemble des structures d’Insertion par l’Activité Economique.",
+      "secondParagraph": "D’autres partenaires financiers apportent leur soutien pour des projets spécifiques d’investissement ou de création de postes associatifs :",
+      "logos": {
+        "stAmarinAlt": "Logo de la Communauté de Communes de la Vallée de Saint-Amarin",
+        "thurDollerAlt": "Logo du Pays Thur Doller",
+        "alsaceAlt": "Logo de la Collectivité Européenne d’Alsace",
+        "republiqueFrancaiseAlt": "Logo de la République Française",
+        "fondsSocialEuropeenAlt": "Logo du Fonds Social Européen",
+        "grandEstAlt": "Logo de la Région Grand Est",
+        "sm4Alt": "Logo du SM4",
+        "allianceAlt": "Logo de la Fondation Alliance CAIRPSA CARPRECA",
+        "fondationPatrimoineAlt": "Logo de la Fondation du Patrimoine",
+        "totalEnergiesAlt": "Logo de Total Energies",
+        "hermesAlt": "Logo de la Fondation Hermès"
+      }
+    },
+    "fse": {
+      "title": "Le Fonds Social Européen FSE",
+      "firstParagraph": "Le Fonds Social Européen + (FSE+) soutient financièrement le chantier d’insertion des Jardins de Wesserling, notamment pour l’embauche, l’accompagnement socioprofessionnel et l’encadrement technique des salariés en insertion.",
+      "secondParagraph": "Le FSE+ est le principal instrument de l’Union Européenne pour soutenir l’emploi, la formation, l’inclusion sociale et la lutte contre la précarité. La programmation actuelle couvre la période 2021-2027.",
+      "firstListItemStart": "La Délégation générale à l’emploi et à la formation professionnelle (DGEFP) pilote le",
+      "nationalProgrammeLinkLabel": "programme national FSE+ « emploi, inclusion, jeunesse et compétences »",
+      "firstListItemEnd": ", doté de 4 milliards d’euros pour la période 2021-2027.",
+      "secondListItemStart": "La Direction générale de la cohésion sociale (DGCS) pilote le",
+      "foodAidProgrammeLinkLabel": "programme national FSE+ « Soutien européen à l’aide alimentaire »",
+      "secondListItemEnd": ".",
+      "thirdListItemStart": "Les Régions gèrent également des programmes régionaux FEDER-FSE+.",
+      "learnMoreLinkLabel": "En savoir plus",
+      "thirdListItemEnd": ""
+    },
+    "technicalPartners": {
+      "title": "Nos partenaires techniques",
+      "textileParkAssociation": {
+        "title": "L’association de Gestion et d’Animation du Parc Textile de Wesserling",
+        "firstParagraph": "Le Parc de Wesserling, dans lequel est intégré l’association Les Jardins de Wesserling, est pour partie propriété du Département du Haut-Rhin, aujourd’hui Collectivité Européenne d’Alsace, et pour partie propriété de la Communauté de Communes de la Vallée de Saint-Amarin.",
+        "secondParagraph": "Le Département du Haut-Rhin (aujourd’hui la CEA) a délégué à l’association de Gestion et d’Animation du Parc Textile de Wesserling, la mission de reconvertir cet ancien domaine industriel textile vers le tourisme, et de le gérer. Il s’agit d’une fédération d’associations, dont l’association Les Jardins de Wesserling est membre. Une convention précise les modalités de collaboration sur les espaces communs aux deux structures.",
+        "thirdParagraph": "L’association Les Jardins de Wesserling partage des locaux commun avec l’association de Gestion du Parc de Wesserling et le chantier d’insertion Patrimoine et Emploi, locaux réhabilités puis mis gratuitement à la disposition des structures."
+      },
+      "otherAssociations": {
+        "title": "Les autres associations partenaires",
+        "paragraph": "Diverses associations participent aux animations de l’association Les Jardins de Wesserling : la médiathèque de Wesserling l’Etoffe des Mots, les Jardins Familiaux de Thann, des sociétés d’aviculteurs et d’apiculteurs, le SM4, les Ecojardiniers Na’Thur Doller, la recyclerie Krempel & Pric a Prac, Les Oiseaux du Stockenberg, le CPIE des Hautes Vosges, la LPO, le Moulin de Storckensohn, ..."
+      }
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact & accès — Les Jardins de Wesserling",

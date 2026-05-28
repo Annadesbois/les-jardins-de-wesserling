@@ -8,4 +8,5 @@ export * from "./restaurant";
 export * from "./festive";
 export * from "./association";
 export * from "./mission";
+export * from "./partners";
 export * from "./contact";

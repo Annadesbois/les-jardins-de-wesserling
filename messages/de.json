@@ -420,6 +420,59 @@
     }
   },
 
+  "partners": {
+    "meta": {
+      "title": "Unsere Partner — Les Jardins de Wesserling",
+      "description": "Entdecken Sie die finanziellen und technischen Partner von Les Jardins de Wesserling sowie die Unterstützung durch den Europäischen Sozialfonds."
+    },
+    "title": "Unsere Partner",
+    "financialPartners": {
+      "title": "Unsere finanziellen Partner",
+      "firstParagraph": "Da der Verein Les Jardins de Wesserling als Integrationswerkstatt und Integrationsbaustelle anerkannt ist, profitiert er von regelmäßigen finanziellen Partnerschaften, ebenso wie alle Strukturen der Integration durch wirtschaftliche Tätigkeit.",
+      "secondParagraph": "Weitere finanzielle Partner unterstützen spezifische Investitionsprojekte oder die Schaffung von Stellen innerhalb des Vereins:",
+      "logos": {
+        "stAmarinAlt": "Logo der Gemeinschaft der Gemeinden des Saint-Amarin-Tals",
+        "thurDollerAlt": "Logo des Pays Thur Doller",
+        "alsaceAlt": "Logo der Europäischen Gebietskörperschaft Elsass",
+        "republiqueFrancaiseAlt": "Logo der Französischen Republik",
+        "fondsSocialEuropeenAlt": "Logo des Europäischen Sozialfonds",
+        "grandEstAlt": "Logo der Region Grand Est",
+        "sm4Alt": "Logo des SM4",
+        "allianceAlt": "Logo der Stiftung Alliance CAIRPSA CARPRECA",
+        "fondationPatrimoineAlt": "Logo der Stiftung Fondation du Patrimoine",
+        "totalEnergiesAlt": "Logo von Total Energies",
+        "hermesAlt": "Logo der Fondation Hermès"
+      }
+    },
+    "fse": {
+      "title": "Der Europäische Sozialfonds ESF",
+      "firstParagraph": "Der Europäische Sozialfonds Plus (ESF+) unterstützt die Integrationsbaustelle von Les Jardins de Wesserling finanziell, insbesondere bei der Einstellung, der sozialberuflichen Begleitung und der technischen Betreuung von Mitarbeitenden in beruflicher Integration.",
+      "secondParagraph": "Der ESF+ ist das wichtigste Instrument der Europäischen Union zur Förderung von Beschäftigung, Ausbildung, sozialer Inklusion und zur Bekämpfung von Armut. Die aktuelle Förderperiode umfasst die Jahre 2021–2027.",
+      "firstListItemStart": "Die Generaldelegation für Beschäftigung und Berufsbildung (DGEFP) leitet das",
+      "nationalProgrammeLinkLabel": "nationale ESF+-Programm „Beschäftigung, Inklusion, Jugend und Kompetenzen“",
+      "firstListItemEnd": "mit einem Budget von 4 Milliarden Euro für den Zeitraum 2021–2027.",
+      "secondListItemStart": "Die Generaldirektion für sozialen Zusammenhalt (DGCS) leitet das",
+      "foodAidProgrammeLinkLabel": "nationale ESF+-Programm „Europäische Unterstützung für Lebensmittelhilfe“",
+      "secondListItemEnd": ".",
+      "thirdListItemStart": "Die Regionen verwalten außerdem regionale EFRE-ESF+-Programme.",
+      "learnMoreLinkLabel": "Mehr erfahren",
+      "thirdListItemEnd": ""
+    },
+    "technicalPartners": {
+      "title": "Unsere technischen Partner",
+      "textileParkAssociation": {
+        "title": "Der Verein für Verwaltung und Animation des Textilparks Wesserling",
+        "firstParagraph": "Der Parc de Wesserling, in den der Verein Les Jardins de Wesserling integriert ist, gehört teilweise dem Département Haut-Rhin, heute Europäische Gebietskörperschaft Elsass, und teilweise der Gemeinschaft der Gemeinden des Saint-Amarin-Tals.",
+        "secondParagraph": "Das Département Haut-Rhin (heute die CEA) hat dem Verein für Verwaltung und Animation des Textilparks Wesserling die Aufgabe übertragen, dieses ehemalige industrielle Textilgelände touristisch umzuwandeln und zu verwalten. Es handelt sich um einen Zusammenschluss von Vereinen, zu dem auch der Verein Les Jardins de Wesserling gehört. Eine Vereinbarung legt die Bedingungen der Zusammenarbeit in den gemeinsam genutzten Bereichen fest.",
+        "thirdParagraph": "Der Verein Les Jardins de Wesserling teilt sich Räumlichkeiten mit dem Verein zur Verwaltung des Parc de Wesserling und der Integrationsbaustelle Patrimoine et Emploi. Diese Räumlichkeiten wurden renoviert und den Strukturen anschließend kostenlos zur Verfügung gestellt."
+      },
+      "otherAssociations": {
+        "title": "Weitere Partnervereine",
+        "paragraph": "Verschiedene Vereine beteiligen sich an den Veranstaltungen des Vereins Les Jardins de Wesserling: die Mediathek von Wesserling l’Etoffe des Mots, die Familiengärten von Thann, Geflügel- und Imkervereine, das SM4, die Ecojardiniers Na’Thur Doller, die Recyclingwerkstatt Krempel & Pric a Prac, Les Oiseaux du Stockenberg, das CPIE des Hautes Vosges, die LPO, die Moulin de Storckensohn, ..."
+      }
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Kontakt und Anfahrt — Les Jardins de Wesserling",
