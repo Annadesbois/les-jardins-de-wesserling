@@ -65,9 +65,34 @@
       "title": "Les Jardins de Wesserling",
       "description": "Découvrez les Jardins de Wesserling : jardin potager, restaurant et animations festives. Une association engagée pour le patrimoine et l’insertion par le jardinage."
     },
+    "cardOne": {
+      "title": "Découvrez notre association",
+      "caption": "Découvrez notre histoire, nos valeurs et notre équipe",
+      "imageAlt": "Photo de l'association des Jardins de Wesserling"
+    },
+    "cardTwo": {
+      "title": "Visitez nos jardins",
+      "caption": "Explorez notre jardin potager et découvrez la diversité de nos cultures",
+      "imageAlt": "Photo du jardin potager des Jardins de Wesserling"
+    },
+    "cardThree": {
+      "title": "Participez à nos événements",
+      "caption": "Rejoignez-nous pour des animations festives et des activités communautaires",
+      "imageAlt": "Photo des animations festives des Jardins de Wesserling"
+    },
     "hero": {
-      "title": "Bienvenue aux "
-    }
+      "title": "Bienvenue aux ",
+      "imageAlt": "Photo d'accueil des Jardins de Wesserling",
+      "firstParagraph": "Depuis 2000, l’association Les Jardins de Wesserling œuvre à la reconversion du Parc de Wesserling en un lieu vivant, créatif et solidaire, au cœur du Massif Vosgien.",
+      "secondParagraph": "À travers les jardins potagers, les animations et les aménagements pédagogiques, l’association valorise ce patrimoine tout en développant l’insertion professionnelle et l’entraide locale.",
+      "thirdParagraph": "Aujourd’hui, une vingtaine de personnes en insertion, accompagnées par une équipe salariée et de nombreux bénévoles, participent chaque année à la vie et au développement des jardins.",
+      "fourthParagraph": "Les Jardins de Wesserling sont avant tout un espace de partage, de créativité et de transmission, ouvert à toutes celles et ceux qui souhaitent s’impliquer ou simplement découvrir le lieu.",
+      "fifthParagraph": "Bienvenue à toutes celles et ceux qui souhaitent nous rejoindre.",
+      "sixthParagraph": "Pour le conseil d’administration",
+      "seventhParagraph": "Georgette Tacquard, présidente"
+    },
+    "image": "Feuille de division",
+    "button": "Lien vers la billeterie sur le site du Parc de Wesserling"
   },
 
   "contact": {

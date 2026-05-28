@@ -18,26 +18,24 @@ const HomePage = async ({ params }: PageProp) => {
 
   const cards: SingleCardProps[] = [
     {
-      title: "Notre association",
-      caption: "Découvrez notre histoire, nos valeurs et notre équipe",
+      title: home.cardOne.title,
+      caption: home.cardOne.caption,
       imageSrc: "/restau-du-potager-steeve-josch.webp",
-      imageAlt: "Photo de l'association des Jardins de Wesserling",
+      imageAlt: home.cardOne.imageAlt,
       href: `/${locale}/about/association`,
     },
     {
-      title: "Les jardins",
-      caption:
-        "Explorez les différents espaces des Jardins de Wesserling et planifiez votre visite",
+      title: home.cardTwo.title,
+      caption: home.cardTwo.caption,
       imageSrc: "/restau-du-potager-steeve-josch.webp",
-      imageAlt: "Photo des Jardins de Wesserling",
+      imageAlt: home.cardTwo.imageAlt,
       href: `/${locale}/garden`,
     },
     {
-      title: "Les animations festives",
-      caption:
-        "Participez à nos événements et animations tout au long de l'année",
+      title: home.cardThree.title,
+      caption: home.cardThree.caption,
       imageSrc: "/restau-du-potager-steeve-josch.webp",
-      imageAlt: "Photo des jardins en fête",
+      imageAlt: home.cardThree.imageAlt,
       href: `/${locale}/festive-entertainment`,
     },
   ];
@@ -51,34 +49,30 @@ const HomePage = async ({ params }: PageProp) => {
       </h1>
       <Hero
         imageSrc={"/restau-du-potager-steeve-josch.webp"}
-        imageAlt={"Restaurant du potager aux Jardins de Wesserling"}
-        firstParagraph={
-          "Depuis 2000, l’association Les Jardins de Wesserling œuvre à la reconversion du Parc de Wesserling en un lieu vivant, créatif et solidaire, au cœur du Massif Vosgien."
-        }
-        secondParagraph={
-          "À travers les jardins potagers, les animations et les aménagements pédagogiques, l’association valorise ce patrimoine tout en développant l’insertion professionnelle et l’entraide locale."
-        }
-        thirdParagraph={
-          "Aujourd’hui, une vingtaine de personnes en insertion, accompagnées par une équipe salariée et de nombreux bénévoles, participent chaque année à la vie et au développement des jardins."
-        }
-        fourthParagraph={
-          "Les Jardins de Wesserling sont avant tout un espace de partage, de créativité et de transmission, ouvert à toutes celles et ceux qui souhaitent s’impliquer ou simplement découvrir le lieu."
-        }
-        fifthParagraph="Bienvenue à toutes celles et ceux qui souhaitent nous rejoindre."
-        sixthParagraph="Pour le conseil d’administration"
-        seventhParagraph="Georgette Tacquard, présidente"
+        imageAlt={home.hero.imageAlt}
+        firstParagraph={home.hero.firstParagraph}
+        secondParagraph={home.hero.secondParagraph}
+        thirdParagraph={home.hero.thirdParagraph}
+        fourthParagraph={home.hero.fourthParagraph}
+        fifthParagraph={home.hero.fifthParagraph}
+        sixthParagraph={home.hero.sixthParagraph}
+        seventhParagraph={home.hero.seventhParagraph}
         textPosition={"right"}
       />
       <Image
         src="/leaf-divider.png"
-        alt="Feuille de division"
+        alt={home.image}
         width={500}
         height={50}
         className="mx-auto mb-20 mt-6"
       />
       <ThreeCards cards={cards} />
-      <LinkButton href="https://www.parc-wesserling.fr/billetterie/" external className="mt-4">
-        Lien vers la billeterie sur le site du Parc de Wesserling
+      <LinkButton
+        href="https://www.parc-wesserling.fr/billetterie/"
+        external
+        className="mt-4"
+      >
+        {home.button}
       </LinkButton>
     </div>
   );

@@ -65,9 +65,34 @@
       "title": "Les Jardins de Wesserling",
       "description": "Discover Les Jardins de Wesserling: kitchen garden, restaurant and festive events. An association committed to heritage preservation and social integration through gardening."
     },
+    "cardOne": {
+      "title": "The Association",
+      "caption": "Discover our history, values and team",
+      "imageAlt": "Photo of the Les Jardins de Wesserling association"
+    },
+    "cardTwo": {
+      "title": "Visit Our Gardens",
+      "caption": "Explore our kitchen garden and discover the diversity of our crops",
+      "imageAlt": "Photo of the kitchen garden of Les Jardins de Wesserling"
+    },
+    "cardThree": {
+      "title": "Participate in Our Events",
+      "caption": "Join us for festive animations and community activities",
+      "imageAlt": "Photo of the festive animations of Les Jardins de Wesserling"
+    },
     "hero": {
-      "title": "Welcome to "
-    }
+      "title": "Welcome to ",
+      "imageAlt": "Welcome photo of Les Jardins de Wesserling",
+      "firstParagraph": "Since 2000, the Les Jardins de Wesserling association has been working to transform the Parc de Wesserling into a vibrant, creative and community-focused place in the heart of the Vosges Mountains.",
+      "secondParagraph": "Through the kitchen gardens, events and educational spaces, the association promotes and enhances this heritage site while supporting social and professional inclusion and strengthening local solidarity.",
+      "thirdParagraph": "Today, around twenty people taking part in work integration programmes, supported by a dedicated team and many volunteers, contribute each year to the life and development of the gardens.",
+      "fourthParagraph": "Above all, Les Jardins de Wesserling is a place of sharing, creativity and learning, open to anyone who wishes to get involved or simply discover the site.",
+      "fifthParagraph": "A warm welcome to everyone who would like to join us.",
+      "sixthParagraph": "On behalf of the Board of Directors",
+      "seventhParagraph": "Georgette Tacquard, Chair"
+    },
+    "image": "Division Leaf",
+    "button": "Link to the ticketing on the Parc de Wesserling website"
   },
 
   "contact": {

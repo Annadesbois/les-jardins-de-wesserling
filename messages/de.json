@@ -65,9 +65,34 @@
       "title": "Les Jardins de Wesserling",
       "description": "Entdecken Sie Les Jardins de Wesserling: Küchengarten, Restaurant und festliche Veranstaltungen. Ein Verein, der sich für das kulturelle und natürliche Erbe sowie für soziale Integration durch Gartenarbeit engagiert."
     },
+    "cardOne": {
+      "title": "Die Vereinigung",
+      "caption": "Entdecken Sie unsere Geschichte, unsere Werte und unser Team",
+      "imageAlt": "Foto der Vereinigung Les Jardins de Wesserling"
+    },
+    "cardTwo": {
+      "title": "Die Gärten",
+      "caption": "Entdecken Sie die verschiedenen Bereiche der Les Jardins de Wesserling und planen Sie Ihren Besuch",
+      "imageAlt": "Foto der Les Jardins de Wesserling"
+    },
+    "cardThree": {
+      "title": "Festliche Veranstaltungen",
+      "caption": "Nehmen Sie an unseren Veranstaltungen und Festen das ganze Jahr über teil",
+      "imageAlt": "Foto der Les Jardins de Wesserling in Feierlaune"
+    },
     "hero": {
-      "title": "Willkommen im "
-    }
+      "title": "Willkommen im ",
+      "imageAlt": "Willkommensfoto der Les Jardins de Wesserling",
+      "firstParagraph": "Seit 2000 arbeitet die Vereinigung Les Jardins de Wesserling daran, den Parc de Wesserling zu einem lebendigen, kreativen und gemeinschaftsorientierten Ort im Herzen der Vogesen zu machen.",
+      "secondParagraph": "Durch die Küchengärten, Veranstaltungen und Bildungsräume fördert und wertet die Vereinigung diesen Kulturerbe-Ort auf, unterstützt soziale und berufliche Integration und stärkt die lokale Solidarität.",
+      "thirdParagraph": "Heute tragen rund zwanzig Menschen, die an Arbeitsintegrationsprogrammen teilnehmen, unterstützt von einem engagierten Team und vielen Freiwilligen, jedes Jahr zum Leben und zur Entwicklung der Gärten bei.",
+      "fourthParagraph": "Vor allem sind die Les Jardins de Wesserling ein Ort des Teilens, der Kreativität und des Lernens, offen für alle, die sich engagieren oder einfach den Ort entdecken möchten.",
+      "fifthParagraph": "Ein herzliches Willkommen an alle, die sich uns anschließen möchten.",
+      "sixthParagraph": "Im Namen des Vorstands",
+      "seventhParagraph": "Georgette Tacquard, Vorsitzende"
+    },
+    "image": "Trennblatt",
+    "button": "Link zum Ticketverkauf auf der Website des Parc de Wesserling"
   },
 
   "contact": {
