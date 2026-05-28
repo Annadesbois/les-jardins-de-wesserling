@@ -95,6 +95,67 @@
     "button": "Link zum Ticketverkauf auf der Website des Parc de Wesserling"
   },
 
+  "garden": {
+    "meta": {
+      "title": "Der Gemüsegarten — Les Jardins de Wesserling",
+      "description": "Entdecken Sie Les Jardins de Wesserling, einen wunderschönen pädagogischen Gemüsegarten im Herzen des Parc de Wesserling."
+    },
+    "title": "Ein Gemüsegarten zum Besuchen",
+    "park": {
+      "intro1": "Die Gemüsegärten von Wesserling befinden sich im Herzen des bemerkenswerten",
+      "link1": "Industrieparks Wesserling",
+      "intro2": ", der für die Öffentlichkeit zugänglich und Teil des",
+      "link2": "ERIH-Netzwerks",
+      "intro3": "des europäischen Industrietourismus ist.",
+      "intro4": "Hier sind alle Epochen der Industriearchitektur vertreten – von der industriellen Revolution des 18. Jahrhunderts bis zum Niedergang im 20. Jahrhundert. Der obere Teil des Geländes bietet einen strukturierten Rundgang:",
+      "reception": {
+        "imageAlt": "Foto des Empfangsbereichs im Parc de Wesserling",
+        "description": "Empfang beim Schloss der Fabrikanten"
+      },
+      "garden": {
+        "imageAlt": "Foto des Gemüsegartens von Les Jardins de Wesserling",
+        "description": "Rundgang durch die Gärten mit mediterranen Terrassen, dem englischen Landschaftspark, dem formalen Garten und seinem Festival, dem pädagogischen Gemüsegarten und dem ländlichen Park"
+      },
+      "farm": {
+        "imageAlt": "Foto des Bauernhofs von Les Jardins de Wesserling",
+        "description": "Besichtigung des Bauernhofs und seiner Rolle in der ehemaligen Industrieanlage"
+      },
+      "factory": {
+        "imageAlt": "Foto der ehemaligen Fabrik im Parc de Wesserling",
+        "description": "Entdeckung der Industriegebäude sowie der Ton- und Lichtshow im grossen Heizhaus"
+      },
+      "shop": {
+        "imageAlt": "Foto des Shops im Parc de Wesserling",
+        "description": "Ausgang über den Shop und das Café im Turbinensaal"
+      },
+      "association": "In diesem Umfeld hat der Verein Les Jardins de Wesserling sein soziales Projekt entwickelt: einen pädagogischen Gemüsegarten und ein kleines Restaurant, in denen Menschen in beruflicher Eingliederung arbeiten.",
+      "button": "Link zum Ticketverkauf auf der Website des Parc de Wesserling"
+    },
+    "image": "Blatttrenner",
+    "garden": {
+      "intro": "Der Gemüsegarten von Wesserling führt Besucherinnen und Besucher in die umweltfreundliche Gartenkunst ein und lädt zugleich zu einem besonderen Spaziergang ein.",
+      "centralPath": {
+        "imageAlt": "Foto des Gemüsegartens von Les Jardins de Wesserling",
+        "description": "Der zentrale Weg, der die ehemaligen Wasserbecken verbindet, bildet das Rückgrat des Gemüsegartens. Er verbindet Gartenbau mit dem industriellen Erbe von Wesserling. Die Anordnung von Gemüse, Blumen und Kräutern stellt textile Muster dar, die einst in der ehemaligen Manufaktur entworfen wurden. Jedes Jahr wird eine neue Gestaltung passend zum Thema des Festivals der gemischten Gärten präsentiert."
+      },
+      "pedagogy": {
+        "imageAlt": "Foto des pädagogischen Gartens von Les Jardins de Wesserling",
+        "description": "Zu beiden Seiten dieser Achse erstrecken sich die vier Bereiche des pädagogischen Gemüsegartens. Die Beete zeigen Anbaumethoden im Einklang mit natürlichen Prozessen: Fruchtfolge, vorteilhafte Pflanzenkombinationen, Unterstützung durch Nützlinge sowie Boden- und Wassermanagement. Ein Weg durch eine Hecke zeigt Lebensräume für nützliche Gartenhelfer. Informationstafeln und Lernspiele führen in die Geheimnisse des Gärtnerns ein."
+      },
+      "orchard": {
+        "imageAlt": "Foto des Obstgartens von Les Jardins de Wesserling",
+        "description": "Ein Erhaltungsobstgarten mit Quittenbäumen sowie eine Terrasse mit Beeren und Kräutern ergänzen diesen genussvollen Garten, dessen Produkte im Resto du Potager verkauft oder verarbeitet werden.",
+        "button": "Das Resto du Potager entdecken"
+      },
+      "accessibility": {
+        "imageAlt": "Foto eines Ruhebereichs in Les Jardins de Wesserling",
+        "description": "Um allen Menschen, einschliesslich Personen mit eingeschränkter Mobilität, den Zugang zu ermöglichen, befinden sich entlang der Wege des Gemüsegartens zahlreiche Ruhebereiche mitten im Grünen."
+      },
+      "membership": "Wenn Sie Mitglied des Vereins werden oder spenden, profitieren Sie von einer Steuervergünstigung von 66 %, da der Verein als gemeinnützig anerkannt ist. Ihre Unterstützung trägt zur Finanzierung von Beschäftigungsinitiativen bei.",
+      "button": "Dem Verein beitreten"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Kontakt und Anfahrt — Les Jardins de Wesserling",

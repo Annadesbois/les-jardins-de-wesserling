@@ -19,141 +19,115 @@ const GardenPage = async ({ params }: PageProp) => {
       <h1>{garden.title}</h1>
       <section className="text-center">
         <h3 className="pb-10">
-          Les potagers de Wesserling sont situés au cœur du remarquable
+          {garden.park.intro1}
           <Link 
             href="https://www.parc-wesserling.fr/"
             target="_blank"
             rel="noopener noreferrer"
             className="link"
           >
-            parc industriel de Wesserling
+            {garden.park.link1}
           </Link>
-          , ouvert au public, intégré au
+          {garden.park.intro2}
           <Link
             href="https://www.erih.net/"
             target="_blank"
             rel="noopener noreferrer"
             className="link"
           >
-            réseau ERIH
+            {garden.park.link2}
           </Link>
-          du tourisme industriel européen.
+          {garden.park.intro3}
         </h3>
         <p>
-          Toutes les architectures industrielles y sont représentées, de la
-          révolution industrielle au 18ème siècle jusqu’au déclin du 20ème
-          siècle. La partie haute de ce domaine fait l’objet d’une découverte
-          touristique structurée :
+          {garden.park.intro4}
         </p>
         <div className="mt-10 flex flex-col gap-4 md:gap-0">
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={"Accueil au niveau du château des manufacturiers"}
+            imageAlt={garden.park.reception.imageAlt}
+            description={garden.park.reception.description}
             textPosition="right"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "Traversée des jardins par les terrasses méditerranéennes, le parc arboré à l’anglaise, le jardin régulier et son festival, le potager pédagogique, et le parc rural"
-            }
+            imageAlt={garden.park.garden.imageAlt}
+            description={garden.park.garden.description}
             textPosition="left"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "Visite de la ferme et de son rôle dans l’ancienne industrie"
-            }
+            imageAlt={garden.park.farm.imageAlt}
+            description={garden.park.farm.description}
             textPosition="right"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "Découverte des bâtiments industriels et du 'son et lumière' dans la grande chaufferie"
-            }
+            imageAlt={garden.park.factory.imageAlt}
+            description={garden.park.factory.description}
             textPosition="left"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "Sortie par la boutique et le café de la salle des turbines"
-            }
+            imageAlt={garden.park.shop.imageAlt}
+            description={garden.park.shop.description}
             textPosition="right"
           />
         </div>
         <p className="font-bold pt-6">
-          C’est dans cet ensemble que l’association Les Jardins de Wesserling a
-          développé son projet social : un potager pédagogique et une
-          restauration légère, dans lesquels travaillent les salariés en
-          insertion professionnelle.
+          {garden.park.association}
         </p>
       </section>
       <LinkButton href="https://www.parc-wesserling.fr/billetterie/" external>
-        Lien vers la billeterie sur le site du Parc de Wesserling
+        {garden.park.button}
       </LinkButton>
       <Image
               src="/leaf-divider.png"
-              alt="Feuille de division"
+              alt={garden.image}
               width={500}
               height={50}
               className="mx-auto mb-20 mt-16"
             />
       <section className="md:mt-8">
         <h2 className="text-center">
-          Le potager de Wesserling initie le visiteur à l’art du jardinage
-          respectueux de l’environnement, tout en offrant une flânerie insolite.
+          {garden.garden.intro}
         </h2>
         <div className="mt-10">
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "L’allée centrale qui relie les anciens bassins, est l’ossature du potager. Elle fait le lien entre horticulture et patrimoine industriel de Wesserling. L’agencement des légumes, fleurs et aromates, représente des motifs textiles créés dans l’ancienne Manufacture. Chaque année, une nouvelle composition est présentée, en lien avec le thème du Festival des Jardins Métissés."
-            }
+            imageAlt={garden.garden.centralPath.imageAlt}
+            description={garden.garden.centralPath.description}
             textPosition="right"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "De part et d’autre de cet axe s’étendent les quatre secteurs du potager pédagogique. Leurs parcelles mettent en scène les façons de cultiver en tenant compte des processus naturels : rotation des cultures, associations bénéfiques entre plantes, aide des auxiliaires de culture, gestion du sol et de l’eau, ... Un cheminement au cœur d’une haie dévoile les habitats d’auxiliaires de culture utiles au jardinier. Des panneaux pédagogiques et des jeux éducatifs initient aux secrets du jardinier."
-            }
+            imageAlt={garden.garden.pedagogy.imageAlt}
+            description={garden.garden.pedagogy.description}
             textPosition="left"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "Un verger conservatoire de cognassiers, une terrasse de petits fruits et d’aromatiques, complètent ce jardin gourmand, dont les productions sont vendues ou transformées au Resto du Potager."
-            }
+            imageAlt={garden.garden.orchard.imageAlt}
+            description={garden.garden.orchard.description}
             locale={locale}
             button={{
               href: "/restaurant",
-              label: "Découvrir le Resto du Potager",
+              label: garden.garden.orchard.button,
             }}
             textPosition="right"
           />
           <Hero
             imageSrc="/restau-du-potager-steeve-josch.webp"
-            imageAlt=""
-            description={
-              "Afin d’être accessible à tous, y compris aux personnes à mobilité réduite, de nombreux lieux de repos, immergés dans la végétation, ponctuent les allées du potager."
-            }
+            imageAlt={garden.garden.accessibility.imageAlt}
+            description={garden.garden.accessibility.description}
             textPosition="left"
           />
         </div>
         <p className="text-center">
-          En adhérant à l’association ou en devenant donateur, vous bénéficiez
-          d’un avantage fiscal de 66%, l’association étant reconnue d’intérêt
-          public. Cela participe au financement des actions en faveur de
-          l’emploi.
+          {garden.garden.membership}
         </p>
         <LinkButton href={`/${locale}/about/support-us`} className="mt-12">
-          Adhérer à l’association
+          {garden.garden.button}
         </LinkButton>
       </section>
     </div>

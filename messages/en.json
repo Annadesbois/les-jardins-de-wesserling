@@ -95,6 +95,67 @@
     "button": "Link to the ticketing on the Parc de Wesserling website"
   },
 
+  "garden": {
+    "meta": {
+      "title": "The Kitchen Garden — Les Jardins de Wesserling",
+      "description": "Discover Les Jardins de Wesserling, a beautiful educational kitchen garden in the heart of the Parc de Wesserling."
+    },
+    "title": "A Kitchen Garden to Visit",
+    "park": {
+      "intro1": "The Wesserling kitchen gardens are located at the heart of the remarkable",
+      "link1": "Wesserling industrial park",
+      "intro2": ", open to the public and part of the",
+      "link2": "ERIH network",
+      "intro3": "of European industrial tourism.",
+      "intro4": "All periods of industrial architecture are represented here, from the Industrial Revolution of the 18th century through to the decline of the 20th century. The upper part of the estate offers a structured visitor experience:",
+      "reception": {
+        "imageAlt": "Photo of the reception area at Parc de Wesserling",
+        "description": "Reception area near the manufacturers’ château"
+      },
+      "garden": {
+        "imageAlt": "Photo of the kitchen garden at Les Jardins de Wesserling",
+        "description": "Walk through the gardens via the Mediterranean terraces, the English-style landscaped park, the formal garden and its festival, the educational kitchen garden, and the rural park"
+      },
+      "farm": {
+        "imageAlt": "Photo of the farm at Les Jardins de Wesserling",
+        "description": "Visit the farm and discover its role in the former industrial site"
+      },
+      "factory": {
+        "imageAlt": "Photo of the former factory at Parc de Wesserling",
+        "description": "Discover the industrial buildings and the sound and light show in the large boiler house"
+      },
+      "shop": {
+        "imageAlt": "Photo of the shop at Parc de Wesserling",
+        "description": "Exit through the shop and café located in the turbine hall"
+      },
+      "association": "It is within this setting that the Les Jardins de Wesserling association has developed its social project: an educational kitchen garden and light catering activities where people on work integration programmes are employed.",
+      "button": "Link to the ticket office on the Parc de Wesserling website"
+    },
+    "image": "Leaf divider",
+    "garden": {
+      "intro": "The Wesserling kitchen garden introduces visitors to environmentally friendly gardening while offering a unique and relaxing stroll.",
+      "centralPath": {
+        "imageAlt": "Photo of the kitchen garden at Les Jardins de Wesserling",
+        "description": "The central pathway linking the former ponds forms the backbone of the kitchen garden. It creates a connection between horticulture and Wesserling’s industrial heritage. The arrangement of vegetables, flowers and herbs recreates textile patterns once designed in the former factory. Each year, a new composition is presented in connection with the theme of the Festival of Mixed Gardens."
+      },
+      "pedagogy": {
+        "imageAlt": "Photo of the educational garden at Les Jardins de Wesserling",
+        "description": "On either side of this axis extend the four sections of the educational kitchen garden. Their plots demonstrate gardening methods that work alongside natural processes: crop rotation, beneficial plant associations, the use of helpful insects and wildlife, soil and water management, and more. A pathway through a hedge reveals habitats for beneficial species useful to gardeners. Educational panels and games introduce visitors to the secrets of gardening."
+      },
+      "orchard": {
+        "imageAlt": "Photo of the orchard at Les Jardins de Wesserling",
+        "description": "A heritage quince orchard, a terrace of berries and aromatic plants complete this abundant garden, whose produce is sold or transformed at the Resto du Potager.",
+        "button": "Discover the Resto du Potager"
+      },
+      "accessibility": {
+        "imageAlt": "Photo of a resting area at Les Jardins de Wesserling",
+        "description": "To ensure accessibility for everyone, including people with reduced mobility, numerous resting areas immersed in the vegetation are located throughout the kitchen garden pathways."
+      },
+      "membership": "By becoming a member of the association or making a donation, you benefit from a 66% tax reduction, as the association is recognised as serving the public interest. Your support helps fund employment initiatives.",
+      "button": "Join the association"
+    }
+  },
+
   "contact": {
     "meta": {
       "title": "Contact and Access — Les Jardins de Wesserling",
