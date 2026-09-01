@@ -5,7 +5,7 @@ import republicFrancaise from "@/public/logos/republique-francaise.svg";
 import grandEst from "@/public/logos/region-grand-est.png";
 import alsace from "@/public/logos/collectivite-europeenne-alsace.png";
 import thurDoller from "@/public/logos/pays-thur-doller.png";
-// import leader from "@/public/logos/feader-leader.jpg";
+import leader from "@/public/logos/feader-leader.jpg";
 import stAmarin from "@/public/logos/vallée-de-st-amarin.svg";
 import alliance from "@/public/logos/fondation-alliance-cairpsa-carpreca.jpg";
 import sm4 from "@/public/logos/sm4.png";
@@ -131,7 +131,7 @@ const Footer = ({ messages }: FooterProps) => {
                   className="logo-image"
                 />
               </a>
-              {/* <a
+              <a
                 href="https://www.europe-en-france.gouv.fr/en/leader-accompagne-territoires-ruraux"
                 aria-label={footerMessages.leaderAria}
                 target="_blank"
@@ -143,7 +143,7 @@ const Footer = ({ messages }: FooterProps) => {
                   alt={footerMessages.leaderAlt}
                   className="logo-image"
                 />
-              </a> */}
+              </a>
               <a
                 href="https://www.saint-amarin.com/"
                 aria-label={footerMessages.stAmarinAria}
