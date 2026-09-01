@@ -64,7 +64,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/events/feeries-nocturnes.JPG"
+        imageSrc="/photos/events/feeries-nocturnes.jpg"
         imageAlt={festive.nocturnes.imageAlt}
         title={festive.nocturnes.title}
         subtitle={
@@ -97,7 +97,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/events/noel-au-jardin.JPG"
+        imageSrc="/photos/events/noel-au-jardin.jpg"
         imageAlt={festive.christmas.imageAlt}
         title={festive.christmas.title}
         subtitle={
