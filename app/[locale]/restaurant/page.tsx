@@ -16,40 +16,38 @@ const RestaurantPage = async ({ params }: PageProp) => {
     <div className="page-layout text-center">
       <h1>{restaurant.title}</h1>
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/restau/restau-du-potager-steeve-josch.WEBP"
         imageAlt={restaurant.atmosphere.imageAlt}
         firstParagraph={restaurant.atmosphere.firstParagraph}
         textPosition="right"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/restau/produits-fermiers.JPG"
         imageAlt={restaurant.solidarity.imageAlt}
         firstParagraph={restaurant.solidarity.firstParagraph}
         textPosition="left"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/restau/tartes-flambees-au-restau-du-potager.JPG"
         imageAlt={restaurant.menu.imageAlt}
         firstParagraph={restaurant.menu.firstParagraph}
         textPosition="right"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/restau/produits-frais-au-restau-du-potager.JPG"
         imageAlt={restaurant.produce.imageAlt}
         firstParagraph={restaurant.produce.firstParagraph}
         textPosition="left"
       />
-      <LinkButton href={`/${locale}/contact`}>
-        {restaurant.button}
-      </LinkButton>
+      <LinkButton href={`/${locale}/contact`}>{restaurant.button}</LinkButton>
       <Image
         src="/leaf-divider.png"
         alt={restaurant.image}
         width={500}
         height={50}
-        className="mx-auto mb-20 mt-6"
+        className="mx-auto mb-10 mt-10"
       />
-      <h1 className="font-bold text-2xl">{restaurant.menuTitle}</h1>
+      {/* <h1 className="font-bold text-2xl">{restaurant.menuTitle}</h1> */}
     </div>
   );
 };
