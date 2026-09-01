@@ -18,8 +18,8 @@
       "label": "Festive Events"
     },
     "about": {
-      "label": "About",
-      "association": "Our Association",
+      "label": "Our Association",
+      "association": "About us",
       "mission": "Social Mission",
       "partners": "Partners",
       "supportUs": "Get Involved"
@@ -450,15 +450,19 @@
       "title": "The European Social Fund ESF",
       "firstParagraph": "The European Social Fund Plus (ESF+) provides financial support to the Les Jardins de Wesserling integration worksite, particularly for recruitment, socio-professional support and the technical supervision of employees in professional integration.",
       "secondParagraph": "The ESF+ is the European Union’s main instrument for supporting employment, training, social inclusion and the fight against poverty. The current funding period covers 2021–2027.",
+      "thirdParagraph": "The ESF+ is part of the European Union’s programming period 2021–2027. France has a budget of 6.7 billion euros for the ESF+ during this period. These credits are distributed between 2 national programs managed by the State and 17 regional programs:",
       "firstListItemStart": "The General Delegation for Employment and Vocational Training (DGEFP) manages the",
       "nationalProgrammeLinkLabel": "national ESF+ programme “employment, inclusion, youth and skills”",
       "firstListItemEnd": ", with a budget of 4 billion euros for the 2021–2027 period.",
       "secondListItemStart": "The General Directorate for Social Cohesion (DGCS) manages the",
       "foodAidProgrammeLinkLabel": "national ESF+ programme “European support for food aid”",
-      "secondListItemEnd": ".",
-      "thirdListItemStart": "Regional authorities also manage regional ERDF-ESF+ programmes.",
+      "secondListItemEnd": "with a budget of 582 million euros for the 2021–2027 period.",
+      "thirdListItemStart": "The Regions (or the single territorial authorities in Corsica, French Guiana and Martinique) are the managing authorities for regional ERDF-ESF+ programmes, whose ESF+ components represent €2.1 billion.",
       "learnMoreLinkLabel": "Learn more",
-      "thirdListItemEnd": ""
+      "fourthParagraph": "To ensure that actions are not funded twice by the ESF+, 'demarcation lines' agreed between the French State and Régions de France define the main principles for allocating responsibilities between the national ESF+ programme managed by the DGEFP and the 17 regional programmes, based on the legal responsibilities of each managing authority:",
+      "firstListItem": "The following areas of action fall under the national ESF+ programme 'Employment, Inclusion, Youth and Skills': the social and professional integration of people furthest from employment (except in the single territorial authorities), supporting young people towards employment and apprenticeships, developing employees' skills, quality of working life and professional equality;",
+      "secondListItem": "The following areas of action fall under the regional programmes: training for jobseekers, support for business creation, support for the social and solidarity economy, and lifelong career guidance (except in Mayotte and Saint Martin);",
+      "thirdListItem": "The allocation of responsibilities for certain issues, such as tackling early school leaving, is determined through local demarcation agreements."
     },
     "technicalPartners": {
       "title": "Our technical partners",

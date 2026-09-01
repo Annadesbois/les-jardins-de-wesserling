@@ -18,8 +18,8 @@
       "label": "Festliche Veranstaltungen"
     },
     "about": {
-      "label": "Über uns",
-      "association": "Unsere Vereinigung",
+      "label": "Unsere Vereinigung",
+      "association": "Über uns",
       "mission": "Soziale Mission",
       "partners": "Partner",
       "supportUs": "Unterstützen & Mitmachen"
@@ -450,15 +450,19 @@
       "title": "Der Europäische Sozialfonds ESF",
       "firstParagraph": "Der Europäische Sozialfonds Plus (ESF+) unterstützt die Integrationsbaustelle von Les Jardins de Wesserling finanziell, insbesondere bei der Einstellung, der sozialberuflichen Begleitung und der technischen Betreuung von Mitarbeitenden in beruflicher Integration.",
       "secondParagraph": "Der ESF+ ist das wichtigste Instrument der Europäischen Union zur Förderung von Beschäftigung, Ausbildung, sozialer Inklusion und zur Bekämpfung von Armut. Die aktuelle Förderperiode umfasst die Jahre 2021–2027.",
+      "thirdParagraph": "Die ESF+-Programme werden von verschiedenen Verwaltungsbehörden geleitet, die jeweils für bestimmte Themenbereiche zuständig sind.",
       "firstListItemStart": "Die Generaldelegation für Beschäftigung und Berufsbildung (DGEFP) leitet das",
       "nationalProgrammeLinkLabel": "nationale ESF+-Programm „Beschäftigung, Inklusion, Jugend und Kompetenzen“",
       "firstListItemEnd": "mit einem Budget von 4 Milliarden Euro für den Zeitraum 2021–2027.",
       "secondListItemStart": "Die Generaldirektion für sozialen Zusammenhalt (DGCS) leitet das",
       "foodAidProgrammeLinkLabel": "nationale ESF+-Programm „Europäische Unterstützung für Lebensmittelhilfe“",
-      "secondListItemEnd": ".",
-      "thirdListItemStart": "Die Regionen verwalten außerdem regionale EFRE-ESF+-Programme.",
+      "secondListItemEnd": "dotiert mit 582 Millionen Euro für den Zeitraum 2021–2027.",
+      "thirdListItemStart": "Die Regionen (bzw. die einheitlichen Gebietskörperschaften auf Korsika, in Französisch-Guayana und Martinique) sind die Verwaltungsbehörden der regionalen EFRE-ESF+-Programme, deren ESF+-Anteile sich auf 2,1 Milliarden Euro belaufen.",
       "learnMoreLinkLabel": "Mehr erfahren",
-      "thirdListItemEnd": ""
+      "fourthParagraph": "Um eine Doppelfinanzierung von Maßnahmen durch den ESF+ zu vermeiden, legen zwischen dem französischen Staat und Régions de France abgestimmte „Abgrenzungslinien“ die wesentlichen Grundsätze für die Aufteilung der Zuständigkeiten zwischen dem von der DGEFP verwalteten nationalen ESF+-Programm und den 17 regionalen Programmen fest. Dabei stützen sie sich auf die gesetzlichen Zuständigkeiten der jeweiligen Verwaltungsbehörden:",
+      "firstListItem": "Die folgenden Handlungsbereiche fallen unter das nationale ESF+-Programm „Beschäftigung, Inklusion, Jugend und Kompetenzen“: die soziale und berufliche Eingliederung von Personen, die am weitesten vom Arbeitsmarkt entfernt sind (außer in den einheitlichen Gebietskörperschaften), die Begleitung junger Menschen auf dem Weg in Beschäftigung und Ausbildung, die Weiterentwicklung der Kompetenzen von Beschäftigten, die Qualität des Arbeitslebens sowie die berufliche Gleichstellung;",
+      "secondListItem": "Die folgenden Handlungsbereiche fallen unter die regionalen Programme: die Weiterbildung von Arbeitsuchenden, die Unterstützung bei Unternehmensgründungen, die Förderung der Sozial- und Solidarwirtschaft sowie die lebenslange Berufsorientierung (außer in Mayotte und Saint-Martin);",
+      "thirdListItem": "Die Aufteilung der Zuständigkeiten für bestimmte Themen, wie beispielsweise die Bekämpfung von Schulabbrüchen, wird in lokalen Vereinbarungen über die Abgrenzung der Zuständigkeiten festgelegt."
     },
     "technicalPartners": {
       "title": "Unsere technischen Partner",
