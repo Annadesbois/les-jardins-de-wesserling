@@ -5,7 +5,7 @@ import republicFrancaise from "@/public/logos/republique-francaise.svg";
 import grandEst from "@/public/logos/region-grand-est.png";
 import alsace from "@/public/logos/collectivite-europeenne-alsace.png";
 import thurDoller from "@/public/logos/pays-thur-doller.png";
-// import leader from "@/public/logos/feader-leader.jpg";
+import leader from "@/public/logos/feader-leader.jpg";
 import stAmarin from "@/public/logos/vallée-de-st-amarin.svg";
 import alliance from "@/public/logos/fondation-alliance-cairpsa-carpreca.jpg";
 import sm4 from "@/public/logos/sm4.png";
@@ -65,7 +65,7 @@ const Footer = ({ messages }: FooterProps) => {
             <p className="mb-4 text-center font-bold">
               {footerMessages.financialPartners}
             </p>
-            <div className="grid grid-cols-3 gap-2 sm:grid-cols-4  md:grid-cols-5">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4  md:grid-cols-4">
               <a
                 href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
                 aria-label={footerMessages.fondsSocialEuropeenAria}
@@ -131,7 +131,7 @@ const Footer = ({ messages }: FooterProps) => {
                   className="logo-image"
                 />
               </a>
-              {/* <a
+              <a
                 href="https://www.europe-en-france.gouv.fr/en/leader-accompagne-territoires-ruraux"
                 aria-label={footerMessages.leaderAria}
                 target="_blank"
@@ -143,7 +143,7 @@ const Footer = ({ messages }: FooterProps) => {
                   alt={footerMessages.leaderAlt}
                   className="logo-image"
                 />
-              </a> */}
+              </a>
               <a
                 href="https://www.saint-amarin.com/"
                 aria-label={footerMessages.stAmarinAria}
@@ -195,7 +195,7 @@ const Footer = ({ messages }: FooterProps) => {
             <p className="mb-4 text-center font-bold">
               {footerMessages.certifications}
             </p>
-            <div className="grid grid-cols-3 items-center justify-items-center gap-4 sm:grid-cols-4 md:grid-cols-5">
+            <div className="grid grid-cols-2 items-center justify-items-center gap-4 sm:grid-cols-4 md:grid-cols-4">
               <Image
                 src={ab}
                 alt={footerMessages.abAlt}

@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import fse from "@/public/logos/fse.jpeg";
+import leader from "@/public/logos/feader-leader.jpg";
 import republicFrancaise from "@/public/logos/republique-francaise.svg";
 import grandEst from "@/public/logos/region-grand-est.png";
 import alsace from "@/public/logos/collectivite-europeenne-alsace.png";
@@ -39,30 +40,42 @@ const PartnersPage = async ({ params }: PageProp) => {
             src={stAmarin}
             alt={partners.financialPartners.logos.stAmarinAlt}
             width={70}
+            title={partners.financialPartners.logos.stAmarinAlt}
           />
 
           <Image
             src={thurDoller}
             alt={partners.financialPartners.logos.thurDollerAlt}
             width={70}
+            title={partners.financialPartners.logos.thurDollerAlt}
           />
 
           <Image
             src={alsace}
             alt={partners.financialPartners.logos.alsaceAlt}
             width={70}
+            title={partners.financialPartners.logos.alsaceAlt}
           />
 
           <Image
             src={republicFrancaise}
             alt={partners.financialPartners.logos.republiqueFrancaiseAlt}
             width={70}
+            title={partners.financialPartners.logos.republiqueFrancaiseAlt}
           />
 
           <Image
             src={fse}
             alt={partners.financialPartners.logos.fondsSocialEuropeenAlt}
             width={70}
+            title={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+          />
+
+          <Image
+            src={leader}
+            alt={partners.financialPartners.logos.leaderAlt}
+            width={70}
+            title={partners.financialPartners.logos.leaderAlt}
           />
         </div>
 
@@ -75,36 +88,42 @@ const PartnersPage = async ({ params }: PageProp) => {
             src={grandEst}
             alt={partners.financialPartners.logos.grandEstAlt}
             width={70}
+            title={partners.financialPartners.logos.grandEstAlt}
           />
 
           <Image
             src={sm4}
             alt={partners.financialPartners.logos.sm4Alt}
             width={70}
+            title={partners.financialPartners.logos.sm4Alt}
           />
 
           <Image
             src={alliance}
             alt={partners.financialPartners.logos.allianceAlt}
             width={70}
+            title={partners.financialPartners.logos.allianceAlt}
           />
 
           <Image
             src={patrimoine}
             alt={partners.financialPartners.logos.fondationPatrimoineAlt}
             width={70}
+            title={partners.financialPartners.logos.fondationPatrimoineAlt}
           />
 
           <Image
             src={total}
             alt={partners.financialPartners.logos.totalEnergiesAlt}
             width={70}
+            title={partners.financialPartners.logos.totalEnergiesAlt}
           />
 
           <Image
             src={hermes}
             alt={partners.financialPartners.logos.hermesAlt}
             width={70}
+            title={partners.financialPartners.logos.hermesAlt}
           />
         </div>
       </section>
@@ -171,19 +190,12 @@ const PartnersPage = async ({ params }: PageProp) => {
         <p>{partners.fse.fourthParagraph}</p>
 
         <ul className="space-y-2">
-          <li>
-            {partners.fse.firstListItem}{" "}
-          </li>
+          <li>{partners.fse.firstListItem} </li>
 
-          <li>
-            {partners.fse.secondListItem}{" "}
-          </li>
+          <li>{partners.fse.secondListItem} </li>
 
-          <li>
-            {partners.fse.thirdListItem}{" "}
-          </li>
+          <li>{partners.fse.thirdListItem} </li>
         </ul>
-
       </section>
 
       <section className="text-justify space-y-6">
