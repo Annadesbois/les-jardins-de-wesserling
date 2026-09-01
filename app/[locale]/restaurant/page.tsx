@@ -16,7 +16,7 @@ const RestaurantPage = async ({ params }: PageProp) => {
     <div className="page-layout text-center">
       <h1>{restaurant.title}</h1>
       <Hero
-        imageSrc="/photos/restau/restau-du-potager-steeve-josch.WEBP"
+        imageSrc="/photos/restau/restau-du-potager-steeve-josch.webp"
         imageAlt={restaurant.atmosphere.imageAlt}
         firstParagraph={restaurant.atmosphere.firstParagraph}
         textPosition="right"

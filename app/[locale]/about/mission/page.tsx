@@ -62,7 +62,7 @@ const MissionPage = async ({ params }: PageProp) => {
       />
 
       <Hero
-        imageSrc="/photos/asso/mission-sociale-2.JPG"
+        imageSrc="/photos/asso/mission-sociale-2.jpg"
         imageAlt={mission.employees.imageAlt}
         title={mission.employees.title}
         textPosition="left"

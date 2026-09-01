@@ -48,25 +48,25 @@ const GardenPage = async ({ params }: PageProp) => {
             textPosition="right"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/festival-des-jardins-metisses.JPG"
+            imageSrc="/photos/jardins/parc/festival-des-jardins-metisses.jpg"
             imageAlt={garden.park.garden.imageAlt}
             description={garden.park.garden.description}
             textPosition="left"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/ferme-du-parc-de-wesserling-anes.JPG"
+            imageSrc="/photos/jardins/parc/ferme-du-parc-de-wesserling-anes.jpg"
             imageAlt={garden.park.farm.imageAlt}
             description={garden.park.farm.description}
             textPosition="right"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.JPG"
+            imageSrc="/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.jpg"
             imageAlt={garden.park.factory.imageAlt}
             description={garden.park.factory.description}
             textPosition="left"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.JPG"
+            imageSrc="/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.jpg"
             imageAlt={garden.park.shop.imageAlt}
             description={garden.park.shop.description}
             textPosition="right"
