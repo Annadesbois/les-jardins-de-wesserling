@@ -125,6 +125,8 @@ const PartnersPage = async ({ params }: PageProp) => {
 
         <p>{partners.fse.secondParagraph}</p>
 
+        <p>{partners.fse.thirdParagraph}</p>
+
         <ul className="space-y-2">
           <li>
             {partners.fse.firstListItemStart}{" "}
@@ -155,7 +157,7 @@ const PartnersPage = async ({ params }: PageProp) => {
           <li>
             {partners.fse.thirdListItemStart}{" "}
             <Link
-              href="https://www.europe-en-france.gouv.fr/en/programmes-europeens-2021-2027/programme-reunion-feder-fse-2021-2027"
+              href="https://www.europe-en-france.gouv.fr/fr/programmes-europeens-2021-2027"
               target="_blank"
               rel="noopener noreferrer"
               className="link"
@@ -165,6 +167,23 @@ const PartnersPage = async ({ params }: PageProp) => {
             {partners.fse.thirdListItemEnd}
           </li>
         </ul>
+
+        <p>{partners.fse.fourthParagraph}</p>
+
+        <ul className="space-y-2">
+          <li>
+            {partners.fse.firstListItem}{" "}
+          </li>
+
+          <li>
+            {partners.fse.secondListItem}{" "}
+          </li>
+
+          <li>
+            {partners.fse.thirdListItem}{" "}
+          </li>
+        </ul>
+
       </section>
 
       <section className="text-justify space-y-6">

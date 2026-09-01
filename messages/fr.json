@@ -18,8 +18,8 @@
       "label": "Animations festives"
     },
     "about": {
-      "label": "À propos",
-      "association": "Notre association",
+      "label": "Notre association",
+      "association": "Presentation",
       "mission": "Mission sociale",
       "partners": "Partenaires",
       "supportUs": "Soutenir et participer"
@@ -448,17 +448,21 @@
     },
     "fse": {
       "title": "Le Fonds Social Européen FSE",
-      "firstParagraph": "Le Fonds Social Européen + (FSE+) soutient financièrement le chantier d’insertion des Jardins de Wesserling, notamment pour l’embauche, l’accompagnement socioprofessionnel et l’encadrement technique des salariés en insertion.",
-      "secondParagraph": "Le FSE+ est le principal instrument de l’Union Européenne pour soutenir l’emploi, la formation, l’inclusion sociale et la lutte contre la précarité. La programmation actuelle couvre la période 2021-2027.",
-      "firstListItemStart": "La Délégation générale à l’emploi et à la formation professionnelle (DGEFP) pilote le",
+      "firstParagraph": "Le Fonds Social Européen apporte une aide financière substantielle au chantier d’Insertion des Jardins de Wesserling, pour le financement du poste d’accompagnement socioprofessionnel et des 3 postes d’encadrants techniques. L’ensemble des Structures d’Insertion par l’Activité Economique peuvent bénéficier de tels soutiens.",
+      "secondParagraph": "Créé en 1957, le Fonds Social Européen avait pour but initial d’aider à la reconversion des travailleurs et à leur mobilité. Aujourd’hui, le Fonds Social Européen + est un programme de financement de l’Union Européenne qui soutient des projets pour l’emploi, l’éducation, la formation et l’inclusion sociale.",
+      "thirdParagraph": "Le FSE s’inscrit dans une programmation européenne de 7 ans. La programmation actuelle couvre 2021-2027. La France dispose de 6,7 milliards d’euros au titre du FSE+ sur cette période. Ces crédits sont répartis entre 2 programmes nationaux gérés par l’Etat et 17 programmes régionaux :",
+      "firstListItemStart": "La Délégation générale à l’emploi et à la formation professionnelle (DGEFP) est autorité de gestion du",
       "nationalProgrammeLinkLabel": "programme national FSE+ « emploi, inclusion, jeunesse et compétences »",
       "firstListItemEnd": ", doté de 4 milliards d’euros pour la période 2021-2027.",
-      "secondListItemStart": "La Direction générale de la cohésion sociale (DGCS) pilote le",
+      "secondListItemStart": "La Direction générale de la cohésion sociale (DGCS) est autorité de gestion du",
       "foodAidProgrammeLinkLabel": "programme national FSE+ « Soutien européen à l’aide alimentaire »",
-      "secondListItemEnd": ".",
-      "thirdListItemStart": "Les Régions gèrent également des programmes régionaux FEDER-FSE+.",
+      "secondListItemEnd": "doté de 582 millions d’euros pour la période 2021- 2027.",
+      "thirdListItemStart": "Les Régions (ou collectivité unique en Corse, Guyane et Martinique) sont autorités de gestion de programmes régionaux FEDER-FSE+ dont les volets FSE+ représentent 2,1 milliards d’euros.",
       "learnMoreLinkLabel": "En savoir plus",
-      "thirdListItemEnd": ""
+      "fourthParagraph": "Afin de s’assurer de l’absence de double financement des actions par le FSE+, des « lignes de partage » définies en concertation entre l’Etat et Régions de France définissent les grands principes de répartition des compétences entre le programme national FSE+ piloté par la DGEFP et les 17 programmes régionaux, en s’appuyant sur les compétences légales de chaque autorité de gestion :",
+      "firstListItem": "Les domaines d’actions suivants relèvent du programme national FSE+ « emploi, inclusion, jeunesse et compétences » : l’insertion sociale et professionnelle des personnes les plus éloignées de l’emploi (sauf dans les collectivités uniques), l’accompagnement des jeunes vers l’emploi et l’apprentissage, le développement des compétences des salariés, la qualité de vie de travail et l’égalité professionnelle ;",
+      "secondListItem": "Les domaines d’actions suivants relèvent des programmes régionaux : la formation des demandeurs d’emploi, l’appui à la création d’entreprise, le soutien à l’économie sociale et solidaire, l’orientation tout au long de la vie (sauf à Mayotte et Saint-Martin) ;",
+      "thirdListItem": "La répartition des compétences concernant certains sujets tels que la lutte contre le décrochage scolaire est déterminée dans des accords locaux de lignes de partage."
     },
     "technicalPartners": {
       "title": "Nos partenaires techniques",

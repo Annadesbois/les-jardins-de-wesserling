@@ -26,6 +26,7 @@ export type PartnersMessages = {
 
     firstParagraph: string;
     secondParagraph: string;
+    thirdParagraph: string;
 
     firstListItemStart: string;
     nationalProgrammeLinkLabel: string;
@@ -38,6 +39,12 @@ export type PartnersMessages = {
     thirdListItemStart: string;
     learnMoreLinkLabel: string;
     thirdListItemEnd: string;
+
+    fourthParagraph: string;
+
+    firstListItem: string;
+    secondListItem: string;
+    thirdListItem: string;
   };
 
   technicalPartners: {
