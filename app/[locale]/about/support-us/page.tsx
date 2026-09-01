@@ -60,7 +60,7 @@ const SupportUsPage = async ({ params }: PageProp) => {
           <p>{supportUs.membership.thirdParagraph}</p>
         </div>
 
-        <LinkButton href={`/${locale}/contact`} className="mt-4">
+        <LinkButton href="/2026-plaquette-adhesion.pdf" external className="mt-4">
           {supportUs.membership.button}
         </LinkButton>
       </article>
