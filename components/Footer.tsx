@@ -65,7 +65,7 @@ const Footer = ({ messages }: FooterProps) => {
             <p className="mb-4 text-center font-bold">
               {footerMessages.financialPartners}
             </p>
-            <div className="grid grid-cols-3 gap-2 sm:grid-cols-4  md:grid-cols-5">
+            <div className="grid grid-cols-2 gap-2 sm:grid-cols-4  md:grid-cols-4">
               <a
                 href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
                 aria-label={footerMessages.fondsSocialEuropeenAria}
@@ -195,7 +195,7 @@ const Footer = ({ messages }: FooterProps) => {
             <p className="mb-4 text-center font-bold">
               {footerMessages.certifications}
             </p>
-            <div className="grid grid-cols-3 items-center justify-items-center gap-4 sm:grid-cols-4 md:grid-cols-5">
+            <div className="grid grid-cols-2 items-center justify-items-center gap-4 sm:grid-cols-4 md:grid-cols-4">
               <Image
                 src={ab}
                 alt={footerMessages.abAlt}
