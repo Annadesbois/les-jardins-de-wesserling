@@ -145,7 +145,7 @@
         "description": "Zu beiden Seiten dieser Achse erstrecken sich die vier Bereiche des pädagogischen Gemüsegartens. Die Beete zeigen Anbaumethoden im Einklang mit natürlichen Prozessen: Fruchtfolge, vorteilhafte Pflanzenkombinationen, Unterstützung durch Nützlinge sowie Boden- und Wassermanagement. Ein Weg durch eine Hecke zeigt Lebensräume für nützliche Gartenhelfer. Informationstafeln und Lernspiele führen in die Geheimnisse des Gärtnerns ein."
       },
       "orchard": {
-        "imageAlt": "Foto des Obstgartens von Les Jardins de Wesserling",
+        "imageAlt": "Foto der aromatischen Pflanzen in Les Jardins de Wesserling",
         "description": "Ein Erhaltungsobstgarten mit Quittenbäumen sowie eine Terrasse mit Beeren und Kräutern ergänzen diesen genussvollen Garten, dessen Produkte im Resto du Potager verkauft oder verarbeitet werden.",
         "button": "Das Resto du Potager entdecken"
       },
@@ -169,11 +169,11 @@
       "firstParagraph": "Das Restaurant des Gemüsegartens bietet ein einzigartiges Ambiente mitten in einer Umgebung aus Blumen, Gemüse und aromatischen Pflanzen sowie in einem Dekor aus Stoffen der ehemaligen Stoffdruckerei von Wesserling. Es handelt sich um ein soziales Restaurant, in dem der Service von Menschen in beruflicher Eingliederung übernommen wird."
     },
     "solidarity": {
-      "imageAlt": "Foto des sozialen Restaurants in Les Jardins de Wesserling",
+      "imageAlt": "Foto der Produkte von Landwirten in Les Jardins de Wesserling",
       "firstParagraph": "Im Restaurant des Gemüsegartens zu Mittag zu essen bedeutet, Menschen auf Arbeitssuche sowie die Landwirte der umliegenden Bergregion zu unterstützen, da ein Teil der Produkte des Restaurants von ihren Höfen stammt. Darüber hinaus trägt es zur Aufwertung des bemerkenswerten Industrieerbes von Wesserling bei."
     },
     "menu": {
-      "imageAlt": "Foto der Speisekarte des Restaurants des Gemüsegartens",
+      "imageAlt": "Foto des Essens im Les Jardins de Wesserling",
       "firstParagraph": "Die Menüs spiegeln alle Aromen des Gemüsegartens wider: verschiedene Rohkostschalen, Gemüsetartes, Melba-Desserts mit saisonalen Früchten, Suppen, Sirupe und vieles mehr. Ergänzt wird dies durch Produkte von Landwirten aus den umliegenden Bergen, darunter Wurst- und Käseplatten."
     },
     "produce": {

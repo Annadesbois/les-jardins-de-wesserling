@@ -15,7 +15,7 @@ const FestivePage = async ({ params }: PageProp) => {
       <h1>{festive.title}</h1>
       <p className="mb-14">{festive.intro}</p>
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/paques-en-folie.JPG"
         imageAlt={festive.easter.imageAlt}
         title={festive.easter.title}
         subtitle={festive.easter.subtitle}
@@ -25,7 +25,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/troc-jardin.JPG"
         imageAlt={festive.troc.imageAlt}
         title={festive.troc.title}
         subtitle={festive.troc.subtitle}
@@ -35,7 +35,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="left"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/festival-des-jardins-metisses.JPG"
         imageAlt={festive.festival.imageAlt}
         title={festive.festival.title}
         subtitle={festive.festival.subtitle}
@@ -44,7 +44,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/fete-de-la-musique.JPG"
         imageAlt={festive.music.imageAlt}
         title={festive.music.title}
         subtitle={festive.music.subtitle}
@@ -54,7 +54,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="left"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/soirees-cocktail.JPG"
         imageAlt={festive.cocktail.imageAlt}
         title={festive.cocktail.title}
         subtitle={festive.cocktail.subtitle}
@@ -64,7 +64,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/feeries-nocturnes.JPG"
         imageAlt={festive.nocturnes.imageAlt}
         title={festive.nocturnes.title}
         subtitle={
@@ -87,7 +87,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="left"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/fete-d'automne.JPG"
         imageAlt={festive.automne.imageAlt}
         title={festive.automne.title}
         subtitle={festive.automne.subtitle}
@@ -97,7 +97,7 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/restau-du-potager-steeve-josch.webp"
+        imageSrc="/photos/events/noel-au-jardin.JPG"
         imageAlt={festive.christmas.imageAlt}
         title={festive.christmas.title}
         subtitle={

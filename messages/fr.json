@@ -145,7 +145,7 @@
         "description": "De part et d’autre de cet axe s’étendent les quatre secteurs du potager pédagogique. Leurs parcelles mettent en scène les façons de cultiver en tenant compte des processus naturels : rotation des cultures, associations bénéfiques entre plantes, aide des auxiliaires de culture, gestion du sol et de l’eau, ... Un cheminement au cœur d’une haie dévoile les habitats d’auxiliaires de culture utiles au jardinier. Des panneaux pédagogiques et des jeux éducatifs initient aux secrets du jardinier."
       },
       "orchard": {
-        "imageAlt": "Photo du verger des Jardins de Wesserling",
+        "imageAlt": "Photo des plantes aromatiques des Jardins de Wesserling",
         "description": "Un verger conservatoire de cognassiers, une terrasse de petits fruits et d’aromatiques, complètent ce jardin gourmand, dont les productions sont vendues ou transformées au Resto du Potager.",
         "button": "Découvrir le Resto du Potager"
       },
@@ -169,11 +169,11 @@
       "firstParagraph": "Le Resto du Potager offre un cadre original, immergé dans la végétation florale, légumière et aromatique, et dans un décor de tissus hérités de l’ancienne Manufacture d’Impression de Wesserling.  C’est un restaurant social, le service est assuré par les personnes en insertion professionnelles."
     },
     "solidarity": {
-      "imageAlt": "Photo du restaurant social aux Jardins de Wesserling",
+      "imageAlt": "Photo des produits fermiers aux Jardins de Wesserling",
       "firstParagraph": "Déjeuner au Resto du Potager, c’est être solidaire des personnes en recherche d’emploi, ainsi que des agriculteurs de la montagne puisqu’une part des produits du Resto provient de leurs fermes. Et plus largement, cela contribue à la mise en valeur du patrimoine industriel remarquable de Wesserling."
     },
     "menu": {
-      "imageAlt": "Photo du menu du Resto du Potager",
+      "imageAlt": "Photo des repas du Resto du Potager",
       "firstParagraph": "Les menus reflètent toutes les saveurs du potager : coupelles de crudités variées, tartes aux légumes, melba aux fruits de saison, soupes, sirops, ... S’y ajoutent les produits des agriculteurs de la montagne environnante : assiettes de charcuteries ou de fromages."
     },
     "produce": {
@@ -495,7 +495,7 @@
     },
     "membership": {
       "title": "Adhérer à l’association",
-      "imageAlt": "Les jardins",
+      "imageAlt": "Adhérents de l’association",
       "firstParagraph": "Adhérer à l’association ou devenir donateur offre un avantage fiscal de 66%, l’association étant reconnue d’intérêt public. Cela participe au financement des actions en faveur de l’emploi.",
       "secondParagraph": "Pour adhérer à l’association Les Jardins de Wesserling, remplissez le bulletin d’adhésion et renvoyez-le avec le règlement par chèque à « Association Les Jardins de Wesserling 16 rue de Ranspach 68470 Husseren-Wesserling ».",
       "thirdParagraph": "Le règlement peut également être fait par virement bancaire, ou en se rendant sur place dans les bureaux de l’association.",
@@ -503,7 +503,7 @@
     },
     "participation": {
       "title": "Participer à la vie de l’association",
-      "imageAlt": "Les jardins",
+      "imageAlt": "Bénévoles de l'association",
       "paragraph": "Participer aux activités de l’association contribue à ses objectifs d’intérêt public.",
       "button": "Nous contacter"
     }

@@ -20,21 +20,22 @@ const HomePage = async ({ params }: PageProp) => {
     {
       title: home.cardOne.title,
       caption: home.cardOne.caption,
-      imageSrc: "/restau-du-potager-steeve-josch.webp",
+      imageSrc: "/photos/home/notre-association.JPG",
       imageAlt: home.cardOne.imageAlt,
       href: `/${locale}/about/association`,
     },
     {
       title: home.cardTwo.title,
       caption: home.cardTwo.caption,
-      imageSrc: "/restau-du-potager-steeve-josch.webp",
+      imageSrc: "/photos/home/les-jardins-de-wesserling.JPG",
       imageAlt: home.cardTwo.imageAlt,
       href: `/${locale}/garden`,
     },
     {
       title: home.cardThree.title,
       caption: home.cardThree.caption,
-      imageSrc: "/restau-du-potager-steeve-josch.webp",
+      imageSrc:
+        "/photos/home/animations-festives.JPG",
       imageAlt: home.cardThree.imageAlt,
       href: `/${locale}/festive-entertainment`,
     },
@@ -48,7 +49,7 @@ const HomePage = async ({ params }: PageProp) => {
         Jardins de Wesserling
       </h1>
       <Hero
-        imageSrc={"/restau-du-potager-steeve-josch.webp"}
+        imageSrc={"/photos/home/les-jardins-de-wesserling-vue-aerienne.JPG"}
         imageAlt={home.hero.imageAlt}
         firstParagraph={home.hero.firstParagraph}
         secondParagraph={home.hero.secondParagraph}

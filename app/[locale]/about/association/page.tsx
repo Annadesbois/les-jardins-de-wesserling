@@ -37,7 +37,7 @@ const AssociationPage = async ({ params }: PageProp) => {
         </ul>
 
         <Image
-          src="/restau-du-potager-steeve-josch.webp"
+          src="/photos/asso/notre-association.JPG"
           alt={association.intro.imageAlt}
           width={1200}
           height={800}
