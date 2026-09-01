@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 import fse from "@/public/logos/fse.jpeg";
+import leader from "@/public/logos/feader-leader.jpg";
 import republicFrancaise from "@/public/logos/republique-francaise.svg";
 import grandEst from "@/public/logos/region-grand-est.png";
 import alsace from "@/public/logos/collectivite-europeenne-alsace.png";
@@ -62,6 +63,12 @@ const PartnersPage = async ({ params }: PageProp) => {
           <Image
             src={fse}
             alt={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+            width={70}
+          />
+
+          <Image
+            src={leader}
+            alt={partners.financialPartners.logos.leaderAlt}
             width={70}
           />
         </div>
@@ -171,19 +178,12 @@ const PartnersPage = async ({ params }: PageProp) => {
         <p>{partners.fse.fourthParagraph}</p>
 
         <ul className="space-y-2">
-          <li>
-            {partners.fse.firstListItem}{" "}
-          </li>
+          <li>{partners.fse.firstListItem} </li>
 
-          <li>
-            {partners.fse.secondListItem}{" "}
-          </li>
+          <li>{partners.fse.secondListItem} </li>
 
-          <li>
-            {partners.fse.thirdListItem}{" "}
-          </li>
+          <li>{partners.fse.thirdListItem} </li>
         </ul>
-
       </section>
 
       <section className="text-justify space-y-6">

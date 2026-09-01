@@ -12,6 +12,7 @@ export type PartnersMessages = {
       alsaceAlt: string;
       republiqueFrancaiseAlt: string;
       fondsSocialEuropeenAlt: string;
+      leaderAlt: string;
       grandEstAlt: string;
       sm4Alt: string;
       allianceAlt: string;
