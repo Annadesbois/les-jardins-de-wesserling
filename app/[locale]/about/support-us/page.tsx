@@ -21,7 +21,7 @@ const SupportUsPage = async ({ params }: PageProp) => {
         <h2>{supportUs.visit.title}</h2>
 
         <Image
-          src="/restau-du-potager-steeve-josch.webp"
+          src="/photos/asso/visitez-les-jardins.JPG"
           alt={supportUs.visit.imageAlt}
           width={600}
           height={400}
@@ -46,7 +46,7 @@ const SupportUsPage = async ({ params }: PageProp) => {
         <h2>{supportUs.membership.title}</h2>
 
         <Image
-          src="/restau-du-potager-steeve-josch.webp"
+          src="/photos/asso/adherez-a-l'association.JPG"
           alt={supportUs.membership.imageAlt}
           width={600}
           height={400}
@@ -69,7 +69,7 @@ const SupportUsPage = async ({ params }: PageProp) => {
         <h2>{supportUs.participation.title}</h2>
 
         <Image
-          src="/restau-du-potager-steeve-josch.webp"
+          src="/photos/asso/devenez-benevole.JPG"
           alt={supportUs.participation.imageAlt}
           width={600}
           height={400}
