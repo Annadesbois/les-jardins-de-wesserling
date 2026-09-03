@@ -4,7 +4,7 @@ import Image from "next/image";
 
 import type { PageProp } from "@/types/i18n";
 import { createPageHelpers } from "@/lib/metadata";
-import LinkButton from '@/components/LinkButton';
+import LinkButton from "@/components/LinkButton";
 
 const { generateMetadata, getPageMessages } = createPageHelpers("garden");
 
@@ -17,6 +17,51 @@ const GardenPage = async ({ params }: PageProp) => {
   return (
     <div className="page-layout">
       <h1>{garden.title}</h1>
+      <section className="md:mt-8">
+        <h2 className="text-center">{garden.garden.intro}</h2>
+        <div className="mt-10">
+          <Hero
+            imageSrc="/photos/jardins/potager/allee-centrale-du-potager.JPG"
+            imageAlt={garden.garden.centralPath.imageAlt}
+            description={garden.garden.centralPath.description}
+            textPosition="right"
+          />
+          <Hero
+            imageSrc="/photos/jardins/potager/potager-pedagogique.JPG"
+            imageAlt={garden.garden.pedagogy.imageAlt}
+            description={garden.garden.pedagogy.description}
+            textPosition="left"
+          />
+          <Hero
+            imageSrc="/photos/jardins/potager/plantes-aromatiques.JPG"
+            imageAlt={garden.garden.orchard.imageAlt}
+            description={garden.garden.orchard.description}
+            locale={locale}
+            button={{
+              href: "/restaurant",
+              label: garden.garden.orchard.button,
+            }}
+            textPosition="right"
+          />
+          <Hero
+            imageSrc="/photos/jardins/potager/banc-pour-se-reposer-dans-les-jardins.JPG"
+            imageAlt={garden.garden.accessibility.imageAlt}
+            description={garden.garden.accessibility.description}
+            textPosition="left"
+          />
+        </div>
+        <p className="text-center">{garden.garden.membership}</p>
+        <LinkButton href={`/${locale}/about/support-us`} className="mt-12">
+          {garden.garden.button}
+        </LinkButton>
+      </section>
+      <Image
+        src="/leaf-divider.png"
+        alt={garden.image}
+        width={500}
+        height={50}
+        className="mx-auto mb-20 mt-16"
+      />
       <section className="text-center">
         <h3 className="pb-10">
           {garden.park.intro1}{" "}
@@ -77,51 +122,6 @@ const GardenPage = async ({ params }: PageProp) => {
       <LinkButton href="https://www.parc-wesserling.fr/billetterie/" external>
         {garden.park.button}
       </LinkButton>
-      <Image
-        src="/leaf-divider.png"
-        alt={garden.image}
-        width={500}
-        height={50}
-        className="mx-auto mb-20 mt-16"
-      />
-      <section className="md:mt-8">
-        <h2 className="text-center">{garden.garden.intro}</h2>
-        <div className="mt-10">
-          <Hero
-            imageSrc="/photos/jardins/potager/allee-centrale-du-potager.JPG"
-            imageAlt={garden.garden.centralPath.imageAlt}
-            description={garden.garden.centralPath.description}
-            textPosition="right"
-          />
-          <Hero
-            imageSrc="/photos/jardins/potager/potager-pedagogique.JPG"
-            imageAlt={garden.garden.pedagogy.imageAlt}
-            description={garden.garden.pedagogy.description}
-            textPosition="left"
-          />
-          <Hero
-            imageSrc="/photos/jardins/potager/plantes-aromatiques.JPG"
-            imageAlt={garden.garden.orchard.imageAlt}
-            description={garden.garden.orchard.description}
-            locale={locale}
-            button={{
-              href: "/restaurant",
-              label: garden.garden.orchard.button,
-            }}
-            textPosition="right"
-          />
-          <Hero
-            imageSrc="/photos/jardins/potager/banc-pour-se-reposer-dans-les-jardins.JPG"
-            imageAlt={garden.garden.accessibility.imageAlt}
-            description={garden.garden.accessibility.description}
-            textPosition="left"
-          />
-        </div>
-        <p className="text-center">{garden.garden.membership}</p>
-        <LinkButton href={`/${locale}/about/support-us`} className="mt-12">
-          {garden.garden.button}
-        </LinkButton>
-      </section>
     </div>
   );
 };
