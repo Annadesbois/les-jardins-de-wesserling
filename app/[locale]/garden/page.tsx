@@ -17,7 +17,7 @@ const GardenPage = async ({ params }: PageProp) => {
   return (
     <div className="page-layout">
       <h1>{garden.title}</h1>
-      <section className="md:mt-8">
+      <section>
         <h2 className="text-center">{garden.garden.intro}</h2>
         <div className="mt-10">
           <Hero
