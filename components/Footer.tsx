@@ -21,6 +21,7 @@ import pnr from "@/public/logos/valeur-pnr-logo.png";
 
 import fb from "@/public/logos/Facebook_Logo_Primary.png";
 import instagram from "@/public/logos/Instagram_Glyph_Gradient.png";
+import parc from "@/public/logos/logo-parc-de-wesserling.jpg";
 
 import type { FooterMessages, FooterProps } from "@/types/i18n";
 
@@ -30,34 +31,51 @@ const Footer = ({ messages }: FooterProps) => {
     <footer className="mt-8 bg-surface-2 px-4 py-8">
       <div className="h-px self-stretch bg-primary shadow" />
       <div className="mx-auto flex max-w-7xl flex-col gap-8">
-        {/* Social media */}
-        <div className="flex justify-center gap-6">
-          <a
-            href="https://www.facebook.com/AssociationJW/"
-            aria-label={footerMessages.fbAria}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex h-28 items-center justify-center rounded-xl p-4"
-          >
-            <Image
-              src={fb}
-              alt={footerMessages.fbAlt}
-              className="h-10 w-auto"
-            ></Image>
-          </a>
-          <a
-            href="https://www.instagram.com/lesjardinsdewesserling/"
-            aria-label={footerMessages.instagramAria}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex h-28 items-center justify-center rounded-xl p-4"
-          >
-            <Image
-              src={instagram}
-              alt={footerMessages.instagramAlt}
-              className="h-10 w-auto"
-            ></Image>
-          </a>
+        <div>
+          {/* Social media */}
+          <div className="flex justify-center gap-6">
+            <a
+              href="https://www.facebook.com/AssociationJW/"
+              aria-label={footerMessages.fbAria}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-28 items-center justify-center rounded-xl p-4"
+            >
+              <Image
+                src={fb}
+                alt={footerMessages.fbAlt}
+                className="h-10 w-auto"
+              ></Image>
+            </a>
+            <a
+              href="https://www.instagram.com/lesjardinsdewesserling/"
+              aria-label={footerMessages.instagramAria}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-28 items-center justify-center rounded-xl p-4"
+            >
+              <Image
+                src={instagram}
+                alt={footerMessages.instagramAlt}
+                className="h-10 w-auto"
+              ></Image>
+            </a>
+          </div>
+          <div>
+            <a
+              href="https://www.parc-wesserling.fr/"
+              aria-label={footerMessages.parcAria}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex h-18 mb-8 items-center justify-center rounded-xl p-4"
+            >
+              <Image
+                src={parc}
+                alt={footerMessages.parcAlt}
+                className="h-11 w-auto"
+              ></Image>
+            </a>
+          </div>
         </div>
         <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_auto_minmax(0,1fr)] lg:items-start lg:gap-10">
           {/* Funders */}

@@ -30,6 +30,8 @@ export type FooterMessages = {
   fbAlt: string;
   instagramAria: string;
   instagramAlt: string;
+  parcAria: string;
+  parcAlt: string;
   certifications: string;
 };
 
