@@ -13,6 +13,7 @@ import sm4 from "@/public/logos/sm4.png";
 import total from "@/public/logos/total-energies.jpg";
 import patrimoine from "@/public/logos/fondation-du-patrimoine.png";
 import hermes from "@/public/logos/fondation-hermes.png";
+import europe from "@/public/logos/europe.jpg";
 
 import type { PageProp } from "@/types/i18n";
 import { createPageHelpers } from "@/lib/metadata";
@@ -139,63 +140,18 @@ const PartnersPage = async ({ params }: PageProp) => {
             {partners.fse.title}
           </Link>
         </h2>
+        <Image
+          src={europe}
+          alt={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+          width={300}
+          title={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+          className="my-10"
+        />
+        <p className="pb-6">{partners.fse.firstParagraph}</p>
 
-        <p>{partners.fse.firstParagraph}</p>
-
-        <p>{partners.fse.secondParagraph}</p>
+        <p className="pb-6">{partners.fse.secondParagraph}</p>
 
         <p>{partners.fse.thirdParagraph}</p>
-
-        <ul className="space-y-2">
-          <li>
-            {partners.fse.firstListItemStart}{" "}
-            <Link
-              href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-fse"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link"
-            >
-              {partners.fse.nationalProgrammeLinkLabel}
-            </Link>
-            {partners.fse.firstListItemEnd}
-          </li>
-
-          <li>
-            {partners.fse.secondListItemStart}{" "}
-            <Link
-              href="https://fse.gouv.fr/programmes-nationaux/le-programme-national-seaa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link"
-            >
-              {partners.fse.foodAidProgrammeLinkLabel}
-            </Link>
-            {partners.fse.secondListItemEnd}
-          </li>
-
-          <li>
-            {partners.fse.thirdListItemStart}{" "}
-            <Link
-              href="https://www.europe-en-france.gouv.fr/fr/programmes-europeens-2021-2027"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link"
-            >
-              {partners.fse.learnMoreLinkLabel}
-            </Link>
-            {partners.fse.thirdListItemEnd}
-          </li>
-        </ul>
-
-        <p>{partners.fse.fourthParagraph}</p>
-
-        <ul className="space-y-2">
-          <li>{partners.fse.firstListItem} </li>
-
-          <li>{partners.fse.secondListItem} </li>
-
-          <li>{partners.fse.thirdListItem} </li>
-        </ul>
       </section>
 
       <section className="text-justify space-y-6">
