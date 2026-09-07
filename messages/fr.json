@@ -90,7 +90,7 @@
       "firstParagraph": "Depuis 2000, l’association Les Jardins de Wesserling œuvre à la reconversion du Parc de Wesserling en un lieu vivant, créatif et solidaire, au cœur du Massif Vosgien.",
       "secondParagraph": "À travers les jardins potagers, les animations et les aménagements pédagogiques, l’association valorise ce patrimoine tout en développant l’insertion professionnelle et l’entraide locale.",
       "thirdParagraph": "Aujourd’hui, une vingtaine de personnes en insertion, accompagnées par une équipe salariée et de nombreux bénévoles, participent chaque année à la vie et au développement des jardins.",
-      "fourthParagraph": "Les Jardins de Wesserling sont avant tout un espace de partage, de créativité et de transmission, ouvert à toutes celles et ceux qui souhaitent s’impliquer ou simplement découvrir le lieu.",
+      "fourthParagraph": "Les Jardins de Wesserling sont un espace de partage, de créativité et de transmission, ouvert à toutes celles et ceux qui souhaitent s’impliquer ou simplement découvrir le lieu.",
       "fifthParagraph": "Bienvenue à toutes celles et ceux qui souhaitent nous rejoindre.",
       "sixthParagraph": "Pour le conseil d’administration",
       "seventhParagraph": "Georgette Tacquard, présidente"
@@ -301,8 +301,8 @@
       "paragraphs": [
         "L’association Les Jardins de Wesserling a été créée en 2000 par une trentaine d’habitants afin de relever un défi ambitieux : créer de l’emploi à partir de la reconversion de la friche industrielle du Parc de Wesserling.",
         "Elle a rejoint la fédération d’associations chargée, d’abord par le Département du Haut-Rhin puis par la Collectivité Européenne d’Alsace, d’assurer la reconversion touristique de cet ancien haut lieu de l’industrie textile du Massif Vosgien.",
-        "Les jardins ont été imaginés par les paysagistes Agnès Daval et Philippe Raguin dans le respect de l’histoire du site. Leur implantation a été réalisée grâce au travail d’un géomètre bénévole, puis développée au fil des années par l’implication constante des bénévoles de l’association.",
-        "Les premières années reposaient essentiellement sur l’engagement collectif : défrichage, plantations, culture maraîchère, gestion du site, vente des productions, accompagnement vers l’emploi et organisation des animations. Plus de cent bénévoles participaient notamment à la fête annuelle du potager.",
+        "Les jardins ont été imaginés par les paysagistes Agnès Daval et Philippe Raguin dans le respect de l’histoire du site.  Leur tracé a été réalisé avec l’aide d’un géomètre bénévole, puis développée au fil des années par l’implication constante des bénévoles de l’association.",
+        "Les premières années reposaient essentiellement sur l’engagement bénévole : défrichage, plantations, culture maraîchère, gestion de l’activité, vente des productions, accompagnement vers l’emploi et organisation des animations. Plus de cent bénévoles participaient notamment à la fête annuelle du potager.",
         "L’association a toujours poursuivi le même objectif : professionnaliser progressivement les activités dès que les moyens financiers le permettaient, afin de pérenniser les emplois et les missions du projet associatif."
       ],
       "timelineLabels": {
@@ -350,21 +350,21 @@
           "actions": {
             "first": "Professionnalisation des tâches administratives et d’accompagnement socioprofessionnel.",
             "second": "Création de postes mutualisés avec le chantier d’insertion Patrimoine et Emploi.",
-            "third": "Accompagnement par un conseiller en gestion d’entreprise dans le cadre d’un DLA."
+            "third": "Accompagnement par un conseiller en gestion d’entreprise dans le cadre d’un DLA.",
+            "fourth": "Mobilisation du Fonds Social Européen."
           },
-          "employees": "Création de 2 postes : une administrative et une personne chargée de l’accompagnement socioprofessionnel.",
-          "volunteers": "Un membre de l’association assure bénévolement la direction du personnel. Les bénévoles restent impliqués dans la conception, l’aménagement et la gestion."
+          "employees": "Création de 2 postes à mi-temps : une administrative et une personne chargée de l’accompagnement socioprofessionnel, ainsi que de 15 postes en insertion professionnelle.",
+          "volunteers": "Un membre de l’association assure bénévolement la direction du personnel. Les bénévoles restent impliqués dans la conception du jardin, l’aménagement, les animations et la gestion."
         },
         {
           "years": "2011–2020",
           "title": "Développement des activités",
           "actions": {
-            "first": "Accompagnement socioprofessionnel renforcé.",
-            "second": "Attractivité croissante du potager pédagogique.",
-            "third": "Nombreuses animations et produits transformés.",
-            "fourth": "Création de la petite restauration en 2014/2017 avec l’appui d’un DLA."
+            "first": "Augmentation du nombre de salariés en insertion et accompagnement socioprofessionnel renforcé.",
+            "second": "Développement du potager pédagogique, des animations et des produits transformés.",
+            "third": "Création de la petite restauration et réflexion packaging en 2014/2017 avec l’appui d’un DLA."
           },
-          "employees": "Fin 2018, création d’un poste de direction mutualisé avec le chantier d’insertion PE.",
+          "employees": "Fin 2018, création d’un poste de direction mutualisé avec le chantier d’insertion Patrimoine et Emploi.",
           "volunteers": "L’implication bénévole reste forte, notamment dans les animations, qui passent de 1 à 8 au cours de l’année."
         },
         {
@@ -375,8 +375,8 @@
             "second": "Passage des postes à plein temps.",
             "third": "Création d’un secteur maraîcher."
           },
-          "employees": "L’association compte une trentaine de salariés : 22 postes en insertion, une direction, une administrative, une ASP et 3 encadrants techniques.",
-          "volunteers": "L’implication bénévole représente environ 6500 heures de travail chaque année."
+          "employees": "L’association compte une trentaine de salariés : 22 postes en insertion, 6 postes de salariés permanents (un poste de direction, un poste administratif, un poste d’accompagnement socioprofessinonel, 3 postes d’encadrants techniques) et 1 ou 2 saisonniers.",
+          "volunteers": "L’implication bénévole représente entre 6500 et 7000 heures de travail chaque année."
         }
       ]
     }

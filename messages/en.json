@@ -90,7 +90,7 @@
       "firstParagraph": "Since 2000, the Les Jardins de Wesserling association has been working to transform the Parc de Wesserling into a vibrant, creative and community-focused place in the heart of the Vosges Mountains.",
       "secondParagraph": "Through the kitchen gardens, events and educational spaces, the association promotes and enhances this heritage site while supporting social and professional inclusion and strengthening local solidarity.",
       "thirdParagraph": "Today, around twenty people taking part in work integration programmes, supported by a dedicated team and many volunteers, contribute each year to the life and development of the gardens.",
-      "fourthParagraph": "Above all, Les Jardins de Wesserling is a place of sharing, creativity and learning, open to anyone who wishes to get involved or simply discover the site.",
+      "fourthParagraph": "Les Jardins de Wesserling is a place of sharing, creativity and learning, open to anyone who wishes to get involved or simply discover the site.",
       "fifthParagraph": "A warm welcome to everyone who would like to join us.",
       "sixthParagraph": "On behalf of the Board of Directors",
       "seventhParagraph": "Georgette Tacquard, Chair"
@@ -301,8 +301,8 @@
       "paragraphs": [
         "The Les Jardins de Wesserling association was created in 2000 by around thirty local residents to take on an ambitious challenge: creating employment through the redevelopment of the former industrial wasteland of the Parc de Wesserling.",
         "It joined the federation of associations entrusted, first by the Haut-Rhin Department and later by the European Collectivity of Alsace, with overseeing the tourism redevelopment of this former centre of the textile industry in the Vosges Massif.",
-        "The gardens were designed by landscape architects Agnès Daval and Philippe Raguin with respect for the history of the site. Their layout was initially carried out thanks to the work of a volunteer surveyor, then developed over the years through the continued involvement of the association’s volunteers.",
-        "The early years relied mainly on collective commitment: clearing land, planting, market gardening, site management, selling produce, supporting people towards employment and organising activities. More than one hundred volunteers took part each year in the annual garden festival.",
+        "The gardens were designed by landscape architects Agnès Daval and Philippe Raguin with respect for the history of the site. Their layout was created with the help of a volunteer surveyor and was then developed over the years through the ongoing involvement of the association’s volunteers.",
+        "In the early years, the project relied mainly on volunteer involvement: clearing the land, planting, market gardening, managing activities, selling produce, supporting people back into employment, and organising events. More than one hundred volunteers were involved in the annual garden festival in particular.",
         "The association has always pursued the same objective: progressively professionalising activities whenever financial resources allowed it, in order to secure jobs and sustain the missions of the association’s project."
       ],
       "timelineLabels": {
@@ -350,21 +350,23 @@
           "actions": {
             "first": "Professionalisation of administrative tasks and socio-professional support.",
             "second": "Creation of shared positions with the Patrimoine et Emploi integration worksite.",
-            "third": "Support from a business management adviser through a DLA support scheme."
+            "third": "Support from a business management adviser through a DLA support scheme.",
+            "fourth": "Mobilisation of the European Social Fund."
           },
-          "employees": "Creation of 2 positions: one administrator and one socio-professional support officer.",
-          "volunteers": "A member of the association voluntarily managed staff. Volunteers remained involved in design, development and management."
+
+          "employees": "Creation of 2 part-time positions: one administrative role and one role responsible for socio-professional support, as well as 15 work-integration positions.",
+
+          "volunteers": "A member of the association manages the staff on a voluntary basis. Volunteers remain involved in garden design, site development, activities and management."
         },
         {
           "years": "2011–2020",
           "title": "Development of activities",
           "actions": {
-            "first": "Strengthened socio-professional support.",
-            "second": "Growing attractiveness of the educational kitchen garden.",
-            "third": "Numerous activities and processed products.",
-            "fourth": "Creation of a light catering service in 2014/2017 with the support of a DLA scheme."
+            "first": "Increase in the number of employees in work-integration programmes and strengthened socio-professional support.",
+            "second": "Development of the educational vegetable garden, activities and processed products.",
+            "third": "Creation of a small food service offering and work on packaging design in 2014/2017 with the support of a DLA."
           },
-          "employees": "At the end of 2018, creation of a shared management position with the PE integration worksite.",
+          "employees": "At the end of 2018, creation of a shared management position with the Patrimoine et Emploi integration worksite.",
           "volunteers": "Volunteer involvement remained strong, particularly in activities, which increased from 1 to 8 during the year."
         },
         {
@@ -375,8 +377,8 @@
             "second": "Conversion of positions to full-time roles.",
             "third": "Creation of a market gardening sector."
           },
-          "employees": "The association now employs around thirty staff members: 22 integration positions, one director, one administrator, one ASP officer and 3 technical supervisors.",
-          "volunteers": "Volunteer involvement represents around 6,500 working hours every year."
+          "employees": "The association employs around thirty people: 22 work-integration positions, 6 permanent staff positions (one management position, one administrative position, one socio-professional support position and 3 technical supervisor positions), as well as 1 or 2 seasonal workers.",
+          "volunteers": "Volunteer involvement represents between 6,500 and 7,000 hours of work each year."
         }
       ]
     }

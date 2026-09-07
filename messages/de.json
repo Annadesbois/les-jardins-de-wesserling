@@ -90,7 +90,7 @@
       "firstParagraph": "Seit 2000 arbeitet die Vereinigung Les Jardins de Wesserling daran, den Parc de Wesserling zu einem lebendigen, kreativen und gemeinschaftsorientierten Ort im Herzen der Vogesen zu machen.",
       "secondParagraph": "Durch die Küchengärten, Veranstaltungen und Bildungsräume fördert und wertet die Vereinigung diesen Kulturerbe-Ort auf, unterstützt soziale und berufliche Integration und stärkt die lokale Solidarität.",
       "thirdParagraph": "Heute tragen rund zwanzig Menschen, die an Arbeitsintegrationsprogrammen teilnehmen, unterstützt von einem engagierten Team und vielen Freiwilligen, jedes Jahr zum Leben und zur Entwicklung der Gärten bei.",
-      "fourthParagraph": "Vor allem sind die Les Jardins de Wesserling ein Ort des Teilens, der Kreativität und des Lernens, offen für alle, die sich engagieren oder einfach den Ort entdecken möchten.",
+      "fourthParagraph": "Die Jardins de Wesserling sind ein Ort des Austauschs, der Kreativität und der Wissensvermittlung, der allen offensteht, die sich engagieren oder den Ort einfach entdecken möchten.",
       "fifthParagraph": "Ein herzliches Willkommen an alle, die sich uns anschließen möchten.",
       "sixthParagraph": "Im Namen des Vorstands",
       "seventhParagraph": "Georgette Tacquard, Vorsitzende"
@@ -301,8 +301,8 @@
       "paragraphs": [
         "Der Verein Les Jardins de Wesserling wurde im Jahr 2000 von rund dreißig Einwohnern gegründet, um eine ehrgeizige Herausforderung anzugehen: die Schaffung von Arbeitsplätzen durch die Umwandlung der Industriebrache des Parc de Wesserling.",
         "Er trat dem Verbund von Vereinen bei, der zunächst vom Département Haut-Rhin und später von der Europäischen Gebietskörperschaft Elsass mit der touristischen Umgestaltung dieses ehemaligen Zentrums der Textilindustrie im Vogesenmassiv beauftragt wurde.",
-        "Die Gärten wurden von den Landschaftsarchitekten Agnès Daval und Philippe Raguin unter Berücksichtigung der Geschichte des Ortes entworfen. Die Umsetzung erfolgte zunächst dank der Arbeit eines ehrenamtlichen Vermessers und wurde im Laufe der Jahre durch das kontinuierliche Engagement der Vereinsmitglieder weiterentwickelt.",
-        "Die ersten Jahre beruhten hauptsächlich auf gemeinschaftlichem Engagement: Rodung, Pflanzungen, Gemüseanbau, Verwaltung des Geländes, Verkauf der Produkte, Unterstützung bei der Arbeitsintegration und Organisation von Veranstaltungen. Mehr als hundert Ehrenamtliche beteiligten sich insbesondere am jährlichen Gartenfest.",
+        "Die Gärten wurden von den Landschaftsarchitekten Agnès Daval und Philippe Raguin unter Berücksichtigung der Geschichte des Geländes entworfen. Ihre Anlage wurde mithilfe eines ehrenamtlich tätigen Vermessers umgesetzt und im Laufe der Jahre durch das kontinuierliche Engagement der Vereinsmitglieder weiterentwickelt.",
+        "In den ersten Jahren beruhte die Arbeit hauptsächlich auf ehrenamtlichem Engagement: Rodung, Pflanzarbeiten, Gemüseanbau, Organisation der Aktivitäten, Verkauf der Erzeugnisse, Unterstützung bei der beruflichen Eingliederung und Durchführung von Veranstaltungen. Mehr als hundert Ehrenamtliche wirkten insbesondere beim jährlichen Gartenfest mit.",
         "Der Verein verfolgte stets dasselbe Ziel: die Aktivitäten schrittweise zu professionalisieren, sobald die finanziellen Mittel dies erlaubten, um die Arbeitsplätze und die Aufgaben des Vereinsprojekts dauerhaft zu sichern."
       ],
       "timelineLabels": {
@@ -350,21 +350,23 @@
           "actions": {
             "first": "Professionalisierung administrativer Aufgaben und der sozialberuflichen Begleitung.",
             "second": "Schaffung gemeinsamer Stellen mit der Integrationsbaustelle Patrimoine et Emploi.",
-            "third": "Begleitung durch einen Unternehmensberater im Rahmen eines DLA-Programms."
+            "third": "Begleitung durch einen Unternehmensberater im Rahmen eines DLA-Programms.",
+            "fourth": "Mobilisierung des Europäischen Sozialfonds."
           },
-          "employees": "Schaffung von 2 Stellen: eine Verwaltungskraft und eine Fachkraft für sozialberufliche Begleitung.",
-          "volunteers": "Ein Vereinsmitglied übernahm ehrenamtlich die Personalführung. Die Ehrenamtlichen blieben an Gestaltung, Entwicklung und Verwaltung beteiligt."
+
+          "employees": "Schaffung von 2 Teilzeitstellen: einer Verwaltungsstelle und einer Stelle für die sozialberufliche Begleitung sowie von 15 Stellen zur beruflichen Eingliederung.",
+
+          "volunteers": "Ein Mitglied des Vereins übernimmt ehrenamtlich die Personalführung. Die Ehrenamtlichen bleiben an der Gestaltung des Gartens, den Ausbauarbeiten, den Veranstaltungen und der Verwaltung beteiligt."
         },
         {
           "years": "2011–2020",
           "title": "Entwicklung der Aktivitäten",
           "actions": {
-            "first": "Verstärkte sozialberufliche Begleitung.",
-            "second": "Steigende Attraktivität des pädagogischen Gemüsegartens.",
-            "third": "Zahlreiche Veranstaltungen und verarbeitete Produkte.",
-            "fourth": "Einführung eines kleinen Gastronomiebereichs 2014/2017 mit Unterstützung eines DLA-Programms."
+            "first": "Erhöhung der Zahl der Beschäftigten in beruflicher Eingliederung und verstärkte sozialberufliche Begleitung.",
+            "second": "Ausbau des pädagogischen Gemüsegartens, der Veranstaltungen und der verarbeiteten Produkte.",
+            "third": "Einrichtung eines kleinen Gastronomieangebots und Überlegungen zur Verpackungsgestaltung in den Jahren 2014/2017 mit Unterstützung eines DLA."
           },
-          "employees": "Ende 2018 wurde eine gemeinsame Leitungsstelle mit der Integrationsbaustelle PE geschaffen.",
+          "employees": "Ende 2018 wurde eine gemeinsame Leitungsstelle mit der Integrationsbaustelle Patrimoine et Emploi geschaffen.",
           "volunteers": "Das ehrenamtliche Engagement blieb stark, insbesondere bei den Veranstaltungen, deren Zahl im Laufe des Jahres von 1 auf 8 anstieg."
         },
         {
@@ -375,8 +377,8 @@
             "second": "Umwandlung der Stellen in Vollzeitstellen.",
             "third": "Schaffung eines Gemüseanbaubereichs."
           },
-          "employees": "Der Verein beschäftigt rund dreißig Mitarbeitende: 22 Integrationsstellen, eine Leitungskraft, eine Verwaltungskraft, eine ASP-Fachkraft und 3 technische Betreuer.",
-          "volunteers": "Das ehrenamtliche Engagement entspricht rund 6500 Arbeitsstunden pro Jahr."
+          "employees": "Der Verein beschäftigt rund dreißig Mitarbeitende: 22 Stellen zur beruflichen Eingliederung, 6 unbefristete Stellen (eine Leitungsstelle, eine Verwaltungsstelle, eine Stelle für sozialberufliche Begleitung und 3 Stellen für technische Betreuung) sowie 1 oder 2 Saisonkräfte.",
+          "volunteers": "Das ehrenamtliche Engagement entspricht jedes Jahr zwischen 6.500 und 7.000 Arbeitsstunden."
         }
       ]
     }
