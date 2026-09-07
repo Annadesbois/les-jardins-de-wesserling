@@ -105,6 +105,29 @@
       "description": "Discover Les Jardins de Wesserling, a beautiful educational kitchen garden in the heart of the Parc de Wesserling."
     },
     "title": "A Kitchen Garden to Visit",
+    "garden": {
+      "intro": "The Wesserling kitchen garden introduces visitors to environmentally friendly gardening while offering a unique and relaxing stroll.",
+      "centralPath": {
+        "imageAlt": "Photo of the kitchen garden at Les Jardins de Wesserling",
+        "description": "The central pathway linking the former ponds forms the backbone of the kitchen garden. It creates a connection between horticulture and Wesserling’s industrial heritage. The arrangement of vegetables, flowers and herbs recreates textile patterns once designed in the former factory. Each year, a new composition is presented in connection with the theme of the Festival of Mixed Gardens."
+      },
+      "pedagogy": {
+        "imageAlt": "Photo of the educational garden at Les Jardins de Wesserling",
+        "description": "On either side of this axis extend the four sections of the educational kitchen garden. Their plots demonstrate gardening methods that work alongside natural processes: crop rotation, beneficial plant associations, the use of helpful insects and wildlife, soil and water management, and more. A pathway through a hedge reveals habitats for beneficial species useful to gardeners. Educational panels and games introduce visitors to the secrets of gardening."
+      },
+      "orchard": {
+        "imageAlt": "Photo of the aromatic plants at Les Jardins de Wesserling",
+        "description": "A heritage quince orchard, a terrace of berries and aromatic plants complete this abundant garden, whose produce is sold or transformed at the Resto du Potager.",
+        "button": "Discover the Resto du Potager"
+      },
+      "accessibility": {
+        "imageAlt": "Photo of a resting area at Les Jardins de Wesserling",
+        "description": "To ensure accessibility for everyone, including people with reduced mobility, numerous resting areas immersed in the vegetation are located throughout the kitchen garden pathways."
+      },
+      "membership": "By becoming a member of the association or making a donation, you benefit from a 66% tax reduction, as the association is recognised as serving the public interest. Your support helps fund employment initiatives.",
+      "button": "Join the association"
+    },
+    "image": "Leaf divider",
     "park": {
       "intro1": "The Wesserling kitchen gardens are located at the heart of the remarkable",
       "link1": "Wesserling industrial park",
@@ -134,29 +157,6 @@
       },
       "association": "It is within this setting that the Les Jardins de Wesserling association has developed its social project: an educational kitchen garden and light catering activities where people on work integration programmes are employed.",
       "button": "Link to the ticket office on the Parc de Wesserling website"
-    },
-    "image": "Leaf divider",
-    "garden": {
-      "intro": "The Wesserling kitchen garden introduces visitors to environmentally friendly gardening while offering a unique and relaxing stroll.",
-      "centralPath": {
-        "imageAlt": "Photo of the kitchen garden at Les Jardins de Wesserling",
-        "description": "The central pathway linking the former ponds forms the backbone of the kitchen garden. It creates a connection between horticulture and Wesserling’s industrial heritage. The arrangement of vegetables, flowers and herbs recreates textile patterns once designed in the former factory. Each year, a new composition is presented in connection with the theme of the Festival of Mixed Gardens."
-      },
-      "pedagogy": {
-        "imageAlt": "Photo of the educational garden at Les Jardins de Wesserling",
-        "description": "On either side of this axis extend the four sections of the educational kitchen garden. Their plots demonstrate gardening methods that work alongside natural processes: crop rotation, beneficial plant associations, the use of helpful insects and wildlife, soil and water management, and more. A pathway through a hedge reveals habitats for beneficial species useful to gardeners. Educational panels and games introduce visitors to the secrets of gardening."
-      },
-      "orchard": {
-        "imageAlt": "Photo of the aromatic plants at Les Jardins de Wesserling",
-        "description": "A heritage quince orchard, a terrace of berries and aromatic plants complete this abundant garden, whose produce is sold or transformed at the Resto du Potager.",
-        "button": "Discover the Resto du Potager"
-      },
-      "accessibility": {
-        "imageAlt": "Photo of a resting area at Les Jardins de Wesserling",
-        "description": "To ensure accessibility for everyone, including people with reduced mobility, numerous resting areas immersed in the vegetation are located throughout the kitchen garden pathways."
-      },
-      "membership": "By becoming a member of the association or making a donation, you benefit from a 66% tax reduction, as the association is recognised as serving the public interest. Your support helps fund employment initiatives.",
-      "button": "Join the association"
     }
   },
 
@@ -168,7 +168,7 @@
     "title": "The Kitchen Garden Restaurant",
     "atmosphere": {
       "imageAlt": "Photo of the Kitchen Garden Restaurant at Les Jardins de Wesserling",
-      "firstParagraph": "The Kitchen Garden Restaurant offers an original setting surrounded by flowers, vegetables and aromatic plants, within a décor inspired by fabrics inherited from the former Wesserling Textile Printing Factory. It is a social restaurant where service is provided by people taking part in work integration programmes."
+      "firstParagraph": "The Kitchen Garden Restaurant offers an original setting surrounded by flowers, vegetables and aromatic plants, within a décor inspired by fabrics inherited from the former Wesserling Textile Printing Factory. It is a social enterprise restaurant where the preparation of meals and the service are carried out by people in work-integration programmes."
     },
     "solidarity": {
       "imageAlt": "Photo of farmers' products at Les Jardins de Wesserling",
@@ -193,7 +193,11 @@
       "description": "Discover the festive events organised by Les Jardins de Wesserling: the Festival of Mixed Gardens, the Nature Festival, and much more."
     },
     "title": "Festive Events",
-    "intro": "Numerous festive events bring Wesserling’s industrial heritage to life throughout the year (link to the Parc website). Refreshments and light catering are provided by the work integration programme of the Les Jardins de Wesserling association: tarte flambée, plain or gratinated pretzels, sweet crêpes (and ice creams depending on the season), drinks including garden syrups. The Les Jardins de Wesserling association organises three events: the Garden Swap, the Music Festival and Cocktail Evenings. The association also provides light catering during events organised within the Parc de Wesserling, such as Pâques en Folie, Heritage Day, the Barefoot Trail Festival, the Night-Time Fairies, the Autumn Festival and Christmas in the Garden.",
+    "intro": {
+      "firstPart": "Numerous festive events bring the ",
+      "link": "industrial heritage of Wesserling ",
+      "secondPart": "to life throughout the year. The refreshment stand and light catering are provided by the work-integration programme run by the Les Jardins de Wesserling association: tarte flambée, plain or gratinated pretzels, sweet crêpes (and ice cream depending on the season), as well as drinks including syrups made from produce grown in the garden, local craft beers and lemonades. The Les Jardins de Wesserling association organises three events: the Troc’Jardin, the Fête de la Musique and the Cocktail Evenings. It also provides light catering during events organised in the Parc de Wesserling, such as Pâques en Folie, the Fête du Patrimoine and the Fête du Sentier Pieds-nus, the Féeries Nocturnes, the Fête d’Automne and Noël Au Jardin."
+    },
     "easter": {
       "imageAlt": "Pâques en Folie at Les Jardins de Wesserling",
       "title": "Pâques en Folie",
@@ -213,17 +217,17 @@
     "festival": {
       "imageAlt": "Festival des Jardins Métissés at Les Jardins de Wesserling",
       "title": "Festival des Jardins Métissés",
-      "subtitle": "From June to October. From 10am to 6.30pm.",
+      "subtitle": "From June to October. From 10am to 6.30pm. Paid admission via the Château des Manufacturiers.",
       "firstParagraph": "Refreshments, tarts, salads, charcuterie or cheese platters, plain or gratinated pretzels, crêpes, ice creams.",
       "secondParagraph": "The eco-museum of the Parc de Wesserling opens from May onwards. However, the Festival des Jardins Métissés begins in June. Each year, its temporary gardens built around a new theme transport visitors into poetic, artistic, playful and exotic worlds... perfect for wonderful family days out!"
     },
     "music": {
       "imageAlt": "Fête de la Musique at Les Jardins de Wesserling",
       "title": "Fête de la Musique",
-      "subtitle": "The Friday closest to 21 June. From 6pm to 11pm. In the courtyard of the Wesserling Farm. Free entry.",
+      "subtitle": "The Friday closest to 21 June. From 6pm to 11pm. On the lawn along the main axis of the Potagers de Wesserling. Free entry.",
       "firstParagraph": "Music throughout the evening. Free visit of the gardens and the Festival des Jardins Métissés.",
       "secondParagraph": "Refreshments, tarte flambée, plain or gratinated pretzels, crêpes, ice creams.",
-      "thirdParagraph": "Music lovers can discover a variety of musical styles while seated beneath the farm shelters or on the slopes of the Rural Park. The Fête de la Musique at Wesserling takes place within the remarkable setting of Wesserling’s industrial heritage."
+      "thirdParagraph": "Music lovers can discover a variety of musical styles while strolling through the gardens or enjoying delicious drinks and tarte flambée."
     },
     "cocktail": {
       "imageAlt": "Soirées cocktails at Les Jardins de Wesserling",
@@ -237,7 +241,7 @@
       "imageAlt": "Féeries Nocturnes at Les Jardins de Wesserling",
       "title": "Féeries Nocturnes",
       "subtitle": {
-        "text": "Thursdays, Fridays, Saturdays and Sundays throughout August and during the week of 15 August. From 6.30pm to 11.30pm. Paid entry through the gardens.",
+        "text": "Thursdays, Fridays, Saturdays and Sundays throughout August and during the week of 15 August. From 6.30pm to 11.30pm. Paid admission via the Château des Manufacturiers.",
         "link": "More information on the Parc de Wesserling website"
       },
       "firstParagraph": "Large-scale game. Storytelling walks. Fire show.",

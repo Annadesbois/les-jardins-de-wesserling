@@ -105,6 +105,29 @@
       "description": "Découvrez les Jardins de Wesserling, un magnifique jardin potager pédagogique au cœur du Parc de Wesserling."
     },
     "title": "Un potager à visiter",
+    "garden": {
+      "intro": "Le potager de Wesserling initie le visiteur à l’art du jardinage respectueux de l’environnement, tout en offrant une flânerie insolite.",
+      "centralPath": {
+        "imageAlt": "Photo du jardin potager des Jardins de Wesserling",
+        "description": "L’allée centrale qui relie les anciens bassins, est l’ossature du potager. Elle fait le lien entre horticulture et patrimoine industriel de Wesserling. L’agencement des légumes, fleurs et aromates, représente des motifs textiles créés dans l’ancienne Manufacture. Chaque année, une nouvelle composition est présentée, en lien avec le thème du Festival des Jardins Métissés."
+      },
+      "pedagogy": {
+        "imageAlt": "Photo du jardin pédagogique des Jardins de Wesserling",
+        "description": "De part et d’autre de cet axe s’étendent les quatre secteurs du potager pédagogique. Leurs parcelles mettent en scène les façons de cultiver en tenant compte des processus naturels : rotation des cultures, associations bénéfiques entre plantes, aide des auxiliaires de culture, gestion du sol et de l’eau, ... Un cheminement au cœur d’une haie dévoile les habitats d’auxiliaires de culture utiles au jardinier. Des panneaux pédagogiques et des jeux éducatifs initient aux secrets du jardinier."
+      },
+      "orchard": {
+        "imageAlt": "Photo des plantes aromatiques des Jardins de Wesserling",
+        "description": "Un verger conservatoire de cognassiers, une terrasse de petits fruits et d’aromatiques, complètent ce jardin gourmand, dont les productions sont vendues ou transformées au Resto du Potager.",
+        "button": "Découvrir le Resto du Potager"
+      },
+      "accessibility": {
+        "imageAlt": "Photo d'un lieu de repos aux Jardins de Wesserling",
+        "description": "Afin d’être accessible à tous, y compris aux personnes à mobilité réduite, de nombreux lieux de repos, immergés dans la végétation, ponctuent les allées du potager."
+      },
+      "membership": "En adhérant à l’association ou en devenant donateur, vous bénéficiez d’un avantage fiscal de 66%, l’association étant reconnue d’intérêt public. Cela participe au financement des actions en faveur de l’emploi.",
+      "button": "Adhérer à l’association"
+    },
+    "image": "Feuille de division",
     "park": {
       "intro1": "Les potagers de Wesserling sont situés au cœur du remarquable",
       "link1": "parc industriel de Wesserling",
@@ -134,29 +157,6 @@
       },
       "association": "C’est dans cet ensemble que l’association Les Jardins de Wesserling a développé son projet social : un potager pédagogique et une restauration légère, dans lesquels travaillent les salariés en insertion professionnelle.",
       "button": "Lien vers la billeterie sur le site du Parc de Wesserling"
-    },
-    "image": "Feuille de division",
-    "garden": {
-      "intro": "Le potager de Wesserling initie le visiteur à l’art du jardinage respectueux de l’environnement, tout en offrant une flânerie insolite.",
-      "centralPath": {
-        "imageAlt": "Photo du jardin potager des Jardins de Wesserling",
-        "description": "L’allée centrale qui relie les anciens bassins, est l’ossature du potager. Elle fait le lien entre horticulture et patrimoine industriel de Wesserling. L’agencement des légumes, fleurs et aromates, représente des motifs textiles créés dans l’ancienne Manufacture. Chaque année, une nouvelle composition est présentée, en lien avec le thème du Festival des Jardins Métissés."
-      },
-      "pedagogy": {
-        "imageAlt": "Photo du jardin pédagogique des Jardins de Wesserling",
-        "description": "De part et d’autre de cet axe s’étendent les quatre secteurs du potager pédagogique. Leurs parcelles mettent en scène les façons de cultiver en tenant compte des processus naturels : rotation des cultures, associations bénéfiques entre plantes, aide des auxiliaires de culture, gestion du sol et de l’eau, ... Un cheminement au cœur d’une haie dévoile les habitats d’auxiliaires de culture utiles au jardinier. Des panneaux pédagogiques et des jeux éducatifs initient aux secrets du jardinier."
-      },
-      "orchard": {
-        "imageAlt": "Photo des plantes aromatiques des Jardins de Wesserling",
-        "description": "Un verger conservatoire de cognassiers, une terrasse de petits fruits et d’aromatiques, complètent ce jardin gourmand, dont les productions sont vendues ou transformées au Resto du Potager.",
-        "button": "Découvrir le Resto du Potager"
-      },
-      "accessibility": {
-        "imageAlt": "Photo d'un lieu de repos aux Jardins de Wesserling",
-        "description": "Afin d’être accessible à tous, y compris aux personnes à mobilité réduite, de nombreux lieux de repos, immergés dans la végétation, ponctuent les allées du potager."
-      },
-      "membership": "En adhérant à l’association ou en devenant donateur, vous bénéficiez d’un avantage fiscal de 66%, l’association étant reconnue d’intérêt public. Cela participe au financement des actions en faveur de l’emploi.",
-      "button": "Adhérer à l’association"
     }
   },
 
@@ -168,7 +168,7 @@
     "title": "Le Resto du Potager",
     "atmosphere": {
       "imageAlt": "Photo du Resto du Potager aux Jardins de Wesserling",
-      "firstParagraph": "Le Resto du Potager offre un cadre original, immergé dans la végétation florale, légumière et aromatique, et dans un décor de tissus hérités de l’ancienne Manufacture d’Impression de Wesserling.  C’est un restaurant social, le service est assuré par les personnes en insertion professionnelles."
+      "firstParagraph": "Le Resto du Potager offre un cadre original, immergé dans la végétation florale, légumière et aromatique, et dans un décor de tissus hérités de l’ancienne Manufacture d’Impression de Wesserling. C’est un restaurant social, la confection des plats et le service sont assurés par les personnes en insertion professionnelles."
     },
     "solidarity": {
       "imageAlt": "Photo des produits fermiers aux Jardins de Wesserling",
@@ -193,7 +193,11 @@
       "description": "Découvrez les animations festives organisées par les Jardins de Wesserling : Festival des Jardins Métissés, Fête de la Nature, et bien plus encore."
     },
     "title": "Les animations festives",
-    "intro": "De nombreuses animations festives donnent vie au patrimoine industriel de Wesserling tout au long de l’année (lien vers le site internet du Parc). La buvette et la petite restauration sont assurées par le chantier d’insertion de l’association Les Jardins de Wesserling : tartes flambées, bretzels nature ou gratiné, crêpes sucrées (et glaces selon la saison), boissons dont sirops du potager. L’association Les Jardins de Wesserling organise trois animations : le Troc’Jardin, la Fête de la Musique et les Soirées cocktails. Elle assure également la petite restauration lors des fêtes organisées dans le Parc de Wesserling, telles que Pâques en Folie, la Fête du Patrimoine et la Fête du Sentier Pieds-nus, les Féeries Nocturnes, la Fête d’Automne et le Noël Au Jardin.",
+    "intro": {
+      "firstPart": "De nombreuses animations festives donnent vie au ",
+      "link": "patrimoine industriel de Wesserling ",
+      "secondPart": "tout au long de l’année. La buvette et la petite restauration sont assurées par le chantier d’insertion de l’association Les Jardins de Wesserling : tartes flambées, bretzels nature ou gratiné, crêpes sucrées (et glaces selon la saison), boissons dont sirops du potager, bières et limonade artisanales locales. L’association Les Jardins de Wesserling organise trois animations : le Troc’Jardin, la Fête de la Musique et les Soirées cocktails. Elle assure également la petite restauration lors des fêtes organisées dans le Parc de Wesserling, telles que Pâques en Folie, la Fête du Patrimoine et la Fête du Sentier Pieds-nus, les Féeries Nocturnes, la Fête d’Automne et le Noël Au Jardin."
+    },
     "easter": {
       "imageAlt": "Pâques en Folie aux Jardins de Wesserling",
       "title": "Pâques en Folie",
@@ -208,22 +212,22 @@
       "subtitle": "Le dernier dimanche d’avril de 10h à 18h. Dans la cour de la Ferme de Wesserling. Entrée gratuite.",
       "firstParagraph": "Espace Troc. Ateliers ludiques. Stands de conseils. Stand de vente de légumes.",
       "secondParagraph": "Buvette, tartes flambées, bretzels natures ou gratinés, crêpes.",
-      "thirdParagraph": "C’est un moment privilégié pour les jardiniers amateurs, pour échanger des plants, des outils ou des conseils. Les Troqueurs peuvent déposer leurs objets dès 10h le matin. Ils sont « payés » en monnaie du jour : la monnaie de radis, avec lesquels ils peuvent acquérir les plantes et objets de leur choix.  La monnaie de radis peut également s’acquérir en participant à des jeux, en achetant une Tarte Flambée ou la carte de membre de l’association."
+      "thirdParagraph": "C’est un moment privilégié pour les jardiniers amateurs, pour échanger des plants, des outils ou des conseils. Les Troqueurs peuvent déposer leurs objets dès 10h le matin. Ils sont « payés » en monnaie du jour : la monnaie de radis, avec laquelle ils peuvent acquérir les plantes et objets de leur choix.  La monnaie de radis peut également s’acquérir en participant à des jeux, en achetant une Tarte Flambée ou la carte de membre de l’association."
     },
     "festival": {
       "imageAlt": "Festival des Jardins Métissés aux Jardins de Wesserling",
       "title": "Festival des Jardins Métissés",
-      "subtitle": "De juin à octobre. De 10h à 18h30.",
+      "subtitle": "De juin à octobre. De 10h à 18h30. Entrée payante par le Château des Manufacturiers",
       "firstParagraph": "Buvette, tartes, crudités, assiettes de charcuteries ou de fromage, bretzels natures ou gratinés, crêpes, glaces.",
       "secondParagraph": "L’écomusée du Parc de Wesserling est ouvert dès le mois de mai. Mais le Festival des Jardins Métissés, débute à partir de juin. Ses jardins éphémères, chaque année selon une thématique nouvelle, emportent les visiteurs vers des univers poétiques, artistiques, ludiques dépaysants... De quoi passer de belles journées en famille !"
     },
     "music": {
       "imageAlt": "Fête de la Musique aux Jardins de Wesserling",
       "title": "Fête de la Musique",
-      "subtitle": "Le vendredi le plus proche du 21 juin. De 18h à 23h. Dans la cour de la Ferme de Wesserling. Entrée gratuite.",
+      "subtitle": "Le vendredi le plus proche du 21 juin. De 18h à 23h. Sur le pré dans la perspective majeur des Potagers de Wesserling. Entrée gratuite.",
       "firstParagraph": "Musique tout au long de la soirée. Visite gratuite des jardins et du Festival des Jardins Métissés.",
       "secondParagraph": "Buvette, tartes flambées, bretzels natures ou gratinés, crêpes, glaces.",
-      "thirdParagraph": "Les mélomanes peuvent découvrir des musiques de styles variés, attablés sous les auvents de la ferme ou assis sur les pentes du Parc Rural. La fête de la musique à Wesserling se déroule dans le cadre remarquable du patrimoine industriel de Wesserling."
+      "thirdParagraph": "Les mélomanes peuvent découvrir des musiques de styles variés, tout en se promenant dans les jardins ou en dégustant de savoureuses boissons et tartes flambées."
     },
     "cocktail": {
       "imageAlt": "Soirée cocktails aux Jardins de Wesserling",
@@ -237,7 +241,7 @@
       "imageAlt": "Féeries Nocturnes aux Jardins de Wesserling",
       "title": "Féeries Nocturnes",
       "subtitle": {
-        "text": "Les jeudis, vendredis, samedis et dimanches du mois d’août et la semaine du 15 août. De 18h30 à 23h30. Entrée payante par les jardins.",
+        "text": "Les jeudis, vendredis, samedis et dimanches du mois d’août et la semaine du 15 août. De 18h30 à 23h30. Entrée payante par le Château des Manufacturiers.",
         "link": "Plus d’info sur le site du Parc de Wesserling"
       },
       "firstParagraph": "Grand jeu. Balades contées. Spectacle de feu.",

@@ -105,6 +105,29 @@
       "description": "Entdecken Sie Les Jardins de Wesserling, einen wunderschönen pädagogischen Gemüsegarten im Herzen des Parc de Wesserling."
     },
     "title": "Ein Gemüsegarten zum Besuchen",
+    "garden": {
+      "intro": "Der Gemüsegarten von Wesserling führt Besucherinnen und Besucher in die umweltfreundliche Gartenkunst ein und lädt zugleich zu einem besonderen Spaziergang ein.",
+      "centralPath": {
+        "imageAlt": "Foto des Gemüsegartens von Les Jardins de Wesserling",
+        "description": "Der zentrale Weg, der die ehemaligen Wasserbecken verbindet, bildet das Rückgrat des Gemüsegartens. Er verbindet Gartenbau mit dem industriellen Erbe von Wesserling. Die Anordnung von Gemüse, Blumen und Kräutern stellt textile Muster dar, die einst in der ehemaligen Manufaktur entworfen wurden. Jedes Jahr wird eine neue Gestaltung passend zum Thema des Festivals der gemischten Gärten präsentiert."
+      },
+      "pedagogy": {
+        "imageAlt": "Foto des pädagogischen Gartens von Les Jardins de Wesserling",
+        "description": "Zu beiden Seiten dieser Achse erstrecken sich die vier Bereiche des pädagogischen Gemüsegartens. Die Beete zeigen Anbaumethoden im Einklang mit natürlichen Prozessen: Fruchtfolge, vorteilhafte Pflanzenkombinationen, Unterstützung durch Nützlinge sowie Boden- und Wassermanagement. Ein Weg durch eine Hecke zeigt Lebensräume für nützliche Gartenhelfer. Informationstafeln und Lernspiele führen in die Geheimnisse des Gärtnerns ein."
+      },
+      "orchard": {
+        "imageAlt": "Foto der aromatischen Pflanzen in Les Jardins de Wesserling",
+        "description": "Ein Erhaltungsobstgarten mit Quittenbäumen sowie eine Terrasse mit Beeren und Kräutern ergänzen diesen genussvollen Garten, dessen Produkte im Resto du Potager verkauft oder verarbeitet werden.",
+        "button": "Das Resto du Potager entdecken"
+      },
+      "accessibility": {
+        "imageAlt": "Foto eines Ruhebereichs in Les Jardins de Wesserling",
+        "description": "Um allen Menschen, einschliesslich Personen mit eingeschränkter Mobilität, den Zugang zu ermöglichen, befinden sich entlang der Wege des Gemüsegartens zahlreiche Ruhebereiche mitten im Grünen."
+      },
+      "membership": "Wenn Sie Mitglied des Vereins werden oder spenden, profitieren Sie von einer Steuervergünstigung von 66 %, da der Verein als gemeinnützig anerkannt ist. Ihre Unterstützung trägt zur Finanzierung von Beschäftigungsinitiativen bei.",
+      "button": "Dem Verein beitreten"
+    },
+    "image": "Blatttrenner",
     "park": {
       "intro1": "Die Gemüsegärten von Wesserling befinden sich im Herzen des bemerkenswerten",
       "link1": "Industrieparks Wesserling",
@@ -134,29 +157,6 @@
       },
       "association": "In diesem Umfeld hat der Verein Les Jardins de Wesserling sein soziales Projekt entwickelt: einen pädagogischen Gemüsegarten und ein kleines Restaurant, in denen Menschen in beruflicher Eingliederung arbeiten.",
       "button": "Link zum Ticketverkauf auf der Website des Parc de Wesserling"
-    },
-    "image": "Blatttrenner",
-    "garden": {
-      "intro": "Der Gemüsegarten von Wesserling führt Besucherinnen und Besucher in die umweltfreundliche Gartenkunst ein und lädt zugleich zu einem besonderen Spaziergang ein.",
-      "centralPath": {
-        "imageAlt": "Foto des Gemüsegartens von Les Jardins de Wesserling",
-        "description": "Der zentrale Weg, der die ehemaligen Wasserbecken verbindet, bildet das Rückgrat des Gemüsegartens. Er verbindet Gartenbau mit dem industriellen Erbe von Wesserling. Die Anordnung von Gemüse, Blumen und Kräutern stellt textile Muster dar, die einst in der ehemaligen Manufaktur entworfen wurden. Jedes Jahr wird eine neue Gestaltung passend zum Thema des Festivals der gemischten Gärten präsentiert."
-      },
-      "pedagogy": {
-        "imageAlt": "Foto des pädagogischen Gartens von Les Jardins de Wesserling",
-        "description": "Zu beiden Seiten dieser Achse erstrecken sich die vier Bereiche des pädagogischen Gemüsegartens. Die Beete zeigen Anbaumethoden im Einklang mit natürlichen Prozessen: Fruchtfolge, vorteilhafte Pflanzenkombinationen, Unterstützung durch Nützlinge sowie Boden- und Wassermanagement. Ein Weg durch eine Hecke zeigt Lebensräume für nützliche Gartenhelfer. Informationstafeln und Lernspiele führen in die Geheimnisse des Gärtnerns ein."
-      },
-      "orchard": {
-        "imageAlt": "Foto der aromatischen Pflanzen in Les Jardins de Wesserling",
-        "description": "Ein Erhaltungsobstgarten mit Quittenbäumen sowie eine Terrasse mit Beeren und Kräutern ergänzen diesen genussvollen Garten, dessen Produkte im Resto du Potager verkauft oder verarbeitet werden.",
-        "button": "Das Resto du Potager entdecken"
-      },
-      "accessibility": {
-        "imageAlt": "Foto eines Ruhebereichs in Les Jardins de Wesserling",
-        "description": "Um allen Menschen, einschliesslich Personen mit eingeschränkter Mobilität, den Zugang zu ermöglichen, befinden sich entlang der Wege des Gemüsegartens zahlreiche Ruhebereiche mitten im Grünen."
-      },
-      "membership": "Wenn Sie Mitglied des Vereins werden oder spenden, profitieren Sie von einer Steuervergünstigung von 66 %, da der Verein als gemeinnützig anerkannt ist. Ihre Unterstützung trägt zur Finanzierung von Beschäftigungsinitiativen bei.",
-      "button": "Dem Verein beitreten"
     }
   },
 
@@ -168,7 +168,7 @@
     "title": "Das Restaurant des Gemüsegartens",
     "atmosphere": {
       "imageAlt": "Foto des Restaurants des Gemüsegartens in Les Jardins de Wesserling",
-      "firstParagraph": "Das Restaurant des Gemüsegartens bietet ein einzigartiges Ambiente mitten in einer Umgebung aus Blumen, Gemüse und aromatischen Pflanzen sowie in einem Dekor aus Stoffen der ehemaligen Stoffdruckerei von Wesserling. Es handelt sich um ein soziales Restaurant, in dem der Service von Menschen in beruflicher Eingliederung übernommen wird."
+      "firstParagraph": "Das Restaurant des Gemüsegartens bietet ein einzigartiges Ambiente mitten in einer Umgebung aus Blumen, Gemüse und aromatischen Pflanzen sowie in einem Dekor aus Stoffen der ehemaligen Stoffdruckerei von Wesserling. Es handelt sich um ein soziales Restaurant, in dem die Zubereitung der Speisen und der Service von Personen in beruflicher Eingliederung übernommen werden."
     },
     "solidarity": {
       "imageAlt": "Foto der Produkte von Landwirten in Les Jardins de Wesserling",
@@ -193,7 +193,11 @@
       "description": "Entdecken Sie die festlichen Veranstaltungen von Les Jardins de Wesserling: das Festival der gemischten Gärten, das Naturfest und vieles mehr."
     },
     "title": "Festliche Veranstaltungen",
-    "intro": "Zahlreiche festliche Veranstaltungen beleben das Industrieerbe von Wesserling das ganze Jahr über (Link zur Website des Parks). Getränke und kleine Speisen werden vom Integrationsprojekt des Vereins Les Jardins de Wesserling angeboten: Flammkuchen, einfache oder überbackene Bretzeln, süsse Crêpes (und je nach Saison Eis), Getränke einschliesslich Sirupen aus dem Gemüsegarten. Der Verein Les Jardins de Wesserling organisiert drei eigene Veranstaltungen: den Garten-Tauschmarkt, das Musikfest und die Cocktailabende. Ausserdem übernimmt der Verein die kleine Gastronomie bei Veranstaltungen im Parc de Wesserling, wie Pâques en Folie, dem Tag des Kulturerbes, dem Barfusspfad-Fest, den nächtlichen Lichterfesten, dem Herbstfest und Weihnachten im Garten.",
+    "intro": {
+      "firstPart": "Zahlreiche festliche Veranstaltungen beleben das ",
+      "link": "Industriekulturerbe von Wesserling ",
+      "secondPart": "das ganze Jahr über. Der Getränkestand und die kleine Gastronomie werden vom Eingliederungsprojekt des Vereins Les Jardins de Wesserling betrieben: Flammkuchen, Laugenbrezeln natur oder überbacken, süße Crêpes (und je nach Saison Eis) sowie Getränke, darunter Sirupe aus dem Gemüsegarten, lokale handwerklich gebraute Biere und Limonaden. Der Verein Les Jardins de Wesserling organisiert drei Veranstaltungen: den Troc’Jardin, die Fête de la Musique und die Cocktailabende. Außerdem übernimmt er die kleine Gastronomie bei den im Parc de Wesserling organisierten Festen, darunter Pâques en Folie, die Fête du Patrimoine und die Fête du Sentier Pieds-nus, die Féeries Nocturnes, die Fête d’Automne und Noël Au Jardin."
+    },
     "easter": {
       "imageAlt": "Pâques en Folie in Les Jardins de Wesserling",
       "title": "Pâques en Folie",
@@ -213,17 +217,17 @@
     "festival": {
       "imageAlt": "Festival des Jardins Métissés in Les Jardins de Wesserling",
       "title": "Festival des Jardins Métissés",
-      "subtitle": "Von Juni bis Oktober. Von 10 bis 18:30 Uhr.",
+      "subtitle": "Von Juni bis Oktober. Von 10 bis 18:30 Uhr. Kostenpflichtiger Eintritt über das Château des Manufacturiers.",
       "firstParagraph": "Getränke, Tartes, Rohkost, Wurst- oder Käseplatten, einfache oder überbackene Bretzeln, Crêpes, Eis.",
       "secondParagraph": "Das Ökomuseum des Parc de Wesserling ist bereits ab Mai geöffnet. Das Festival des Jardins Métissés beginnt jedoch erst im Juni. Seine temporären Gärten entführen die Besucherinnen und Besucher jedes Jahr mit einem neuen Thema in poetische, künstlerische, spielerische und exotische Welten … perfekt für schöne Familientage!"
     },
     "music": {
       "imageAlt": "Fête de la Musique in Les Jardins de Wesserling",
       "title": "Fête de la Musique",
-      "subtitle": "Am Freitag, der dem 21. Juni am nächsten liegt. Von 18 bis 23 Uhr. Im Hof des Bauernhofs von Wesserling. Freier Eintritt.",
+      "subtitle": "Am Freitag, der dem 21. Juni am nächsten liegt. Von 18 bis 23 Uhr. Auf der Wiese entlang der Hauptachse der Potagers de Wesserling. Freier Eintritt.",
       "firstParagraph": "Musik den ganzen Abend über. Kostenloser Besuch der Gärten und des Festivals der gemischten Gärten.",
       "secondParagraph": "Getränke, Flammkuchen, einfache oder überbackene Bretzeln, Crêpes, Eis.",
-      "thirdParagraph": "Musikliebhaberinnen und Musikliebhaber können unter den Vordächern des Bauernhofs oder auf den Hängen des Rural Parks Musik verschiedenster Stilrichtungen entdecken. Das Fête de la Musique in Wesserling findet in der bemerkenswerten Kulisse des Industrieerbes von Wesserling statt."
+      "thirdParagraph": "Musikliebhaber können Musik aus verschiedenen Stilrichtungen entdecken, während sie durch die Gärten spazieren oder köstliche Getränke und Flammkuchen genießen."
     },
     "cocktail": {
       "imageAlt": "Soirées cocktails in Les Jardins de Wesserling",
@@ -237,7 +241,7 @@
       "imageAlt": "Féeries Nocturnes in Les Jardins de Wesserling",
       "title": "Féeries Nocturnes",
       "subtitle": {
-        "text": "Donnerstags, freitags, samstags und sonntags im August sowie in der Woche rund um den 15. August. Von 18:30 bis 23:30 Uhr. Eintritt über die Gärten kostenpflichtig.",
+        "text": "Donnerstags, freitags, samstags und sonntags im August sowie in der Woche rund um den 15. August. Von 18:30 bis 23:30 Uhr. Kostenpflichtiger Eintritt über das Château des Manufacturiers.",
         "link": "Weitere Informationen auf der Website des Parc de Wesserling"
       },
       "firstParagraph": "Grosses Spiel. Erzählerische Spaziergänge. Feuershow.",

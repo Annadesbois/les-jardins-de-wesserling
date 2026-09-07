@@ -13,7 +13,19 @@ const FestivePage = async ({ params }: PageProp) => {
   return (
     <div className="page-layout text-center font-bold">
       <h1>{festive.title}</h1>
-      <p className="mb-14">{festive.intro}</p>
+      <p className="mb-14">
+        {festive.intro.firstPart}
+        <Link
+          href="https://www.parc-wesserling.fr"
+          target="blank"
+          rel="noopener noreferrer"
+          className="link font-bold"
+        >
+          {festive.intro.link}
+        </Link>
+        {festive.intro.secondPart}
+      </p>
+
       <Hero
         imageSrc="/photos/events/paques-en-folie.JPG"
         imageAlt={festive.easter.imageAlt}
