@@ -512,11 +512,11 @@
     "map": "Localisation des Jardins de Wesserling",
     "info": "Renseignements sur l'association",
     "restau": {
-      "title": "Le Resto du potager",
+      "title": "Réserver au Resto du potager",
       "description": "Le Resto du potager accueille les visiteurs du Parc de Wesserling, ainsi que des groupes pour des repas, des apéritifs ou des apéros dinatoires. Les réservations peuvent être faites par téléphone ou par mail."
     },
     "veg": {
-      "title": "Commandes de légumes",
+      "title": "Commander des légumes",
       "description": "Les commandes de légumes peuvent être faites par téléphone ou par mail.",
       "collection": "Les légumes seront alors préparés dans une cagette qui peut être recherchée durant les heures d’ouverture des Jardins, au Resto du Potager ou dans les locaux de l’association au 16 rue de Ranspach 68470 Husseren-Wesserling."
     },

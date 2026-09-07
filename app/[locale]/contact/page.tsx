@@ -17,7 +17,7 @@ const ContactPage = async ({ params }: PageProp) => {
   return (
     <div className="page-layout">
       <h1>{contact.title}</h1>
-      <div className="relative w-full rounded-xl flex flex-col gap-6 md:gap-8 md:p-8 ">
+      <div className="relative w-full rounded-xl flex flex-col gap-20 md:gap-24 md:p-2 ">
         <div className="text-center">
           <p className="font-bold">Les Jardins de Wesserling</p>
           <address className="not-italic">
@@ -39,16 +39,24 @@ const ContactPage = async ({ params }: PageProp) => {
         </div>
 
         <div className="text-center">
-          <p className="font-bold mb-2">{contact.info}</p>
+          <h2 className="mb-2 font-bold">{contact.info}</h2>
+
           <address className="not-italic">
             <p className="pb-2">
               Tel :{" "}
-              <a href="tel:+33607961086">
+              <a href="tel:+33367350955">
                 <span className="font-bold">
                   +33&nbsp;3&nbsp;67&nbsp;35&nbsp;09&nbsp;55
                 </span>
               </a>
+              {" / "}
+              <a href="tel:+33607961086">
+                <span className="font-bold">
+                  +33&nbsp;6&nbsp;07&nbsp;96&nbsp;10&nbsp;86
+                </span>
+              </a>
             </p>
+
             <p>
               Email :{" "}
               <a href={email}>
@@ -61,7 +69,7 @@ const ContactPage = async ({ params }: PageProp) => {
         </div>
 
         <div className="text-center">
-          <p className="mb-2 font-bold">{contact.restau.title}</p>
+          <h2 className="mb-2 font-bold">{contact.restau.title}</h2>
           <p className="mb-2">{contact.restau.description}</p>
           <address className="not-italic">
             <p className="pb-2">
@@ -91,7 +99,7 @@ const ContactPage = async ({ params }: PageProp) => {
         </div>
 
         <div className="text-center">
-          <p className="mb-2 font-bold">{contact.veg.title}</p>
+          <h2 className="mb-2 font-bold">{contact.veg.title}</h2>
           <p className="mb-2">{contact.veg.description}</p>
           <address className="not-italic">
             <p className="pb-2">
@@ -112,9 +120,7 @@ const ContactPage = async ({ params }: PageProp) => {
               </a>
             </p>
           </address>
-          <p>
-            {contact.veg.collection}
-          </p>
+          <p>{contact.veg.collection}</p>
         </div>
 
         <div className="my-7">

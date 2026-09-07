@@ -514,11 +514,11 @@
     "map": "Location of Les Jardins de Wesserling",
     "info": "Information about the association",
     "restau": {
-      "title": "The Resto du Potager",
+      "title": "Book at the Resto du Potager",
       "description": "The Resto du Potager welcomes visitors to the Parc de Wesserling, as well as groups for meals, aperitifs or evening drinks with food. Reservations can be made by phone or email."
     },
     "veg": {
-      "title": "Vegetable orders",
+      "title": "Order vegetables",
       "description": "Vegetable orders can be placed by phone or email.",
       "collection": "The vegetables will then be prepared in a crate, which can be collected during the Jardins' opening hours from the Resto du Potager or from the association's premises at 16 rue de Ranspach 68470 Husseren-Wesserling."
     },
