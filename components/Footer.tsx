@@ -21,7 +21,7 @@ import pnr from "@/public/logos/valeur-pnr-logo.png";
 
 import fb from "@/public/logos/Facebook_Logo_Primary.png";
 import instagram from "@/public/logos/Instagram_Glyph_Gradient.png";
-import parc from "@/public/logos/logo-parc-de-wesserling.jpg";
+import parc from "@/public/logos/parc-de-wesserling.png";
 
 import type { FooterMessages, FooterProps } from "@/types/i18n";
 
