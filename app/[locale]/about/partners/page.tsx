@@ -140,13 +140,21 @@ const PartnersPage = async ({ params }: PageProp) => {
             {partners.fse.title}
           </Link>
         </h2>
-        <Image
-          src={europe}
-          alt={partners.financialPartners.logos.fondsSocialEuropeenAlt}
-          width={300}
-          title={partners.financialPartners.logos.fondsSocialEuropeenAlt}
-          className="my-10"
-        />
+
+        <a
+          href="https://www.europe-en-france.gouv.fr/fr/fonds-europeens-2014-2020/fonds-social-europeen-fse"
+          aria-label={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Image
+            src={europe}
+            alt={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+            width={300}
+            title={partners.financialPartners.logos.fondsSocialEuropeenAlt}
+            className="my-10"
+          />
+        </a>
         <p className="pb-6">{partners.fse.firstParagraph}</p>
 
         <p className="pb-6">{partners.fse.secondParagraph}</p>

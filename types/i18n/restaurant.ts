@@ -22,5 +22,4 @@ export type RestaurantMessages = {
   };
   button: string;
   image: string;
-  menuTitle: string;
 };

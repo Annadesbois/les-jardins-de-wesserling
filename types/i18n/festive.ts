@@ -1,6 +1,10 @@
 export type FestiveMessages = {
   title: string;
-  intro: string;
+  intro: {
+    firstPart: string;
+    link: string;
+    secondPart: string;
+  };
   easter: {
     imageAlt: string;
     title: string;
