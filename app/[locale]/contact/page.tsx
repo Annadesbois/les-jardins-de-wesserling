@@ -59,6 +59,64 @@ const ContactPage = async ({ params }: PageProp) => {
             </p>
           </address>
         </div>
+
+        <div className="text-center">
+          <p className="mb-2 font-bold">{contact.restau.title}</p>
+          <p className="mb-2">{contact.restau.description}</p>
+          <address className="not-italic">
+            <p className="pb-2">
+              Tel :{" "}
+              <a href="tel:+33367350954">
+                <span className="font-bold">
+                  +33&nbsp;3&nbsp;67&nbsp;35&nbsp;09&nbsp;54
+                </span>
+              </a>
+              {" / "}
+              <a href="tel:+33678925297">
+                <span className="font-bold">
+                  +33&nbsp;6&nbsp;78&nbsp;92&nbsp;52&nbsp;97
+                </span>
+              </a>
+            </p>
+
+            <p>
+              Email :{" "}
+              <a href="mailto:contact@jardins-wesserling.fr">
+                <span className="font-bold">
+                  contact&#64;jardins-wesserling.fr
+                </span>
+              </a>
+            </p>
+          </address>
+        </div>
+
+        <div className="text-center">
+          <p className="mb-2 font-bold">{contact.veg.title}</p>
+          <p className="mb-2">{contact.veg.description}</p>
+          <address className="not-italic">
+            <p className="pb-2">
+              Tel :{" "}
+              <a href="tel:+33670875775">
+                <span className="font-bold">
+                  +33&nbsp;6&nbsp;70&nbsp;87&nbsp;57&nbsp;75
+                </span>
+              </a>
+            </p>
+
+            <p className="pb-2">
+              Email :{" "}
+              <a href="mailto:contact@jardins-wesserling.fr">
+                <span className="font-bold">
+                  contact&#64;jardins-wesserling.fr
+                </span>
+              </a>
+            </p>
+          </address>
+          <p>
+            {contact.veg.collection}
+          </p>
+        </div>
+
         <div className="my-7">
           <LinkButton
             href={`https://www.parc-wesserling.fr/preparez-votre-visite/`}
