@@ -182,9 +182,8 @@
       "imageAlt": "Photo des produits frais du Resto du Potager",
       "firstParagraph": "Les légumes, petits fruits, aromates produits dans les jardins sont vendus en frais au Resto du Potager, ou transformés en confitures"
     },
-    "button": "Contact et Réservation",
-    "image": "Feuille de division",
-    "menuTitle": "Menu"
+    "button": "Contact, Commande et Réservation",
+    "image": "Feuille de division"
   },
 
   "festive": {
