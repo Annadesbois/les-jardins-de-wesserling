@@ -29,17 +29,19 @@ const HeroImages = ({ images }: HeroImagesProps) => {
     );
   };
 
-  const image = images[currentImage];
-
   return (
-    <div className="relative h-full w-full">
-      <Image
-        src={image.src}
-        alt={image.alt}
-        width={800}
-        height={600}
-        className="h-full w-full rounded-xl object-cover"
-      />
+    <div className="relative aspect-[4/3] h-full w-full overflow-hidden rounded-xl">
+      {images.map((image, index) => (
+        <Image
+          key={image.src}
+          src={image.src}
+          alt={image.alt}
+          fill
+          className={`object-cover transition-opacity duration-700 ease-in-out ${
+            index === currentImage ? "opacity-100" : "opacity-0"
+          }`}
+        />
+      ))}
 
       {hasMultipleImages && (
         <>
@@ -47,7 +49,7 @@ const HeroImages = ({ images }: HeroImagesProps) => {
             type="button"
             onClick={previousImage}
             aria-label="Previous image"
-            className="absolute left-3 top-1/2 -translate-y-1/2 rounded-full bg-white/30 hover:bg-white/60 px-3 py-2 shadow"
+            className="absolute left-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/40 px-3 py-2 shadow transition-colors hover:bg-white/70"
           >
             ‹
           </button>
@@ -56,7 +58,7 @@ const HeroImages = ({ images }: HeroImagesProps) => {
             type="button"
             onClick={nextImage}
             aria-label="Next image"
-            className="absolute right-3 top-1/2 -translate-y-1/2 rounded-full bg-white/30 hover:bg-white/60 px-3 py-2 shadow"
+            className="absolute right-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/40 px-3 py-2 shadow transition-colors hover:bg-white/70"
           >
             ›
           </button>
