@@ -27,7 +27,7 @@ const GardenPage = async ({ params }: PageProp) => {
                 alt: garden.garden.centralPath.imageAlt,
               },
               {
-                src: "/photos/jardins/potager/potager-pedagogique.JPG",
+                src: "/photos/jardins/potager/allee-centrale-du-potager-nuit.JPG",
                 alt: garden.garden.centralPath.imageAlt,
               },
             ]}
@@ -40,6 +40,10 @@ const GardenPage = async ({ params }: PageProp) => {
                 src: "/photos/jardins/potager/potager-pedagogique.JPG",
                 alt: garden.garden.pedagogy.imageAlt,
               },
+              {
+                src: "/photos/jardins/potager/potager-pedagogique-sol.JPG",
+                alt: garden.garden.pedagogy.imageAlt,
+              },
             ]}
             description={garden.garden.pedagogy.description}
             textPosition="left"
@@ -48,6 +52,10 @@ const GardenPage = async ({ params }: PageProp) => {
             images={[
               {
                 src: "/photos/jardins/potager/plantes-aromatiques.JPG",
+                alt: garden.garden.orchard.imageAlt,
+              },
+              {
+                src: "/photos/jardins/potager/plantes-aromatiques-tunnel.jpg",
                 alt: garden.garden.orchard.imageAlt,
               },
             ]}
@@ -63,6 +71,10 @@ const GardenPage = async ({ params }: PageProp) => {
             images={[
               {
                 src: "/photos/jardins/potager/banc-pour-se-reposer-dans-les-jardins.JPG",
+                alt: garden.garden.accessibility.imageAlt,
+              },
+              {
+                src: "/photos/jardins/potager/chaise-longue-au-potager.JPG",
                 alt: garden.garden.accessibility.imageAlt,
               },
             ]}
