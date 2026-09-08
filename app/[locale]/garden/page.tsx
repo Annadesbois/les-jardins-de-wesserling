@@ -21,20 +21,36 @@ const GardenPage = async ({ params }: PageProp) => {
         <h2 className="text-center">{garden.garden.intro}</h2>
         <div className="mt-10">
           <Hero
-            imageSrc="/photos/jardins/potager/allee-centrale-du-potager.JPG"
-            imageAlt={garden.garden.centralPath.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/potager/allee-centrale-du-potager.JPG",
+                alt: garden.garden.centralPath.imageAlt,
+              },
+              {
+                src: "/photos/jardins/potager/potager-pedagogique.JPG",
+                alt: garden.garden.centralPath.imageAlt,
+              },
+            ]}
             description={garden.garden.centralPath.description}
             textPosition="right"
           />
           <Hero
-            imageSrc="/photos/jardins/potager/potager-pedagogique.JPG"
-            imageAlt={garden.garden.pedagogy.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/potager/potager-pedagogique.JPG",
+                alt: garden.garden.pedagogy.imageAlt,
+              },
+            ]}
             description={garden.garden.pedagogy.description}
             textPosition="left"
           />
           <Hero
-            imageSrc="/photos/jardins/potager/plantes-aromatiques.JPG"
-            imageAlt={garden.garden.orchard.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/potager/plantes-aromatiques.JPG",
+                alt: garden.garden.orchard.imageAlt,
+              },
+            ]}
             description={garden.garden.orchard.description}
             locale={locale}
             button={{
@@ -44,8 +60,12 @@ const GardenPage = async ({ params }: PageProp) => {
             textPosition="right"
           />
           <Hero
-            imageSrc="/photos/jardins/potager/banc-pour-se-reposer-dans-les-jardins.JPG"
-            imageAlt={garden.garden.accessibility.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/potager/banc-pour-se-reposer-dans-les-jardins.JPG",
+                alt: garden.garden.accessibility.imageAlt,
+              },
+            ]}
             description={garden.garden.accessibility.description}
             textPosition="left"
           />
@@ -87,32 +107,52 @@ const GardenPage = async ({ params }: PageProp) => {
         <p>{garden.park.intro4}</p>
         <div className="mt-10 flex flex-col gap-4 md:gap-0">
           <Hero
-            imageSrc="/photos/jardins/parc/chateau-du-parc-de-wesserling.JPG"
-            imageAlt={garden.park.reception.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/parc/chateau-du-parc-de-wesserling.JPG",
+                alt: garden.park.reception.imageAlt,
+              },
+            ]}
             description={garden.park.reception.description}
             textPosition="right"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/festival-des-jardins-metisses.jpg"
-            imageAlt={garden.park.garden.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/parc/festival-des-jardins-metisses.jpg",
+                alt: garden.park.garden.imageAlt,
+              },
+            ]}
             description={garden.park.garden.description}
             textPosition="left"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/ferme-du-parc-de-wesserling-anes.jpg"
-            imageAlt={garden.park.farm.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/parc/ferme-du-parc-de-wesserling-anes.jpg",
+                alt: garden.park.farm.imageAlt,
+              },
+            ]}
             description={garden.park.farm.description}
             textPosition="right"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.jpg"
-            imageAlt={garden.park.factory.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.jpg",
+                alt: garden.park.factory.imageAlt,
+              },
+            ]}
             description={garden.park.factory.description}
             textPosition="left"
           />
           <Hero
-            imageSrc="/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.jpg"
-            imageAlt={garden.park.shop.imageAlt}
+            images={[
+              {
+                src: "/photos/jardins/parc/grande-chaufferie-du-parc-de-wesserling.jpg",
+                alt: garden.park.shop.imageAlt,
+              },
+            ]}
             description={garden.park.shop.description}
             textPosition="right"
           />
