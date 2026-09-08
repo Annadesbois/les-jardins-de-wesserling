@@ -19,8 +19,12 @@ const MissionPage = async ({ params }: PageProp) => {
       <h1>{mission.title}</h1>
 
       <Hero
-        imageSrc="/photos/asso/mission-sociale-1.JPG"
-        imageAlt={mission.insertionWorksite.imageAlt}
+        images={[
+          {
+            src: "/photos/asso/mission-sociale-1.JPG",
+            alt: mission.insertionWorksite.imageAlt,
+          },
+        ]}
         title={mission.insertionWorksite.title}
         firstParagraph={
           <>
@@ -62,8 +66,12 @@ const MissionPage = async ({ params }: PageProp) => {
       />
 
       <Hero
-        imageSrc="/photos/asso/mission-sociale-2.jpg"
-        imageAlt={mission.employees.imageAlt}
+        images={[
+          {
+            src: "/photos/asso/mission-sociale-2.jpg",
+            alt: mission.employees.imageAlt,
+          },
+        ]}
         title={mission.employees.title}
         textPosition="left"
         firstParagraph={mission.employees.firstParagraph}

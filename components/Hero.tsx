@@ -1,18 +1,22 @@
-import Image from "next/image";
 import React from "react";
 
+import HeroImages from "./HeroImages";
 import LinkButton from "./LinkButton";
 
 type HeroButton = {
   href: string;
   label: string;
   external?: boolean;
-}
+};
+
+type HeroImage = {
+  src: string;
+  alt: string;
+};
 
 type HeroProps = {
   locale?: string;
-  imageSrc: string;
-  imageAlt: string;
+  images: HeroImage[];
   title?: string;
   subtitle?: React.ReactNode;
   description?: string;
@@ -29,8 +33,7 @@ type HeroProps = {
 
 const Hero = ({
   locale,
-  imageSrc,
-  imageAlt,
+  images,
   title,
   subtitle,
   description,
@@ -42,7 +45,7 @@ const Hero = ({
   sixthParagraph,
   seventhParagraph,
   textPosition = "right",
-  button
+  button,
 }: HeroProps) => {
   const isTextLeft = textPosition === "left";
 
@@ -53,18 +56,10 @@ const Hero = ({
       }`}
     >
       <div className="w-full md:w-1/2">
-        <Image
-          src={imageSrc}
-          alt={imageAlt}
-          width={800}
-          height={600}
-          className="h-full w-full rounded-xl object-cover"
-        />
+        <HeroImages images={images} />
       </div>
 
-      <section
-        className="flex w-full flex-col gap-3 md:w-1/2 justify-center"
-      >
+      <section className="flex w-full flex-col gap-3 md:w-1/2 justify-center">
         {title && <h1 className="text-2xl font-bold">{title}</h1>}
         {subtitle && (
           <p className="bg-accent p-3 rounded-2xl font-bold">{subtitle}</p>
@@ -83,9 +78,9 @@ const Hero = ({
             href={button.external ? button.href : `/${locale}${button.href}`}
             external={button.external}
             className="mt-4"
-            >
-              {button.label}
-            </LinkButton>
+          >
+            {button.label}
+          </LinkButton>
         )}
       </section>
     </div>

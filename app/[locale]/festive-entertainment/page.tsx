@@ -27,8 +27,12 @@ const FestivePage = async ({ params }: PageProp) => {
       </p>
 
       <Hero
-        imageSrc="/photos/events/paques-en-folie.JPG"
-        imageAlt={festive.easter.imageAlt}
+        images={[
+          {
+            src: "/photos/events/paques-en-folie.JPG",
+            alt: festive.easter.imageAlt,
+          },
+        ]}
         title={festive.easter.title}
         subtitle={festive.easter.subtitle}
         firstParagraph={festive.easter.firstParagraph}
@@ -37,8 +41,12 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/events/troc-jardin.JPG"
-        imageAlt={festive.troc.imageAlt}
+        images={[
+          {
+            src: "/photos/events/troc-jardin.JPG",
+            alt: festive.troc.imageAlt,
+          },
+        ]}
         title={festive.troc.title}
         subtitle={festive.troc.subtitle}
         firstParagraph={festive.troc.firstParagraph}
@@ -47,8 +55,12 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="left"
       />
       <Hero
-        imageSrc="/photos/events/festival-des-jardins-metisses.JPG"
-        imageAlt={festive.festival.imageAlt}
+        images={[
+          {
+            src: "/photos/events/festival-des-jardins-metisses.JPG",
+            alt: festive.festival.imageAlt,
+          },
+        ]}
         title={festive.festival.title}
         subtitle={festive.festival.subtitle}
         firstParagraph={festive.festival.firstParagraph}
@@ -56,8 +68,12 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/events/fete-de-la-musique.JPG"
-        imageAlt={festive.music.imageAlt}
+        images={[
+          {
+            src: "/photos/events/fete-de-la-musique.JPG",
+            alt: festive.music.imageAlt,
+          },
+        ]}
         title={festive.music.title}
         subtitle={festive.music.subtitle}
         firstParagraph={festive.music.firstParagraph}
@@ -66,8 +82,12 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="left"
       />
       <Hero
-        imageSrc="/photos/events/soirees-cocktail.JPG"
-        imageAlt={festive.cocktail.imageAlt}
+        images={[
+          {
+            src: "/photos/events/soirees-cocktail.JPG",
+            alt: festive.cocktail.imageAlt,
+          },
+        ]}
         title={festive.cocktail.title}
         subtitle={festive.cocktail.subtitle}
         firstParagraph={festive.cocktail.firstParagraph}
@@ -76,8 +96,12 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/events/feeries-nocturnes.jpg"
-        imageAlt={festive.nocturnes.imageAlt}
+        images={[
+          {
+            src: "/photos/events/feeries-nocturnes.jpg",
+            alt: festive.nocturnes.imageAlt,
+          },
+        ]}
         title={festive.nocturnes.title}
         subtitle={
           <>
@@ -99,8 +123,12 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="left"
       />
       <Hero
-        imageSrc="/photos/events/fete-d'automne.JPG"
-        imageAlt={festive.automne.imageAlt}
+        images={[
+          {
+            src: "/photos/events/fete-d'automne.JPG",
+            alt: festive.automne.imageAlt,
+          },
+        ]}
         title={festive.automne.title}
         subtitle={festive.automne.subtitle}
         firstParagraph={festive.automne.firstParagraph}
@@ -109,8 +137,12 @@ const FestivePage = async ({ params }: PageProp) => {
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/events/noel-au-jardin.jpg"
-        imageAlt={festive.christmas.imageAlt}
+        images={[
+          {
+            src: "/photos/events/noel-au-jardin.jpg",
+            alt: festive.christmas.imageAlt,
+          },
+        ]}
         title={festive.christmas.title}
         subtitle={
           <>

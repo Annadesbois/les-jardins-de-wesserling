@@ -16,26 +16,42 @@ const RestaurantPage = async ({ params }: PageProp) => {
     <div className="page-layout text-center">
       <h1>{restaurant.title}</h1>
       <Hero
-        imageSrc="/photos/restau/restau-du-potager-steeve-josch.webp"
-        imageAlt={restaurant.atmosphere.imageAlt}
+        images={[
+          {
+            src: "/photos/restau/restau-du-potager-steeve-josch.webp",
+            alt: restaurant.atmosphere.imageAlt,
+          },
+        ]}
         firstParagraph={restaurant.atmosphere.firstParagraph}
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/restau/produits-fermiers.JPG"
-        imageAlt={restaurant.solidarity.imageAlt}
+        images={[
+          {
+            src: "/photos/restau/produits-fermiers.JPG",
+            alt: restaurant.solidarity.imageAlt,
+          },
+        ]}
         firstParagraph={restaurant.solidarity.firstParagraph}
         textPosition="left"
       />
       <Hero
-        imageSrc="/photos/restau/tartes-flambees-au-restau-du-potager.JPG"
-        imageAlt={restaurant.menu.imageAlt}
+        images={[
+          {
+            src: "/photos/restau/tartes-flambees-au-restau-du-potager.JPG",
+            alt: restaurant.menu.imageAlt,
+          },
+        ]}
         firstParagraph={restaurant.menu.firstParagraph}
         textPosition="right"
       />
       <Hero
-        imageSrc="/photos/restau/produits-frais-au-restau-du-potager.JPG"
-        imageAlt={restaurant.produce.imageAlt}
+        images={[
+          {
+            src: "/photos/restau/produits-frais-au-restau-du-potager.JPG",
+            alt: restaurant.produce.imageAlt,
+          },
+        ]}
         firstParagraph={restaurant.produce.firstParagraph}
         textPosition="left"
       />

@@ -34,8 +34,7 @@ const HomePage = async ({ params }: PageProp) => {
     {
       title: home.cardThree.title,
       caption: home.cardThree.caption,
-      imageSrc:
-        "/photos/home/animations-festives.JPG",
+      imageSrc: "/photos/home/animations-festives.JPG",
       imageAlt: home.cardThree.imageAlt,
       href: `/${locale}/festive-entertainment`,
     },
@@ -49,8 +48,12 @@ const HomePage = async ({ params }: PageProp) => {
         Jardins de Wesserling
       </h1>
       <Hero
-        imageSrc={"/photos/home/les-jardins-de-wesserling-vue-aerienne.JPG"}
-        imageAlt={home.hero.imageAlt}
+        images={[
+          {
+            src: "/photos/home/les-jardins-de-wesserling-vue-aerienne.JPG",
+            alt: home.hero.imageAlt,
+          },
+        ]}
         firstParagraph={home.hero.firstParagraph}
         secondParagraph={home.hero.secondParagraph}
         thirdParagraph={home.hero.thirdParagraph}
