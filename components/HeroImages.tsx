@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 type HeroImage = {
   src: string;
@@ -14,23 +14,26 @@ type HeroImagesProps = {
 
 const HeroImages = ({ images }: HeroImagesProps) => {
   const [currentImage, setCurrentImage] = useState(0);
+  const [isPaused, setIsPaused] = useState(false);
 
   const hasMultipleImages = images.length > 1;
 
-  const previousImage = () => {
-    setCurrentImage((current) =>
-      current === 0 ? images.length - 1 : current - 1,
-    );
-  };
+  useEffect(() => {
+    if (!hasMultipleImages || isPaused) return;
 
-  const nextImage = () => {
-    setCurrentImage((current) =>
-      current === images.length - 1 ? 0 : current + 1,
-    );
-  };
+    const interval = setInterval(() => {
+      setCurrentImage((current) => (current + 1) % images.length);
+    }, 5000);
+
+    return () => clearInterval(interval);
+  }, [hasMultipleImages, images.length, isPaused]);
 
   return (
-    <div className="relative aspect-[4/3] h-full w-full overflow-hidden rounded-xl">
+    <div
+      className="relative aspect-[4/3] h-full w-full overflow-hidden rounded-xl"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
       {images.map((image, index) => (
         <Image
           key={image.src}
@@ -44,25 +47,21 @@ const HeroImages = ({ images }: HeroImagesProps) => {
       ))}
 
       {hasMultipleImages && (
-        <>
-          <button
-            type="button"
-            onClick={previousImage}
-            aria-label="Previous image"
-            className="absolute left-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/40 px-3 py-2 shadow transition-colors hover:bg-white/70"
-          >
-            ‹
-          </button>
-
-          <button
-            type="button"
-            onClick={nextImage}
-            aria-label="Next image"
-            className="absolute right-3 top-1/2 z-10 -translate-y-1/2 rounded-full bg-white/40 px-3 py-2 shadow transition-colors hover:bg-white/70"
-          >
-            ›
-          </button>
-        </>
+        <div className="absolute bottom-4 left-1/2 z-10 flex -translate-x-1/2 gap-2">
+          {images.map((_, index) => (
+            <button
+              key={index}
+              type="button"
+              onClick={() => setCurrentImage(index)}
+              aria-label={`Show image ${index + 1}`}
+              className={`h-3 w-3 rounded-full transition-all ${
+                index === currentImage
+                  ? "bg-white"
+                  : "bg-white/40 hover:bg-white/70"
+              }`}
+            />
+          ))}
+        </div>
       )}
     </div>
   );
