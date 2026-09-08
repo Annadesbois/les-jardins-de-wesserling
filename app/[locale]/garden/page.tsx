@@ -55,7 +55,7 @@ const GardenPage = async ({ params }: PageProp) => {
                 alt: garden.garden.orchard.imageAlt,
               },
               {
-                src: "/photos/jardins/potager/plantes-aromatiques-tunnel.jpg",
+                src: "/photos/jardins/potager/delices-des-jardins.JPG",
                 alt: garden.garden.orchard.imageAlt,
               },
             ]}
